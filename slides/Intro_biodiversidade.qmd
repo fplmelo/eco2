@@ -1,5 +1,5 @@
 ---
-title: "Ecologia Geral 2"
+title: "Ecologia 2"
 subtitle: "Aula 1 - Introdução à Biodiversidade"
 author: "Felipe Melo"
 institute: "Laboratório de Ecologia Aplicada - UFPE"
