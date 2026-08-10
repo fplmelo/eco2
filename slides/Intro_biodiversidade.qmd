@@ -47,8 +47,8 @@ format:
 
 ::: {.columns}
 ::: {.column width="50%"}
-![](libs/img/grab.jpeg){height=500px}  
-[Grab et al 2019](https://science.sciencemag.org/content/363/6424/282)
+![](https://ars.els-cdn.com/content/image/1-s2.0-S0169534712002881-gr1b1.jpg){height=500px}  
+[Winter et al 2013](https://www.sciencedirect.com/science/article/pii/S0169534712002881)
 :::
 
 ::: {.column width="50%"}
@@ -66,7 +66,7 @@ Segundo a [Enciclopédia da Biodiversidade](https://www.sciencedirect.com/topics
 > "Refere-se aos componentes da biodiversidade que influenciam *como* um ecossistema funciona."
 
 ::: {style="text-align: center;"}
-![](https://www.researchgate.net/publication/339060020/figure/fig1/AS:1010239474262023@1617871268330/Representation-of-the-functional-diversity-metrics-a-functional-richness-b.png){height=350px}
+![](https://acer.disl.org/news/2017/08/30/word-wednesday-functional-diversity/FunctionalDiversity.png){height=350px}
 :::
 
 ---
@@ -96,7 +96,7 @@ Segundo a [Enciclopédia da Biodiversidade](https://www.sciencedirect.com/topics
 
 ## Distribuição irregular da biodiversidade
 
-[![Biodiversity Global Plant Species](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Biodiversity_Global_Plant_Species.png/512px-Biodiversity_Global_Plant_Species.png){height=500px}](https://commons.wikimedia.org/wiki/File:Biodiversity_Global_Plant_Species.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/World_Map_Biodiversity_of_Plants_%28grids%29_%282%29_%C2%A9_W._Barthlott%2C_Lotus-Salvinia.de.jpg/960px-World_Map_Biodiversity_of_Plants_%28grids%29_%282%29_%C2%A9_W._Barthlott%2C_Lotus-Salvinia.de.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191216092541){.fig-align=center}
 
 ---
 
@@ -112,7 +112,6 @@ Segundo a [Enciclopédia da Biodiversidade](https://www.sciencedirect.com/topics
 * 3-100 milhões eram as estimativas mais conhecidas
 * 86% e 91% das espécies terrestres e marinhas, respectivamente, são ainda **desconhecidas**
 
-![](https://media.nationalgeographic.org/assets/photos/359/524/1b0c2ebd-4ed4-4377-9b4c-cf447e2e6d33.jpg){height=300px}
 :::
 :::
 
@@ -130,7 +129,6 @@ Segundo a [Enciclopédia da Biodiversidade](https://www.sciencedirect.com/topics
 * Desses, a maior parte é invertebrado, especificamente **insetos**
 * As plantas, em sua maioria, possuem flores
 
-### O que esses padrões informam sobre a diversidade da vida na Terra?
 :::
 :::
 
@@ -140,15 +138,14 @@ Segundo a [Enciclopédia da Biodiversidade](https://www.sciencedirect.com/topics
 
 ::: {.columns}
 ::: {.column width="50%"}
-* ### Importância = valor
-* ### Como definimos valores?
-  * Utilitários vs. intrínsecos
+- Importância = valor
+- Como definimos valores?
+- Utilitários vs. intrínsecos
 :::
 
 ::: {.column width="50%"}
-![](https://d3i71xaburhd42.cloudfront.net/a90b62b1c7f95aa579d60ba23ac867b00c89c826/3-Figure1-1.png){height=300px}
+![](https://luontopaneeli.fi/wp-content/uploads/2022/07/ipbes-values-assessment-spm-figure2-768x949.jpg)
 
-[The value of biodiversity: Where ecology and economy blend](https://www.sciencedirect.com/science/article/abs/pii/S0006320797001419?via%3Dihub)
 :::
 :::
 
@@ -162,15 +159,10 @@ Segundo a [Enciclopédia da Biodiversidade](https://www.sciencedirect.com/topics
 * Biólogos devem manejar alguns conceitos básicos
 * **Técnicas** de mensuração da biodiversidade não podem ser confundidas com o **conceito**
 
-# Riqueza
-# Abundância
-# Composição
-
-[R.K. Colwell](https://www.researchgate.net/profile/S_Sarvade/post/What_does_a_rarefraction_curve_depicts_and_how_to_interpret_it_in_diversity_analysis/attachment/59d62ff779197b807798e16a/AS%3A360510013886465%401462963693452/download/s3_8879.pdf) fez um guia rápido do **básico** que qualquer biólogo deve saber.
 :::
 
 ::: {.column width="50%"}
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSV7EfBMzJWoaeFPS8h_vmAZSpAFv8dmX_sxt4Rmvaesf3l9-RjHlAq2bZ5IblldnPXoQ&usqp=CAU){height=400px}
+![](https://www.shutterstock.com/image-vector/measuring-biodiversity-ecosystem-species-one-600w-2031126350.jpg)
 :::
 :::
 
@@ -186,7 +178,8 @@ Segundo a [Enciclopédia da Biodiversidade](https://www.sciencedirect.com/topics
 :::
 
 ::: {.column width="50%"}
-![](https://oxfordre.com/environmentalscience/doc/10.1093/acrefore/9780199389414.001.0001/acrefore-9780199389414-e-33-graphic-005-full.gif)
+ São níveis complementares de mensuração da biodiversidade
+
 :::
 :::
 
@@ -196,10 +189,10 @@ Segundo a [Enciclopédia da Biodiversidade](https://www.sciencedirect.com/topics
 
 ::: {.columns}
 ::: {.column width="50%"}
-* ### É a diversidade que costumamos medir quando:
-  * contamos espécies num local
-  * listamos espécies de um ambiente
-* ### Nunca contamos todas as espécies
+- É a diversidade que costumamos medir quando:
+  - contamos espécies num local
+  - listamos espécies de um ambiente
+- Nunca contamos todas as espécies
 :::
 
 ::: {.column width="50%"}
@@ -215,14 +208,14 @@ Para brincar com curvas de extrapolação/interpolação, veja o site da [Anne C
 
 ::: {.columns}
 ::: {.column width="50%"}
-* ### É a diferença na *composição* entre duas comunidades
-* ### Tem grande poder de informação acerca de processos de montagem das comunidades biológicas
-* ### Pode ser calculada de diferentes formas
+* É a diferença na *composição* entre duas comunidades
+* Tem grande poder de informação acerca de processos de montagem das comunidades biológicas
+* Pode ser calculada de diferentes formas
 :::
 
 ::: {.column width="50%"}
-![](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/2119039158/2088385057/gr1.jpg)  
-[Socolar et al 2015](https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(15)00289-X)
+![](https://www.researchgate.net/profile/Naraiana-Benone/publication/352466498/figure/fig1/AS:1035479386431488@1623888932767/Beta-diversity-can-be-generated-by-species-turnover-along-an-ecological-gradient-or-by.png)  
+
 :::
 :::
 
@@ -238,33 +231,8 @@ Para brincar com curvas de extrapolação/interpolação, veja o site da [Anne C
 :::
 
 ::: {.column width="50%"}
-![](https://www.davidzeleny.net/anadat-r/lib/exe/fetch.php/obrazky:jurasinsky_et_al_diversity_schema_350.png){height=500px}
+![](https://i1.wp.com/xp-song.github.io/posts/biodivercity/assets/alpha-beta-gamma.png?w=578&ssl=1)
 :::
 :::
 
----
-
-## Aplicações para a conservação da biodiversidade
-
-![](https://www.pnas.org/content/pnas/114/29/7641/F1.large.jpg){height=500px}  
-[Brum et al 2017](https://www.pnas.org/content/114/29/7641)
-
----
-
-## Aplicações para a conservação da biodiversidade
-
-![](https://www.pnas.org/content/pnas/114/29/7641/F8.large.jpg){height=500px}  
-[Brum et al 2017](https://www.pnas.org/content/114/29/7641)
-
----
-
-## Aplicações para a conservação da biodiversidade
-
-::: {style="text-align: center;"}
-![](https://www.researchgate.net/profile/Michael-Hoffmann-19/publication/6958884/figure/fig1/AS:280471314419712@1443880980338/Maps-of-the-nine-global-biodiversity-conservation-priority-templates-CE-crisis.png)  
-[Brooks et al 2006](https://science.sciencemag.org/content/313/5783/58)
-:::
-
----
-
-# FIM
+## FIM{.center}

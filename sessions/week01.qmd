@@ -1,5 +1,5 @@
 ---
-title: "Aula 1 — Introdução à Biodiversidade"
+title: "Semana 1 — Introdução à Biodiversidade"
 format:
   html:
     toc: true
@@ -7,6 +7,10 @@ format:
     number-sections: true
 lang: pt-BR
 ---
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe src="/slides/intro_biodiversidade.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 
 ## Introdução
 
@@ -16,9 +20,11 @@ A biodiversidade é um conceito **hierárquico e multidimensional**, e isso torn
 
 ## O Conceito de Biodiversidade
 
+![](https://revistaamazonia.com.br/wp-content/uploads/2026/08/capa-1785859042992-80952.webp)
+
 O uso moderno do termo biodiversidade se consolidou a partir da década de 1980  (Wang & Young, 2019). Desde então, o conceito passou a funcionar como um **meta-conceito**, reunindo hierarquias ecológicas, genéticas e taxonômicas, além de implicações éticas, políticas e sociais  (Cordero‐Rivera, 2017).
 
-Mesmo quando há acordo sobre os três níveis clássicos, permanece importante reconhecer que a biodiversidade não é apenas contagem de espécies  (Kumari et al., 2021; Wang & Young, 2019; Boudouresque, 2014). A diversidade de espécies envolve tanto **riqueza** quanto **equidade de abundâncias**, e a diversidade em níveis superiores também depende da organização funcional e espacial dos sistemas biológicos  (Wang & Young, 2019; Moreno, 2001).
+Mesmo quando há acordo sobre os três níveis clássicos, permanece importante reconhecer que a biodiversidade não é apenas contagem de espécies  (Kumari et al., 2021; Wang & Young, 2019). A diversidade de espécies envolve tanto **riqueza** quanto **equidade de abundâncias**, e a diversidade em níveis superiores também depende da organização funcional e espacial dos sistemas biológicos  (Wang & Young, 2019; Moreno, 2001).
 
 ## Níveis da Biodiversidade
 
@@ -27,13 +33,17 @@ A tabela a seguir resume os níveis mais usados na literatura.
 | Nível | Definição sintética | Exemplo de foco analítico |
 |---|---|---|
 | Genético | Variação de genes e alelos dentro e entre populações | Polimorfismos, estrutura populacional, adaptação  (Kumari et al., 2021; Wang & Young, 2019)|
-| Espécies | Variação no número e na abundância relativa de espécies | Riqueza, equidade, composição  (Wang & Young, 2019; Moreno, 2001)|
+| Taxonômico | Variação na composição, número e na abundância relativa de espécies | Riqueza, equidade, composição  (Wang & Young, 2019; Moreno, 2001)|
 | Ecossistemas | Variação entre habitats, comunidades e processos ecológicos | Paisagens, habitats, fluxos bióticos e abióticos  (Guo, 2022; Moreno, 2001)|
-| Funcional | Variação nos papéis ecológicos e traços das espécies | Traços funcionais, redundância, funcionamento  (Boudouresque, 2014; Karahan et al., 2025)|
+| Funcional | Variação as funhções ecológicas e traços das espécies | Traços funcionais, redundância, funcionamento  (Karahan et al., 2025)|
 | Filogenética | Variação na história evolutiva entre linhagens | Distância evolutiva, endemismo filogenético  (Liu et al., 2024; Cordero‐Rivera, 2017)|
 | Comportamental | Variação de traços comportamentais em múltiplos níveis | Plasticidade, personalidade, estratégias reprodutivas  (Cordero‐Rivera, 2017)|
 
-**Figure 1:** Níveis clássicos e extensões contemporâneas do conceito de biodiversidade.
+
+![](https://cdn.kastatic.org/ka-content-images/65e627d97170348a4fce385824a0ce93eece48e6.png)
+
+
+**Figura 1:** Níveis clássicos e extensões contemporâneas do conceito de biodiversidade.
 
 A **diversidade genética** descreve a variabilidade hereditária dentro das espécies e é essencial para adaptação e persistência populacional  (Coates et al., 2018; Kumari et al., 2021; Wang & Young, 2019). Populações com maior diversidade genética tendem a manter mais alelos e, portanto, maior capacidade de responder a mudanças ambientais  (Wang & Young, 2019; Kumari et al., 2021).
 
@@ -41,7 +51,7 @@ A **diversidade de espécies** continua sendo a medida mais usada em ecologia e 
 
 A **diversidade de ecossistemas** trata da variação entre habitats, comunidades e processos dentro da biosfera  (Guo, 2022; Wang & Young, 2019). Ela depende da interação entre diversidade genética e de espécies, além de fatores ambientais e históricos  (Wang & Young, 2019; Guo, 2022).
 
-## Por Que a Biodiversidade Importa
+## Por que a Biodiversidade importa?
 
 A biodiversidade sustenta **resiliência ecológica** e serviços essenciais como alimento e água limpa  (Karahan et al., 2025). Também é amplamente considerada essencial ao bem-estar humano  (Johnson et al., 2017).
 
@@ -49,13 +59,13 @@ Há forte consenso de que a perda de biodiversidade reduz o funcionamento dos ec
 
 A relação entre biodiversidade e funcionamento também não se restringe à diversidade de espécies  (Kumari et al., 2021; Fargeot et al., 2025). Em ecossistemas aquáticos naturais, o efeito absoluto da **diversidade genética** sobre funções ecossistêmicas foi semelhante ao da diversidade de espécies, embora com direção oposta nas correlações observadas nesse estudo  (Fargeot et al., 2025). Esses resultados reforçam a necessidade de integrar dimensões múltiplas da biodiversidade ao prever consequências ecológicas da perda biológica  (Fargeot et al., 2025).
 
-## Como a Biodiversidade É Medida
+## Como a Biodiversidade é medida?
 
 A ausência de métricas padronizadas e consistentes entre níveis biológicos ainda dificulta estudos verdadeiramente integrativos  (Gaggiotti et al., 2018; Moreno, 2001; Gaggiotti et al., 2018). Parte desse problema vem do desenvolvimento histórico separado entre ecologia de comunidades e genética de populações  (Gaggiotti et al., 2018).
 
 No nível de espécies, a literatura distingue diversidade **alfa**, **beta** e **gama**  (Kumari et al., 2021; Moreno, 2001). A diversidade alfa descreve a diversidade dentro de uma comunidade, a beta expressa mudanças de composição entre comunidades e a gama representa a diversidade total em uma paisagem ou região  (Kumari et al., 2021; Moreno, 2001).
 
-Índices distintos enfatizam propriedades diferentes da comunidade  (Moreno, 2001; Boudouresque, 2014). Por isso, um mesmo impacto pode aumentar a diversidade alfa e reduzir a diversidade gama, ou gerar padrões discordantes entre riqueza de espécies e diversidade em níveis taxonômicos mais altos  (Boudouresque, 2014).
+Índices distintos enfatizam propriedades diferentes da comunidade  (Moreno, 2001). Por isso, um mesmo impacto pode aumentar a diversidade alfa e reduzir a diversidade gama, ou gerar padrões discordantes entre riqueza de espécies e diversidade em níveis taxonômicos mais altos.
 
 Abordagens recentes propõem **estruturas unificadoras** capazes de medir biodiversidade de genes a ecossistemas com comportamento matemático consistente  (Gaggiotti et al., 2018). Esse tipo de framework foi desenvolvido justamente para superar a fragmentação entre métricas genéticas, taxonômicas, funcionais e ecológicas  (Gaggiotti et al., 2018).
 
@@ -67,6 +77,10 @@ A desigualdade espacial também aparece entre níveis de biodiversidade  (Liu et
 
 Em análises recentes de planejamento sistemático, a integração de múltiplos indicadores — riqueza de espécies, endemismo, diversidade filogenética, distintividade evolutiva, endemismo filogenético e valor de serviços ecossistêmicos — foi usada para identificar áreas prioritárias de conservação de forma mais completa  (Liu et al., 2024). Isso reforça que a biodiversidade relevante para conservação é **multicritério**, não apenas taxonômica.
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/World_Map_Biodiversity_of_Plants_%28grids%29_%282%29_%C2%A9_W._Barthlott%2C_Lotus-Salvinia.de.jpg/960px-World_Map_Biodiversity_of_Plants_%28grids%29_%282%29_%C2%A9_W._Barthlott%2C_Lotus-Salvinia.de.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191216092541)
+
+
+
 ## Biodiversidade e Conservação
 
 A política internacional reconhece explicitamente os níveis **genético, de espécies e de ecossistemas** como alvos de conservação  (Coates et al., 2018). Na prática, porém, a gestão ainda se apoia sobretudo em espécies, áreas geográficas e comunidades ecológicas, com menor atenção à diversidade genética  (Coates et al., 2018).
@@ -75,7 +89,7 @@ Essa assimetria é importante porque muitas espécies reconhecidas não são gen
 
 Ao mesmo tempo, dados genômicos trazem uma tensão metodológica: eles aumentam muito a resolução sobre estrutura populacional, mas também podem levar a **sobredelimitação** de espécies se forem interpretados sem cautela  (Coates et al., 2018). A literatura recomenda interpretar esses dados de forma conservadora e fortalecer a identificação de unidades intraespecíficas bem justificadas para conservação  (Coates et al., 2018).
 
-## A Crise da Perda de Biodiversidade
+## A Crise da perda de Biodiversidade
 
 A perda de biodiversidade é um grande desafio global  (Hochkirch et al., 2023; Di Marco et al., 2019). As taxas atuais de extinção estão cerca de **1000 vezes** acima da taxa de fundo provável  (Pimm et al., 2014).
 
@@ -83,7 +97,9 @@ Uma parte substancial das espécies avaliadas já está ameaçada  (Hochkirch et
 
 O conhecimento disponível ainda cobre apenas uma fração da vida na Terra  (Pimm et al., 2014; Isbell et al., 2022). Muitas espécies permanecem não descritas, e apenas cerca de **1%** do número estimado de espécies foi avaliado quanto ao risco de extinção pela IUCN nas últimas duas décadas  (Pimm et al., 2014; Isbell et al., 2022).
 
-## Principais Vetores de Perda
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBaxp-IWiD3rlaxojXmd0qb3MXGqEErRXL9ct64kXaH0Jeepjuy0zgSi0&s=10)
+
+## Principais vetores de extinção
 
 Mudanças nas práticas agrícolas, perda de habitat associada, sobre-exploração, poluição e desenvolvimento estão entre as principais ameaças à biodiversidade  (Hochkirch et al., 2023). Em sínteses mais amplas, a expansão agropecuária, fragmentação, espécies invasoras, monoculturas, poluição e mudança climática aparecem de forma recorrente como motores da erosão da biodiversidade  (Kumari et al., 2021; Legge et al., 2023).
 
@@ -105,19 +121,20 @@ As **áreas selvagens remanescentes** também são centrais para a persistência
 
 A literatura recente mostra que biodiversidade não deve ser reduzida aos três níveis clássicos, embora eles permaneçam a base conceitual mais estável  (Liu et al., 2024; Cordero‐Rivera, 2017). Diversidade **funcional**, **filogenética** e **comportamental** ampliam a capacidade de detectar diferenças ecologicamente relevantes entre comunidades  (Cordero‐Rivera, 2017; Karahan et al., 2025).
 
-A proposta de **ethodiversity** argumenta que a variação comportamental é parte negligenciada, mas ecologicamente importante, da biodiversidade  (Cordero‐Rivera, 2017). Segundo essa perspectiva, conservar biodiversidade exige ir além da contagem de genes, espécies e ecossistemas, incorporando explicitamente componentes comportamentais  (Cordero‐Rivera, 2017).
+A proposta de **etnodiversidade** argumenta que a variação comportamental é parte negligenciada, mas ecologicamente importante, da biodiversidade  (Cordero‐Rivera, 2017). Segundo essa perspectiva, conservar biodiversidade exige ir além da contagem de genes, espécies e ecossistemas, incorporando explicitamente componentes comportamentais  (Cordero‐Rivera, 2017).
+
+:::{.callout-tip}
 
 ## Síntese para a Aula
 
-Como aula de abertura em Ecologia de Comunidades, biodiversidade deve ser apresentada como um conceito **multinível, multidimensional e escalonado**  (Gaggiotti et al., 2018; Boudouresque, 2014). A mensagem central é que genes, espécies, populações, comunidades e ecossistemas variam conjuntamente, mas nem sempre de forma concordante  (Liu et al., 2024; Boudouresque, 2014).
+Biodiversidade é um conceito **multinível, multidimensional e escalonado**. A mensagem central é que genes, espécies, populações, comunidades e ecossistemas variam conjuntamente, mas nem sempre de forma concordante. Também é essencial deixar claro que a biodiversidade não é apenas um inventário naturalista, mas um componente estrutural do funcionamento dos ecossistemas e do bem-estar humano . Por fim, a crise contemporânea de perda biológica é rápida, espacialmente desigual e impulsionada por múltiplos vetores antrópicos, o que exige conservação integrada e baseada em diferentes dimensões da diversidade.
 
-Também é essencial deixar claro que a biodiversidade não é apenas um inventário naturalista, mas um componente estrutural do funcionamento dos ecossistemas e do bem-estar humano  (Johnson et al., 2017; Isbell et al., 2022; Karahan et al., 2025). Por fim, a crise contemporânea de perda biológica é rápida, espacialmente desigual e impulsionada por múltiplos vetores antrópicos, o que exige conservação integrada e baseada em diferentes dimensões da diversidade  (Pimm et al., 2014; Hochkirch et al., 2023; Johnson et al., 2017).
+:::
 
 ## Referências
 
 - Bateman I, Balmford A. *Current conservation policies risk accelerating biodiversity loss*. Nature (2023). Link: https://doi.org/  
 - Betts MG, Wolf C, Ripple WJ, et al. *Global forest loss disproportionately erodes biodiversity in intact landscapes*. Nature (2017). Link: https://doi.org/10.1038/nature23285
-- Boudouresque CF. *Insights into the diversity of the biodiversity concept* (2014). Link: https://doi.org/
 - Coates DJ, Byrne M, Moritz C. *Genetic Diversity and Conservation Units: Dealing With the Species-Population Continuum in the Age of Genomics*. Frontiers in Ecology and Evolution (2018). Link: https://doi.org/10.3389/fevo.2018.00165
 - Cordero-Rivera A. *Behavioral Diversity (Ethodiversity): A Neglected Level in the Study of Biodiversity*. Frontiers in Ecology and Evolution (2017). Link: https://doi.org/10.3389/fevo.2017.00007
 - Di Marco M, Ferrier S, Harwood TD, Hoskins AJ, Watson JEM. *Wilderness areas halve the extinction risk of terrestrial biodiversity*. Nature (2019). Link: https://doi.org/10.1038/s41586-019-1567
@@ -127,8 +144,6 @@ _These search results were found and analyzed using Consensus, an AI-powered sea
 ## References
  
 Betts, M., Wolf, C., Ripple, W., Phalan, B., Millers, K. A., Duarte, A., Butchart, S., & Levi, T. (2017). Global forest loss disproportionately erodes biodiversity in intact landscapes. *Nature, 547*, 441-444. https://doi.org/10.1038/nature23285
- 
-Boudouresque, C. (2014). Insights into the diversity of the biodiversity concept.
  
 Coates, D., Byrne, M., & Moritz, C. (2018). Genetic Diversity and Conservation Units: Dealing With the Species-Population Continuum in the Age of Genomics. *Frontiers in Ecology and Evolution*. https://doi.org/10.3389/fevo.2018.00165
  

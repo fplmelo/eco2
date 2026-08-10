@@ -2,7 +2,7 @@
 title: "Todas as Aulas"
 listing:
   contents: "."
-  type: default
+  type: grid
   sort: "date asc"
   categories: false
   fields: [title, subtitle, date]

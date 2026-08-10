@@ -1,1 +1,1 @@
-Sitemap: https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/sitemap.xml
+Sitemap: https://fplmelo.github.io/eco2/sitemap.xml
