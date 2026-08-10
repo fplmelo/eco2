@@ -1,0 +1,19 @@
+---
+title: "Exercícios"
+---
+
+Lista de exercícios práticos da disciplina. Adicione um item por exercício/lista.
+
+## Exercício 1 — Título
+
+**Entrega:** DD/MM/AAAA
+
+Descrição do exercício, dados necessários e instruções de entrega.
+
+[Baixar dados/enunciado](#)
+
+## Exercício 2 — Título
+
+**Entrega:** DD/MM/AAAA
+
+Descrição do exercício.

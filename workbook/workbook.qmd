@@ -1,0 +1,20 @@
+---
+title: "Seu próprio site"
+---
+
+## Objetivo
+
+Guia passo a passo para que cada aluno(a) crie seu próprio site Quarto pessoal/de portfólio,
+hospedado no GitHub Pages — útil para relatórios de disciplina e projetos futuros.
+
+## Passo a passo
+
+1. Criar uma conta no [GitHub](https://github.com/)
+2. Instalar o [Quarto](https://quarto.org/docs/get-started/)
+3. Criar um novo projeto de site (`quarto create-project meu-site --type website`)
+4. Publicar no GitHub Pages (`quarto publish gh-pages`)
+
+## Recursos úteis
+
+- [Documentação oficial do Quarto](https://quarto.org/docs/websites/)
+- [Guia de GitHub Pages](https://pages.github.com/)

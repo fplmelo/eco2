@@ -1,0 +1,648 @@
+---
+title: "Clima, Solo e Vegetação"
+subtitle: "Determinantes abióticos da diversidade e biogeografia"
+author: "Ecologia 2 — UFPE · Departamento de Botânica"
+date: today
+date-format: "MMMM [de] YYYY"
+lang: pt-BR
+format:
+  revealjs:
+   # theme: [default]
+    slide-number: true
+    progress: true
+    transition: fade
+    background-transition: slide
+    highlight-style: monokai
+    chalkboard: true
+    fig-align: center
+    scrollable: true
+    width: 1280
+    height: 720
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(patchwork)
+library(vegan)
+theme_aula <- function(base = 12) {
+  theme_classic(base_size = base) +
+    theme(
+      plot.title    = element_text(face = "bold", size = base + 1),
+      plot.subtitle = element_text(colour = "grey40", size = base - 1),
+      axis.line     = element_line(colour = "#3b1f0a"),
+      axis.ticks    = element_line(colour = "#3b1f0a"),
+      panel.grid.major = element_line(colour = "#ede8df", linewidth = 0.4)
+    )
+}
+```
+
+# Clima como Determinante da Biodiversidade {background-color="#0d2b4a"}
+## Variáveis atmosféricas e padrões de diversidade
+
+---
+
+## Por que começar pelo clima?
+
+> O clima é o **filtro primário** que determina quais organismos podem existir em um dado lugar — antes do solo, antes das interações bióticas.
+
+:::: {.columns}
+::: {.column width="55%"}
+**Clima define:**
+
+- Limites fisiológicos das espécies
+- Produtividade primária líquida 
+- Fenologia
+- Regimes de distúrbio (seca, fogo, geada)
+
+:::
+::: {.column width="45%"}
+**Hierarquia de filtros ecológicos:**
+```
+  CLIMA
+    │ filtra
+  SOLO ◄──── formado em parte pelo clima
+    │ filtra
+  VEGETAÇÃO ◄── estrutura o microclima
+    │ filtra
+  COMUNIDADE LOCAL
+```
+:::
+::::
+
+---
+
+## Energia, Água e o Triângulo da Diversidade
+
+A hipótese **Energia-Água** unifica dois motores clássicos da diversidade:
+
+:::: {.columns}
+::: {.column width="52%"}
+```{r energy-water, fig.height=4}
+set.seed(42)
+prec  <- seq(100, 2800, length.out = 80)
+temp  <- seq(5, 50, length.out = 80)
+grid  <- expand.grid(P = prec, T = temp)
+grid$S <- with(grid,
+  30 + 0.06*P - 0.00001*P^2 + 2.5*T - 0.04*T^2 +
+  0.003*P*T + rnorm(nrow(grid), 0, 8))
+grid$S <- pmax(5, grid$S)
+
+ggplot(grid, aes(P, T, fill = S)) +
+  geom_tile() +
+  scale_fill_gradientn(
+    colours = c("#ede8df","#c9956c","#7ec850","#1a3a0e"),
+    name = "Riqueza\n(S relativa)") +
+  labs(x = "Precipitação anual (mm)",
+       y = "Temperatura média anual (°C)",
+       title = "Espaço climático e riqueza de espécies",
+       subtitle = "Máximo na região quente-úmida") +
+  theme_aula(13)
+```
+:::
+::: {.column width="48%"}
+**Premissas:**
+
+- Energia solar → limita a **produtividade** e a diversidade funcional
+- Água → limita o **número de estratégias** de uso de recursos
+- A diversidade é máxima quando **ambos** são elevados
+- Déficit de qualquer um cria filtros fisiológicos severos
+
+:::
+::::
+
+---
+
+## Sazonalidade Climática e Diversidade Alpha
+
+**A estabilidade do clima ao longo do ano importa tanto quanto os valores médios:**
+
+```{r sazonalidade, fig.height=3.8}
+meses <- factor(month.abb, levels = month.abb)
+df_clim <- bind_rows(
+  data.frame(mes = meses,
+             prec = c(280,220,200,80,30,5,2,5,40,100,180,260),
+             temp = c(27,27,27,26,25,24,23,24,25,26,27,27),
+             bioma = "Manaus (Amazônia)"),
+  data.frame(mes = meses,
+             prec = c(30,25,50,60,40,20,5,5,10,20,30,30),
+             temp = c(28,29,28,27,25,22,21,22,24,26,27,28),
+             bioma = "Petrolina (Caatinga)"),
+  data.frame(mes = meses,
+             prec = c(150,130,110,80,70,80,100,100,110,120,130,140),
+             temp = c(22,22,21,18,15,13,12,13,15,18,20,21),
+             bioma = "Porto Alegre (Pampa)")
+)
+p1 <- ggplot(df_clim, aes(mes, prec, fill = bioma, group = bioma)) +
+  geom_col(position = "dodge", width = 0.7) +
+  scale_fill_manual(values = c("#1a5a8a","#c9956c","#3d7a22")) +
+  labs(x = NULL, y = "Precip. (mm)", fill = NULL) +
+  theme_aula(10) + theme(legend.position = "top")
+
+p2 <- ggplot(df_clim, aes(mes, temp, colour = bioma, group = bioma)) +
+  geom_line(linewidth = 1.2) + geom_point(size = 2) +
+  scale_colour_manual(values = c("#1a5a8a","#c9956c","#3d7a22")) +
+  labs(x = NULL, y = "Temp. (°C)", colour = NULL) +
+  theme_aula(10) + theme(legend.position = "none")
+
+p1 / p2
+```
+
+> Alta sazonalidade → **alfa menor** por filtro temporal; **beta maior** entre estações; comunidades dominadas por espécies tolerantes ao estresse.
+
+---
+
+## Mudanças climáticas e distribuições de dspécies
+
+**Projeções para biomas brasileiros (IPCC AR6, cenário SSP3-7.0):**
+
+```{r climate-change, fig.height=3.5}
+biomas <- c("Amazônia","Cerrado","Caatinga","Mata Atlântica","Pantanal","Pampa")
+delta_T  <- c(3.2, 3.8, 4.1, 3.0, 3.5, 2.8)   # °C até 2100
+delta_P  <- c(-8, -15, -22, -12, -10, +5)       # % mudança precip.
+risco    <- c(3.5, 4.2, 4.8, 3.8, 4.0, 2.5)    # índice de risco relativo
+
+df_cc <- data.frame(biomas, delta_T, delta_P, risco)
+
+ggplot(df_cc, aes(delta_T, delta_P, size = risco, colour = biomas,
+                  label = biomas)) +
+  geom_point(alpha = 0.8) +
+  geom_text(nudge_y = 1.5, size = 3.2, fontface = "bold") +
+  geom_hline(yintercept = 0, linetype = "dashed", colour = "grey50") +
+  geom_vline(xintercept = 0, linetype = "dashed", colour = "grey50") +
+  scale_size_continuous(range = c(4, 14), name = "Risco\nrelativo") +
+  scale_colour_manual(values = c("#0a6e2a","#b5860d","#b5400d",
+                                 "#1b5e3b","#2060a0","#7ab648"),
+                      guide = "none") +
+  labs(x = "Aquecimento projetado (ΔT °C, até 2100)",
+       y = "Mudança na precipitação (%)",
+       title = "Vulnerabilidade climática dos biomas brasileiros",
+       subtitle = "Cenário SSP3-7.0 — IPCC AR6 (valores ilustrativos)") +
+  theme_aula(11)
+```
+
+# Solo como Filtro Ecológico {background-color="#3b1f0a"}
+## Solo, endemismo e beta-diversidade
+
+---
+
+## Solo: Muito Além de "Substrato"
+
+> O solo é um **ecossistema vivo** que filtra, armazena e transforma .
+
+**Propriedades edáficas que filtram a flora:**
+
+| Propriedade | Efeito na comunidade |
+|-------------|---------------------|
+| pH | Define disponibilidade de nutrientes; filtra calcícolas vs. acidófilas |
+| Textura (argila/areia) | Capacidade de retenção hídrica → disponibilidade de água |
+| Teor de Al³⁺ | Toxicidade — elimina espécies não adaptadas |
+| Saturação por bases | Separa solos eutróficos (ricos) de distróficos (pobres) |
+| Profundidade efetiva | Limita enraizamento; determina capacidade de suporte |
+| Matéria orgânica | Diversidade microbiana e ciclagem de nutrientes |
+
+
+---
+
+## Gradientes Edáficos e Beta-Diversidade no Cerrado
+
+O Cerrado é o bioma onde a relação **solo × vegetação × diversidade** é mais evidente no Brasil:
+
+![](https://www.embrapa.br/documents/58057223/91052416/bioma_cerrado_vegetacao_Biomas_s_solo.jpg/bb3f037b-2152-dff7-21c3-08865a7e6867?t=1721337817351)
+fonte: Embrapa
+
+::: {.callout-tip}
+**Beta-diversidade edáfica:** a transição de campo limpo distrófico para mata de galeria eutrófica gera alta β via turnover — comunidades co-ocorrem no espaço, mas são edaficamente segregadas.
+:::
+
+---
+
+## Solos Especiais e Endemismo
+
+Alguns tipos de solo criam "ilhas pedológicas" com **flora altamente endêmica**:
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Vegeta%C3%A7%C3%A3o_desenvolvendo-se_sobre_substrato_ferruginoso_%28canga%29_no_Parque_Estadual_do_Itacolomi%2C_em_Ouro_Preto%2C_Minas_Gerais.jpg/960px-Vegeta%C3%A7%C3%A3o_desenvolvendo-se_sobre_substrato_ferruginoso_%28canga%29_no_Parque_Estadual_do_Itacolomi%2C_em_Ouro_Preto%2C_Minas_Gerais.jpg)
+
+
+:::
+::: {.column width="50%"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/eb/Campinarana.jpg)
+
+:::
+::::
+
+---
+
+## Solo,  Alfa e Beta
+
+```{r solo-escalas, fig.height=4}
+set.seed(77)
+# Simula gradiente de fertilidade do solo (eixo x) e diversidade
+fertilidade <- seq(2, 60, length.out = 50)
+
+# α segue relação hump-backed (máximo em fertilidade intermediária)
+alpha_obs <- 20 + 3.0 * fertilidade - 0.05 * fertilidade^2 +
+             rnorm(50, 0, 4)
+alpha_obs  <- pmax(5, alpha_obs)
+
+# β decresce com fertilidade (habitats ricos homogeneizam)
+beta_obs   <- 4.5 - 0.05 * fertilidade + rnorm(50, 0, 0.3)
+beta_obs   <- pmax(1.1, beta_obs)
+
+df_sb <- data.frame(fertilidade, alpha_obs, beta_obs)
+
+p1 <- ggplot(df_sb, aes(fertilidade, alpha_obs)) +
+  geom_point(colour = "#7b4f1a", alpha = 0.7, size = 2) +
+  geom_smooth(method = "lm", formula = y ~ poly(x, 2),
+              colour = "#3b1f0a", fill = "#f0d9c0", se = TRUE) +
+  labs(x = "Fertilidade do solo (relativa)",
+       y = "Diversidade α (espécies/parcela)",
+       title = "α × fertilidade — relação corcova") +
+  theme_aula(11)
+
+p2 <- ggplot(df_sb, aes(fertilidade, beta_obs)) +
+  geom_point(colour = "#1a5a8a", alpha = 0.7, size = 2) +
+  geom_smooth(method = "lm", colour = "#0d2b4a",
+              fill = "#c8e6f5", se = TRUE) +
+  labs(x = "Fertilidade do solo (relativa)",
+       y = "Diversidade β (Whittaker)",
+       title = "β × fertilidade — relação negativa") +
+  theme_aula(11)
+
+p1 | p2
+```
+
+**Interpretação:** Solos muito pobres e muito ricos tendem a reduzir α (filtros fortes); a relação "corcova" da fertilidade vs. riqueza é clássica. Porém, solos heterogêneos elevam β — mais tipos de solo = mais tipos de comunidade.
+
+---
+
+## Formação do Solo, Clima e Vegetação: O Triângulo Pedológico
+
+![](https://escolaeducacao.com.br/wp-content/uploads/2016/07/formacao-dos-solos.jpg)
+
+**Retroalimentações:**
+
+- Plantas acidificam o solo via exsudatos de ácidos orgânicos
+- Vegetação densa aumenta matéria orgânica → muda textura e CTC
+- Solo define qual vegetação se estabelece → vegetação altera o solo
+- Clima controla as taxas de intemperismo e acúmulo de M.O.
+
+::: {.callout-note}
+Em escalas de tempo geológicas, o clima "cria" o solo por meio do intemperismo. Em escalas ecológicas, a vegetação e o solo interagem continuamente.
+:::
+
+# Vegetação, Estrutura e Nichos {background-color="#1a3a0e"}
+## Estratificação, fitofisionomias e diversidade
+
+---
+
+## Vegetação como Criadora de Diversidade
+
+> A vegetação não é apenas **resposta** aos fatores abióticos — ela é também **causa** de diversidade, ao criar estrutura, microclimas e recursos.
+
+1. **Estratificação vertical**
+
+2. **Heterogeneidade horizontal** 
+
+3. **Arquitetura de plantas individuais** 
+
+4. **Engenharia ecossistêmica**
+
+5. **Provisão de recursos** 
+
+---
+
+## Estratificação e Números de Hill
+
+**Como a complexidade estrutural da vegetação muda o perfil de diversidade?**
+
+```{r hill-estrutura, fig.height=3.8}
+hill_n <- function(p, q) {
+  p <- p[p > 0]; p <- p / sum(p)
+  if (abs(q - 1) < 1e-9) exp(-sum(p * log(p)))
+  else sum(p^q)^(1/(1-q))
+}
+
+q_vals <- seq(0, 3, by = 0.1)
+
+# Floresta estratificada: muitas sp. com abundâncias similares
+p_floresta <- c(rep(0.04, 20), rep(0.008, 25))
+# Cerrado: dominância moderada
+p_cerrado  <- c(0.3, 0.15, 0.10, rep(0.03, 10), rep(0.01, 15))
+# Campo monodomninante: 1 sp. muito dominante
+p_campo    <- c(0.6, 0.15, rep(0.025, 10))
+
+df_hill <- data.frame(
+  q = rep(q_vals, 3),
+  D = c(sapply(q_vals, hill_n, p = p_floresta / sum(p_floresta)),
+        sapply(q_vals, hill_n, p = p_cerrado  / sum(p_cerrado)),
+        sapply(q_vals, hill_n, p = p_campo    / sum(p_campo))),
+  fisionomia = rep(c("Floresta estratificada","Cerrado s.s.","Campo dominado"),
+                   each = length(q_vals))
+)
+
+ggplot(df_hill, aes(q, D, colour = fisionomia, linetype = fisionomia)) +
+  geom_line(linewidth = 1.3) +
+  scale_colour_manual(values = c("#1a3a0e","#b5860d","#c9956c")) +
+  geom_vline(xintercept = c(0,1,2), linetype = "dotted", alpha = 0.4) +
+  annotate("text", x = c(0.05,1.05,2.05), y = 47,
+           label = c("q=0\n(S)","q=1\n(Shannon)","q=2\n(Simpson)"), size = 2.9) +
+  labs(x = "Ordem q", y = "ᵍD (número efetivo de espécies)",
+       title = "Perfis de Hill por fisionomia",
+       subtitle = "Curvatura revela estrutura de dominância",
+       colour = NULL, linetype = NULL) +
+  theme_aula(11) + theme(legend.position = "top")
+```
+
+::: {.callout-note}
+A **inclinação da curva de Hill** (de q=0 para q=2) indica quanto a equitabilidade contribui para a diversidade. Florestas estratificadas têm curvas mais planas — maior diversidade efetiva.
+:::
+
+---
+
+## Ecótonos: Zonas de alta Beta-Diversidade
+
+:::: {.columns}
+::: {.column width="55%"}
+**Por que ecótonos são biodiversos?**
+
+- Contêm espécies de **ambos os biomas** adjacentes
+- Possuem espécies **especialistas de borda** (dependentes da transição)
+- Alta **heterogeneidade microambiental** em curta distância
+- Alta **beta-diversidade** mesmo em escalas locais
+
+:::
+::: {.column width="45%"}
+
+![](https://oeco.org.br/wp-content/uploads/2017/06/PNSC18.jpg)
+
+:::
+::::
+
+## Regiões Biogeográficas do Brasil
+
+:::: {.columns}
+::: {.column width="55%"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/9/91/Mapa_dos_Biomas_Brasileiro.webp)
+
+:::
+::: {.column width="45%"}
+**Relevância para diversidade:**
+
+A alta β-diversidade entre províncias brasileiras reflete **história biogeográfica distinta**:
+
+- Amazônia e Mata Atlântica foram conectadas por corredores florestais no Pleistoceno → espécies irmãs vicariantes
+- Caatinga e Cerrado compartilham flora de origem comum → algumas espécies generalistas
+- Pampa tem afinidades com a Argentina → limites impostos pela biogeografia sul-americana
+:::
+::::
+
+---
+
+## Dispersão, Filtragem e Montagem de Comunidades
+
+
+- **Alta limitação de dispersão** → β alta mesmo sem gradiente ambiental (deriva)
+- **Alta filtragem ambiental** → β alta correlacionada com gradientes climáticos/edáficos
+- **Alta filtragem biótica** → α regulada pelas interações → comunidades saturadas
+
+::: {.callout-tip}
+A partição da β-diversidade em turnover vs. aninhamento ajuda a inferir **qual processo domina** a montagem de comunidades em cada sistema.
+:::
+
+---
+
+
+## Gradientes de Diversidade e Biogeografia: Síntese
+
+```{r synthesis, fig.height=4}
+biomas_ord <- c("Pampa","Pantanal","Caatinga","Cerrado",
+                "Mata Atlântica","Amazônia")
+alpha_med  <- c(25, 55, 50, 75, 130, 250)
+beta_med   <- c(1.8, 2.5, 3.2, 4.0, 3.8, 2.5)
+gamma_med  <- alpha_med * beta_med
+endemismo  <- c(15, 25, 40, 45, 55, 50)   # % de espécies endêmicas
+
+df_syn <- data.frame(biomas_ord = factor(biomas_ord, levels = biomas_ord),
+                     alpha_med, beta_med, gamma_med, endemismo)
+
+p1 <- ggplot(df_syn, aes(reorder(biomas_ord, gamma_med), gamma_med,
+                          fill = endemismo)) +
+  geom_col() +
+  scale_fill_gradient(low = "#c9956c", high = "#3b1f0a",
+                      name = "% Endêmicas") +
+  coord_flip() +
+  labs(x = NULL, y = "Diversidade γ estimada",
+       title = "Diversidade γ e endemismo por bioma") +
+  theme_aula(10)
+
+p2 <- ggplot(df_syn, aes(alpha_med, beta_med, size = endemismo,
+                          colour = biomas_ord, label = biomas_ord)) +
+  geom_point(alpha = 0.85) +
+  geom_text(size = 2.8, vjust = -1.1, fontface = "bold") +
+  scale_size_continuous(range = c(3,10), name = "% Endêmicas") +
+  scale_colour_viridis_d(option = "plasma", guide = "none") +
+  labs(x = "Diversidade α média",
+       y = "Diversidade β média",
+       title = "α × β por bioma") +
+  theme_aula(10)
+
+p1 | p2
+```
+
+# Integrando Métricas de Diversidade {background-color="#1a1e2a"}
+## Alfa, Beta, Hill e Nicho Climático em Gradientes Ambientais
+
+---
+
+## Diversidade Alfa ao Longo de Gradientes Climáticos
+
+**Como α varia ao longo dos principais gradientes do Brasil?**
+
+```{r alpha-gradientes, fig.height=4}
+set.seed(55)
+
+# Gradiente de precipitação (Amazônia → Caatinga → Caatinga árida)
+prec_g <- seq(150, 2800, length.out = 60)
+alpha_prec <- 10 + 0.14 * prec_g - 0.000025 * prec_g^2 +
+              rnorm(60, 0, 5)
+alpha_prec <- pmax(5, alpha_prec)
+
+# Gradiente de temperatura (Pampa → Cerrado → Amazônia)
+temp_g <- seq(10, 28, length.out = 50)
+alpha_temp <- -20 + 12 * temp_g - 0.3 * temp_g^2 +
+              rnorm(50, 0, 3)
+alpha_temp <- pmax(5, alpha_temp)
+
+# Gradiente de altitude (0 → 2500m nos campos rupestres)
+alt_g <- seq(0, 2500, length.out = 50)
+alpha_alt <- 90 * exp(-0.0004 * alt_g) + 20 * exp(-0.002 * (alt_g - 1000)^2) +
+             rnorm(50, 0, 4)
+alpha_alt <- pmax(5, alpha_alt)
+
+p1 <- ggplot(data.frame(prec_g, alpha_prec),
+             aes(prec_g, alpha_prec)) +
+  geom_point(size = 1.8, colour = "#1a5a8a", alpha = 0.7) +
+  geom_smooth(method = "lm", formula = y ~ poly(x, 2),
+              colour = "#0d2b4a", fill = "#c8e6f5", se = TRUE) +
+  labs(x = "Precipitação (mm/ano)", y = "Riqueza α",
+       title = "α × Precipitação") + theme_aula(10)
+
+p2 <- ggplot(data.frame(temp_g, alpha_temp),
+             aes(temp_g, alpha_temp)) +
+  geom_point(size = 1.8, colour = "#c9956c", alpha = 0.7) +
+  geom_smooth(method = "lm", formula = y ~ poly(x, 2),
+              colour = "#3b1f0a", fill = "#f0d9c0", se = TRUE) +
+  labs(x = "Temperatura média (°C)", y = "Riqueza α",
+       title = "α × Temperatura") + theme_aula(10)
+
+p3 <- ggplot(data.frame(alt_g, alpha_alt),
+             aes(alt_g, alpha_alt)) +
+  geom_point(size = 1.8, colour = "#3d7a22", alpha = 0.7) +
+  geom_smooth(method = "lm", formula = y ~ poly(x, 2),
+              colour = "#1a3a0e", fill = "#d4f0b8", se = TRUE) +
+  labs(x = "Altitude (m)", y = "Riqueza α",
+       title = "α × Altitude") + theme_aula(10)
+
+p1 | p2 | p3
+```
+
+**Padrão geral:** Diversidade alfa segue relação unimodal (corcova) com a maioria dos gradientes ambientais — máximo em condições intermediárias ou úmido-quentes.
+
+---
+
+## Beta-Diversidade ao Longo de Gradientes de Solo
+
+**Quanto da variação composicional em plantas é explicada pelo solo vs. pelo clima?**
+
+```{r beta-solo-clima, fig.height=3.8}
+set.seed(88)
+n <- 40
+gradiente_solo <- runif(n, 0, 1)    # PC1 de variáveis edáficas
+gradiente_clim <- runif(n, 0, 1)    # PC1 climática
+
+beta_solo <- 0.55 * gradiente_solo + 0.15 * gradiente_clim +
+             rnorm(n, 0, 0.08)
+beta_clim <- 0.35 * gradiente_solo + 0.40 * gradiente_clim +
+             rnorm(n, 0, 0.08)
+beta_solo <- pmin(1, pmax(0, beta_solo))
+beta_clim <- pmin(1, pmax(0, beta_clim))
+
+df_bc <- data.frame(gradiente_solo, gradiente_clim,
+                    beta_solo, beta_clim) |>
+  pivot_longer(c(beta_solo, beta_clim),
+               names_to = "predictor", values_to = "beta")
+
+ggplot(df_bc, aes(
+  x = ifelse(predictor == "beta_solo", gradiente_solo, gradiente_clim),
+  y = beta, colour = predictor)) +
+  geom_point(alpha = 0.7, size = 2.5) +
+  geom_smooth(method = "lm", se = TRUE, linewidth = 1.1) +
+  facet_wrap(~ predictor,
+             labeller = as_labeller(c(beta_solo = "β vs. gradiente edáfico",
+                                      beta_clim  = "β vs. gradiente climático"))) +
+  scale_colour_manual(values = c("#7b4f1a","#1a5a8a"), guide = "none") +
+  labs(x = "Gradiente ambiental (PC1 padronizado)",
+       y = "Dissimilaridade composicional (β)",
+       title = "Partição de β por tipo de gradiente ambiental",
+       subtitle = "Solo explica mais β em escala local; clima domina em escala regional") +
+  theme_aula(11)
+```
+
+::: {.callout-tip}
+Em escala local (< 10 km): o **solo** tende a ser o principal preditor de β-diversidade em plantas.
+Em escala regional (> 100 km): o **clima** se torna dominante.
+:::
+
+---
+
+
+## Aplicação: Modelagem da Caatinga e Mudanças Climáticas
+
+
+![](https://s2-umsoplaneta.glbimg.com/MWxzQg290_UCP1URKttCZJ2skLA=/0x0:1140x680/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_7d5b9b5029304d27b7ef8a7f28b4d70f/internal_photos/bs/2024/p/K/1s0MjvQIi3RpV9rLBkAg/rpf-caatinga-2023-12-info-1140.jpeg){fig-align=center}
+
+
+---
+
+## Integrando Clima, Solo, Vegetação e Métricas
+
+**O framework completo da aula:**
+
+```{r framework-final, echo=FALSE, fig.height=4}
+# Diagrama visual usando ggplot + anotações
+df_frame <- data.frame(
+  x = c(2, 7, 12,   2, 7, 12,   7),
+  y = c(8, 8, 8,    3, 3,  3,    5.5),
+  label = c("CLIMA\n(T, P, PET,\nBIO1–19)",
+            "SOLO\n(pH, textura,\nnutrientes)",
+            "VEGETAÇÃO\n(fisionomia,\nestratificação)",
+            "Diversidade α\n(Hill numbers,\nriqueza local)",
+            "Diversidade β\n(turnover,\naninhamento)",
+            "Diversidade γ\n(pool regional,\nendemismo)",
+            "BIOGEOGRAFIA\n(dispersão,\nnicho, história)"),
+  fill_c = c("#c8e6f5","#f0d9c0","#d4f0b8",
+             "#e8ecf5","#e8ecf5","#e8ecf5",
+             "#ede8f5"),
+  border = c("#0d2b4a","#3b1f0a","#1a3a0e",
+             "#2a0e50","#2a0e50","#2a0e50",
+             "#2a0e50")
+)
+
+ggplot(df_frame, aes(x, y)) +
+  geom_tile(aes(fill = fill_c, colour = border),
+            width = 3.5, height = 1.8, linewidth = 1.2) +
+  geom_text(aes(label = label), size = 3.2, fontface = "bold",
+            lineheight = 1.1) +
+  scale_fill_identity() +
+  scale_colour_identity() +
+  # Setas: clima → solo → vegetação
+  annotate("segment", x=3.8,xend=5.2, y=8,yend=8,
+           arrow=arrow(length=unit(0.25,"cm")),colour="#555",linewidth=1) +
+  annotate("segment", x=8.8,xend=10.2, y=8,yend=8,
+           arrow=arrow(length=unit(0.25,"cm")),colour="#555",linewidth=1) +
+  # Setas: trio → beta
+  annotate("segment", x=2,xend=5.2, y=6.9,yend=3.9,
+           arrow=arrow(length=unit(0.2,"cm")),colour="#888",linewidth=0.8) +
+  annotate("segment", x=7,xend=7, y=6.9,yend=3.9,
+           arrow=arrow(length=unit(0.2,"cm")),colour="#888",linewidth=0.8) +
+  annotate("segment", x=12,xend=8.8, y=6.9,yend=3.9,
+           arrow=arrow(length=unit(0.2,"cm")),colour="#888",linewidth=0.8) +
+  # Seta biogeografia → diversidades
+  annotate("segment", x=7,xend=7, y=4.6,yend=3.9,
+           colour="#2a0e50",linewidth=1,linetype="dashed") +
+  # Setas entre escalas de diversidade
+  annotate("segment", x=3.8,xend=5.2, y=3,yend=3,
+           arrow=arrow(length=unit(0.2,"cm")),colour="#555",linewidth=0.8) +
+  annotate("segment", x=8.8,xend=10.2, y=3,yend=3,
+           arrow=arrow(length=unit(0.2,"cm")),colour="#555",linewidth=0.8) +
+  xlim(0,14) + ylim(1.5,10) +
+  theme_void() +
+  labs(title = "Clima × Solo × Vegetação → Diversidade em múltiplas escalas")
+```
+
+---
+
+## {background-color="#0d2b4a"}
+
+<br><br>
+
+::: {style="text-align:center; color:white; font-size:1.8em;"}
+**Clima cria o palco.**
+
+*Solo escreve as regras.*
+
+**Vegetação joga o jogo.**
+:::
+
+<br>
+
+

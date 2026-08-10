@@ -1,0 +1,13 @@
+---
+title: "Todas as Aulas"
+listing:
+  contents: "."
+  type: default
+  sort: "date asc"
+  categories: false
+  fields: [title, subtitle, date]
+  exclude:
+    filename: "index.qmd"
+---
+
+Aqui você encontra o material completo (texto e slides) de cada aula, em ordem cronológica.

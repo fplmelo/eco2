@@ -1,0 +1,24 @@
+---
+title: "Cronograma"
+---
+
+Cronograma preliminar — sujeito a ajustes ao longo do semestre.
+
+| Semana | Data | Tema | Material |
+|:------:|:----:|:-----|:---------|
+| 1 | DD/MM | Apresentação da disciplina e conceitos introdutórios | [Slides](sessions/index.qmd) |
+| 2 | DD/MM | Tema da semana 2 | |
+| 3 | DD/MM | Tema da semana 3 | |
+| 4 | DD/MM | Tema da semana 4 | |
+| 5 | DD/MM | Tema da semana 5 | |
+| 6 | DD/MM | Tema da semana 6 | |
+| 7 | DD/MM | Avaliação parcial | |
+| 8 | DD/MM | Tema da semana 8 | |
+| 9 | DD/MM | Tema da semana 9 | |
+| 10 | DD/MM | Tema da semana 10 | |
+| 11 | DD/MM | Tema da semana 11 | |
+| 12 | DD/MM | Tema da semana 12 | |
+| 13 | DD/MM | Apresentação de projetos/seminários | |
+| 14 | DD/MM | Avaliação final | |
+
+: {.tabela-cronograma tbl-colwidths="[10,10,55,25]"}

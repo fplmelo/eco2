@@ -1,0 +1,45 @@
+---
+title: "INT0158 - ECOLOGIA 2"
+subtitle: "Módulo Ecologia de Comundiades"
+page-layout: full
+---
+
+::: {.column-body}
+
+INT0158 - ECOLOGIA 2  
+2026.2  
+Centro de Biociências  
+Universidade Federal de Pernambuco
+
+![](img/logo_curso.png){width=250px}
+
+:::{.columns}
+:::{.column}
+
+### Professor(a) Responsável
+
+- [Prof. Felipe Melo](https://ecoaplic.org/)
+- Departamento de Botânica, Centro de Biociências
+- <felipe.plmelo@ufpe.br>
+
+
+:::
+:::{.column}
+
+### Informações sobre o curso
+
+- Dia(s) da semana: QUINTAS-FEIRAS
+- Período: 2026.2
+- Horário: 10-13h
+- Local: Sala 06, CB-UFPE
+:::
+:::
+### Recursos on-line
+
+Este curso se baseia em duas principais ferramentas: 1) este site e; 2) [Google Sala de Aula](https://classroom.google.com/c/ODcyMTEwOTQ3NzAz?cjc=jtyef3rb) onde as tarefas devem ser submetidas.
+
+## Bem-vind@!
+
+Este ambiente será um apoio fundamental para o aprendizado durante a disciplina, especialmente no módulo de Ecologia de Comunidades
+
+:::

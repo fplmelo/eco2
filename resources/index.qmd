@@ -1,0 +1,22 @@
+---
+title: "Recursos"
+---
+
+## Softwares
+
+- [R](https://www.r-project.org/)
+- [RStudio](https://posit.co/download/rstudio-desktop/)
+- [QGIS](https://qgis.org/) *(se aplicável)*
+
+## Bases de dados
+
+- [MapBiomas](https://mapbiomas.org/)
+- Outras bases relevantes ao tema da disciplina
+
+## Leituras complementares
+
+- Links e referências gerais que não pertencem a uma semana específica
+
+## Comunidades e redes
+
+- ABECO, ReCaa, OCEAL, ou outras redes relevantes ao tema

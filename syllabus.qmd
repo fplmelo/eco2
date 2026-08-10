@@ -1,0 +1,39 @@
+---
+title: "Ementa"
+---
+
+## Objetivos gerais
+
+Princípios básicos de ecologia de comunidades e ecossistemas bem como ferramentas teóricas e conceituais para a descrição de comunidades e sua relação com o meio físico. Os temas abordados são os fundamentais para que o aluno entenda sobre a estrutura e organização de comunidades biológicas bem como organização trófica e ciclagem denutrientes.
+
+## Objetivos específicos
+
+Ao final da disciplina, o(a) aluno(a) será capaz de:
+
+1. Definir, descrever e medir uma comunidade biológica
+2. Enendera história da biodiversidade e as regras de montagem de comunidades biológicas
+3. Aplicar estes conceitos à realidade de conservação dos biomas brasileiros, especialmente à Caatinga e Mata Atlântica
+
+## Pré-requisitos
+
+- Nenhum 
+
+## Metodologia
+
+Aulas expositivas, práticas simuladas e tarefas parciais.
+
+## Bibliografia
+
+### Bibliografia básica
+
+- Begon, M. et al. 2007. Ecologia - de individuos a ecossistemas. Artmed
+- Krebs, C.. 2001. Ecology. Cummings, San Franbcisco, 5a. Ed.
+- Ricklefs, C. 2010. Economia da Natureza, Ed. Guanabara, 6a ed.
+
+### Bibliografia complementar
+
+[Vellend, M. 2010. Conceptual synthesis in community ecology. The Quaterly Review of Biology, 85:183–206.](https://www.journals.uchicago.edu/doi/10.1086/652373)
+
+## Critérios de avaliação
+
+Ver página de [Avaliação](assessment.qmd) para detalhes.

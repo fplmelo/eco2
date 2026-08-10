@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Aula 1 — Introdução à Biodiversidade – NOME DA DISCIPLINA</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../img/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-76a3b5b39a8d53d348f4d43585fc83ef.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-1b7e98780f806cb92a9758d87ddaf4a4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/logo_branco_ufpe.png" alt="" class="navbar-logo light-content">
+    <img src="../img/logo_branco_ufpe.png" alt="" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.html"> 
+<span class="menu-text">Ementa</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html"> 
+<span class="menu-text">Cronograma</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-r-intro" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">R Intro</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-r-intro">    
+        <li>
+    <a class="dropdown-item" href="../get-started/1-install.html">
+ <span class="dropdown-text">1 - Instalar R &amp; RStudio</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../get-started/2-basic-intro.html">
+ <span class="dropdown-text">2 - Introdução Básica ao R e RStudio</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../get-started/3-syntax.html">
+ <span class="dropdown-text">3 - Sintaxe &amp; Estrutura de Dados</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../get-started/4-functions.html">
+ <span class="dropdown-text">4 - Funções e Comandos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../get-started/5-data.html">
+ <span class="dropdown-text">5 - Dados em R</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../workbook/workbook.html">
+ <span class="dropdown-text">6 - Seu próprio site</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../sessions/index.html"> 
+<span class="menu-text">Todas as Aulas</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../exercises/index.html"> 
+<span class="menu-text">Exercícios</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../resources/index.html"> 
+<span class="menu-text">Recursos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../assessment.html"> 
+<span class="menu-text">Avaliação</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução"><span class="header-section-number">1</span> Introdução</a></li>
+  <li><a href="#o-conceito-de-biodiversidade" id="toc-o-conceito-de-biodiversidade" class="nav-link" data-scroll-target="#o-conceito-de-biodiversidade"><span class="header-section-number">2</span> O Conceito de Biodiversidade</a></li>
+  <li><a href="#níveis-da-biodiversidade" id="toc-níveis-da-biodiversidade" class="nav-link" data-scroll-target="#níveis-da-biodiversidade"><span class="header-section-number">3</span> Níveis da Biodiversidade</a></li>
+  <li><a href="#por-que-a-biodiversidade-importa" id="toc-por-que-a-biodiversidade-importa" class="nav-link" data-scroll-target="#por-que-a-biodiversidade-importa"><span class="header-section-number">4</span> Por Que a Biodiversidade Importa</a></li>
+  <li><a href="#como-a-biodiversidade-é-medida" id="toc-como-a-biodiversidade-é-medida" class="nav-link" data-scroll-target="#como-a-biodiversidade-é-medida"><span class="header-section-number">5</span> Como a Biodiversidade É Medida</a></li>
+  <li><a href="#escalas-distribuição-e-hotspots" id="toc-escalas-distribuição-e-hotspots" class="nav-link" data-scroll-target="#escalas-distribuição-e-hotspots"><span class="header-section-number">6</span> Escalas, Distribuição e Hotspots</a></li>
+  <li><a href="#biodiversidade-e-conservação" id="toc-biodiversidade-e-conservação" class="nav-link" data-scroll-target="#biodiversidade-e-conservação"><span class="header-section-number">7</span> Biodiversidade e Conservação</a></li>
+  <li><a href="#a-crise-da-perda-de-biodiversidade" id="toc-a-crise-da-perda-de-biodiversidade" class="nav-link" data-scroll-target="#a-crise-da-perda-de-biodiversidade"><span class="header-section-number">8</span> A Crise da Perda de Biodiversidade</a></li>
+  <li><a href="#principais-vetores-de-perda" id="toc-principais-vetores-de-perda" class="nav-link" data-scroll-target="#principais-vetores-de-perda"><span class="header-section-number">9</span> Principais Vetores de Perda</a></li>
+  <li><a href="#proteção-lacunas-e-prioridades" id="toc-proteção-lacunas-e-prioridades" class="nav-link" data-scroll-target="#proteção-lacunas-e-prioridades"><span class="header-section-number">10</span> Proteção, Lacunas e Prioridades</a></li>
+  <li><a href="#dimensões-emergentes" id="toc-dimensões-emergentes" class="nav-link" data-scroll-target="#dimensões-emergentes"><span class="header-section-number">11</span> Dimensões Emergentes</a></li>
+  <li><a href="#síntese-para-a-aula" id="toc-síntese-para-a-aula" class="nav-link" data-scroll-target="#síntese-para-a-aula"><span class="header-section-number">12</span> Síntese para a Aula</a></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências"><span class="header-section-number">13</span> Referências</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">14</span> References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Aula 1 — Introdução à Biodiversidade</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introdução" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introdução"><span class="header-section-number">1</span> Introdução</h2>
+<p>Biodiversidade é a variedade da vida em diferentes níveis de organização, dos genes aos ecossistemas, e constitui um conceito central para as ciências da vida e para a conservação (Gaggiotti et al., 2018; Boudouresque, 2014; Moreno, 2001). As definições mais aceitas convergem para três níveis fundamentais — <strong>diversidade genética, diversidade de espécies e diversidade de ecossistemas</strong> — embora vários autores também defendam a inclusão explícita de dimensões funcionais, filogenéticas e comportamentais (Liu et al., 2024; Coates et al., 2018; Cordero‐Rivera, 2017; Boudouresque, 2014).</p>
+<p>A biodiversidade é um conceito <strong>hierárquico e multidimensional</strong>, e isso torna inadequado descrevê-la por uma única métrica (Gaggiotti et al., 2018; Boudouresque, 2014). Diferentes medidas capturam componentes distintos da variação biológica, de modo que avaliações robustas dependem de abordagens integradas (Gaggiotti et al., 2018; Boudouresque, 2014; Karahan et al., 2025).</p>
+</section>
+<section id="o-conceito-de-biodiversidade" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="o-conceito-de-biodiversidade"><span class="header-section-number">2</span> O Conceito de Biodiversidade</h2>
+<p>O uso moderno do termo biodiversidade se consolidou a partir da década de 1980 (Wang &amp; Young, 2019). Desde então, o conceito passou a funcionar como um <strong>meta-conceito</strong>, reunindo hierarquias ecológicas, genéticas e taxonômicas, além de implicações éticas, políticas e sociais (Cordero‐Rivera, 2017).</p>
+<p>Mesmo quando há acordo sobre os três níveis clássicos, permanece importante reconhecer que a biodiversidade não é apenas contagem de espécies (Kumari et al., 2021; Wang &amp; Young, 2019; Boudouresque, 2014). A diversidade de espécies envolve tanto <strong>riqueza</strong> quanto <strong>equidade de abundâncias</strong>, e a diversidade em níveis superiores também depende da organização funcional e espacial dos sistemas biológicos (Wang &amp; Young, 2019; Moreno, 2001).</p>
+</section>
+<section id="níveis-da-biodiversidade" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="níveis-da-biodiversidade"><span class="header-section-number">3</span> Níveis da Biodiversidade</h2>
+<p>A tabela a seguir resume os níveis mais usados na literatura.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nível</th>
+<th>Definição sintética</th>
+<th>Exemplo de foco analítico</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Genético</td>
+<td>Variação de genes e alelos dentro e entre populações</td>
+<td>Polimorfismos, estrutura populacional, adaptação (Kumari et al., 2021; Wang &amp; Young, 2019)</td>
+</tr>
+<tr class="even">
+<td>Espécies</td>
+<td>Variação no número e na abundância relativa de espécies</td>
+<td>Riqueza, equidade, composição (Wang &amp; Young, 2019; Moreno, 2001)</td>
+</tr>
+<tr class="odd">
+<td>Ecossistemas</td>
+<td>Variação entre habitats, comunidades e processos ecológicos</td>
+<td>Paisagens, habitats, fluxos bióticos e abióticos (Guo, 2022; Moreno, 2001)</td>
+</tr>
+<tr class="even">
+<td>Funcional</td>
+<td>Variação nos papéis ecológicos e traços das espécies</td>
+<td>Traços funcionais, redundância, funcionamento (Boudouresque, 2014; Karahan et al., 2025)</td>
+</tr>
+<tr class="odd">
+<td>Filogenética</td>
+<td>Variação na história evolutiva entre linhagens</td>
+<td>Distância evolutiva, endemismo filogenético (Liu et al., 2024; Cordero‐Rivera, 2017)</td>
+</tr>
+<tr class="even">
+<td>Comportamental</td>
+<td>Variação de traços comportamentais em múltiplos níveis</td>
+<td>Plasticidade, personalidade, estratégias reprodutivas (Cordero‐Rivera, 2017)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Figure 1:</strong> Níveis clássicos e extensões contemporâneas do conceito de biodiversidade.</p>
+<p>A <strong>diversidade genética</strong> descreve a variabilidade hereditária dentro das espécies e é essencial para adaptação e persistência populacional (Coates et al., 2018; Kumari et al., 2021; Wang &amp; Young, 2019). Populações com maior diversidade genética tendem a manter mais alelos e, portanto, maior capacidade de responder a mudanças ambientais (Wang &amp; Young, 2019; Kumari et al., 2021).</p>
+<p>A <strong>diversidade de espécies</strong> continua sendo a medida mais usada em ecologia e conservação, porque espécies são unidades amplamente comunicáveis e operacionais para monitoramento e política pública (Coates et al., 2018). Ainda assim, essa ênfase pode obscurecer variação importante abaixo do nível de espécie, como populações historicamente isoladas e unidades evolutivamente significativas (Coates et al., 2018).</p>
+<p>A <strong>diversidade de ecossistemas</strong> trata da variação entre habitats, comunidades e processos dentro da biosfera (Guo, 2022; Wang &amp; Young, 2019). Ela depende da interação entre diversidade genética e de espécies, além de fatores ambientais e históricos (Wang &amp; Young, 2019; Guo, 2022).</p>
+</section>
+<section id="por-que-a-biodiversidade-importa" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="por-que-a-biodiversidade-importa"><span class="header-section-number">4</span> Por Que a Biodiversidade Importa</h2>
+<p>A biodiversidade sustenta <strong>resiliência ecológica</strong> e serviços essenciais como alimento e água limpa (Karahan et al., 2025). Também é amplamente considerada essencial ao bem-estar humano (Johnson et al., 2017).</p>
+<p>Há forte consenso de que a perda de biodiversidade reduz o funcionamento dos ecossistemas e as contribuições da natureza para as pessoas (Isbell et al., 2022). Em julgamento de especialistas, a ameaça ou extinção global de espécies foi associada a reduções de cerca de <strong>10% a 70%</strong> no funcionamento ecossistêmico e nas contribuições da natureza, com grande incerteza sobre a magnitude exata (Isbell et al., 2022).</p>
+<p>A relação entre biodiversidade e funcionamento também não se restringe à diversidade de espécies (Kumari et al., 2021; Fargeot et al., 2025). Em ecossistemas aquáticos naturais, o efeito absoluto da <strong>diversidade genética</strong> sobre funções ecossistêmicas foi semelhante ao da diversidade de espécies, embora com direção oposta nas correlações observadas nesse estudo (Fargeot et al., 2025). Esses resultados reforçam a necessidade de integrar dimensões múltiplas da biodiversidade ao prever consequências ecológicas da perda biológica (Fargeot et al., 2025).</p>
+</section>
+<section id="como-a-biodiversidade-é-medida" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="como-a-biodiversidade-é-medida"><span class="header-section-number">5</span> Como a Biodiversidade É Medida</h2>
+<p>A ausência de métricas padronizadas e consistentes entre níveis biológicos ainda dificulta estudos verdadeiramente integrativos (Gaggiotti et al., 2018; Moreno, 2001; Gaggiotti et al., 2018). Parte desse problema vem do desenvolvimento histórico separado entre ecologia de comunidades e genética de populações (Gaggiotti et al., 2018).</p>
+<p>No nível de espécies, a literatura distingue diversidade <strong>alfa</strong>, <strong>beta</strong> e <strong>gama</strong> (Kumari et al., 2021; Moreno, 2001). A diversidade alfa descreve a diversidade dentro de uma comunidade, a beta expressa mudanças de composição entre comunidades e a gama representa a diversidade total em uma paisagem ou região (Kumari et al., 2021; Moreno, 2001).</p>
+<p>Índices distintos enfatizam propriedades diferentes da comunidade (Moreno, 2001; Boudouresque, 2014). Por isso, um mesmo impacto pode aumentar a diversidade alfa e reduzir a diversidade gama, ou gerar padrões discordantes entre riqueza de espécies e diversidade em níveis taxonômicos mais altos (Boudouresque, 2014).</p>
+<p>Abordagens recentes propõem <strong>estruturas unificadoras</strong> capazes de medir biodiversidade de genes a ecossistemas com comportamento matemático consistente (Gaggiotti et al., 2018). Esse tipo de framework foi desenvolvido justamente para superar a fragmentação entre métricas genéticas, taxonômicas, funcionais e ecológicas (Gaggiotti et al., 2018).</p>
+</section>
+<section id="escalas-distribuição-e-hotspots" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="escalas-distribuição-e-hotspots"><span class="header-section-number">6</span> Escalas, Distribuição e Hotspots</h2>
+<p>A biodiversidade é distribuída de forma <strong>desigual</strong> no planeta (Kumari et al., 2021). Essa heterogeneidade espacial motivou a delimitação de hotspots, áreas com alto endemismo e forte perda de habitat (Kumari et al., 2021; Gonçalves-Souza et al., 2020).</p>
+<p>A desigualdade espacial também aparece entre níveis de biodiversidade (Liu et al., 2024). Áreas com maior diversidade genética, de espécies e de ecossistemas não coincidem necessariamente, o que implica que estratégias baseadas em um único componente podem falhar em representar a biodiversidade de forma abrangente (Liu et al., 2024).</p>
+<p>Em análises recentes de planejamento sistemático, a integração de múltiplos indicadores — riqueza de espécies, endemismo, diversidade filogenética, distintividade evolutiva, endemismo filogenético e valor de serviços ecossistêmicos — foi usada para identificar áreas prioritárias de conservação de forma mais completa (Liu et al., 2024). Isso reforça que a biodiversidade relevante para conservação é <strong>multicritério</strong>, não apenas taxonômica.</p>
+</section>
+<section id="biodiversidade-e-conservação" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="biodiversidade-e-conservação"><span class="header-section-number">7</span> Biodiversidade e Conservação</h2>
+<p>A política internacional reconhece explicitamente os níveis <strong>genético, de espécies e de ecossistemas</strong> como alvos de conservação (Coates et al., 2018). Na prática, porém, a gestão ainda se apoia sobretudo em espécies, áreas geográficas e comunidades ecológicas, com menor atenção à diversidade genética (Coates et al., 2018).</p>
+<p>Essa assimetria é importante porque muitas espécies reconhecidas não são geneticamente homogêneas (Coates et al., 2018). Linhagens profundas e populações historicamente isoladas podem carregar diversidade única, e sua perda aumenta o risco de <strong>extinção críptica</strong> (Coates et al., 2018).</p>
+<p>Ao mesmo tempo, dados genômicos trazem uma tensão metodológica: eles aumentam muito a resolução sobre estrutura populacional, mas também podem levar a <strong>sobredelimitação</strong> de espécies se forem interpretados sem cautela (Coates et al., 2018). A literatura recomenda interpretar esses dados de forma conservadora e fortalecer a identificação de unidades intraespecíficas bem justificadas para conservação (Coates et al., 2018).</p>
+</section>
+<section id="a-crise-da-perda-de-biodiversidade" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="a-crise-da-perda-de-biodiversidade"><span class="header-section-number">8</span> A Crise da Perda de Biodiversidade</h2>
+<p>A perda de biodiversidade é um grande desafio global (Hochkirch et al., 2023; Di Marco et al., 2019). As taxas atuais de extinção estão cerca de <strong>1000 vezes</strong> acima da taxa de fundo provável (Pimm et al., 2014).</p>
+<p>Uma parte substancial das espécies avaliadas já está ameaçada (Hochkirch et al., 2023; Kumari et al., 2021). Em uma análise de 14.669 espécies europeias, <strong>19%</strong> estavam ameaçadas de extinção, com risco maior para plantas (<strong>27%</strong>) e invertebrados (<strong>24%</strong>) do que para vertebrados (<strong>18%</strong>) (Hochkirch et al., 2023). Esses valores excederam estimativas recentes usadas em avaliações globais (Hochkirch et al., 2023).</p>
+<p>O conhecimento disponível ainda cobre apenas uma fração da vida na Terra (Pimm et al., 2014; Isbell et al., 2022). Muitas espécies permanecem não descritas, e apenas cerca de <strong>1%</strong> do número estimado de espécies foi avaliado quanto ao risco de extinção pela IUCN nas últimas duas décadas (Pimm et al., 2014; Isbell et al., 2022).</p>
+</section>
+<section id="principais-vetores-de-perda" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="principais-vetores-de-perda"><span class="header-section-number">9</span> Principais Vetores de Perda</h2>
+<p>Mudanças nas práticas agrícolas, perda de habitat associada, sobre-exploração, poluição e desenvolvimento estão entre as principais ameaças à biodiversidade (Hochkirch et al., 2023). Em sínteses mais amplas, a expansão agropecuária, fragmentação, espécies invasoras, monoculturas, poluição e mudança climática aparecem de forma recorrente como motores da erosão da biodiversidade (Kumari et al., 2021; Legge et al., 2023).</p>
+<p>A <strong>perda de habitat</strong> é um dos vetores mais consistentes da crise atual (Gonçalves-Souza et al., 2020). O desmatamento aumentou substancialmente a chance de vertebrados serem classificados como ameaçados, sofrerem reclassificação recente para categorias mais severas ou apresentarem populações em declínio (Betts et al., 2017).</p>
+<p>Esse efeito não se restringe a paisagens já muito fragmentadas (Betts et al., 2017). Em paisagens relativamente intactas, mesmo perdas pequenas de floresta tiveram consequências severas para a biodiversidade de vertebrados (Betts et al., 2017).</p>
+<p>As ameaças também interagem entre si (Gonçalves-Souza et al., 2020). Habitat loss combinada com outros estressores pode produzir mais extinções do que a soma simples dos impactos individuais, o que torna previsões baseadas em um único fator potencialmente conservadoras (Gonçalves-Souza et al., 2020).</p>
+</section>
+<section id="proteção-lacunas-e-prioridades" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="proteção-lacunas-e-prioridades"><span class="header-section-number">10</span> Proteção, Lacunas e Prioridades</h2>
+<p>Embora tenha havido expansão rápida de áreas protegidas, essa rede ainda não representa a biodiversidade de forma ótima (Pimm et al., 2014). Em projeções globais por ecorregiões, houve <strong>baixa sobreposição</strong> entre previsões de extinção e a distribuição atual de áreas protegidas (Gonçalves-Souza et al., 2020).</p>
+<p>Análises em larga escala sugerem que a ameaça futura está concentrada em algumas localidades megadiversas, inclusive fora dos hotspots clássicos (Gonçalves-Souza et al., 2020). Isso indica que estratégias de conservação precisam combinar vulnerabilidade atual, endemismo, irreplaceabilidade e tendências de transformação do uso da terra (Gonçalves-Souza et al., 2020).</p>
+<p>As <strong>áreas selvagens remanescentes</strong> também são centrais para a persistência da biodiversidade (Di Marco et al., 2019). O risco de extinção em comunidades dentro de áreas wilderness foi, em média, <strong>menos da metade</strong> do observado fora delas (Di Marco et al., 2019). Apesar disso, essas áreas seguem pouco protegidas e exigem retenção direcionada, em paralelo à restauração de ambientes degradados (Di Marco et al., 2019).</p>
+</section>
+<section id="dimensões-emergentes" class="level2" data-number="11">
+<h2 data-number="11" class="anchored" data-anchor-id="dimensões-emergentes"><span class="header-section-number">11</span> Dimensões Emergentes</h2>
+<p>A literatura recente mostra que biodiversidade não deve ser reduzida aos três níveis clássicos, embora eles permaneçam a base conceitual mais estável (Liu et al., 2024; Cordero‐Rivera, 2017). Diversidade <strong>funcional</strong>, <strong>filogenética</strong> e <strong>comportamental</strong> ampliam a capacidade de detectar diferenças ecologicamente relevantes entre comunidades (Cordero‐Rivera, 2017; Karahan et al., 2025).</p>
+<p>A proposta de <strong>ethodiversity</strong> argumenta que a variação comportamental é parte negligenciada, mas ecologicamente importante, da biodiversidade (Cordero‐Rivera, 2017). Segundo essa perspectiva, conservar biodiversidade exige ir além da contagem de genes, espécies e ecossistemas, incorporando explicitamente componentes comportamentais (Cordero‐Rivera, 2017).</p>
+</section>
+<section id="síntese-para-a-aula" class="level2" data-number="12">
+<h2 data-number="12" class="anchored" data-anchor-id="síntese-para-a-aula"><span class="header-section-number">12</span> Síntese para a Aula</h2>
+<p>Como aula de abertura em Ecologia de Comunidades, biodiversidade deve ser apresentada como um conceito <strong>multinível, multidimensional e escalonado</strong> (Gaggiotti et al., 2018; Boudouresque, 2014). A mensagem central é que genes, espécies, populações, comunidades e ecossistemas variam conjuntamente, mas nem sempre de forma concordante (Liu et al., 2024; Boudouresque, 2014).</p>
+<p>Também é essencial deixar claro que a biodiversidade não é apenas um inventário naturalista, mas um componente estrutural do funcionamento dos ecossistemas e do bem-estar humano (Johnson et al., 2017; Isbell et al., 2022; Karahan et al., 2025). Por fim, a crise contemporânea de perda biológica é rápida, espacialmente desigual e impulsionada por múltiplos vetores antrópicos, o que exige conservação integrada e baseada em diferentes dimensões da diversidade (Pimm et al., 2014; Hochkirch et al., 2023; Johnson et al., 2017).</p>
+</section>
+<section id="referências" class="level2" data-number="13">
+<h2 data-number="13" class="anchored" data-anchor-id="referências"><span class="header-section-number">13</span> Referências</h2>
+<ul>
+<li>Bateman I, Balmford A. <em>Current conservation policies risk accelerating biodiversity loss</em>. Nature (2023). Link: https://doi.org/<br>
+</li>
+<li>Betts MG, Wolf C, Ripple WJ, et al.&nbsp;<em>Global forest loss disproportionately erodes biodiversity in intact landscapes</em>. Nature (2017). Link: https://doi.org/10.1038/nature23285</li>
+<li>Boudouresque CF. <em>Insights into the diversity of the biodiversity concept</em> (2014). Link: https://doi.org/</li>
+<li>Coates DJ, Byrne M, Moritz C. <em>Genetic Diversity and Conservation Units: Dealing With the Species-Population Continuum in the Age of Genomics</em>. Frontiers in Ecology and Evolution (2018). Link: https://doi.org/10.3389/fevo.2018.00165</li>
+<li>Cordero-Rivera A. <em>Behavioral Diversity (Ethodiversity): A Neglected Level in the Study of Biodiversity</em>. Frontiers in Ecology and Evolution (2017). Link: https://doi.org/10.3389/fevo.2017.00007</li>
+<li>Di Marco M, Ferrier S, Harwood TD, Hoskins AJ, Watson JEM. <em>Wilderness areas halve the extinction risk of terrestrial biodiversity</em>. Nature (2019). Link: https://doi.org/10.1038/s41586-019-1567</li>
+</ul>
+<p><em>These search results were found and analyzed using Consensus, an AI-powered search engine for research. Try it at https://consensus.app. © 2026 Consensus NLP, Inc.&nbsp;Personal, non-commercial use only; redistribution requires copyright holders’ consent.</em></p>
+</section>
+<section id="references" class="level2" data-number="14">
+<h2 data-number="14" class="anchored" data-anchor-id="references"><span class="header-section-number">14</span> References</h2>
+<p>Betts, M., Wolf, C., Ripple, W., Phalan, B., Millers, K. A., Duarte, A., Butchart, S., &amp; Levi, T. (2017). Global forest loss disproportionately erodes biodiversity in intact landscapes. <em>Nature, 547</em>, 441-444. https://doi.org/10.1038/nature23285</p>
+<p>Boudouresque, C. (2014). Insights into the diversity of the biodiversity concept.</p>
+<p>Coates, D., Byrne, M., &amp; Moritz, C. (2018). Genetic Diversity and Conservation Units: Dealing With the Species-Population Continuum in the Age of Genomics. <em>Frontiers in Ecology and Evolution</em>. https://doi.org/10.3389/fevo.2018.00165</p>
+<p>Cordero‐Rivera, A. (2017). Behavioral Diversity (Ethodiversity): A Neglected Level in the Study of Biodiversity. <em>Frontiers in Ecology and Evolution, 5</em>. https://doi.org/10.3389/fevo.2017.00007</p>
+<p>Di Marco, M., Ferrier, S., Harwood, T., Hoskins, A., &amp; Watson, J. (2019). Wilderness areas halve the extinction risk of terrestrial biodiversity. <em>Nature, 573</em>, 582 - 585. https://doi.org/10.1038/s41586-019-1567-7</p>
+<p>Fargeot, L., Poésy, C., Lefort, M., Prunier, J. G., Krick, M., Verdonck, R., Veyssière, C., Richard, M., Legrand, D., Loot, G., &amp; Blanchet, S. (2025). Genetic diversity affects ecosystem functions across trophic levels as much as species diversity, but in an opposite direction. <em>eLife, 13</em>. https://doi.org/10.1101/2024.03.27.586944</p>
+<p>Gaggiotti, O., Chao, A., Peres‐Neto, P., Chiu, C., Edwards, C., Fortin, M., Jost, L., Richards, C., &amp; Selkoe, K. (2018). Diversity from genes to ecosystems: A unifying framework to study variation across biological metrics and scales. <em>Evolutionary Applications, 11</em>, 1176 - 1193. https://doi.org/10.1111/eva.12593</p>
+<p>Gonçalves-Souza, D., Verburg, P., &amp; Dobrovolski, R. (2020). Habitat loss, extinction predictability and conservation efforts in the terrestrial ecoregions. <em>Biological Conservation</em>. https://doi.org/10.1016/j.biocon.2020.108579</p>
+<p>Guo, G. (2022). Review of Habitat Loss and Biodiversity in Poyang Lake Region. <em>Proceedings of the 2022 International Conference on Urban Planning and Regional Economy（UPRE 2022）</em>. https://doi.org/10.2991/aebmr.k.220502.096</p>
+<p>Hochkirch, A., Bilz, M., Ferreira, C., Danielczak, A., Allen, D., Nieto, A., Rondinini, C., Harding, K., Hilton‐Taylor, C., Pollock, C., Seddon, M., Vié, J., Alexander, K., Beech, E., Biscoito, M., Braud, Y., Burfield, I., Buzzetti, F. M., Cálix, M., . . . Zuna-Kratky, T. (2023). A multi-taxon analysis of European Red Lists reveals major threats to biodiversity. <em>PLOS ONE, 18</em>. https://doi.org/10.1371/journal.pone.0293083</p>
+<p>Isbell, F., Balvanera, P., Mori, A. S., He, J., Bullock, J., Regmi, G. R., Seabloom, E., Ferrier, S., Sala, O., Guerrero‐Ramírez, N. R., Tavella, J., Larkin, D., Schmid, B., Outhwaite, C. L., Pramual, P., Borer, E., Loreau, M., Omotoriogun, T., Obura, D., . . . Palmer, M. (2022). Expert perspectives on global biodiversity loss and its drivers and impacts on people. <em>Frontiers in Ecology and the Environment</em>. https://doi.org/10.1002/fee.2536</p>
+<p>Johnson, C. N., Balmford, A., Brook, B., Buettel, J., Galetti, M., Lei, G., &amp; Wilmshurst, J. (2017). Biodiversity losses and conservation responses in the Anthropocene. <em>Science, 356</em>, 270 - 275. https://doi.org/10.1126/science.aam9317</p>
+<p>Karahan, A., Durgut, B., Iannucci, S., Turicchia, E., Ponti, M., Ivanova, P., Dzhembekova, N., &amp; Rinkevich, B. (2025). MAF biodiversity measurements: Species, ecosystem, and genetic. <em>Open Research Europe</em>. https://doi.org/10.12688/openreseurope.20835.1</p>
+<p>Kumari, R., A., D., &amp; Bhatnagar, S. (2021). Biodiversity Loss: Threats and Conservation Strategies. <em>International Journal of Pharmaceutical Sciences Review and Research</em>. https://doi.org/10.47583/ijpsrr.2021.v68i01.037</p>
+<p>Legge, S., Rumpff, L., Garnett, S., &amp; Woinarski, J. (2023). Loss of terrestrial biodiversity in Australia: Magnitude, causation, and response. <em>Science, 381</em>, 622 - 631. https://doi.org/10.1126/science.adg7870</p>
+<p>Liu, Y., Wang, J., Wu, Z., Li, S., &amp; Dai, W. (2024). Identification of biodiversity priority conservation areas in China by integrating genetic, species and ecosystem diversity. <em>Biological Conservation</em>. https://doi.org/10.1016/j.biocon.2024.110854</p>
+<p>Moreno, C. (2001). Métodos para medir la biodiversidad.</p>
+<p>Pimm, S., Jenkins, C. N., Abell, R., Brooks, T., Gittleman, J. L., Joppa, L., Raven, P., Roberts, C., &amp; Sexton, J. (2014). The biodiversity of species and their rates of extinction, distribution, and protection. <em>Science, 344</em>. https://doi.org/10.1126/science.1246752</p>
+<p>Wang, E. T., &amp; Young, J. (2019). History of Rhizobial Taxonomy. <em>Ecology and Evolution of Rhizobia</em>. https://doi.org/10.1007/978-981-32-9555-1_2</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/SEU-USUARIO\.github\.io\/NOME-DO-REPOSITORIO\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Conteúdo © 2026 por <a href="https://SEU-SITE.org/">Prof.&nbsp;NOME COMPLETO</a><br> Licenciado sob <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Feito com <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO">Ver código-fonte no GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

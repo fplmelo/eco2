@@ -1,0 +1,45 @@
+---
+title: "Semana 1"
+subtitle: "Tema da primeira aula"
+author: "Prof(a). NOME COMPLETO"
+format:
+  revealjs:
+    theme: [default, ../custom.scss]
+    slide-number: true
+    chalkboard: false
+    logo: ../img/logo_curso.png
+    footer: "NOME DA DISCIPLINA — UFPE 2026.1"
+    transition: slide
+    incremental: false
+---
+
+## Objetivos da aula {.center}
+
+- Ponto-chave 1
+- Ponto-chave 2
+- Ponto-chave 3
+
+---
+
+## Tópico 1
+
+Conteúdo do tópico 1.
+
+---
+
+## Tópico 2
+
+Conteúdo do tópico 2.
+
+---
+
+## Atividade prática
+
+Descreva aqui a atividade prática desta aula.
+
+---
+
+## Referências {.smaller}
+
+- Referência 1
+- Referência 2

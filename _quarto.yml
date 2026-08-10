@@ -1,0 +1,78 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!slides/"
+
+website:
+  title: "INT0158 - Ecologia 2"
+  site-url: "https://fplmelo.github.io/eco2/"
+  description: "Disciplina de graduação — Departamento de Botânica, Centro de Biociências, UFPE"
+  favicon: img/favicon.png
+  page-navigation: true
+  bread-crumbs: false
+
+  navbar:
+    background: primary
+    logo: img/logo_branco_ufpe.png
+    title: false
+    left:
+      - text: "Início"
+        href: index.qmd
+      - text: "Ementa"
+        href: syllabus.qmd
+      - text: "Cronograma"
+        href: schedule.qmd
+      - text: "R Intro"
+        menu:
+          - text: "1 - Instalar R & RStudio"
+            href: get-started/1-install.qmd
+          - text: "2 - Introdução Básica ao R e RStudio"
+            href: get-started/2-basic-intro.qmd
+          - text: "3 - Sintaxe & Estrutura de Dados"
+            href: get-started/3-syntax.qmd
+          - text: "4 - Funções e Comandos"
+            href: get-started/4-functions.qmd
+          - text: "5 - Dados em R"
+            href: get-started/5-data.qmd
+          - text: "6 - Seu próprio site"
+            href: workbook/workbook.qmd
+      - text: "Todas as Aulas"
+        href: sessions/index.qmd
+      - text: "Exercícios"
+        href: exercises/index.qmd
+      - text: "Recursos"
+        href: resources/index.qmd
+      - text: "Avaliação"
+        href: assessment.qmd
+    right:
+      - icon: github
+        href: https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO
+        aria-label: GitHub
+
+  page-footer:
+    left: |
+      Conteúdo © 2026 por [Prof. NOME COMPLETO](https://SEU-SITE.org/)<br>
+      Licenciado sob [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
+    right: |
+      Feito com [Quarto](https://quarto.org/)<br>
+      [Ver código-fonte no GitHub](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO)
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    lang: pt-BR
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 250px
+
+lang: pt-BR
+
+execute:
+  freeze: auto

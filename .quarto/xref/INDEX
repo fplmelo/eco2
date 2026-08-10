@@ -1,0 +1,47 @@
+{
+  "index.qmd": {
+    "index.html": "772e3859"
+  },
+  "syllabus.qmd": {
+    "syllabus.html": "4030975d"
+  },
+  "week01.qmd": {
+    "week01.html": "efd985b6"
+  },
+  "assessment.qmd": {
+    "assessment.html": "bd7a0a87"
+  },
+  "exercises/index.qmd": {
+    "index.html": "f4638b85"
+  },
+  "get-started/1-install.qmd": {
+    "1-install.html": "cc8a0052"
+  },
+  "get-started/2-basic-intro.qmd": {
+    "2-basic-intro.html": "fc4b947c"
+  },
+  "get-started/3-syntax.qmd": {
+    "3-syntax.html": "9c711aee"
+  },
+  "get-started/4-functions.qmd": {
+    "4-functions.html": "d4f796a6"
+  },
+  "get-started/5-data.qmd": {
+    "5-data.html": "34761e30"
+  },
+  "resources/index.qmd": {
+    "index.html": "c86d8356"
+  },
+  "schedule.qmd": {
+    "schedule.html": "79fd27c0"
+  },
+  "sessions/index.qmd": {
+    "index.html": "291a87fa"
+  },
+  "workbook/workbook.qmd": {
+    "workbook.html": "91713366"
+  },
+  "sessions/week01.qmd": {
+    "week01.html": "3cca47cc"
+  }
+}

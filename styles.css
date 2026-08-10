@@ -1,0 +1,22 @@
+/* Ajustes finos que não cabem no SCSS do tema */
+
+.week-tag {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background-color: #eef4ee;
+  color: #2c5f2d;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle-course {
+  font-size: 1.2rem;
+  color: #555555;
+  margin-top: -0.5rem;
+}
+
+table.tabela-cronograma td, table.tabela-cronograma th {
+  vertical-align: top;
+}

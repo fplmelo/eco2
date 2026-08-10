@@ -1,0 +1,26 @@
+---
+title: "Avaliação"
+---
+
+## Composição da nota
+
+| Instrumento | Peso |
+|:---|:---:|
+| Avaliação parcial | 30% |
+| Exercícios/Listas | 20% |
+| Projeto/Seminário final | 30% |
+| Participação | 20% |
+
+## Descrição dos instrumentos
+
+### Avaliação parcial
+
+Descreva formato (prova escrita, take-home, etc.), data e conteúdo.
+
+### Projeto/Seminário final
+
+Descreva o projeto semestral, critérios e cronograma de entregas.
+
+## Política de prazos e reposição
+
+Descreva a política de atrasos, faltas e provas de reposição, conforme normas da UFPE.

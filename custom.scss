@@ -1,0 +1,52 @@
+/*-- scss:defaults --*/
+
+// Paleta base — ajuste $primary para a cor-tema da disciplina
+$primary:   #2c5f2d;   // verde — troque por cor institucional/tema do curso
+$body-bg:   #ffffff;
+$body-color: #1a1a1a;
+$link-color: $primary;
+
+$font-family-sans-serif: "Atkinson Hyperlegible", "Segoe UI", Roboto, sans-serif;
+$font-family-monospace: "Fira Code", "Source Code Pro", monospace;
+
+$navbar-bg: $primary;
+$navbar-fg: #ffffff;
+$navbar-hl: #ffffff;
+
+/*-- scss:rules --*/
+
+body {
+  background-color: $body-bg;
+  color: $body-color;
+}
+
+.navbar-title {
+  font-weight: 700;
+}
+
+h1, h2, h3 {
+  color: $primary;
+  font-weight: 600;
+}
+
+.card-aula {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  background-color: #fafafa;
+}
+
+.card-aula h3 {
+  margin-top: 0;
+}
+
+blockquote {
+  border-left: 4px solid $primary;
+  padding-left: 1rem;
+  color: #333333;
+}
+
+.callout {
+  border-radius: 6px;
+}
