@@ -135,16 +135,6 @@ Biodiversidade é um conceito **multinível, multidimensional e escalonado**. A 
 
 :::
 
-## Referências
-
-- Bateman I, Balmford A. *Current conservation policies risk accelerating biodiversity loss*. Nature (2023). Link: https://doi.org/  
-- Betts MG, Wolf C, Ripple WJ, et al. *Global forest loss disproportionately erodes biodiversity in intact landscapes*. Nature (2017). Link: https://doi.org/10.1038/nature23285
-- Coates DJ, Byrne M, Moritz C. *Genetic Diversity and Conservation Units: Dealing With the Species-Population Continuum in the Age of Genomics*. Frontiers in Ecology and Evolution (2018). Link: https://doi.org/10.3389/fevo.2018.00165
-- Cordero-Rivera A. *Behavioral Diversity (Ethodiversity): A Neglected Level in the Study of Biodiversity*. Frontiers in Ecology and Evolution (2017). Link: https://doi.org/10.3389/fevo.2017.00007
-- Di Marco M, Ferrier S, Harwood TD, Hoskins AJ, Watson JEM. *Wilderness areas halve the extinction risk of terrestrial biodiversity*. Nature (2019). Link: https://doi.org/10.1038/s41586-019-1567
- 
-_These search results were found and analyzed using Consensus, an AI-powered search engine for research. Try it at https://consensus.app. © 2026 Consensus NLP, Inc. Personal, non-commercial use only; redistribution requires copyright holders’ consent._
- 
 ## References
  
 Betts, M., Wolf, C., Ripple, W., Phalan, B., Millers, K. A., Duarte, A., Butchart, S., & Levi, T. (2017). Global forest loss disproportionately erodes biodiversity in intact landscapes. *Nature, 547*, 441-444. https://doi.org/10.1038/nature23285
