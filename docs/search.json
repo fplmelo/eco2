@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "INT0158 - ECOLOGIA 2",
+    "objectID": "sessions/index.html",
+    "href": "sessions/index.html",
+    "title": "Todas as Aulas",
     "section": "",
-    "text": "INT0158 - ECOLOGIA 2\n2026.2\nCentro de Biociências\nUniversidade Federal de Pernambuco\n\n\n\n\n\n\nProf. Felipe Melo\nDepartamento de Botânica, Centro de Biociências\nfelipe.plmelo@ufpe.br\n\n\n\n\n\n\nDia(s) da semana: QUINTAS-FEIRAS\nPeríodo: 2026.2\nHorário: 10-13h\nLocal: Sala 06, CB-UFPE\n\n\n\n\n\n\nEste curso se baseia em duas principais ferramentas: 1) este site e; 2) Google Sala de Aula onde as tarefas devem ser submetidas.\n\n\n\nEste ambiente será um apoio fundamental para o aprendizado durante a disciplina, especialmente no módulo de Ecologia de Comunidades"
-  },
-  {
-    "objectID": "index.html#bem-vind",
-    "href": "index.html#bem-vind",
-    "title": "INT0158 - ECOLOGIA 2",
-    "section": "",
-    "text": "Este ambiente será um apoio fundamental para o aprendizado durante a disciplina, especialmente no módulo de Ecologia de Comunidades"
+    "text": "Aqui você encontra o material completo (texto e slides) de cada aula, em ordem cronológica.\n\n\n\n\n\n\n\n\n\n\n\nSemana 1 — Introdução à Biodiversidade\n\n\n\n\n\nSem itens correspondentes"
   },
   {
     "objectID": "syllabus.html",
@@ -63,11 +56,1446 @@
     "text": "Critérios de avaliação\nVer página de Avaliação para detalhes."
   },
   {
-    "objectID": "sessions/week01.html",
-    "href": "sessions/week01.html",
-    "title": "Aula 1 — Introdução à Biodiversidade",
+    "objectID": "assessment.html",
+    "href": "assessment.html",
+    "title": "Avaliação",
     "section": "",
-    "text": "Biodiversidade é a variedade da vida em diferentes níveis de organização, dos genes aos ecossistemas, e constitui um conceito central para as ciências da vida e para a conservação (Gaggiotti et al., 2018; Boudouresque, 2014; Moreno, 2001). As definições mais aceitas convergem para três níveis fundamentais — diversidade genética, diversidade de espécies e diversidade de ecossistemas — embora vários autores também defendam a inclusão explícita de dimensões funcionais, filogenéticas e comportamentais (Liu et al., 2024; Coates et al., 2018; Cordero‐Rivera, 2017; Boudouresque, 2014).\nA biodiversidade é um conceito hierárquico e multidimensional, e isso torna inadequado descrevê-la por uma única métrica (Gaggiotti et al., 2018; Boudouresque, 2014). Diferentes medidas capturam componentes distintos da variação biológica, de modo que avaliações robustas dependem de abordagens integradas (Gaggiotti et al., 2018; Boudouresque, 2014; Karahan et al., 2025)."
+    "text": "Instrumento\nPeso\n\n\n\n\nAvaliação parcial\n30%\n\n\nExercícios/Listas\n20%\n\n\nProjeto/Seminário final\n30%\n\n\nParticipação\n20%"
+  },
+  {
+    "objectID": "assessment.html#composição-da-nota",
+    "href": "assessment.html#composição-da-nota",
+    "title": "Avaliação",
+    "section": "",
+    "text": "Instrumento\nPeso\n\n\n\n\nAvaliação parcial\n30%\n\n\nExercícios/Listas\n20%\n\n\nProjeto/Seminário final\n30%\n\n\nParticipação\n20%"
+  },
+  {
+    "objectID": "assessment.html#descrição-dos-instrumentos",
+    "href": "assessment.html#descrição-dos-instrumentos",
+    "title": "Avaliação",
+    "section": "Descrição dos instrumentos",
+    "text": "Descrição dos instrumentos\n\nAvaliação parcial\nDescreva formato (prova escrita, take-home, etc.), data e conteúdo.\n\n\nProjeto/Seminário final\nDescreva o projeto semestral, critérios e cronograma de entregas."
+  },
+  {
+    "objectID": "assessment.html#política-de-prazos-e-reposição",
+    "href": "assessment.html#política-de-prazos-e-reposição",
+    "title": "Avaliação",
+    "section": "Política de prazos e reposição",
+    "text": "Política de prazos e reposição\nDescreva a política de atrasos, faltas e provas de reposição, conforme normas da UFPE."
+  },
+  {
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Recursos",
+    "section": "",
+    "text": "R\nRStudio\nQGIS (se aplicável)"
+  },
+  {
+    "objectID": "resources/index.html#softwares",
+    "href": "resources/index.html#softwares",
+    "title": "Recursos",
+    "section": "",
+    "text": "R\nRStudio\nQGIS (se aplicável)"
+  },
+  {
+    "objectID": "resources/index.html#bases-de-dados",
+    "href": "resources/index.html#bases-de-dados",
+    "title": "Recursos",
+    "section": "Bases de dados",
+    "text": "Bases de dados\n\nMapBiomas\nOutras bases relevantes ao tema da disciplina"
+  },
+  {
+    "objectID": "resources/index.html#leituras-complementares",
+    "href": "resources/index.html#leituras-complementares",
+    "title": "Recursos",
+    "section": "Leituras complementares",
+    "text": "Leituras complementares\n\nLinks e referências gerais que não pertencem a uma semana específica"
+  },
+  {
+    "objectID": "resources/index.html#comunidades-e-redes",
+    "href": "resources/index.html#comunidades-e-redes",
+    "title": "Recursos",
+    "section": "Comunidades e redes",
+    "text": "Comunidades e redes\n\nABECO, ReCaa, OCEAL, ou outras redes relevantes ao tema"
+  },
+  {
+    "objectID": "workbook/workbook.html",
+    "href": "workbook/workbook.html",
+    "title": "Seu próprio site",
+    "section": "",
+    "text": "Guia passo a passo para que cada aluno(a) crie seu próprio site Quarto pessoal/de portfólio, hospedado no GitHub Pages — útil para relatórios de disciplina e projetos futuros."
+  },
+  {
+    "objectID": "workbook/workbook.html#objetivo",
+    "href": "workbook/workbook.html#objetivo",
+    "title": "Seu próprio site",
+    "section": "",
+    "text": "Guia passo a passo para que cada aluno(a) crie seu próprio site Quarto pessoal/de portfólio, hospedado no GitHub Pages — útil para relatórios de disciplina e projetos futuros."
+  },
+  {
+    "objectID": "workbook/workbook.html#passo-a-passo",
+    "href": "workbook/workbook.html#passo-a-passo",
+    "title": "Seu próprio site",
+    "section": "Passo a passo",
+    "text": "Passo a passo\n\nCriar uma conta no GitHub\nInstalar o Quarto\nCriar um novo projeto de site (quarto create-project meu-site --type website)\nPublicar no GitHub Pages (quarto publish gh-pages)"
+  },
+  {
+    "objectID": "workbook/workbook.html#recursos-úteis",
+    "href": "workbook/workbook.html#recursos-úteis",
+    "title": "Seu próprio site",
+    "section": "Recursos úteis",
+    "text": "Recursos úteis\n\nDocumentação oficial do Quarto\nGuia de GitHub Pages"
+  },
+  {
+    "objectID": "slides/avaliacao_ecologia_geral2.html",
+    "href": "slides/avaliacao_ecologia_geral2.html",
+    "title": "Avaliação Final — Ecologia Geral 2",
+    "section": "",
+    "text": "Universidade Federal de Pernambuco · Departamento de Botânica · CB\n  \n  Ecologia Geral 2 — Ecologia de Comunidades & Aplicações\n  Semestre 2026.1  ·  Avaliação Presencial com Consulta Prévia  ·  Valor: 10,0 pontos"
+  },
+  {
+    "objectID": "slides/avaliacao_ecologia_geral2.html#instruções-gerais",
+    "href": "slides/avaliacao_ecologia_geral2.html#instruções-gerais",
+    "title": "Avaliação Final — Ecologia Geral 2",
+    "section": "Instruções Gerais",
+    "text": "Instruções Gerais\n\nLeia com atenção antes de começar.\n\nEsta avaliação é individual e deve ser estudada antes para ser respondida na pŕoxima quianta-feira dia 18 de Junho de 2026. Você poderá consultar livros, artigos e anotações de aula, estude mesmo mas em casa. Você terá que escrver com suas palavras e não poderá usar anotações no dia da prova. \n\n\n\n⚠️ Sobre autoria e integridade acadêmica: As respostas devem refletir sua própria compreensão, articulação e raciocínio. Respostas excessivamente genéricas, sem ancoragem no cenário proposto, ou que não demonstrem capacidade de aplicar os conceitos de forma contextualizada, não receberão pontuação integral — independentemente da fluência textual. Eu vou avaliar como você pensa, não apenas o que você escreve.\n\nCritérios de avaliação por questão:\n\n\n\n\n\n\n\nDimensão\nO que será observado\n\n\n\n\nPrecisão conceitual\nUso correto e rigoroso de termos, definições e princípios ecológicos\n\n\nAplicação\nCapacidade de relacionar conceitos ao cenário e à região neotropical\n\n\nRaciocínio abstrato\nElaboração de hipóteses, relações causais e inferências não triviais\n\n\nProfundidade\nIntegração entre tópicos, citação de mecanismos e discussão de nuances"
+  },
+  {
+    "objectID": "slides/avaliacao_ecologia_geral2.html#o-cenário",
+    "href": "slides/avaliacao_ecologia_geral2.html#o-cenário",
+    "title": "Avaliação Final — Ecologia Geral 2",
+    "section": "O Cenário",
+    "text": "O Cenário\n\nVocê é pesquisador(a) recém-contratado(a) pelo Programa de Restauração dos Biomas de Pernambuco, vinculado à UFPE. Seu primeiro projeto envolve uma área de 800 hectares no Agreste pernambucano, uma zona de transição entre a Caatinga e a Mata Atlântica — faixa denominada localmente como “Mata Seca de Brejos de Altitude”.\n\nOs brejos de altitude são “ilhas” de floresta úmida (Mata Atlântica) encravadas na região semiárida do Nordeste brasileiro (Caatinga). A sua origem biogeográfica e a rica biodiversidade que abrigam são explicadas principalmente por flutuações climáticas históricas ocorridas durante o período Quaternário (especialmente no Pleistoceno).\nO processo biogeográfico baseia-se nos seguintes pontos principais:\n1. Teoria dos Refúgios Florestais e Flutuações Climáticas Durante as fases glaciais do Quaternário, o clima global tornou-se mais frio e seco. No Nordeste do Brasil, a caatinga se expandiu, e as florestas úmidas (que antes ocupavam áreas contínuas) retraíram-se, sobrevivendo apenas em refúgios isolados no topo de serras e planaltos (geralmente acima de 500 a 600 metros de altitude). Nessas altitudes, o relevo provoca chuvas orográficas e mantém temperaturas mais amenas e maior umidade, permitindo a sobrevivência da vegetação florestal.\nNas fases interglaciais (mais quentes e úmidas), as florestas se expandiam a partir desses refúgios, chegando a se reconectar temporariamente com as florestas costeiras e amazônicas.\n2. Conexões Históricas (Pontes Biogeográficas) A biota dos brejos de altitude revela uma origem mista, evidenciando que essas ilhas de mata estiveram conectadas a dois grandes blocos florestais sul-americanos:\nMata Atlântica Costeira: É a influência biogeográfica predominante. A proximidade geográfica facilitou conexões frequentes durante os períodos mais úmidos, explicando por que a maior parte das espécies de plantas, aves e anfíbios dos brejos é compartilhada com a floresta costeira.\nAmazônia: Diversos estudos taxonômicos (de plantas, borboletas e aves) identificam espécies que são disjunções amazônicas. Isso sugere a existência de “corredores” antigos de floresta úmida que cortavam o atual semiárido, interligando a Amazônia ao Nordeste do Brasil em períodos passados de umidade extrema.\n3. Isolamento e Endemismo O subsequente retorno do clima seco (como o observado atualmente) isolou novamente essas florestas no topo das serras, cercadas pelo “mar” de Caatinga. Esse isolamento prolongado funcionou como um laboratório evolutivo:\nAlgumas espécies de climas úmidos ficaram ilhadas e adaptaram-se localmente.\nO isolamento geográfico impediu o fluxo gênico com as populações da costa ou da Amazônia, levando ao surgimento de espécies endêmicas (exclusivas) de animais e plantas em determinados brejos.\nEm resumo, os brejos de altitude são relíquias biogeográficas de antigas florestas contínuas, cuja origem e composição atual resultam da dinâmica de expansão, retração, isolamento e conexão florestal moldada pelas mudanças climáticas do passado.\nA região apresenta o seguinte histórico de uso da terra:\n\nDécadas de 1970–1990: pecuária extensiva e exploração madeireira, com supressão quase total da vegetação nativa.\n1990–2010: abandono gradual das atividades econômicas; recolonização espontânea por espécies pioneiras (principalmente Croton spp. e gramíneas exóticas como Melinis minutiflora).\n2010–2020: tentativas pontuais de restauração ativa sem planejamento baseado em evidências.\n2020–presente: monitoramento contínuo de parcelas permanentes, coleta de dados de solo, clima, diversidade florística e fauna de polinizadores e dispersores.\n\nOs dados preliminares indicam: alta variabilidade espacial de solos (desde latossolos profundos nas cotas mais altas até solos rasos e rochosos em encostas), dois gradientes climáticos marcados (altitude e continentalidade), e fragmentação severa da paisagem, com a área de estudo situada entre dois remanescentes de vegetação nativa a 12 km de distância.\n\n\nImportante: Todas as questões devem ser respondidas tendo este cenário como ponto de partida. Respostas dissociadas do contexto apresentado não receberão pontuação máxima."
+  },
+  {
+    "objectID": "slides/avaliacao_ecologia_geral2.html#questões",
+    "href": "slides/avaliacao_ecologia_geral2.html#questões",
+    "title": "Avaliação Final — Ecologia Geral 2",
+    "section": "Questões",
+    "text": "Questões\n\nQuestão 1 · Bases teóricas de comunidades\nA natureza da comunidade: entre a integração e o individualismo\nAo iniciar o mapeamento florístico da área, você e sua equipe observam que a distribuição das espécies lenhosas não forma agrupamentos discretos e bem delimitados ao longo do gradiente altitudinal — em vez disso, cada espécie parece atingir seu pico de abundância em pontos distintos do gradiente, com sobreposições amplas entre elas.\n(a) Esse padrão é mais consistente com a visão clementsiana (superorganismo) ou com a visão gleassoniana (continuum individualístico) de comunidade? Justifique sua resposta com base no que foi observado, explicando os pressupostos e as implicações práticas de cada perspectiva para o manejo desta área. (1,5 pt)\n(b) Considerando que, ao mesmo tempo, você observa certas combinações de espécies que se repetem de forma não aleatória em microsítios de solo similar — como você integraria essa evidência com sua resposta ao item (a)? Que abordagem teórica contemporânea permitiria acomodar ambos os padrões simultaneamente? (1,0 pt)\n\n  Precisão conceitual\n  Raciocínio abstrato\n  Profundidade\n\nValor total: 2,5 pt\n\n\n\nQuestão 2 · Comunidades no espaço e no tempo\nBiogeografia de ilhas e a fragmentação como laboratório\nA área de estudo pode ser interpretada como arquipélagos de habitats em uma matriz de pastagem degradada.\n(a) Aplique os princípios da Teoria da Biogeografia de Ilhas (TBI) de MacArthur & Wilson para descrever a dinâmica esperada de riqueza de espécies de aves florestais nos brejos de altitude considerando que a restauração promovida por sua equipe aumenta a conectividade das manchas de brejo. Considere explicitamente os parâmetros de área, distância e taxas de colonização e extinção em sua análise hipotética. (1,5 pt)\n(b) Um colega sugere que a TBI é insuficiente para explicar a montagem de comunidades em paisagens fragmentadas como essa e propõe usar a A spintese Moderna da Ecologia de Comunidades (Vellend 2010) e as métricas de diversidade alfa, beta e gama. Em que aspectos específicos essa abordagem agrega informação que a TBI não contempla? Combine as duas abordagens para explicar a distribuição da diversidade entre os brejos de altitude. (1,0 pt)\n\n  Precisão conceitual\n  Aplicação\n  Profundidade\n\nValor total: 2,5 pt\n\n\n\nQuestão 3 · Determinantes abióticos da montagem de comunidades\nSolo e clima como filtros da comunidade\nOs dados de solo coletados nas parcelas permanentes revelam que, nas encostas rochosas (solos rasos, pH ácido, baixo teor de P), a cobertura vegetal é dominada por cactáceas e bromeliáceas terrestres, enquanto nas cotas mais altas (latossolos profundos, maior umidade edáfica) predominam espécies arbóreas de folhas largas com alta área foliar específica (AFE).\n(a) Utilizando o conceito de filtros abióticos e espaço de nicho, explique de que forma as propriedades do solo e o microclima estão atuando como filtros na montagem das comunidades vegetais observadas. Diferencie claramente o papel do filtro de habitat do papel da limitação de dispersão para os padrões descritos. (1,5 pt)\n(b) Questão-problema: Se você introduzir artificialmente mudas de uma espécie arbórea de alto dossel — típica da Mata Atlântica — nos microsítios rochosos com solos rasos, qual seria sua previsão sobre o estabelecimento a longo prazo dessa espécie? Desenvolva seu raciocínio mencionando ao menos dois processos ecológicos distintos que atuariam sobre essas plantas nos primeiros 5 anos. (1,0 pt)\n\n  Precisão conceitual\n  Aplicação\n  Raciocínio abstrato\n\nValor total: 2,5 pt\n\n\n\nQuestão 4 · Sucessão Ecológica\nTrajetórias sucessionais em um sistema perturbado\nOs dados de monitoramento das parcelas entre 2010 e 2025 mostram que, em metade das parcelas abandonadas, a comunidade vegetal evoluiu de gramíneas exóticas para um estágio dominado por arbustos nativos (Croton, Mimosa, Cnidoscolus). Na outra metade, a cobertura de Melinis minutiflora permaneceu dominante por mais de 12 anos, sem sinais de substituição.\n(a) Identifique e nomeie o fenômeno que está impedindo a sucessão nas parcelas com persistência da gramínea exótica. Como ele pode ser explicado à luz da teoria de estados alternativos estáveis? (1,0 pt)\n(b) Considerando os modelos clássicos de sucessão (Facilitação, Tolerância, Inibição), em qual(is) modelo(s) cada uma das duas trajetórias observadas (substituição vs. persistência da gramínea) melhor se encaixa? Justifique com base nos mecanismos subjacentes. (1,0 pt)\n(c) Proponha uma única intervenção de manejo — fundamentada ecologicamente — que poderia “desbloquear” a trajetória sucessional nas parcelas estagnadas. Explique o mecanismo ecológico pelo qual essa intervenção agiria. (0,5 pt)\n\n  Precisão conceitual\n  Aplicação\n  Raciocínio abstrato\n  Profundidade\n\nValor total: 2,5 pt"
+  },
+  {
+    "objectID": "slides/avaliacao_ecologia_geral2.html#distribuição-de-pontos",
+    "href": "slides/avaliacao_ecologia_geral2.html#distribuição-de-pontos",
+    "title": "Avaliação Final — Ecologia Geral 2",
+    "section": "Distribuição de Pontos",
+    "text": "Distribuição de Pontos\n\n\n\nQuestão\nTema principal\nPontos\n\n\n\n\nQ1 (a+b)\nBases teóricas de comunidades\n2,5\n\n\nQ2 (a+b)\nBiogeografia e metacomunidades\n2,5\n\n\nQ3 (a+b)\nFiltros abióticos (solo e clima)\n2,5\n\n\nQ4 (a+b+c)\nSucessão ecológica\n2,5\n\n\nTotal\n\n10,0\n\n\n\n\n\n  Universidade Federal de Pernambuco · Departamento de Botânica · Centro de Biociências\n  Disciplina: Ecologia Geral 2 · Semestre 2025.2"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#variáveis-atmosféricas-e-padrões-de-diversidade",
+    "href": "slides/clima_solo_vegetacao.html#variáveis-atmosféricas-e-padrões-de-diversidade",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Variáveis atmosféricas e padrões de diversidade",
+    "text": "Variáveis atmosféricas e padrões de diversidade"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#por-que-começar-pelo-clima",
+    "href": "slides/clima_solo_vegetacao.html#por-que-começar-pelo-clima",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Por que começar pelo clima?",
+    "text": "Por que começar pelo clima?\n\nO clima é o filtro primário que determina quais organismos podem existir em um dado lugar — antes do solo, antes das interações bióticas.\n\n\n\nClima define:\n\nLimites fisiológicos das espécies\nProdutividade primária líquida\nFenologia\nRegimes de distúrbio (seca, fogo, geada)\n\n\nHierarquia de filtros ecológicos:\n  CLIMA\n    │ filtra\n  SOLO ◄──── formado em parte pelo clima\n    │ filtra\n  VEGETAÇÃO ◄── estrutura o microclima\n    │ filtra\n  COMUNIDADE LOCAL"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#energia-água-e-o-triângulo-da-diversidade",
+    "href": "slides/clima_solo_vegetacao.html#energia-água-e-o-triângulo-da-diversidade",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Energia, Água e o Triângulo da Diversidade",
+    "text": "Energia, Água e o Triângulo da Diversidade\nA hipótese Energia-Água unifica dois motores clássicos da diversidade:\n\n\n\n\n\n\n\n\n\n\n\n\nPremissas:\n\nEnergia solar → limita a produtividade e a diversidade funcional\nÁgua → limita o número de estratégias de uso de recursos\nA diversidade é máxima quando ambos são elevados\nDéficit de qualquer um cria filtros fisiológicos severos"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#sazonalidade-climática-e-diversidade-alpha",
+    "href": "slides/clima_solo_vegetacao.html#sazonalidade-climática-e-diversidade-alpha",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Sazonalidade Climática e Diversidade Alpha",
+    "text": "Sazonalidade Climática e Diversidade Alpha\nA estabilidade do clima ao longo do ano importa tanto quanto os valores médios:\n\n\nAlta sazonalidade → alfa menor por filtro temporal; beta maior entre estações; comunidades dominadas por espécies tolerantes ao estresse."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#mudanças-climáticas-e-distribuições-de-dspécies",
+    "href": "slides/clima_solo_vegetacao.html#mudanças-climáticas-e-distribuições-de-dspécies",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Mudanças climáticas e distribuições de dspécies",
+    "text": "Mudanças climáticas e distribuições de dspécies\nProjeções para biomas brasileiros (IPCC AR6, cenário SSP3-7.0):"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#solo-endemismo-e-beta-diversidade",
+    "href": "slides/clima_solo_vegetacao.html#solo-endemismo-e-beta-diversidade",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Solo, endemismo e beta-diversidade",
+    "text": "Solo, endemismo e beta-diversidade"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#solo-muito-além-de-substrato",
+    "href": "slides/clima_solo_vegetacao.html#solo-muito-além-de-substrato",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Solo: Muito Além de “Substrato”",
+    "text": "Solo: Muito Além de “Substrato”\n\nO solo é um ecossistema vivo que filtra, armazena e transforma .\n\nPropriedades edáficas que filtram a flora:\n\n\n\n\n\n\n\nPropriedade\nEfeito na comunidade\n\n\n\n\npH\nDefine disponibilidade de nutrientes; filtra calcícolas vs. acidófilas\n\n\nTextura (argila/areia)\nCapacidade de retenção hídrica → disponibilidade de água\n\n\nTeor de Al³⁺\nToxicidade — elimina espécies não adaptadas\n\n\nSaturação por bases\nSepara solos eutróficos (ricos) de distróficos (pobres)\n\n\nProfundidade efetiva\nLimita enraizamento; determina capacidade de suporte\n\n\nMatéria orgânica\nDiversidade microbiana e ciclagem de nutrientes"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#gradientes-edáficos-e-beta-diversidade-no-cerrado",
+    "href": "slides/clima_solo_vegetacao.html#gradientes-edáficos-e-beta-diversidade-no-cerrado",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Gradientes Edáficos e Beta-Diversidade no Cerrado",
+    "text": "Gradientes Edáficos e Beta-Diversidade no Cerrado\nO Cerrado é o bioma onde a relação solo × vegetação × diversidade é mais evidente no Brasil:\n fonte: Embrapa\n\n\n\n\n\n\nDica\n\n\nBeta-diversidade edáfica: a transição de campo limpo distrófico para mata de galeria eutrófica gera alta β via turnover — comunidades co-ocorrem no espaço, mas são edaficamente segregadas."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#solos-especiais-e-endemismo",
+    "href": "slides/clima_solo_vegetacao.html#solos-especiais-e-endemismo",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Solos Especiais e Endemismo",
+    "text": "Solos Especiais e Endemismo\nAlguns tipos de solo criam “ilhas pedológicas” com flora altamente endêmica:"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#solo-alfa-e-beta",
+    "href": "slides/clima_solo_vegetacao.html#solo-alfa-e-beta",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Solo, Alfa e Beta",
+    "text": "Solo, Alfa e Beta\n\nInterpretação: Solos muito pobres e muito ricos tendem a reduzir α (filtros fortes); a relação “corcova” da fertilidade vs. riqueza é clássica. Porém, solos heterogêneos elevam β — mais tipos de solo = mais tipos de comunidade."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#formação-do-solo-clima-e-vegetação-o-triângulo-pedológico",
+    "href": "slides/clima_solo_vegetacao.html#formação-do-solo-clima-e-vegetação-o-triângulo-pedológico",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Formação do Solo, Clima e Vegetação: O Triângulo Pedológico",
+    "text": "Formação do Solo, Clima e Vegetação: O Triângulo Pedológico\n\nRetroalimentações:\n\nPlantas acidificam o solo via exsudatos de ácidos orgânicos\nVegetação densa aumenta matéria orgânica → muda textura e CTC\nSolo define qual vegetação se estabelece → vegetação altera o solo\nClima controla as taxas de intemperismo e acúmulo de M.O.\n\n\n\n\n\n\n\nNota\n\n\nEm escalas de tempo geológicas, o clima “cria” o solo por meio do intemperismo. Em escalas ecológicas, a vegetação e o solo interagem continuamente."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#estratificação-fitofisionomias-e-diversidade",
+    "href": "slides/clima_solo_vegetacao.html#estratificação-fitofisionomias-e-diversidade",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Estratificação, fitofisionomias e diversidade",
+    "text": "Estratificação, fitofisionomias e diversidade"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#vegetação-como-criadora-de-diversidade",
+    "href": "slides/clima_solo_vegetacao.html#vegetação-como-criadora-de-diversidade",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Vegetação como Criadora de Diversidade",
+    "text": "Vegetação como Criadora de Diversidade\n\nA vegetação não é apenas resposta aos fatores abióticos — ela é também causa de diversidade, ao criar estrutura, microclimas e recursos.\n\n\nEstratificação vertical\nHeterogeneidade horizontal\nArquitetura de plantas individuais\nEngenharia ecossistêmica\nProvisão de recursos"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#estratificação-e-números-de-hill",
+    "href": "slides/clima_solo_vegetacao.html#estratificação-e-números-de-hill",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Estratificação e Números de Hill",
+    "text": "Estratificação e Números de Hill\nComo a complexidade estrutural da vegetação muda o perfil de diversidade?\n\n\n\n\n\n\n\nNota\n\n\nA inclinação da curva de Hill (de q=0 para q=2) indica quanto a equitabilidade contribui para a diversidade. Florestas estratificadas têm curvas mais planas — maior diversidade efetiva."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#ecótonos-zonas-de-alta-beta-diversidade",
+    "href": "slides/clima_solo_vegetacao.html#ecótonos-zonas-de-alta-beta-diversidade",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Ecótonos: Zonas de alta Beta-Diversidade",
+    "text": "Ecótonos: Zonas de alta Beta-Diversidade\n\n\nPor que ecótonos são biodiversos?\n\nContêm espécies de ambos os biomas adjacentes\nPossuem espécies especialistas de borda (dependentes da transição)\nAlta heterogeneidade microambiental em curta distância\nAlta beta-diversidade mesmo em escalas locais"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#regiões-biogeográficas-do-brasil",
+    "href": "slides/clima_solo_vegetacao.html#regiões-biogeográficas-do-brasil",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Regiões Biogeográficas do Brasil",
+    "text": "Regiões Biogeográficas do Brasil\n\n\n\n\nRelevância para diversidade:\nA alta β-diversidade entre províncias brasileiras reflete história biogeográfica distinta:\n\nAmazônia e Mata Atlântica foram conectadas por corredores florestais no Pleistoceno → espécies irmãs vicariantes\nCaatinga e Cerrado compartilham flora de origem comum → algumas espécies generalistas\nPampa tem afinidades com a Argentina → limites impostos pela biogeografia sul-americana"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#dispersão-filtragem-e-montagem-de-comunidades",
+    "href": "slides/clima_solo_vegetacao.html#dispersão-filtragem-e-montagem-de-comunidades",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Dispersão, Filtragem e Montagem de Comunidades",
+    "text": "Dispersão, Filtragem e Montagem de Comunidades\n\nAlta limitação de dispersão → β alta mesmo sem gradiente ambiental (deriva)\nAlta filtragem ambiental → β alta correlacionada com gradientes climáticos/edáficos\nAlta filtragem biótica → α regulada pelas interações → comunidades saturadas\n\n\n\n\n\n\n\nDica\n\n\nA partição da β-diversidade em turnover vs. aninhamento ajuda a inferir qual processo domina a montagem de comunidades em cada sistema."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#gradientes-de-diversidade-e-biogeografia-síntese",
+    "href": "slides/clima_solo_vegetacao.html#gradientes-de-diversidade-e-biogeografia-síntese",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Gradientes de Diversidade e Biogeografia: Síntese",
+    "text": "Gradientes de Diversidade e Biogeografia: Síntese"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#alfa-beta-hill-e-nicho-climático-em-gradientes-ambientais",
+    "href": "slides/clima_solo_vegetacao.html#alfa-beta-hill-e-nicho-climático-em-gradientes-ambientais",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Alfa, Beta, Hill e Nicho Climático em Gradientes Ambientais",
+    "text": "Alfa, Beta, Hill e Nicho Climático em Gradientes Ambientais"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#diversidade-alfa-ao-longo-de-gradientes-climáticos",
+    "href": "slides/clima_solo_vegetacao.html#diversidade-alfa-ao-longo-de-gradientes-climáticos",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Diversidade Alfa ao Longo de Gradientes Climáticos",
+    "text": "Diversidade Alfa ao Longo de Gradientes Climáticos\nComo α varia ao longo dos principais gradientes do Brasil?\n\nPadrão geral: Diversidade alfa segue relação unimodal (corcova) com a maioria dos gradientes ambientais — máximo em condições intermediárias ou úmido-quentes."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#beta-diversidade-ao-longo-de-gradientes-de-solo",
+    "href": "slides/clima_solo_vegetacao.html#beta-diversidade-ao-longo-de-gradientes-de-solo",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Beta-Diversidade ao Longo de Gradientes de Solo",
+    "text": "Beta-Diversidade ao Longo de Gradientes de Solo\nQuanto da variação composicional em plantas é explicada pelo solo vs. pelo clima?\n\n\n\n\n\n\n\nDica\n\n\nEm escala local (&lt; 10 km): o solo tende a ser o principal preditor de β-diversidade em plantas. Em escala regional (&gt; 100 km): o clima se torna dominante."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#aplicação-modelagem-da-caatinga-e-mudanças-climáticas",
+    "href": "slides/clima_solo_vegetacao.html#aplicação-modelagem-da-caatinga-e-mudanças-climáticas",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Aplicação: Modelagem da Caatinga e Mudanças Climáticas",
+    "text": "Aplicação: Modelagem da Caatinga e Mudanças Climáticas"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#integrando-clima-solo-vegetação-e-métricas",
+    "href": "slides/clima_solo_vegetacao.html#integrando-clima-solo-vegetação-e-métricas",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Integrando Clima, Solo, Vegetação e Métricas",
+    "text": "Integrando Clima, Solo, Vegetação e Métricas\nO framework completo da aula:"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#section",
+    "href": "slides/clima_solo_vegetacao.html#section",
+    "title": "Clima, Solo e Vegetação",
+    "section": "",
+    "text": "Clima cria o palco.\nSolo escreve as regras.\nVegetação joga o jogo."
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#heterogeneidade-espacial",
+    "href": "slides/comunidades_biologicas_espaco.html#heterogeneidade-espacial",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Heterogeneidade Espacial",
+    "text": "Heterogeneidade Espacial"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#section",
+    "href": "slides/comunidades_biologicas_espaco.html#section",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "",
+    "text": "Heterogeneidade espacial é a variação nas condições ambientais, na estrutura do habitat e na composição de recursos ao longo do espaço geográfico.\n\n\n\n\nVariação abiótica (clima, solo, topografia)\nVariação biótica\nDistribuição de recursos\nHistórico de perturbações\n\n\n\n\n\n\n\n\n\n\nNota\n\n\nHipótese da heterogeneidade do habitat: ambientes mais heterogêneos sustentam maior diversidade de espécies."
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#por-que-a-diversidade-varia-no-espaço",
+    "href": "slides/comunidades_biologicas_espaco.html#por-que-a-diversidade-varia-no-espaço",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Por que a diversidade varia no espaço?",
+    "text": "Por que a diversidade varia no espaço?\n\n\n\nFator\nEscala\nMecanismo\n\n\n\n\nClima\nRegional/global\nLimita fisiologia e produtividade\n\n\nTopografia\nLocal/regional\nCria microclimas e barreiras\n\n\nTipo de solo\nLocal\nFiltra espécies por nutrição\n\n\nPerturbação\nLocal/regional\nAbre/fecha nichos\n\n\nÁrea\nRegional/global\nEfeito área-espécies\n\n\nIsolamento\nRegional/global\nDispersão e imigração"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#section-1",
+    "href": "slides/comunidades_biologicas_espaco.html#section-1",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "",
+    "text": "Gradiente latitudinal de diversidade — o padrão mais robusto em ecologia\n\n\n\n\n\nHipóteses explicativas:\n\nProdutividade / energia disponível\nÁrea e tamanho dos biomas\nEstabilidade climática histórica\nMaior tempo de evolução (tropicais)\nDiferenças em taxas de especiação/extinção\n\n\n\n\n\n\n\n\nImportante\n\n\nNão há consenso sobre uma única causa — múltiplos fatores atuam em conjunto!"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#heterogeneidade-x-diversidade",
+    "href": "slides/comunidades_biologicas_espaco.html#heterogeneidade-x-diversidade",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Heterogeneidade x Diversidade",
+    "text": "Heterogeneidade x Diversidade\n\n\n\nHabitats complexos = mais nichos ecológicos\nMaior número de microambientes → maior partição de recursos\n\n\n\n\n\n\n\n\n\n\n\n\n\nFlorestas tropicais: estratificação vertical\nRecifes de coral: complexidade tridimensional"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#relação-espéciesárea",
+    "href": "slides/comunidades_biologicas_espaco.html#relação-espéciesárea",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Relação Espécies–Área",
+    "text": "Relação Espécies–Área\nUma das relações mais importantes em ecologia de comunidades:\n\\[S = c \\cdot A^z\\]\n\n\n\nS = número de espécies\nA = área do habitat\nc = constante (intercepto)\nz = inclinação (0,1–0,35 para ilhas oceânicas; 0,12–0,18 para fragmentos continentais)"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#o-framework-de-whittaker",
+    "href": "slides/comunidades_biologicas_espaco.html#o-framework-de-whittaker",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "O Framework de Whittaker",
+    "text": "O Framework de Whittaker\nRobert Whittaker propôs a partição da diversidade em três escalas hierárquicas:\n┌─────────────────────────────────────┐\n│         DIVERSIDADE GAMA (γ)        │  ← Paisagem / Região\n│  ┌────────────┐   ┌────────────┐    │\n│  │  Comunid. 1│   │  Comunid. 2│    │\n│  │  α = 8 sp  │↔β↔│  α = 6 sp  │    │  ← β entre comunidades\n│  └────────────┘   └────────────┘    │\n│        Diversidade Local (α)        │\n└─────────────────────────────────────┘\n\n\nAlfa (α) Diversidade dentro de um local (comunidade local)\n\nBeta (β) Diversidade entre locais (turnover de espécies)\n\nGama (γ) Diversidade total da região"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#diversidade-alfa-α",
+    "href": "slides/comunidades_biologicas_espaco.html#diversidade-alfa-α",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Diversidade Alfa (α)",
+    "text": "Diversidade Alfa (α)\n\nDiversidade alfa é a diversidade de espécies em uma escala local, dentro de um único habitat ou comunidade.\n\nMedidas de diversidade α:\n\n\n\n\n\n\n\n\nMedida\nO que captura\nFórmula\n\n\n\n\nRiqueza (S)\nApenas número de espécies\n\\(S\\)\n\n\nShannon (H’)\nRiqueza + equitabilidade\n\\(-\\sum p_i \\ln p_i\\)\n\n\nSimpson (D)\nDominância\n\\(1 - \\sum p_i^2\\)\n\n\nChao1\nRiqueza estimada (rarefação)\n\\(\\hat{S} = S_{obs} + \\frac{n_1^2}{2n_2}\\)\n\n\n\n\n\n\n\n\n\nDica\n\n\nDiversidade α responde a perguntas como: “Quão diversa é esta floresta?” ou “Quantas espécies coexistem neste trecho de rio?”"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#diversidade-gama-γ",
+    "href": "slides/comunidades_biologicas_espaco.html#diversidade-gama-γ",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Diversidade Gama (γ)",
+    "text": "Diversidade Gama (γ)\n\nDiversidade gama é a diversidade total de uma região ou paisagem, integrando todos os locais amostrados.\n\nRelação fundamental:\n\\[\\gamma = \\alpha \\times \\beta\\]\n\nγ alta + α alta → habitats ricos, baixa substituição entre eles\nγ alta + α baixa → habitats pobres individualmente, mas compostos por espécies muito diferentes\nγ baixa + α baixa → região com poucos espécies, habitats similares\n\n\n\n\n\n\n\nNota\n\n\nA diversidade gama depende tanto da diversidade local (α) quanto da diferenciação entre comunidades (β)."
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#diversidade-beta-β-introdução",
+    "href": "slides/comunidades_biologicas_espaco.html#diversidade-beta-β-introdução",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Diversidade Beta (β) — Introdução",
+    "text": "Diversidade Beta (β) — Introdução\n\nDiversidade beta mede a variação na composição de espécies entre diferentes locais ou ao longo de gradientes ambientais.\n\nPor que β é central em ecologia de comunidades?\n\nExplica como a diversidade regional é montada a partir de comunidades locais\nReflete processos de dispersão, filtragem ambiental e interações bióticas\nFerramenta fundamental para detectar gradientes ecológicos\nBase para planejamento de unidades de conservação complementares"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#duas-interpretações-de-β",
+    "href": "slides/comunidades_biologicas_espaco.html#duas-interpretações-de-β",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Duas interpretações de β",
+    "text": "Duas interpretações de β\n\n\n\nTurnover: substituição de espécies ao longo de gradientes\nVariação: heterogeneidade multivariada na composição de espécies"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#o-problema-dos-índices-clássicos",
+    "href": "slides/comunidades_biologicas_espaco.html#o-problema-dos-índices-clássicos",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "O Problema dos Índices Clássicos",
+    "text": "O Problema dos Índices Clássicos\nÍndices como H’ (Shannon) e D (Simpson) não são diretamente comparáveis entre si:\n\n\n\n\n\n\n\nAviso\n\n\nShannon e Simpson medem conceitos similares, mas em escalas não comparáveis. Como somar ou comparar diretamente?"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#números-de-hill-a-solução-elegante",
+    "href": "slides/comunidades_biologicas_espaco.html#números-de-hill-a-solução-elegante",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Números de Hill — A Solução Elegante",
+    "text": "Números de Hill — A Solução Elegante\nMark Hill (1973) propôs uma família unificada de medidas de diversidade:\n\\[^{q}D = \\left(\\sum_{i=1}^{S} p_i^q \\right)^{\\frac{1}{1-q}}\\]\nOnde q é a ordem da diversidade — controla o peso dado às espécies raras vs. abundantes:"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#explicando",
+    "href": "slides/comunidades_biologicas_espaco.html#explicando",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Explicando",
+    "text": "Explicando\n\n\n\nOrdem q\nMedida equivalente\nInterpretação\n\n\n\n\nq = 0\nRiqueza (S)\nDiv spp raras\n\n\nq → 1\nexp(H’) — exponencial de Shannon\nDiv spp comuns\n\n\nq = 2\n1/D (inverso de Simpson)\ndiv spp dominantes"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#interpretação-dos-números-de-hill",
+    "href": "slides/comunidades_biologicas_espaco.html#interpretação-dos-números-de-hill",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Interpretação dos Números de Hill",
+    "text": "Interpretação dos Números de Hill\n\nOs números de Hill expressam diversidade em “número efetivo de espécies” — quantas espécies igualmente abundantes teriam a mesma diversidade que a comunidade observada."
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#princípio-do-dobramento",
+    "href": "slides/comunidades_biologicas_espaco.html#princípio-do-dobramento",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Princípio do dobramento",
+    "text": "Princípio do dobramento\n\nSe uma comunidade é dividida em dois grupos igualmente abundantes e sem espécies em comum, o número de Hill deve dobrar.\n\n\\[^{q}D(A \\cup B) = ^{q}D(A) + ^{q}D(B) \\quad \\text{, quando } A \\cap B = \\emptyset\\]"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#vantagens-práticas",
+    "href": "slides/comunidades_biologicas_espaco.html#vantagens-práticas",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Vantagens práticas",
+    "text": "Vantagens práticas\n\nUnidade intuitiva: “número equivalente de espécies”\nComparação direta entre comunidades\nBase para decomposição aditiva e multiplicativa de diversidade\nPartição de α, β e γ matematicamente consistente\n\n\n\n\n\n\n\nDica\n\n\nA análise de perfis de diversidade (curvas de \\(^qD\\) vs. \\(q\\)) revela a estrutura completa da comunidade, não apenas um número."
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#índices-vs.-hill",
+    "href": "slides/comunidades_biologicas_espaco.html#índices-vs.-hill",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Índices vs. Hill",
+    "text": "Índices vs. Hill\n\n\n\n\n\n\n\n\n\n\nCritério\nÍndices Clássicos\nNúmeros de Hill\n\n\n\n\nUnidade\nAdimensional (bits, nats)\nNúmero de espécies efetivas\n\n\nComparabilidade\nDifícil entre índices\nDiretamente comparáveis\n\n\nDecomposição α/β/γ\nProblemática\nMatematicamente rigorosa\n\n\nIntuitividade\nBaixa\nAlta\n\n\nAmplitude\nUm aspecto por vez\nFamília contínua (q ≥ 0)\n\n\nRaridade vs. dominância\nFixa por índice\nControlada por q\n\n\nUso em software\nMuito comum\nCrescendo (vegan, hillR)"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#componentes-da-beta-diversidade",
+    "href": "slides/comunidades_biologicas_espaco.html#componentes-da-beta-diversidade",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Componentes da Beta-Diversidade",
+    "text": "Componentes da Beta-Diversidade\n\\[\\beta_{total} = \\beta_{turnover} + \\beta_{aninhamento}\\]\n\n\nTurnover (substituição) - Espécies de um local substituem espécies de outro - Associado a gradientes ambientais - Comunidades têm riqueza similar\nA: ■ ■ ■ □ □\nB: □ □ □ ■ ■\n\nAninhamento (nestedness) - Comunidade pobre é subconjunto da mais rica - Associado a perda de habitat, fragmentação - Comunidades têm riqueza diferente\nA: ■ ■ ■ ■ ■\nB: ■ ■ □ □ □"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#medindo-beta-diversidade-índices-de-dissimilaridade",
+    "href": "slides/comunidades_biologicas_espaco.html#medindo-beta-diversidade-índices-de-dissimilaridade",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Medindo Beta-Diversidade: Índices de Dissimilaridade",
+    "text": "Medindo Beta-Diversidade: Índices de Dissimilaridade\n\\[\\beta_{Sørensen} = \\frac{b + c}{2a + b + c}\\]\n\\[\\beta_{Jaccard} = \\frac{b + c}{a + b + c}\\]\nOnde:\n\na = espécies compartilhadas entre dois locais\nb = espécies exclusivas do local 1\nc = espécies exclusivas do local 2"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#beta-diversidade-abordagem-multivariada",
+    "href": "slides/comunidades_biologicas_espaco.html#beta-diversidade-abordagem-multivariada",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Beta-Diversidade: Abordagem multivariada",
+    "text": "Beta-Diversidade: Abordagem multivariada\nPara múltiplas comunidades simultaneamente, usamos ordenações:"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#heterogeneidade-e-padrões-de-β",
+    "href": "slides/comunidades_biologicas_espaco.html#heterogeneidade-e-padrões-de-β",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Heterogeneidade e padrões de β",
+    "text": "Heterogeneidade e padrões de β\n\n\n\n\n\n\n\nAmbientes com maior heterogeneidade espacial geram maior β-diversidade via turnover. Ambientes fragmentados podem gerar alta β por aninhamento."
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#decaimento-de-similaridade-com-a-distância",
+    "href": "slides/comunidades_biologicas_espaco.html#decaimento-de-similaridade-com-a-distância",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Decaimento de similaridade com a distância",
+    "text": "Decaimento de similaridade com a distância\n\nA similaridade entre comunidades decresce com a distância geográfica (ou ambiental).\n\n\nMecanismos: limitação de dispersão, filtragem ambiental, deriva ecológica"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#partição-aditiva-e-multiplicativa-da-diversidade",
+    "href": "slides/comunidades_biologicas_espaco.html#partição-aditiva-e-multiplicativa-da-diversidade",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Partição aditiva e multiplicativa da diversidade",
+    "text": "Partição aditiva e multiplicativa da diversidade\nDuas formas de relacionar α, β e γ:\n\n\nPartição Aditiva \\[\\gamma = \\bar{\\alpha} + \\beta_{add}\\]\n\nβ expressa em número de espécies\nPergunta: “Quantas espécies a mais a região tem em relação à média local?”\nÚtil para comparar escala de α e β\n\n\nPartição Multiplicativa \\[\\gamma = \\bar{\\alpha} \\times \\beta_{mult}\\]\n\nβ expressa como número de comunidades distintas\nPergunta: “Quantas comunidades completamente distintas cabem na região?”\nMais usada com números de Hill\n\n\n\n\n\n\n\n\nDica\n\n\nCom números de Hill, a partição multiplicativa é matematicamente rigorosa em qualquer ordem q."
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#priorização-para-conservação",
+    "href": "slides/comunidades_biologicas_espaco.html#priorização-para-conservação",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Priorização para conservação",
+    "text": "Priorização para conservação\nComplementaridade: escolher áreas que maximizem a diversidade total protegida"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#monitoramento-de-impactos-ambientais",
+    "href": "slides/comunidades_biologicas_espaco.html#monitoramento-de-impactos-ambientais",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Monitoramento de impactos ambientais",
+    "text": "Monitoramento de impactos ambientais\n\n\nPadrões esperados sob impacto:\n\nHomogeneização biótica: β diminui, comunidades se tornam mais similares\nSubstituição de espécies nativas por invasoras\nPerda de espécies especialistas (raras) → aninhamento\nAmbientes impactados convergem em composição"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#restauração-ecológica",
+    "href": "slides/comunidades_biologicas_espaco.html#restauração-ecológica",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Restauração Ecológica",
+    "text": "Restauração Ecológica\nPerguntas centrais na avaliação de restauração:\n\nA diversidade α está se recuperando?\nA composição de espécies está se aproximando de comunidades de referência? (β diminuindo)\nA heterogeneidade interna está sendo restaurada?"
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#restauração-ecológica-1",
+    "href": "slides/comunidades_biologicas_espaco.html#restauração-ecológica-1",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Restauração Ecológica",
+    "text": "Restauração Ecológica\nIndicadores práticos:\n\n\n\nEstágio da restauração\nα esperada\nβ (restaurado vs. referência)\n\n\n\n\nInício (0–5 anos)\nBaixa\nAlta (muito diferente)\n\n\nIntermediário (5–15 anos)\nCrescendo\nModerada\n\n\nAvançado (&gt;20 anos)\nSimilar à referência\nBaixa (similar)\n\n\n\n\n\n\n\n\n\nDica\n\n\nO sucesso da restauração não se mede apenas pela riqueza local — a similaridade composicional com a referência é igualmente importante."
+  },
+  {
+    "objectID": "slides/comunidades_biologicas_espaco.html#resumo-da-aula",
+    "href": "slides/comunidades_biologicas_espaco.html#resumo-da-aula",
+    "title": "Comunidades Biológicas no Espaço",
+    "section": "Resumo da Aula",
+    "text": "Resumo da Aula\n\n\n\n\n\n\n\n\nConceito\nDefinição chave\nFerramenta\n\n\n\n\nHeterogeneidade espacial\nVariação ambiental no espaço\nGradientes, SIG\n\n\nDiversidade α\nDiversidade local\nRiqueza, H’, Hill\n\n\nDiversidade β\nVariação composicional\nSørensen, Bray-Curtis, NMDS\n\n\nDiversidade γ\nDiversidade regional\nPartição α × β\n\n\nNúmeros de Hill\nFamília unificada de medidas\nvegan, hillR\n\n\nTurnover vs. aninhamento\nComponentes de β\nbetapart\n\n\nAplicações\nConservação, restauração, impacto\nAnálise multivariada"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#o-que-precisamos-saber-hoje",
+    "href": "slides/aula2_magnitude.html#o-que-precisamos-saber-hoje",
+    "title": "Ecologia Geral 2",
+    "section": "O que precisamos saber hoje?",
+    "text": "O que precisamos saber hoje?\n\n\n\nComo a biodiversidade se organiza espacial e temporalmente na Terra\nComo usar essas informações para desenhar estratégias de conservação\nAprender um pouco de Biogeografia"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#a-história-da-biodiversidade",
+    "href": "slides/aula2_magnitude.html#a-história-da-biodiversidade",
+    "title": "Ecologia Geral 2",
+    "section": "A história da biodiversidade",
+    "text": "A história da biodiversidade"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#vivemos-o-período-mais-biodiverso-da-terra",
+    "href": "slides/aula2_magnitude.html#vivemos-o-período-mais-biodiverso-da-terra",
+    "title": "Ecologia Geral 2",
+    "section": "Vivemos o período mais Biodiverso da Terra",
+    "text": "Vivemos o período mais Biodiverso da Terra\n\n\n\n\nMas não foi suave…\nHouve muitas extinções EM MASSA\nMas a vida continuou prosperando"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#section",
+    "href": "slides/aula2_magnitude.html#section",
+    "title": "Ecologia Geral 2",
+    "section": "",
+    "text": "A vida na Terra hoje é o resultado de 4,5 bilhões de anos de evolução, especiação, extinção e dispersão"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#fronteiras-biológicas-da-terra",
+    "href": "slides/aula2_magnitude.html#fronteiras-biológicas-da-terra",
+    "title": "Ecologia Geral 2",
+    "section": "Fronteiras biológicas da Terra",
+    "text": "Fronteiras biológicas da Terra\nProvíncias biogeográficas"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#a-biodiversidade-tem-preferências",
+    "href": "slides/aula2_magnitude.html#a-biodiversidade-tem-preferências",
+    "title": "Ecologia Geral 2",
+    "section": "A biodiversidade tem preferências",
+    "text": "A biodiversidade tem preferências"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#a-biodiversidade-tem-preferências-1",
+    "href": "slides/aula2_magnitude.html#a-biodiversidade-tem-preferências-1",
+    "title": "Ecologia Geral 2",
+    "section": "A biodiversidade tem preferências",
+    "text": "A biodiversidade tem preferências\nNo mar (mamíferos)"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#a-própria-árvore-da-vida-é-bastante-desigual",
+    "href": "slides/aula2_magnitude.html#a-própria-árvore-da-vida-é-bastante-desigual",
+    "title": "Ecologia Geral 2",
+    "section": "A própria árvore da vida é bastante desigual",
+    "text": "A própria árvore da vida é bastante desigual"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#padrões-e-mais-padrões",
+    "href": "slides/aula2_magnitude.html#padrões-e-mais-padrões",
+    "title": "Ecologia Geral 2",
+    "section": "Padrões e mais padrões",
+    "text": "Padrões e mais padrões\n\n\n\nPurvis & Hector (2000)\n\nEsse padrão aninhado acontece em todos os níveis de vida"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#qual-o-nosso-nível-de-conhecimento-sobre-a-biodiversidade-entre-clados",
+    "href": "slides/aula2_magnitude.html#qual-o-nosso-nível-de-conhecimento-sobre-a-biodiversidade-entre-clados",
+    "title": "Ecologia Geral 2",
+    "section": "Qual o nosso nível de conhecimento sobre a biodiversidade entre clados?",
+    "text": "Qual o nosso nível de conhecimento sobre a biodiversidade entre clados?\n\n\n\nPurvis & Hector (2000)"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#alfred-russell-wallace",
+    "href": "slides/aula2_magnitude.html#alfred-russell-wallace",
+    "title": "Ecologia Geral 2",
+    "section": "Alfred Russell Wallace",
+    "text": "Alfred Russell Wallace\n\n\n\n\nConsiderado o fundador da Biogeografia\n\nLeitura recomendada: Darwin, historical biogeography, and the importance of overcoming binary opposites"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#biodiversidade-em-ilhas",
+    "href": "slides/aula2_magnitude.html#biodiversidade-em-ilhas",
+    "title": "Ecologia Geral 2",
+    "section": "Biodiversidade em ilhas",
+    "text": "Biodiversidade em ilhas\n\n\n\nRelação espécie-área\nNicho ecológico\nEcologia vs. História\nInteração entre espécies"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#relação-espécie-área",
+    "href": "slides/aula2_magnitude.html#relação-espécie-área",
+    "title": "Ecologia Geral 2",
+    "section": "Relação espécie-área",
+    "text": "Relação espécie-área\nO número de espécies aumenta com a área amostrada\n\n\nLinear\n\n\n\n\n\n\n\n\n\n\nExponencial"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#nicho-ecológico-ou-biogeografia-ecológica",
+    "href": "slides/aula2_magnitude.html#nicho-ecológico-ou-biogeografia-ecológica",
+    "title": "Ecologia Geral 2",
+    "section": "Nicho ecológico ou biogeografia ecológica",
+    "text": "Nicho ecológico ou biogeografia ecológica"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#biogeografia-histórica",
+    "href": "slides/aula2_magnitude.html#biogeografia-histórica",
+    "title": "Ecologia Geral 2",
+    "section": "Biogeografia Histórica",
+    "text": "Biogeografia Histórica\n\nCaracterização e história biogeográfica dos ecossistemas secos neotropicais"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#interação-entre-espécies",
+    "href": "slides/aula2_magnitude.html#interação-entre-espécies",
+    "title": "Ecologia Geral 2",
+    "section": "Interação entre espécies",
+    "text": "Interação entre espécies"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#biogeografia-de-ilhas",
+    "href": "slides/aula2_magnitude.html#biogeografia-de-ilhas",
+    "title": "Ecologia Geral 2",
+    "section": "Biogeografia de ilhas",
+    "text": "Biogeografia de ilhas\n\n\n\nBiogeografia de ilhas em PT-BR\n\n\nBiogeografia de Ilhas no Wikipedia"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#tipos-de-raridade",
+    "href": "slides/aula2_magnitude.html#tipos-de-raridade",
+    "title": "Ecologia Geral 2",
+    "section": "Tipos de raridade",
+    "text": "Tipos de raridade\n\n\n\nRabinowitz’s (1981)"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#aplicações-na-conservação-da-biodiversidade",
+    "href": "slides/aula2_magnitude.html#aplicações-na-conservação-da-biodiversidade",
+    "title": "Ecologia Geral 2",
+    "section": "Aplicações na conservação da biodiversidade",
+    "text": "Aplicações na conservação da biodiversidade\n\n\n\n\nA = Riqueza\nB = Endemismo\nC = Novas espécies\nDiscoveries of new mammal species and their implications for conservation and ecosystem services"
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#aplicações-na-conservação-da-biodiversidade-1",
+    "href": "slides/aula2_magnitude.html#aplicações-na-conservação-da-biodiversidade-1",
+    "title": "Ecologia Geral 2",
+    "section": "Aplicações na conservação da biodiversidade",
+    "text": "Aplicações na conservação da biodiversidade\n\n\n\nMedellín & Soberon 2008\n. . ."
+  },
+  {
+    "objectID": "slides/aula2_magnitude.html#aplicações-na-conservação-da-biodiversidade-2",
+    "href": "slides/aula2_magnitude.html#aplicações-na-conservação-da-biodiversidade-2",
+    "title": "Ecologia Geral 2",
+    "section": "Aplicações na conservação da biodiversidade",
+    "text": "Aplicações na conservação da biodiversidade\n\n\n\nBrooks et al 2006"
+  },
+  {
+    "objectID": "get-started/5-data.html",
+    "href": "get-started/5-data.html",
+    "title": "Dados em R",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/5-data.html#objetivo",
+    "href": "get-started/5-data.html#objetivo",
+    "title": "Dados em R",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/5-data.html#passo-a-passo",
+    "href": "get-started/5-data.html#passo-a-passo",
+    "title": "Dados em R",
+    "section": "Passo a passo",
+    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
+  },
+  {
+    "objectID": "get-started/5-data.html#exercício-rápido",
+    "href": "get-started/5-data.html#exercício-rápido",
+    "title": "Dados em R",
+    "section": "Exercício rápido",
+    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
+  },
+  {
+    "objectID": "get-started/1-install.html",
+    "href": "get-started/1-install.html",
+    "title": "Instalar R & RStudio",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/1-install.html#objetivo",
+    "href": "get-started/1-install.html#objetivo",
+    "title": "Instalar R & RStudio",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/1-install.html#passo-a-passo",
+    "href": "get-started/1-install.html#passo-a-passo",
+    "title": "Instalar R & RStudio",
+    "section": "Passo a passo",
+    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
+  },
+  {
+    "objectID": "get-started/1-install.html#exercício-rápido",
+    "href": "get-started/1-install.html#exercício-rápido",
+    "title": "Instalar R & RStudio",
+    "section": "Exercício rápido",
+    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
+  },
+  {
+    "objectID": "get-started/4-functions.html",
+    "href": "get-started/4-functions.html",
+    "title": "Funções e Comandos",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/4-functions.html#objetivo",
+    "href": "get-started/4-functions.html#objetivo",
+    "title": "Funções e Comandos",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/4-functions.html#passo-a-passo",
+    "href": "get-started/4-functions.html#passo-a-passo",
+    "title": "Funções e Comandos",
+    "section": "Passo a passo",
+    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
+  },
+  {
+    "objectID": "get-started/4-functions.html#exercício-rápido",
+    "href": "get-started/4-functions.html#exercício-rápido",
+    "title": "Funções e Comandos",
+    "section": "Exercício rápido",
+    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
+  },
+  {
+    "objectID": "get-started/2-basic-intro.html",
+    "href": "get-started/2-basic-intro.html",
+    "title": "Introdução Básica ao R e RStudio",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/2-basic-intro.html#objetivo",
+    "href": "get-started/2-basic-intro.html#objetivo",
+    "title": "Introdução Básica ao R e RStudio",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/2-basic-intro.html#passo-a-passo",
+    "href": "get-started/2-basic-intro.html#passo-a-passo",
+    "title": "Introdução Básica ao R e RStudio",
+    "section": "Passo a passo",
+    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
+  },
+  {
+    "objectID": "get-started/2-basic-intro.html#exercício-rápido",
+    "href": "get-started/2-basic-intro.html#exercício-rápido",
+    "title": "Introdução Básica ao R e RStudio",
+    "section": "Exercício rápido",
+    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
+  },
+  {
+    "objectID": "get-started/3-syntax.html",
+    "href": "get-started/3-syntax.html",
+    "title": "Sintaxe & Estrutura de Dados",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/3-syntax.html#objetivo",
+    "href": "get-started/3-syntax.html#objetivo",
+    "title": "Sintaxe & Estrutura de Dados",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/3-syntax.html#passo-a-passo",
+    "href": "get-started/3-syntax.html#passo-a-passo",
+    "title": "Sintaxe & Estrutura de Dados",
+    "section": "Passo a passo",
+    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
+  },
+  {
+    "objectID": "get-started/3-syntax.html#exercício-rápido",
+    "href": "get-started/3-syntax.html#exercício-rápido",
+    "title": "Sintaxe & Estrutura de Dados",
+    "section": "Exercício rápido",
+    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#riqueza-de-espécies-s",
+    "href": "slides/comunidades_comparacao_aula2.html#riqueza-de-espécies-s",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Riqueza de Espécies (S)",
+    "text": "Riqueza de Espécies (S)\n\n\n\nNúmero total de espécies presentes em uma comunidade\nMétrica mais simples e intuitiva\nNão considera a distribuição de abundâncias\nSensível ao esforço amostral\nPode ser corrigida por:\n\nrarefação\nestimadores de riqueza (Chao1, ACE)\n\nComparações válidas exigem igual esforço amostral\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# Riqueza por sítio (número de espécies)\nS &lt;- specnumber(dune)\nprint(S)\n\n# Riqueza total do conjunto\nsum(colSums(dune) &gt; 0)\n\n# Curva de acumulação de espécies\ncurva &lt;- specaccum(dune, method = \"random\")\nplot(curva,\n     xlab = \"Sítios amostrados\",\n     ylab = \"Riqueza acumulada\")"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#abundância-e-equitabilidade",
+    "href": "slides/comunidades_comparacao_aula2.html#abundância-e-equitabilidade",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Abundância e Equitabilidade",
+    "text": "Abundância e Equitabilidade\n\n\n\nAbundância total: soma dos indivíduos por sítio\nAbundância relativa: proporção de cada espécie\nÍndice de Shannon (H’): mede diversidade considerando riqueza e equitabilidade\nÍndice de Simpson (D): probabilidade de dois indivíduos pertencerem a espécies diferentes\nEquitabilidade de Pielou (J’): H’ / H’máx\n\nvaria de 0 (dominância) a 1 (equitativo)\n\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# Índice de Shannon\nH &lt;- diversity(dune, index = \"shannon\")\n\n# Índice de Simpson\nD &lt;- diversity(dune, index = \"simpson\")\n\n# Equitabilidade de Pielou\nS &lt;- specnumber(dune)\nJ &lt;- H / log(S)\n\n# Resumo por sítio\ndados_div &lt;- data.frame(\n  Riqueza    = S,\n  Shannon    = round(H, 2),\n  Simpson    = round(D, 2),\n  Equitabil. = round(J, 2)\n)\nhead(dados_div)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#rarefação-comparando-riqueza-justa",
+    "href": "slides/comunidades_comparacao_aula2.html#rarefação-comparando-riqueza-justa",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Rarefação: Comparando Riqueza Justa",
+    "text": "Rarefação: Comparando Riqueza Justa\n\n\n\nComunidades com diferentes tamanhos amostrais não devem ter riqueza comparada diretamente\nRarefação: reamostrar todas as comunidades para o mesmo N mínimo\nPermite comparações mais honestas de riqueza\nNão descarta informação — apenas padroniza\nImplementada com rarefy() ou rrarefy() no vegan\n\n\n\nlibrary(vegan)\ndata(BCI)  # floresta tropical BCI\n\n# Abundância total por sítio\nN &lt;- rowSums(BCI)\nmin(N)  # menor esforço amostral\n\n# Riqueza esperada com N mínimo\nS_raref &lt;- rarefy(BCI, sample = min(N))\n\n# Curvas de rarefação\nrarecurve(BCI[1:10, ],\n          step   = 20,\n          sample = min(N),\n          xlab   = \"Indivíduos\",\n          ylab   = \"Riqueza esperada\",\n          label  = FALSE)\nabline(v = min(N), lty = 2, col = \"red\")"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#composição-de-espécies",
+    "href": "slides/comunidades_comparacao_aula2.html#composição-de-espécies",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Composição de Espécies",
+    "text": "Composição de Espécies\n\n\n\nQuais espécies estão presentes — não apenas quantas\nComunidades com mesma riqueza podem ser completamente distintas\nAvaliada por índices de similaridade/dissimilaridade:\n\nJaccard (presença/ausência)\nBray-Curtis (abundâncias)\nSørensen (presença/ausência, ponderado)\n\nResultado: matriz de distâncias entre pares de comunidades\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# Dissimilaridade de Bray-Curtis\ndist_BC &lt;- vegdist(dune, method = \"bray\")\n\n# Dissimilaridade de Jaccard\n# (presença/ausência)\ndist_J &lt;- vegdist(dune,\n                  method = \"jaccard\",\n                  binary = TRUE)\n\n# Visualizando as primeiras distâncias\nas.matrix(dist_BC)[1:5, 1:5]"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#índices-de-similaridade-comparativo",
+    "href": "slides/comunidades_comparacao_aula2.html#índices-de-similaridade-comparativo",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Índices de Similaridade: Comparativo",
+    "text": "Índices de Similaridade: Comparativo\n\n\n\n\n\nÍndice\nDados\nFórmula\n\n\n\n\nJaccard\nP/A\n\\(a / (a+b+c)\\)\n\n\nSørensen\nP/A\n\\(2a / (2a+b+c)\\)\n\n\nBray-Curtis\nAbund.\n\\(1 - 2W/(A+B)\\)\n\n\n\n\na = sp. compartilhadas\nb, c = sp. exclusivas de cada comunidade\nW = soma dos mínimos de abundância\nBray-Curtis: mais recomendado para abundâncias\nJaccard/Sørensen: para dados de inventário\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# Cálculo manual de Bray-Curtis\n# entre sítios 1 e 2\ncom1 &lt;- dune[1, ]\ncom2 &lt;- dune[2, ]\n\nW &lt;- sum(pmin(com1, com2))\nA &lt;- sum(com1)\nB &lt;- sum(com2)\n\nBC &lt;- 1 - (2 * W) / (A + B)\ncat(\"Bray-Curtis (1 vs 2):\", round(BC, 3))\n\n# Usando vegan\nvegdist(dune[1:2, ], method = \"bray\")"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#ordenação-nmds",
+    "href": "slides/comunidades_comparacao_aula2.html#ordenação-nmds",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Ordenação: NMDS",
+    "text": "Ordenação: NMDS\n\n\n\nNMDS (Non-metric Multidimensional Scaling): técnica de ordenação exploratória\nReduz a matriz de distâncias em 2 (ou 3) dimensões\nPontos próximos = comunidades mais similares\nAvaliado pelo stress: &lt; 0.1 excelente, &lt; 0.2 aceitável\nNão assume distribuição dos dados\nIdeal para dados ecológicos com muitos zeros\n\n\n\nlibrary(vegan)\ndata(dune)\ndata(dune.env)\n\n# NMDS com Bray-Curtis\nset.seed(42)\nnmds &lt;- metaMDS(dune,\n                distance = \"bray\",\n                k        = 2,\n                trymax   = 100)\n\ncat(\"Stress:\", round(nmds$stress, 3))\n\n# Gráfico básico\nplot(nmds, type = \"t\")\n\n# Com grupos por uso do solo\nordiplot(nmds, display = \"sites\")\nordihull(nmds,\n         groups = dune.env$Management,\n         draw   = \"polygon\",\n         alpha  = 80)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#ordenação-pcoa-e-pca",
+    "href": "slides/comunidades_comparacao_aula2.html#ordenação-pcoa-e-pca",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Ordenação: PCoA e PCA",
+    "text": "Ordenação: PCoA e PCA\n\n\n\nPCoA (Principal Coordinates Analysis): ordena qualquer matriz de distâncias\nPCA (Principal Component Analysis): usa distância euclidiana (dados transformados)\nDiferença do NMDS: axes têm interpretação métrica (% da variância explicada)\nTransformação de Hellinger recomendada antes de PCA em dados de comunidades\n\nreduz o efeito dos zeros\nestabiliza variâncias\n\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# PCoA com Bray-Curtis\ndist_BC &lt;- vegdist(dune, method = \"bray\")\npcoa    &lt;- wcmdscale(dist_BC, eig = TRUE)\n\n# Variância explicada\neig_pct &lt;- 100 * pcoa$eig / sum(pcoa$eig[pcoa$eig &gt; 0])\ncat(\"Eixo 1:\", round(eig_pct[1], 1), \"%\")\ncat(\"Eixo 2:\", round(eig_pct[2], 1), \"%\")\n\n# PCA com transformação Hellinger\ndune_hel &lt;- decostand(dune, \"hellinger\")\npca      &lt;- rda(dune_hel)\nbiplot(pca, scaling = 2)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#análise-de-diversidade-beta",
+    "href": "slides/comunidades_comparacao_aula2.html#análise-de-diversidade-beta",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Análise de Diversidade Beta",
+    "text": "Análise de Diversidade Beta\n\n\n\nDiversidade beta (β): variação na composição entre comunidades\nPode ser decomposta em:\n\nReposição (turnover): substituição de espécies\nAninhamento (nestedness): subconjuntos de espécies\n\nPacote betapart realiza essa decomposição\nAlta reposição → gradientes ambientais acentuados\nAlto aninhamento → perda progressiva de espécies\n\n\n\nlibrary(betapart)\ndata(ceram.s)  # dados do pacote betapart\n\n# Partição da diversidade beta (P/A)\nbeta_pair &lt;- beta.pair(ceram.s,\n                       index.family = \"sorensen\")\n\n# Componentes:\n# beta.sim  = turnover (reposição)\n# beta.sne  = nestedness\n# beta.sor  = total (Sørensen)\n\n# Resumo estatístico\nsummary(as.vector(\n  as.matrix(beta_pair$beta.sim)\n))\n\n# Mapa de calor de dissimilaridade\nimage(as.matrix(beta_pair$beta.sor),\n      main = \"Dissimilaridade total (Sørensen)\")"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#teste-estatístico-permanova",
+    "href": "slides/comunidades_comparacao_aula2.html#teste-estatístico-permanova",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Teste Estatístico: PERMANOVA",
+    "text": "Teste Estatístico: PERMANOVA\n\n\n\nPERMANOVA (adonis2): testa se grupos diferem em composição\nAnálogo a uma ANOVA multivariada, mas por permutações\nPode incluir múltiplas variáveis explicativas\nRetorna R² (variância explicada) e valor-p\nAtenção: sensível a diferenças na dispersão intra-grupo\n\nverificar com betadisper()\n\nRequer variável de agrupamento (ex: tratamento, habitat)\n\n\n\nlibrary(vegan)\ndata(dune)\ndata(dune.env)\n\n# Dissimilaridade de Bray-Curtis\ndist_BC &lt;- vegdist(dune, method = \"bray\")\n\n# PERMANOVA\nset.seed(42)\nperm &lt;- adonis2(dist_BC ~ Management,\n                data    = dune.env,\n                permutations = 999)\nprint(perm)\n\n# Homogeneidade de dispersão\ndisp &lt;- betadisper(dist_BC,\n                   dune.env$Management)\nanova(disp)\nboxplot(disp, main = \"Dispersão por grupo\")"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#exemplo-completo-pipeline-de-análise",
+    "href": "slides/comunidades_comparacao_aula2.html#exemplo-completo-pipeline-de-análise",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Exemplo Completo: Pipeline de Análise",
+    "text": "Exemplo Completo: Pipeline de Análise\n\n\nFluxo típico de análise:\n\nImportar e inspecionar a matriz\nCalcular métricas alfa (H’, S, J’)\nCalcular dissimilaridade (Bray-Curtis)\nOrdenar comunidades (NMDS ou PCoA)\nTestar diferenças com PERMANOVA\nVerificar homogeneidade (betadisper)\nDecompor beta-diversidade (betapart)\nInterpretar resultados biologicamente\n\n\n\nlibrary(vegan)\ndata(dune); data(dune.env)\n\n# 1. Métricas alfa\nalfa &lt;- data.frame(\n  S = specnumber(dune),\n  H = diversity(dune)\n)\n\n# 2. Dissimilaridade\nd &lt;- vegdist(dune, \"bray\")\n\n# 3. Ordenação\nset.seed(1)\nord &lt;- metaMDS(dune, k = 2)\n\n# 4. Teste de hipótese\nadonis2(d ~ Management,\n        data = dune.env)\n\n# 5. Visualização final\nplot(ord, type = \"n\")\npoints(ord,\n       col  = as.numeric(dune.env$Management),\n       pch  = 16, cex = 1.5)\nlegend(\"topright\",\n       legend = levels(dune.env$Management),\n       col    = 1:4, pch = 16)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#resumo-dos-conceitos",
+    "href": "slides/comunidades_comparacao_aula2.html#resumo-dos-conceitos",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Resumo dos Conceitos",
+    "text": "Resumo dos Conceitos\n\n\n\n\n\nConceito\nMétrica\nFunção R\n\n\n\n\nRiqueza\nS\nspecnumber()\n\n\nDiversidade\nH’, D\ndiversity()\n\n\nEquitabilidade\nJ’\nH’ / log(S)\n\n\nRarefação\nS esperado\nrarefy()\n\n\nDissimilaridade\nBray-Curtis\nvegdist()\n\n\nOrdenação\nNMDS, PCoA\nmetaMDS()\n\n\nTeste\nPERMANOVA\nadonis2()\n\n\nBeta-div.\nturn. + nest.\nbeta.pair()\n\n\n\n\nBoas práticas:\n\nSempre verificar esforço amostral antes de comparar riquezas\nEscolher índice de dissimilaridade adequado ao tipo de dado\nValidar PERMANOVA com betadisper\nInterpretar ordenações com stress ou % variância\nReportar tanto diversidade alfa quanto beta\nUsar gráficos para comunicar padrões multivariados\nDocumentar código reproduzível (R Markdown / Quarto)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#referências-e-recursos",
+    "href": "slides/comunidades_comparacao_aula2.html#referências-e-recursos",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Referências e Recursos",
+    "text": "Referências e Recursos\n\n\nLivros fundamentais:\n\nMagurran, A. E. (2004). Measuring Biological Diversity. Blackwell.\nLegendre & Legendre (2012). Numerical Ecology. Elsevier.\nGotelli & Ellison (2004). A Primer of Ecological Statistics. Sinauer.\n\nArtigos-chave:\n\nBaselga (2010). Betapart decomposition — Global Ecology & Biogeography\nAnderson et al. (2011). PERMANOVA — Methods in Ecology & Evolution\n\n\nPacotes R principais:\n\nvegan — análises multivariadas de comunidades\nbetapart — decomposição de beta-diversidade\niNEXT — rarefação e extrapolação de diversidade\nBiodiversityR — interface gráfica para vegan\nggordiplots — gráficos de ordenação com ggplot2\n\nRecursos online:\n\nCRAN Task View: Environmetrics\nVegan tutoriais: cran.r-project.org/vegan\nCurso de Ecologia Numérica com R (Borcard et al.)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#fim",
+    "href": "slides/comunidades_comparacao_aula2.html#fim",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Fim",
+    "text": "Fim"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#o-que-é-sucessão-ecológica",
+    "href": "slides/sucessao_ecologica.html#o-que-é-sucessão-ecológica",
+    "title": "Sucessão Ecológica",
+    "section": "O que é Sucessão Ecológica?",
+    "text": "O que é Sucessão Ecológica?\n\nSucessão ecológica é o processo direcional e contínuo de mudança na composição de espécies e estrutura de uma comunidade ao longo do tempo, em resposta a modificações no ambiente biótico e abiótico.\n\n\n\n\n🌱 Processo\n\n\nColonização → Estabelecimento → Competição → Substituição\nGradual e previsível (em parte)\nMudanças em diversidade, biomassa e estrutura\n\n\n\n\n🔑 Por que estudar?\n\n\nRestauração ecológica\nConservação de biomas\nRespostas a distúrbios naturais e antrópicos\nManejo de paisagens"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#montagem-de-comunidades-ecológicas",
+    "href": "slides/sucessao_ecologica.html#montagem-de-comunidades-ecológicas",
+    "title": "Sucessão Ecológica",
+    "section": "Montagem de Comunidades Ecológicas",
+    "text": "Montagem de Comunidades Ecológicas\nGleason vs. Clements"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#visão-clementsiana-a-comunidade-como-superorganismo",
+    "href": "slides/sucessao_ecologica.html#visão-clementsiana-a-comunidade-como-superorganismo",
+    "title": "Sucessão Ecológica",
+    "section": "Visão Clementsiana — A Comunidade como Superorganismo",
+    "text": "Visão Clementsiana — A Comunidade como Superorganismo\n\n\nFrederic Clements (1916)\n\nComunidades são entidades discretas e integradas, análogas a organismos\nEspécies coexistem porque evoluíram juntas — alta interdependência\nSucessão é determinística: o clímax é o estado final estável ditado pelo clima\nComunidades climácicas são repetíveis e previsíveis\n\n\nO clímax climático da Floresta Amazônica seria o destino inevitável para qualquer área perturbada na região.\n\n\n\n\n📌 Modelo Clementsiano\n\nPerturbação\n↓\nEspécies pioneiras\n↓\nSéries de substituição\n↓\nClímax climático ← ponto fixo determinado pelo clima regional\n Previsível · Determinístico · Holístico"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#visão-gleasoniana-o-individualismo-das-espécies",
+    "href": "slides/sucessao_ecologica.html#visão-gleasoniana-o-individualismo-das-espécies",
+    "title": "Sucessão Ecológica",
+    "section": "Visão Gleasoniana — O Individualismo das Espécies",
+    "text": "Visão Gleasoniana — O Individualismo das Espécies\n\n\nHenry Gleason (1926)\n\nCada espécie responde individualmente ao ambiente — não em bloco\nComunidades são encontros fortuitos de espécies com nichos compatíveis\nSem entidade supraorganísmica; sem clímax único\nA composição local depende de: dispersão, histórico de distúrbios, acaso\n\n\nNa Caatinga, a composição de espécies varia enormemente entre fragmentos a poucos km de distância — reflexo do individualismo gleasoniano."
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#comparativo-entre-as-visões",
+    "href": "slides/sucessao_ecologica.html#comparativo-entre-as-visões",
+    "title": "Sucessão Ecológica",
+    "section": "Comparativo entre as visões",
+    "text": "Comparativo entre as visões\n\n\n\n\n\n\nAspecto\nClements\nGleason\n\n\n\n\nComunidade\nSuperorganismo\nAssembleia casual\n\n\nSucessão\nDeterminística\nEstocástica\n\n\nClímax\nÚnico e fixo\nMúltiplos/variável\n\n\nEspécies\nInterdependentes\nIndependentes\n\n\nPrevisibilidade\nAlta\nBaixa"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#síntese-moderna-filtros-de-montagem",
+    "href": "slides/sucessao_ecologica.html#síntese-moderna-filtros-de-montagem",
+    "title": "Sucessão Ecológica",
+    "section": "Síntese Moderna: Filtros de Montagem",
+    "text": "Síntese Moderna: Filtros de Montagem\nA ecologia contemporânea integra ambas as visões através do conceito de filtros de montagem (Assembly Rules):\n\n\n\n🌍 Filtro Abiótico\n\nClima, solo, água, topografia filtram o pool regional de espécies  Ex.: solos hidromórficos do Pantanal excluem espécies não tolerantes a inundação\n\n\n\n🐾 Filtro Biótico\n\nCompetição, predação, mutualismo e facilitação determinam quem persiste  Ex.: herbivoria de grandes mamíferos no Cerrado molda composição de gramíneas\n\n\n\n🎲 Filtro de Dispersão\n\nLimitação de dispersão e acaso histórico completam a montagem  Ex.: rios como barreiras de dispersão na Amazônia — hipótese dos rios\n\n\n\nPool Regional → Filtro Abiótico → Filtro de Dispersão → Filtro Biótico → Comunidade Local"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#estratégias-de-regeneração",
+    "href": "slides/sucessao_ecologica.html#estratégias-de-regeneração",
+    "title": "Sucessão Ecológica",
+    "section": "Estratégias de Regeneração",
+    "text": "Estratégias de Regeneração\nr vs. K e Triângulo CSR"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#estratégias-r-e-k-teoria-da-seleção-de-história-de-vida",
+    "href": "slides/sucessao_ecologica.html#estratégias-r-e-k-teoria-da-seleção-de-história-de-vida",
+    "title": "Sucessão Ecológica",
+    "section": "Estratégias r e K — Teoria da Seleção de História de Vida",
+    "text": "Estratégias r e K — Teoria da Seleção de História de Vida\n\n\nMacArthur & Wilson (1967) | Pianka (1970)\nEspécies r-estrategistas - Ambientes instáveis/perturbados - Alta taxa de reprodução, baixa longevidade - Pequeno porte, desenvolvimento rápido - Baixa competitividade\nEspécies K-estrategistas - Ambientes estáveis/tardios - Baixa fecundidade, alta longevidade - Grande porte, maturação lenta - Alta competitividade por recursos\n\n\nSUCESSÃO\nPioneiro ───────────────► Clímax\n\nr ←─────────────────────► K\n\n• Embaúba           • Castanheira\n  (Cecropia spp.)     (Bertholletia excelsa)\n  \n• Vassourinha        • Jatobá\n  (Baccharis spp.)    (Hymenaea courbaril)\n  \n• Capim-colonião     • Angico\n  (Megathyrsus max.)  (Anadenanthera spp.)\n\nNo Cerrado, Kielmeyera coriacea (pau-santo) é K-estrategista com bulbos subterrâneos que suportam décadas de rebrota pós-fogo."
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#triângulo-csr-de-grime",
+    "href": "slides/sucessao_ecologica.html#triângulo-csr-de-grime",
+    "title": "Sucessão Ecológica",
+    "section": "Triângulo CSR de Grime",
+    "text": "Triângulo CSR de Grime\nJ.P. Grime (1977) — três estratégias primárias em função de estresse e distúrbio:\n\n\n\nC Competidoras\n\n\nBaixo estresse, baixo distúrbio\nCrescimento rápido quando recursos abundam\nAlta aquisição de recursos\nEx.: Cedrela odorata (cedro) — Floresta Atlântica\n\n\n\n\nS Tolerantes ao Estresse\n\n\nAlto estresse, baixo distúrbio\nCrescimento lento, alta conservação de recursos\nLongevidade elevada\nEx.: Vellozia compacta — campo rupestre\n\n\n\n\nR Ruderais\n\n\nBaixo estresse, alto distúrbio\nCiclo de vida curto, alta reprodução\nColonização rápida\nEx.: Solanum mauritianum — clareiras Mata Atlântica\n\n\n\n\nEspécies reais ocupam posições intermediárias no triângulo (CS, SR, CR, CSR) — o modelo é contínuo, não categórico."
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#csr-em-figura",
+    "href": "slides/sucessao_ecologica.html#csr-em-figura",
+    "title": "Sucessão Ecológica",
+    "section": "CSR em figura",
+    "text": "CSR em figura"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#módulo-3-sucessão-primária-e-secundária",
+    "href": "slides/sucessao_ecologica.html#módulo-3-sucessão-primária-e-secundária",
+    "title": "Sucessão Ecológica",
+    "section": "Módulo 3 Sucessão Primária e Secundária",
+    "text": "Módulo 3 Sucessão Primária e Secundária"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#sucessão-primária-colonização-do-zero",
+    "href": "slides/sucessao_ecologica.html#sucessão-primária-colonização-do-zero",
+    "title": "Sucessão Ecológica",
+    "section": "Sucessão Primária — Colonização do Zero",
+    "text": "Sucessão Primária — Colonização do Zero\n\nSucessão primária ocorre em substratos que nunca foram colonizados ou foram totalmente desprovidos de vida e solo — ausência de banco de sementes e de legado biótico.\n\n\n\nEtapas clássicas:\n\nSubstrato nu — rocha, lava, dunas recentes\nLiquens e briófitas — intemperismo físico-químico\nHerbáceas pioneiras — acúmulo de matéria orgânica\nArbustos — sombreamento parcial\nFloresta — fechamento do dossel\n\n\n\nExemplos brasileiros:\n🌋 Ilhas vulcânicas — Trindade e Martim Vaz: colonização por Cyperus e fetos pioneiros sobre basalto exposto\n🏖️ Dunas costeiras — Lençóis Maranhenses: sequência pioneira com Ipomoea pes-caprae → Sophora tomentosa → arbustos de restinga\n🪨 Inselbergs — afloramentos rochosos no Nordeste: criptógamas → Sedum → vegetação rupícola"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#sucessão-secundária-regeneração-após-distúrbio",
+    "href": "slides/sucessao_ecologica.html#sucessão-secundária-regeneração-após-distúrbio",
+    "title": "Sucessão Ecológica",
+    "section": "Sucessão Secundária — Regeneração Após Distúrbio",
+    "text": "Sucessão Secundária — Regeneração Após Distúrbio\n\nSucessão secundária ocorre onde houve uma comunidade prévia — banco de sementes, raízes, matéria orgânica e estrutura de solo permanecem, acelerando o processo.\n\n\n\n\n⚡ Fase Pioneira (0–5 anos)\n\nHerbáceas, cipós e arbustos heliófilos colonizam rapidamente  \nEx.: Cecropia, Trema, Piper em clareiras amazônicas\n\n\n\n🌿 Fase Inicial (5–20 anos)\n\nÁrvores pioneiras formam dossel inicial; sombreamento exclui herbáceas  {width =70%} Ex.: Schizolobium parahyba (guapuruvu) na Mata Atlântica\n\n\n\n🌳 Fase Avançada (20+ anos)\n\nEspécies tolerantes à sombra recrutam sob o dossel; diversidade aumenta   Ex.: Euterpe oleracea, Eschweilera spp. na Amazônia"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#primária-vs.-secundária-comparação",
+    "href": "slides/sucessao_ecologica.html#primária-vs.-secundária-comparação",
+    "title": "Sucessão Ecológica",
+    "section": "Primária vs. Secundária — Comparação",
+    "text": "Primária vs. Secundária — Comparação\n\n\n\n\n\nCaracterística\nPrimária\nSecundária\n\n\n\n\nSubstrato\nSem solo/biota\nSolo pré-existente\n\n\nVelocidade\nMuito lenta\nMais rápida\n\n\nBanco de sementes\nAusente\nPresente\n\n\nFacilitação\nEssencial\nModerada\n\n\nFator limitante\nNutrientes, substrato\nLuz, competição\n\n\nDuração estimada\nSéculos-milênios\nDécadas-século\n\n\nExemplo\nDunas de Lençóis\nPasto abandonado no Cerrado\n\n\n\n\n\n\n📊 Velocidade de Recuperação — Mata Atlântica\n\nPasto abandonado → floresta secundária:\n\n5 anos: dossel de 8–12m com Cecropia\n15 anos: 50–60% de cobertura de espécies originais\n30 anos: estrutura florestal presente; diversidade ~40% da primária\n80–100 anos: difícil distinguir de floresta madura pela estrutura\n\nPorém: espécies raras e lianas tardias levam 200+ anos para retornar."
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#o-conceito-de-distúrbio",
+    "href": "slides/sucessao_ecologica.html#o-conceito-de-distúrbio",
+    "title": "Sucessão Ecológica",
+    "section": "O Conceito de Distúrbio",
+    "text": "O Conceito de Distúrbio\n\nDistúrbio: evento discreto no tempo que perturba a estrutura de ecossistemas, comunidades ou populações e altera recursos, disponibilidade de substrato ou ambiente físico.\n\n\n\n\n🔥 Intensidade\n\nGrau de destruição da biomassa e estrutura do solo  Baixa: queda de uma árvore Alta: incêndio de grandes proporções\n\n\n\n📅 Frequência\n\nIntervalo entre distúrbios sucessivos  Alta: campos sazonais Baixa: florestas de terra firme\n\n\n\n📐 Extensão\n\nÁrea afetada pelo evento  Pequena: clareiras Grande: queimadas de savanas"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#hipótese-do-distúrbio-intermediário-hdi",
+    "href": "slides/sucessao_ecologica.html#hipótese-do-distúrbio-intermediário-hdi",
+    "title": "Sucessão Ecológica",
+    "section": "Hipótese do Distúrbio Intermediário (HDI)",
+    "text": "Hipótese do Distúrbio Intermediário (HDI)\nConnell (1978): a diversidade de espécies é maximizada em regimes de distúrbio intermediário — nem muito raros nem muito frequentes.\n\n\n\n\n\n\n\n\n\n\n\n\nBaixo distúrbio: competidores excluem espécies\nIntermediário: diversidade máxima\nAlto distúrbio: só espécies ruderais sobrevivem\n\n\n\nEvidências brasileiras:\n🌿 Florestas com clareias naturais — Floresta Amazônica mantém alta diversidade beta pelo regime de queda de árvores (0,5–2% da área/ano)\n🔥 Cerrado — experimentos em Brasília mostram que fogo a cada 3–5 anos maximiza riqueza de gramíneas e herbáceas; fogo anual ou ausência de fogo reduzem diversidade\n🌊 Várzeas — pulso de inundação amazônico como distúrbio intermediário chave para diversidade de peixes e macrófitas"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#distúrbios-nos-biomas-brasileiros",
+    "href": "slides/sucessao_ecologica.html#distúrbios-nos-biomas-brasileiros",
+    "title": "Sucessão Ecológica",
+    "section": "Distúrbios nos Biomas Brasileiros",
+    "text": "Distúrbios nos Biomas Brasileiros\n\n\nDistúrbios naturais:\n\n\n\nBioma\nDistúrbio principal\nFrequência\n\n\n\n\nAmazônia\nQuedas de árvores, cheias\nContínuo\n\n\nCerrado\nFogo (relâmpago)\n2–5 anos\n\n\nPantanal\nInundação sazonal\nAnual\n\n\nCaatinga\nSeca extrema\nIrregular\n\n\nMata Atlântica\nDeslizamentos, ventos\nDécadas\n\n\nCampos Sulinos\nGeada, granizo\nAnual\n\n\n\n\n\n\n⚠️ Distúrbios antrópicos e sucessão\n\nDesmatamento na Amazônia: - Corte seletivo → fragmentação → efeito de borda - Retarda ou impede sucessão secundária por: - Degradação do banco de sementes - Perda de dispersores (aves, morcegos) - Solo compactado por maquinário - “Savanização” com gramíneas exóticas\nConsequência: Em áreas com perturbações sucessivas, a floresta secundária não consegue se reestabelecer sem intervenção ativa de restauração."
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#ecologia-de-clareiras-distúrbio-em-escala-fina",
+    "href": "slides/sucessao_ecologica.html#ecologia-de-clareiras-distúrbio-em-escala-fina",
+    "title": "Sucessão Ecológica",
+    "section": "Ecologia de Clareiras — Distúrbio em Escala Fina",
+    "text": "Ecologia de Clareiras — Distúrbio em Escala Fina\n\n\nClareiras (treefall gaps) são a unidade básica de renovação florestal:\n\nÁrea: 20–500 m² (típico)\nFrequência: 0,5–2% da área florestal/ano\nCriam mosaico de patches em diferentes estágios\n\n\n\n\nDiferenças por tamanho de clareira:\n\n\n\nTamanho\nColonizadores\nResultado\n\n\n\n\n&lt; 50 m²\nSub-bosque\nRegeneração local rápida\n\n\n50–200 m²\nPioneiras mistas\nDiversidade intermediária\n\n\n&gt; 200 m²\nHeliófitas obrigadas\nAlta biomassa pioneira\n\n\n\n\nClareiras grandes (&gt; 200 m²) na Floresta Atlântica são colonizadas preferencialmente por Cecropia glaziovii e Piper spp., gerando alta heterogeneidade espacial."
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#traços-funcionais-e-dinâmica-sucessional",
+    "href": "slides/sucessao_ecologica.html#traços-funcionais-e-dinâmica-sucessional",
+    "title": "Sucessão Ecológica",
+    "section": "Traços Funcionais e Dinâmica Sucessional",
+    "text": "Traços Funcionais e Dinâmica Sucessional\n\nEcologia funcional estuda como os traços das espécies (morfológicos, fisiológicos, comportamentais) determinam sua resposta ao ambiente e seu efeito sobre processos ecossistêmicos.\n\n\n\n\n🍃 Traços Foliares\n\n\nSLA (Área foliar específica)\nLDMC (teor de matéria seca)\nConcentração de N e P\nEspessura da folha\n\n\n\n\n🌲 Traços de Porte\n\n\nAltura máxima\nDensidade da madeira\nDiâmetro do tronco\nEspessura da casca\n\n\n\n\n🌰 Traços Reprodutivos\n\n\nMassa da semente\nSíndrome de dispersão\nIdade de primeira reprodução\nFecundidade"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#gradientes-funcionais-ao-longo-da-sucessão",
+    "href": "slides/sucessao_ecologica.html#gradientes-funcionais-ao-longo-da-sucessão",
+    "title": "Sucessão Ecológica",
+    "section": "Gradientes Funcionais ao Longo da Sucessão",
+    "text": "Gradientes Funcionais ao Longo da Sucessão\n\n\nEspécies pioneiras → tardias:\n\n\n\nTraço\nPioneiras\nTardias\n\n\n\n\nSLA\nAlto (folhas finas)\nBaixo (esclerófilas)\n\n\nDensidade da madeira\nBaixa\nAlta\n\n\nMassa da semente\nPequena\nGrande\n\n\nCrescimento\nRápido\nLento\n\n\nTolerância à sombra\nBaixa\nAlta\n\n\nDispersão\nAnemocoria/zoocoria pequena\nZoocoria grande\n\n\n\n\n\n\nGradiente exploração → conservação de recursos (Díaz et al. 2016)\nO “espectro econômico foliar” organiza espécies em um eixo de aquisição rápida (fast) a conservação (slow) de recursos — padrão universal, incluindo florestas tropicais brasileiras."
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#diversidade-funcional-e-estabilidade-ecossistêmica",
+    "href": "slides/sucessao_ecologica.html#diversidade-funcional-e-estabilidade-ecossistêmica",
+    "title": "Sucessão Ecológica",
+    "section": "Diversidade Funcional e Estabilidade Ecossistêmica",
+    "text": "Diversidade Funcional e Estabilidade Ecossistêmica\n\n\nPor que a diversidade funcional importa na sucessão?\n\nRedundância funcional: múltiplas espécies com mesmo papel → resiliência\nComplementaridade: diferentes nichos = melhor uso dos recursos\nEfeito de amostrador: espécies dominantes determinam função do ecossistema\n\nDurante a sucessão: - Fases iniciais: baixa diversidade funcional (poucas estratégias) - Fases intermediárias: alta diversidade funcional - Fases tardias: diversidade estrutural alta, funcional moderada (convergência)\n\n\n\n📌 Caso: Diversidade Funcional no Cerrado\n\nEstudos em áreas com diferentes históricos de fogo no Cerrado de Brasília mostram que:\n\nCerrado com fogo intermediário tem maior diversidade funcional de gramíneas (traços: altura, SLA, aerênquima)\nCerrado sem fogo tende à dominância de poucas espécies lenhosas C-estrategistas\nFogo frequente seleciona fortemente por traços de rebrota (geófitos, xilopódios)\n\n→ Regime de fogo = filtro funcional de primeira ordem"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#facilitação-e-inibição-na-perspectiva-funcional",
+    "href": "slides/sucessao_ecologica.html#facilitação-e-inibição-na-perspectiva-funcional",
+    "title": "Sucessão Ecológica",
+    "section": "Facilitação e Inibição na Perspectiva Funcional",
+    "text": "Facilitação e Inibição na Perspectiva Funcional\n\n\n\n✅ Facilitação\n\nEspécies pioneiras melhoram o ambiente para sucessores  Ex.: Leguminosas fixadoras de N₂ (Inga, Mimosa) aumentam fertilidade do solo na Mata Atlântica secundária, acelerando estabelecimento de tardias\n\n\n\n🚫 Inibição\n\nEspécies estabelecidas resistem à invasão por sucessores  Ex.: Gramíneas africanas (Urochloa spp.) em áreas de Cerrado degradado inibem regeneração de lenhosas por competição intensa e promoção de fogo\n\n\n\n🔄 Tolerância\n\nSucessores crescem lentamente sob o dossel dos pioneiros até superá-los  Ex.: Palmeiras (Euterpe edulis) germinam no sub-bosque e crescem durante décadas até atingir o dossel na Mata Atlântica"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#síntese-teoria-e-padrões-de-biomas-brasileiros",
+    "href": "slides/sucessao_ecologica.html#síntese-teoria-e-padrões-de-biomas-brasileiros",
+    "title": "Sucessão Ecológica",
+    "section": "Síntese: Teoria e Padrões de Biomas Brasileiros",
+    "text": "Síntese: Teoria e Padrões de Biomas Brasileiros\n\n\nGradientes-chave que modulam a sucessão no Brasil:\n\n\n\nGradiente\nEfeito na sucessão\n\n\n\n\nPrecipitação\nVelocidade e complexidade\n\n\nSazonalidade\nCaducifolia vs. perenifólia\n\n\nFogo\nFisionomia e traços funcionais\n\n\nFertilidade do solo\nBiomassa e diversidade\n\n\nAltitude\nComposição florística\n\n\nFragmentação\nDisponibilidade de propágulos\n\n\n\n\n\nConvergências teóricas:\n\n🌿 Gleason vence Clements no detalhe — mas filtros abióticos fortes (seca, fogo, inundação) criam previsibilidade clementsiana em escala regional.\n🔄 CSR + r/K são complementares: r/K descreve o eixo ciclo de vida; CSR adiciona o eixo estresse.\n🔥 Distúrbio intermediário explica a alta diversidade dos biomas — Cerrado e Amazônia são sistemas mantidos longe do equilíbrio."
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#restauração-ecológica-como-sucessão-dirigida",
+    "href": "slides/sucessao_ecologica.html#restauração-ecológica-como-sucessão-dirigida",
+    "title": "Sucessão Ecológica",
+    "section": "Restauração Ecológica como Sucessão Dirigida",
+    "text": "Restauração Ecológica como Sucessão Dirigida\n\n\n\n🌱 Nucleação\n\nCriar pontos de atração para fauna dispersora (poleiros artificiais, plantio em ilhas)  Acelera colonização natural ao redor do núcleo — eficaz na Mata Atlântica e Cerrado\n\n\n\n🌳 Plantio em modelos mistos\n\nCombinar espécies de diferentes grupos funcionais (pioneiras + tardias)  Modelo CERNE/ESALQ: 30% pioneiras + 70% tardias em Mata Atlântica\n\n\n\n🔬 Restauração Funcional\n\nSelecionar espécies por traços funcionais para garantir processos ecossistêmicos  Não apenas diversidade de espécies, mas de funções (polinizadores, dispersores, fixadores de N)\n\n\n\nMeta do PACTO PELA RESTAURAÇÃO DA MATA ATLÂNTICA e Plano ABC+: restaurar 15 milhões de hectares até 2030 — a maior iniciativa de restauração tropical do mundo."
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#desafios-contemporâneos",
+    "href": "slides/sucessao_ecologica.html#desafios-contemporâneos",
+    "title": "Sucessão Ecológica",
+    "section": "Desafios Contemporâneos",
+    "text": "Desafios Contemporâneos\n\n\nMudanças climáticas e sucessão:\n\nAlteração do regime de chuvas → mudança nas trajetórias sucessionais\nAumento da frequência de secas extremas na Amazônia (2005, 2010, 2015–16, 2023)\n“Savaneização” da Amazônia: modelo de Lovejoy & Nobre prevê ponto de inflexão entre 20–25% de desmatamento (já próximo em algumas regiões)\n\nEspécies exóticas invasoras: - Urochloa spp. bloqueiam sucessão secundária em 50+ milhões ha no Brasil - Hovenia dulcis (uva-do-japão) invade sucessão tardia no Sul - Pirófitas exóticas alteram regime de fogo no Cerrado\n\n\n\n🌡️ Novos estados alternativos estáveis\n\nA teoria dos estados alternativos estáveis é central para entender os biomas brasileiros sob pressão:"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#perspectivas-e-fronteiras-de-pesquisa",
+    "href": "slides/sucessao_ecologica.html#perspectivas-e-fronteiras-de-pesquisa",
+    "title": "Sucessão Ecológica",
+    "section": "Perspectivas e Fronteiras de Pesquisa",
+    "text": "Perspectivas e Fronteiras de Pesquisa\n\n\n\n🧬 Ecologia Molecular\n\nMetagenômica do solo para rastrear mudanças em comunidades microbianas durante a sucessão  Fungos micorrízicos como indicadores de estágio sucessional\n\n\n\n🛰️ Sensoriamento Remoto\n\nMapeamento de traços funcionais por espectroscopia hiper-espectral (AVIRIS, DESIS)  Monitoramento de sucessão em larga escala pela variação de índices espectrais\n\n\n\n🤖 Modelos de Vegetação\n\nModelos dinâmicos de vegetação global (TRIFFID, JSBACH, ED2) integram traços funcionais para projetar sucessão sob cenários climáticos futuros\n\n\n\nPergunta central: Em um planeta em rápida mudança, a sucessão ecológica ainda converge para clímaxes reconhecíveis — ou os biomas brasileiros entrarão em trajetórias sem análogos históricos?"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#conceitos-chave-para-revisão",
+    "href": "slides/sucessao_ecologica.html#conceitos-chave-para-revisão",
+    "title": "Sucessão Ecológica",
+    "section": "Conceitos-Chave para Revisão",
+    "text": "Conceitos-Chave para Revisão\n\n\nGlossário essencial:\n\nFacilitação / Inibição / Tolerância — modelos de substituição de espécies\nTraços funcionais — características que mediam resposta e efeito das espécies\nPool regional de espécies — conjunto disponível para colonização\nFiltros de montagem — abiótico, biótico, dispersão\nEstados alternativos estáveis — múltiplos equilíbrios possíveis\nRedundância funcional — resiliência via diversidade de funções\nClímax vs. estado dinâmico — visões antigas vs. modernas\nDistúrbio intermediário — maximização da diversidade\n\n\n\nPerguntas reflexivas:\n\nPor que o modelo de Clements ainda é útil mesmo que “errado”?\nComo a teoria CSR e r/K se complementam?\nO fogo no Cerrado é um distúrbio ou um componente constitutivo?\nPor que a sucessão secundária amazônica pode ser mais lenta que a primária em algumas condições?\nComo traços funcionais podem guiar a seleção de espécies para restauração?\nO que os estados alternativos estáveis implicam para a conservação do Cerrado?"
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#definições",
+    "href": "slides/Intro_biodiversidade.html#definições",
+    "title": "Ecologia 2",
+    "section": "Definições",
+    "text": "Definições\nWikipedia: Toda a variedade da terra, dos genes aos ecossistemas e todos os processos que os mantêm."
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#diversidade-taxonômica",
+    "href": "slides/Intro_biodiversidade.html#diversidade-taxonômica",
+    "title": "Ecologia 2",
+    "section": "Diversidade taxonômica",
+    "text": "Diversidade taxonômica\nÉ a diversidade mais conhecida, aquela que se refere ao número de espécies diferentes que habitam uma localidade, ou que compõem um clado, por exemplo.\n\nMackintosh et al (2019) Nature Communications"
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#diversidade-filogenética",
+    "href": "slides/Intro_biodiversidade.html#diversidade-filogenética",
+    "title": "Ecologia 2",
+    "section": "Diversidade filogenética",
+    "text": "Diversidade filogenética\n\n\n\nWinter et al 2013\n\n\nMede a quantidade de informação filogenética dentro de uma comunidade biológica\nHá várias maneiras de medir, mas nenhuma é muito intuitiva.\nPode ser resumida como a distância entre as pontas dos ramos de uma árvore filogenética."
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#diversidade-funcional",
+    "href": "slides/Intro_biodiversidade.html#diversidade-funcional",
+    "title": "Ecologia 2",
+    "section": "Diversidade funcional",
+    "text": "Diversidade funcional\nSegundo a Enciclopédia da Biodiversidade: &gt; “Refere-se aos componentes da biodiversidade que influenciam como um ecossistema funciona.”"
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#diversidade-de-ecossistemas",
+    "href": "slides/Intro_biodiversidade.html#diversidade-de-ecossistemas",
+    "title": "Ecologia 2",
+    "section": "Diversidade de Ecossistemas",
+    "text": "Diversidade de Ecossistemas\n\nBy Ville Koistinen"
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#exemplo-mata-atlântica",
+    "href": "slides/Intro_biodiversidade.html#exemplo-mata-atlântica",
+    "title": "Ecologia 2",
+    "section": "Exemplo: Mata Atlântica",
+    "text": "Exemplo: Mata Atlântica\n\n\n\n\n\nQuanto mais diversidade é possível encontrar?\nEm que níveis?\nQual a sua importância?"
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#distribuição-irregular-da-biodiversidade",
+    "href": "slides/Intro_biodiversidade.html#distribuição-irregular-da-biodiversidade",
+    "title": "Ecologia 2",
+    "section": "Distribuição irregular da biodiversidade",
+    "text": "Distribuição irregular da biodiversidade\n{.fig-align=center}"
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#quantas-espécies-existem-na-terra",
+    "href": "slides/Intro_biodiversidade.html#quantas-espécies-existem-na-terra",
+    "title": "Ecologia 2",
+    "section": "Quantas espécies existem na Terra?",
+    "text": "Quantas espécies existem na Terra?\n\n\n\n\n\nEstimativas atuais sugerem 8,7 milhões de Eucariotos\n3-100 milhões eram as estimativas mais conhecidas\n86% e 91% das espécies terrestres e marinhas, respectivamente, são ainda desconhecidas"
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#diversidade-entre-grupos-de-organismos",
+    "href": "slides/Intro_biodiversidade.html#diversidade-entre-grupos-de-organismos",
+    "title": "Ecologia 2",
+    "section": "Diversidade entre grupos de organismos",
+    "text": "Diversidade entre grupos de organismos\n\n\n\n\n\nA maior parte da diversidade é animal\nDesses, a maior parte é invertebrado, especificamente insetos\nAs plantas, em sua maioria, possuem flores"
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#por-que-a-biodiversidade-é-importante",
+    "href": "slides/Intro_biodiversidade.html#por-que-a-biodiversidade-é-importante",
+    "title": "Ecologia 2",
+    "section": "Por que a biodiversidade é importante?",
+    "text": "Por que a biodiversidade é importante?\n\n\n\nImportância = valor\nComo definimos valores?\nUtilitários vs. intrínsecos"
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#por-que-medir-a-biodiversidade",
+    "href": "slides/Intro_biodiversidade.html#por-que-medir-a-biodiversidade",
+    "title": "Ecologia 2",
+    "section": "Por que medir a biodiversidade?",
+    "text": "Por que medir a biodiversidade?\n\n\n\nÉ a única maneira de comunicar seu estado\nBiólogos devem manejar alguns conceitos básicos\nTécnicas de mensuração da biodiversidade não podem ser confundidas com o conceito"
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#níveis-de-diversidade",
+    "href": "slides/Intro_biodiversidade.html#níveis-de-diversidade",
+    "title": "Ecologia 2",
+    "section": "Níveis de diversidade",
+    "text": "Níveis de diversidade\n\n\nAlfa, Beta e Gama\n\n\nSão níveis complementares de mensuração da biodiversidade"
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#diversidade-alfa",
+    "href": "slides/Intro_biodiversidade.html#diversidade-alfa",
+    "title": "Ecologia 2",
+    "section": "Diversidade Alfa",
+    "text": "Diversidade Alfa\n\n\n\nÉ a diversidade que costumamos medir quando:\n\ncontamos espécies num local\nlistamos espécies de um ambiente\n\nNunca contamos todas as espécies\n\n\n\n\nPara brincar com curvas de extrapolação/interpolação, veja o site da Anne Chao."
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#diversidade-beta",
+    "href": "slides/Intro_biodiversidade.html#diversidade-beta",
+    "title": "Ecologia 2",
+    "section": "Diversidade Beta",
+    "text": "Diversidade Beta\n\n\n\nÉ a diferença na composição entre duas comunidades\nTem grande poder de informação acerca de processos de montagem das comunidades biológicas\nPode ser calculada de diferentes formas"
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#diversidade-gama",
+    "href": "slides/Intro_biodiversidade.html#diversidade-gama",
+    "title": "Ecologia 2",
+    "section": "Diversidade Gama",
+    "text": "Diversidade Gama\n\n\n\nÉ a diversidade regional\nResultado de alfa * beta\nÉ mais informativa quando usada em conjunto com alfa e beta"
+  },
+  {
+    "objectID": "slides/Intro_biodiversidade.html#fim",
+    "href": "slides/Intro_biodiversidade.html#fim",
+    "title": "Ecologia 2",
+    "section": "FIM",
+    "text": "FIM"
+  },
+  {
+    "objectID": "slides/week01-slides.html#objetivos-da-aula",
+    "href": "slides/week01-slides.html#objetivos-da-aula",
+    "title": "Semana 1",
+    "section": "Objetivos da aula",
+    "text": "Objetivos da aula\n\nPonto-chave 1\nPonto-chave 2\nPonto-chave 3"
+  },
+  {
+    "objectID": "slides/week01-slides.html#tópico-1",
+    "href": "slides/week01-slides.html#tópico-1",
+    "title": "Semana 1",
+    "section": "Tópico 1",
+    "text": "Tópico 1\nConteúdo do tópico 1."
+  },
+  {
+    "objectID": "slides/week01-slides.html#tópico-2",
+    "href": "slides/week01-slides.html#tópico-2",
+    "title": "Semana 1",
+    "section": "Tópico 2",
+    "text": "Tópico 2\nConteúdo do tópico 2."
+  },
+  {
+    "objectID": "slides/week01-slides.html#atividade-prática",
+    "href": "slides/week01-slides.html#atividade-prática",
+    "title": "Semana 1",
+    "section": "Atividade prática",
+    "text": "Atividade prática\nDescreva aqui a atividade prática desta aula."
+  },
+  {
+    "objectID": "slides/week01-slides.html#referências",
+    "href": "slides/week01-slides.html#referências",
+    "title": "Semana 1",
+    "section": "Referências",
+    "text": "Referências\n\nReferência 1\nReferência 2"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#o-que-é-uma-comunidade-ecológica",
+    "href": "slides/comunidades_comparacao.html#o-que-é-uma-comunidade-ecológica",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "O que é uma Comunidade Ecológica?",
+    "text": "O que é uma Comunidade Ecológica?\n\n\n\nConjunto de populações de diferentes espécies que coexistem em um local e tempo\nInteragem entre si e com o ambiente\nApresentam estrutura e organização próprias\nSão dinâmicas: mudam ao longo do tempo e espaço\n\n\n\n\n\nRecifes de coral"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#por-que-comparar-comunidades",
+    "href": "slides/comunidades_comparacao.html#por-que-comparar-comunidades",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Por que Comparar Comunidades?",
+    "text": "Por que Comparar Comunidades?\n\n\n\nAvaliar impactos ambientais e perturbações\nMonitorar mudanças ao longo do tempo\nComparar habitats distintos\nEntender padrões de biodiversidade\nEmbasar decisões de conservação"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#a-ecologia-é-uma-bagunça",
+    "href": "slides/comunidades_comparacao.html#a-ecologia-é-uma-bagunça",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "A Ecologia é uma “Bagunça”",
+    "text": "A Ecologia é uma “Bagunça”\n\nNa genética de populações:\n\nSeleção — mudanças nas frequências alélicas\nDeriva — mudanças estocásticas\nMutação — fonte de nova variação\nFluxo gênico — entrada/saída de alelos\n\nVellend (2010) propõe uma síntese unificada da disciplina"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#os-4-processos-de-vellend-2010",
+    "href": "slides/comunidades_comparacao.html#os-4-processos-de-vellend-2010",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Os 4 Processos de Vellend (2010)",
+    "text": "Os 4 Processos de Vellend (2010)\n\n\n\nEcologia de Comunidades\nGenética de Populações\n\n\n\n\nSeleção\nSeleção\n\n\nDeriva\nDeriva genética\n\n\nEspeciação\nMutação\n\n\nDispersão\nFluxo gênico\n\n\n\n\nEsses processos não são excludentes — interagem continuamente\nA teoria geral: espécies entram via especiação e dispersão; abundâncias relativas são moldadas por deriva e seleção"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#section",
+    "href": "slides/comunidades_comparacao.html#section",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "",
+    "text": "Espécies são adicionadas via especiação e dispersão; abundâncias relativas são moldadas por deriva e seleção (Vellend 2010)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-1-seleção",
+    "href": "slides/comunidades_comparacao.html#processo-1-seleção",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 1: Seleção",
+    "text": "Processo 1: Seleção\n\nDefinição: diferenças determinísticas de fitness\nTrês formas principais:\n\nSeleção constante: uma espécie sempre “ganha”\nSeleção dependente da densidade : favorece coexistência estável\nSeleção variável no espaço/tempo: permite coexistência via trade-offs"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-1-seleção-1",
+    "href": "slides/comunidades_comparacao.html#processo-1-seleção-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 1: Seleção",
+    "text": "Processo 1: Seleção"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-2-deriva-ecológica-drift",
+    "href": "slides/comunidades_comparacao.html#processo-2-deriva-ecológica-drift",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 2: Deriva Ecológica (Drift)",
+    "text": "Processo 2: Deriva Ecológica (Drift)\n\nDefinição: mudanças estocásticas nas abundâncias relativas das espécies\nHubbell (2001): Teoria Neutra Unificada — bases da deriva ecológica\nImportância da deriva aumenta quando:\n\nComunidades são pequenas\nDiferenças de fitness entre espécies são fracas\nDistúrbios reduzem o tamanho da comunidade"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-2-deriva-ecológica-drift-1",
+    "href": "slides/comunidades_comparacao.html#processo-2-deriva-ecológica-drift-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 2: Deriva Ecológica (Drift)",
+    "text": "Processo 2: Deriva Ecológica (Drift)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-3-especiação",
+    "href": "slides/comunidades_comparacao.html#processo-3-especiação",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 3: Especiação",
+    "text": "Processo 3: Especiação\n\nDefinição: criação de novas espécies\nEquivale à mutação na genética de populações\nDetermina o pool regional de espécies (Div Gama)\nHipótese do pool de espécies (Taylor et al. 1990): habitats mais antigos geram mais espécies adaptadas a eles\nPadrões que dependem de especiação:\n\nBeta Diversidade entre regiões com condições similares\nGradientes de diversidade com altitude, latitude ou produtividade"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-3-especiação-1",
+    "href": "slides/comunidades_comparacao.html#processo-3-especiação-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 3: Especiação",
+    "text": "Processo 3: Especiação"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-4-dispersão",
+    "href": "slides/comunidades_comparacao.html#processo-4-dispersão",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 4: Dispersão",
+    "text": "Processo 4: Dispersão\n\nDefinição: movimento de organismos no espaço\n\nEquivale ao fluxo gênico na genética de populações\nConecta comunidades locais → metacomunidades\n\nEfeitos da dispersão dependem de sua interação com seleção e deriva:\n\nDispersão baixa: deriva domina → comunidades divergem\nDispersão moderada: riqueza local é maximizada\nDispersão alta: competidores superiores dominam globalmente → riqueza cai"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-4-dispersão-1",
+    "href": "slides/comunidades_comparacao.html#processo-4-dispersão-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 4: Dispersão",
+    "text": "Processo 4: Dispersão"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#interações-entre-os-4-processos",
+    "href": "slides/comunidades_comparacao.html#interações-entre-os-4-processos",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Interações entre os 4 Processos",
+    "text": "Interações entre os 4 Processos\n\nOs 4 processos raramente atuam isoladamente\nPodem ser combinados de 12 formas distintas para gerar modelos\n\n(especiação e dispersão exigem ao menos seleção ou deriva para serem operacionais)\n\nExemplos de interações:\n\nSeleção + Deriva: resultados determinísticos com ruído estocástico\nDeriva + Dispersão: Teoria da Biogeografia de Ilhas (MacArthur & Wilson 1967)\nDeriva + Dispersão + Especiação: Teoria Neutra de Hubbell (2001)\nSeleção + Dispersão: metacomunidades com species sorting e mass effects\nTodos os 4: teoria geral de comunidades (Vellend 2010)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#interações-entre-os-4-processos-1",
+    "href": "slides/comunidades_comparacao.html#interações-entre-os-4-processos-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Interações entre os 4 Processos",
+    "text": "Interações entre os 4 Processos"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#as-12-combinações-de-processos-e-teorias",
+    "href": "slides/comunidades_comparacao.html#as-12-combinações-de-processos-e-teorias",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "As 12 Combinações de Processos e Teorias",
+    "text": "As 12 Combinações de Processos e Teorias\n\n\n\n\n\n\n\n\n\n\n\n\n#\nSel.\nDer.\nEsp.\nDisp.\nTeoria / Modelo\n\n\n\n\n1\n✓\n\n\n\nModelos de nicho (competição por recursos, predador-presa, teias tróficas)\n\n\n2\n\n✓\n\n\nTeoria Neutra I (estocasticidade demográfica)\n\n\n3\n✓\n✓\n\n\nModelos nicho-neutro (qualquer modelo de nicho com estocasticidade)\n\n\n4\n✓\n\n✓\n\nEcologia histórica I (hipótese do pool, gradientes de diversidade)\n\n\n5\n\n✓\n✓\n\nTeoria Neutra II (não espacial)\n\n\n6\n✓\n\n\n✓\nMetacomunidades determinísticas (mass effects, teias tróficas espaciais)\n\n\n7\n\n✓\n\n✓\nBiogeografia de Ilhas (MacArthur & Wilson 1967)\n\n\n8\n✓\n✓\n✓\n\nEcologia histórica II\n\n\n9\n✓\n\n✓\n✓\nEcologia histórica III\n\n\n10\n\n✓\n✓\n✓\nTeoria Neutra IV (espacial — Hubbell 2001)\n\n\n11\n✓\n✓\n\n✓\nMetacomunidades estocásticas (trade-off colonização-competição)\n\n\n12\n✓\n✓\n✓\n✓\nTeoria geral de comunidades (Vellend 2010)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#padrões-em-comunidades-a-caixa-preta",
+    "href": "slides/comunidades_comparacao.html#padrões-em-comunidades-a-caixa-preta",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Padrões em Comunidades: A “Caixa Preta”",
+    "text": "Padrões em Comunidades: A “Caixa Preta”\n\nOs 4 processos geram padrões amplamente estudados:\n\nRelação espécies-área\nDistribuição de abundâncias relativas\nGradiente latitudinal de diversidade\nRelação diversidade-distância (decaimento de similaridade)\nRelações diversidade-produtividade e diversidade-distúrbio"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#exemplos",
+    "href": "slides/comunidades_comparacao.html#exemplos",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Exemplos",
+    "text": "Exemplos\n\nProblema central: a maioria dos padrões tem múltiplas explicações possíveis\nExemplo: relação espécies-área pode ser explicada por deriva (extinção menor em ilhas grandes), dispersão (maior área = maior alvo), seleção (maior heterogeneidade ambiental) e especiação (mais oportunidades em ilhas grandes)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#espécie-área",
+    "href": "slides/comunidades_comparacao.html#espécie-área",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Espécie-Área",
+    "text": "Espécie-Área"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#teoria-neutra-de-hubbell-2001",
+    "href": "slides/comunidades_comparacao.html#teoria-neutra-de-hubbell-2001",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Teoria Neutra de Hubbell (2001)",
+    "text": "Teoria Neutra de Hubbell (2001)\n\nCaso especial: apenas Deriva + Dispersão + Especiação (sem seleção)\nPressuposto: todos os indivíduos são ecologicamente equivalentes (neutralidade)\nComunidade local determinada por:\n\nTamanho da metacomunidade (JM)\nTaxa de especiação (ν)\nTaxa de dispersão (m)\n\nContribuição: formalizou a deriva como processo legítimo, não apenas “ruído”"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#teoria-neutra-de-hubbell-2001-1",
+    "href": "slides/comunidades_comparacao.html#teoria-neutra-de-hubbell-2001-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Teoria Neutra de Hubbell (2001)",
+    "text": "Teoria Neutra de Hubbell (2001)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#metacomunidades-dispersão-como-eixo-central",
+    "href": "slides/comunidades_comparacao.html#metacomunidades-dispersão-como-eixo-central",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Metacomunidades: Dispersão como Eixo Central",
+    "text": "Metacomunidades: Dispersão como Eixo Central\n\nMetacomunidade: conjunto de comunidades locais conectadas por dispersão\n\nNeutralidade: deriva + dispersão (sem seleção)\nDinâmica de patches: trade-off colonização-competição\nFiltros: seleção filtra espécies por gradiente ambiental\nEfeitos de massa: dispersão mantém espécies em habitats desfavoráveis\n\nDiversidade beta é a assinatura espacial das metacomunidades"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#metacomunidades-dispersão-como-eixo-central-1",
+    "href": "slides/comunidades_comparacao.html#metacomunidades-dispersão-como-eixo-central-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Metacomunidades: Dispersão como Eixo Central",
+    "text": "Metacomunidades: Dispersão como Eixo Central"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#implicações",
+    "href": "slides/comunidades_comparacao.html#implicações",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Implicações",
+    "text": "Implicações\n\nPara o ensino: organiza toda a ecologia de comunidades em torno de 4 processos — mais coerente que listagem de padrões e interações\nPara a pesquisa: permite localizar qualquer teoria na Tabela 2 → evita reinvenção da roda\nPara aplicações: conservação e manejo podem ser guiados por identificar qual processo é dominante:\n\nFragmentação → limita dispersão\nInvasões → alteram seleção\nPerda de habitat → intensifica deriva\nExtinções locais → afetam o pool via especiação\n\nDesafio permanente: inferir processo a partir de padrão — a “caixa preta” continua"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#resumo",
+    "href": "slides/comunidades_comparacao.html#resumo",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Resumo",
+    "text": "Resumo\n\nA ecologia de comunidades tem uma teoria geral\nOs 4 processos são concomitantes\nA teoria geral ecoa a Síntese Moderna da biologia evolutiva\nPadrões têm múltiplas causas — isso não é fraqueza da ecologia, é sua natureza\n\nLeitura complementar:\n\nVellend (2016). The Theory of Ecological Communities. Princeton University Press.\nHubbell (2001). The Unified Neutral Theory of Biodiversity and Biogeography. Princeton.\nHolyoak et al. (2005). Metacommunities. University of Chicago Press."
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#fim",
+    "href": "slides/comunidades_comparacao.html#fim",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Fim",
+    "text": "Fim"
+  },
+  {
+    "objectID": "exercises/index.html",
+    "href": "exercises/index.html",
+    "title": "Exercícios",
+    "section": "",
+    "text": "Lista de exercícios práticos da disciplina. Adicione um item por exercício/lista."
+  },
+  {
+    "objectID": "exercises/index.html#exercício-1-título",
+    "href": "exercises/index.html#exercício-1-título",
+    "title": "Exercícios",
+    "section": "Exercício 1 — Título",
+    "text": "Exercício 1 — Título\nEntrega: DD/MM/AAAA\nDescrição do exercício, dados necessários e instruções de entrega.\nBaixar dados/enunciado"
+  },
+  {
+    "objectID": "exercises/index.html#exercício-2-título",
+    "href": "exercises/index.html#exercício-2-título",
+    "title": "Exercícios",
+    "section": "Exercício 2 — Título",
+    "text": "Exercício 2 — Título\nEntrega: DD/MM/AAAA\nDescrição do exercício."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Cronograma",
+    "section": "",
+    "text": "Cronograma preliminar — sujeito a ajustes ao longo do semestre.\n\n\n\n\n\n\n\n\n\nSemana\nData\nTema\nMaterial\n\n\n\n\n1\nDD/MM\nApresentação da disciplina e conceitos introdutórios\nSlides\n\n\n2\nDD/MM\nTema da semana 2\n\n\n\n3\nDD/MM\nTema da semana 3\n\n\n\n4\nDD/MM\nTema da semana 4\n\n\n\n5\nDD/MM\nTema da semana 5\n\n\n\n6\nDD/MM\nTema da semana 6\n\n\n\n7\nDD/MM\nAvaliação parcial\n\n\n\n8\nDD/MM\nTema da semana 8\n\n\n\n9\nDD/MM\nTema da semana 9\n\n\n\n10\nDD/MM\nTema da semana 10\n\n\n\n11\nDD/MM\nTema da semana 11\n\n\n\n12\nDD/MM\nTema da semana 12\n\n\n\n13\nDD/MM\nApresentação de projetos/seminários\n\n\n\n14\nDD/MM\nAvaliação final"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "INT0158 - ECOLOGIA 2",
+    "section": "",
+    "text": "INT0158 - ECOLOGIA 2\n2026.2\nCentro de Biociências\nUniversidade Federal de Pernambuco\n\n\n\n\n\n\nProf. Felipe Melo\nDepartamento de Botânica, Centro de Biociências\nfelipe.plmelo@ufpe.br\n\n\n\n\n\n\nDia(s) da semana: QUINTAS-FEIRAS\nPeríodo: 2026.2\nHorário: 10-13h\nLocal: Sala 06, CB-UFPE\n\n\n\n\n\n\nEste curso se baseia em duas principais ferramentas: 1) este site e; 2) Google Sala de Aula onde as tarefas devem ser submetidas.\n\n\n\nEste ambiente será um apoio fundamental para o aprendizado durante a disciplina, especialmente no módulo de Ecologia de Comunidades"
+  },
+  {
+    "objectID": "index.html#bem-vind",
+    "href": "index.html#bem-vind",
+    "title": "INT0158 - ECOLOGIA 2",
+    "section": "",
+    "text": "Este ambiente será um apoio fundamental para o aprendizado durante a disciplina, especialmente no módulo de Ecologia de Comunidades"
+  },
+  {
+    "objectID": "sessions/week01.html#introdução",
+    "href": "sessions/week01.html#introdução",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "1 Introdução",
+    "text": "1 Introdução\nBiodiversidade é a variedade da vida em diferentes níveis de organização, dos genes aos ecossistemas, e constitui um conceito central para as ciências da vida e para a conservação (Gaggiotti et al., 2018; Boudouresque, 2014; Moreno, 2001). As definições mais aceitas convergem para três níveis fundamentais — diversidade genética, diversidade de espécies e diversidade de ecossistemas — embora vários autores também defendam a inclusão explícita de dimensões funcionais, filogenéticas e comportamentais (Liu et al., 2024; Coates et al., 2018; Cordero‐Rivera, 2017; Boudouresque, 2014).\nA biodiversidade é um conceito hierárquico e multidimensional, e isso torna inadequado descrevê-la por uma única métrica (Gaggiotti et al., 2018; Boudouresque, 2014). Diferentes medidas capturam componentes distintos da variação biológica, de modo que avaliações robustas dependem de abordagens integradas (Gaggiotti et al., 2018; Boudouresque, 2014; Karahan et al., 2025)."
   },
   {
     "objectID": "sessions/week01.html#o-conceito-de-biodiversidade",
@@ -119,11 +1547,11 @@
     "text": "8 A Crise da perda de Biodiversidade\nA perda de biodiversidade é um grande desafio global (Hochkirch et al., 2023; Di Marco et al., 2019). As taxas atuais de extinção estão cerca de 1000 vezes acima da taxa de fundo provável (Pimm et al., 2014).\nUma parte substancial das espécies avaliadas já está ameaçada (Hochkirch et al., 2023; Kumari et al., 2021). Em uma análise de 14.669 espécies europeias, 19% estavam ameaçadas de extinção, com risco maior para plantas (27%) e invertebrados (24%) do que para vertebrados (18%) (Hochkirch et al., 2023). Esses valores excederam estimativas recentes usadas em avaliações globais (Hochkirch et al., 2023).\nO conhecimento disponível ainda cobre apenas uma fração da vida na Terra (Pimm et al., 2014; Isbell et al., 2022). Muitas espécies permanecem não descritas, e apenas cerca de 1% do número estimado de espécies foi avaliado quanto ao risco de extinção pela IUCN nas últimas duas décadas (Pimm et al., 2014; Isbell et al., 2022)."
   },
   {
-    "objectID": "sessions/week01.html#principais-vetores-de-perda",
-    "href": "sessions/week01.html#principais-vetores-de-perda",
-    "title": "Aula 1 — Introdução à Biodiversidade",
-    "section": "9 Principais Vetores de Perda",
-    "text": "9 Principais Vetores de Perda\nMudanças nas práticas agrícolas, perda de habitat associada, sobre-exploração, poluição e desenvolvimento estão entre as principais ameaças à biodiversidade (Hochkirch et al., 2023). Em sínteses mais amplas, a expansão agropecuária, fragmentação, espécies invasoras, monoculturas, poluição e mudança climática aparecem de forma recorrente como motores da erosão da biodiversidade (Kumari et al., 2021; Legge et al., 2023).\nA perda de habitat é um dos vetores mais consistentes da crise atual (Gonçalves-Souza et al., 2020). O desmatamento aumentou substancialmente a chance de vertebrados serem classificados como ameaçados, sofrerem reclassificação recente para categorias mais severas ou apresentarem populações em declínio (Betts et al., 2017).\nEsse efeito não se restringe a paisagens já muito fragmentadas (Betts et al., 2017). Em paisagens relativamente intactas, mesmo perdas pequenas de floresta tiveram consequências severas para a biodiversidade de vertebrados (Betts et al., 2017).\nAs ameaças também interagem entre si (Gonçalves-Souza et al., 2020). Habitat loss combinada com outros estressores pode produzir mais extinções do que a soma simples dos impactos individuais, o que torna previsões baseadas em um único fator potencialmente conservadoras (Gonçalves-Souza et al., 2020)."
+    "objectID": "sessions/week01.html#principais-vetores-de-extinção",
+    "href": "sessions/week01.html#principais-vetores-de-extinção",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "9 Principais vetores de extinção",
+    "text": "9 Principais vetores de extinção\nMudanças nas práticas agrícolas, perda de habitat associada, sobre-exploração, poluição e desenvolvimento estão entre as principais ameaças à biodiversidade (Hochkirch et al., 2023). Em sínteses mais amplas, a expansão agropecuária, fragmentação, espécies invasoras, monoculturas, poluição e mudança climática aparecem de forma recorrente como motores da erosão da biodiversidade (Kumari et al., 2021; Legge et al., 2023).\nA perda de habitat é um dos vetores mais consistentes da crise atual (Gonçalves-Souza et al., 2020). O desmatamento aumentou substancialmente a chance de vertebrados serem classificados como ameaçados, sofrerem reclassificação recente para categorias mais severas ou apresentarem populações em declínio (Betts et al., 2017).\nEsse efeito não se restringe a paisagens já muito fragmentadas (Betts et al., 2017). Em paisagens relativamente intactas, mesmo perdas pequenas de floresta tiveram consequências severas para a biodiversidade de vertebrados (Betts et al., 2017).\nAs ameaças também interagem entre si (Gonçalves-Souza et al., 2020). Habitat loss combinada com outros estressores pode produzir mais extinções do que a soma simples dos impactos individuais, o que torna previsões baseadas em um único fator potencialmente conservadoras (Gonçalves-Souza et al., 2020)."
   },
   {
     "objectID": "sessions/week01.html#proteção-lacunas-e-prioridades",
@@ -140,13 +1568,6 @@
     "text": "11 Dimensões Emergentes\nA literatura recente mostra que biodiversidade não deve ser reduzida aos três níveis clássicos, embora eles permaneçam a base conceitual mais estável (Liu et al., 2024; Cordero‐Rivera, 2017). Diversidade funcional, filogenética e comportamental ampliam a capacidade de detectar diferenças ecologicamente relevantes entre comunidades (Cordero‐Rivera, 2017; Karahan et al., 2025).\nA proposta de etnodiversidade argumenta que a variação comportamental é parte negligenciada, mas ecologicamente importante, da biodiversidade (Cordero‐Rivera, 2017). Segundo essa perspectiva, conservar biodiversidade exige ir além da contagem de genes, espécies e ecossistemas, incorporando explicitamente componentes comportamentais (Cordero‐Rivera, 2017).\n\n\n\n\n\n\nDicaSíntese para a Aula\n\n\n\nBiodiversidade é um conceito multinível, multidimensional e escalonado. A mensagem central é que genes, espécies, populações, comunidades e ecossistemas variam conjuntamente, mas nem sempre de forma concordante. Também é essencial deixar claro que a biodiversidade não é apenas um inventário naturalista, mas um componente estrutural do funcionamento dos ecossistemas e do bem-estar humano . Por fim, a crise contemporânea de perda biológica é rápida, espacialmente desigual e impulsionada por múltiplos vetores antrópicos, o que exige conservação integrada e baseada em diferentes dimensões da diversidade."
   },
   {
-    "objectID": "sessions/week01.html#síntese-para-a-aula",
-    "href": "sessions/week01.html#síntese-para-a-aula",
-    "title": "Aula 1 — Introdução à Biodiversidade",
-    "section": "12 Síntese para a Aula",
-    "text": "12 Síntese para a Aula\nBiodiversidade é um conceito multinível, multidimensional e escalonado. A mensagem central é que genes, espécies, populações, comunidades e ecossistemas variam conjuntamente, mas nem sempre de forma concordante. Também é essencial deixar claro que a biodiversidade não é apenas um inventário naturalista, mas um componente estrutural do funcionamento dos ecossistemas e do bem-estar humano . Por fim, a crise contemporânea de perda biológica é rápida, espacialmente desigual e impulsionada por múltiplos vetores antrópicos, o que exige conservação integrada e baseada em diferentes dimensões da diversidade (Pimm et al., 2014; Hochkirch et al., 2023; Johnson et al., 2017)."
-  },
-  {
     "objectID": "sessions/week01.html#referências",
     "href": "sessions/week01.html#referências",
     "title": "Semana 1 — Introdução à Biodiversidade",
@@ -159,285 +1580,5 @@
     "title": "Semana 1 — Introdução à Biodiversidade",
     "section": "13 References",
     "text": "13 References\nBetts, M., Wolf, C., Ripple, W., Phalan, B., Millers, K. A., Duarte, A., Butchart, S., & Levi, T. (2017). Global forest loss disproportionately erodes biodiversity in intact landscapes. Nature, 547, 441-444. https://doi.org/10.1038/nature23285\nCoates, D., Byrne, M., & Moritz, C. (2018). Genetic Diversity and Conservation Units: Dealing With the Species-Population Continuum in the Age of Genomics. Frontiers in Ecology and Evolution. https://doi.org/10.3389/fevo.2018.00165\nCordero‐Rivera, A. (2017). Behavioral Diversity (Ethodiversity): A Neglected Level in the Study of Biodiversity. Frontiers in Ecology and Evolution, 5. https://doi.org/10.3389/fevo.2017.00007\nDi Marco, M., Ferrier, S., Harwood, T., Hoskins, A., & Watson, J. (2019). Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature, 573, 582 - 585. https://doi.org/10.1038/s41586-019-1567-7\nFargeot, L., Poésy, C., Lefort, M., Prunier, J. G., Krick, M., Verdonck, R., Veyssière, C., Richard, M., Legrand, D., Loot, G., & Blanchet, S. (2025). Genetic diversity affects ecosystem functions across trophic levels as much as species diversity, but in an opposite direction. eLife, 13. https://doi.org/10.1101/2024.03.27.586944\nGaggiotti, O., Chao, A., Peres‐Neto, P., Chiu, C., Edwards, C., Fortin, M., Jost, L., Richards, C., & Selkoe, K. (2018). Diversity from genes to ecosystems: A unifying framework to study variation across biological metrics and scales. Evolutionary Applications, 11, 1176 - 1193. https://doi.org/10.1111/eva.12593\nGonçalves-Souza, D., Verburg, P., & Dobrovolski, R. (2020). Habitat loss, extinction predictability and conservation efforts in the terrestrial ecoregions. Biological Conservation. https://doi.org/10.1016/j.biocon.2020.108579\nGuo, G. (2022). Review of Habitat Loss and Biodiversity in Poyang Lake Region. Proceedings of the 2022 International Conference on Urban Planning and Regional Economy（UPRE 2022）. https://doi.org/10.2991/aebmr.k.220502.096\nHochkirch, A., Bilz, M., Ferreira, C., Danielczak, A., Allen, D., Nieto, A., Rondinini, C., Harding, K., Hilton‐Taylor, C., Pollock, C., Seddon, M., Vié, J., Alexander, K., Beech, E., Biscoito, M., Braud, Y., Burfield, I., Buzzetti, F. M., Cálix, M., . . . Zuna-Kratky, T. (2023). A multi-taxon analysis of European Red Lists reveals major threats to biodiversity. PLOS ONE, 18. https://doi.org/10.1371/journal.pone.0293083\nIsbell, F., Balvanera, P., Mori, A. S., He, J., Bullock, J., Regmi, G. R., Seabloom, E., Ferrier, S., Sala, O., Guerrero‐Ramírez, N. R., Tavella, J., Larkin, D., Schmid, B., Outhwaite, C. L., Pramual, P., Borer, E., Loreau, M., Omotoriogun, T., Obura, D., . . . Palmer, M. (2022). Expert perspectives on global biodiversity loss and its drivers and impacts on people. Frontiers in Ecology and the Environment. https://doi.org/10.1002/fee.2536\nJohnson, C. N., Balmford, A., Brook, B., Buettel, J., Galetti, M., Lei, G., & Wilmshurst, J. (2017). Biodiversity losses and conservation responses in the Anthropocene. Science, 356, 270 - 275. https://doi.org/10.1126/science.aam9317\nKarahan, A., Durgut, B., Iannucci, S., Turicchia, E., Ponti, M., Ivanova, P., Dzhembekova, N., & Rinkevich, B. (2025). MAF biodiversity measurements: Species, ecosystem, and genetic. Open Research Europe. https://doi.org/10.12688/openreseurope.20835.1\nKumari, R., A., D., & Bhatnagar, S. (2021). Biodiversity Loss: Threats and Conservation Strategies. International Journal of Pharmaceutical Sciences Review and Research. https://doi.org/10.47583/ijpsrr.2021.v68i01.037\nLegge, S., Rumpff, L., Garnett, S., & Woinarski, J. (2023). Loss of terrestrial biodiversity in Australia: Magnitude, causation, and response. Science, 381, 622 - 631. https://doi.org/10.1126/science.adg7870\nLiu, Y., Wang, J., Wu, Z., Li, S., & Dai, W. (2024). Identification of biodiversity priority conservation areas in China by integrating genetic, species and ecosystem diversity. Biological Conservation. https://doi.org/10.1016/j.biocon.2024.110854\nMoreno, C. (2001). Métodos para medir la biodiversidad.\nPimm, S., Jenkins, C. N., Abell, R., Brooks, T., Gittleman, J. L., Joppa, L., Raven, P., Roberts, C., & Sexton, J. (2014). The biodiversity of species and their rates of extinction, distribution, and protection. Science, 344. https://doi.org/10.1126/science.1246752\nWang, E. T., & Young, J. (2019). History of Rhizobial Taxonomy. Ecology and Evolution of Rhizobia. https://doi.org/10.1007/978-981-32-9555-1_2"
-  },
-  {
-    "objectID": "workbook/workbook.html",
-    "href": "workbook/workbook.html",
-    "title": "Seu próprio site",
-    "section": "",
-    "text": "Guia passo a passo para que cada aluno(a) crie seu próprio site Quarto pessoal/de portfólio, hospedado no GitHub Pages — útil para relatórios de disciplina e projetos futuros."
-  },
-  {
-    "objectID": "workbook/workbook.html#objetivo",
-    "href": "workbook/workbook.html#objetivo",
-    "title": "Seu próprio site",
-    "section": "",
-    "text": "Guia passo a passo para que cada aluno(a) crie seu próprio site Quarto pessoal/de portfólio, hospedado no GitHub Pages — útil para relatórios de disciplina e projetos futuros."
-  },
-  {
-    "objectID": "workbook/workbook.html#passo-a-passo",
-    "href": "workbook/workbook.html#passo-a-passo",
-    "title": "Seu próprio site",
-    "section": "Passo a passo",
-    "text": "Passo a passo\n\nCriar uma conta no GitHub\nInstalar o Quarto\nCriar um novo projeto de site (quarto create-project meu-site --type website)\nPublicar no GitHub Pages (quarto publish gh-pages)"
-  },
-  {
-    "objectID": "workbook/workbook.html#recursos-úteis",
-    "href": "workbook/workbook.html#recursos-úteis",
-    "title": "Seu próprio site",
-    "section": "Recursos úteis",
-    "text": "Recursos úteis\n\nDocumentação oficial do Quarto\nGuia de GitHub Pages"
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Cronograma",
-    "section": "",
-    "text": "Cronograma preliminar — sujeito a ajustes ao longo do semestre.\n\n\n\n\n\n\n\n\n\nSemana\nData\nTema\nMaterial\n\n\n\n\n1\nDD/MM\nApresentação da disciplina e conceitos introdutórios\nSlides\n\n\n2\nDD/MM\nTema da semana 2\n\n\n\n3\nDD/MM\nTema da semana 3\n\n\n\n4\nDD/MM\nTema da semana 4\n\n\n\n5\nDD/MM\nTema da semana 5\n\n\n\n6\nDD/MM\nTema da semana 6\n\n\n\n7\nDD/MM\nAvaliação parcial\n\n\n\n8\nDD/MM\nTema da semana 8\n\n\n\n9\nDD/MM\nTema da semana 9\n\n\n\n10\nDD/MM\nTema da semana 10\n\n\n\n11\nDD/MM\nTema da semana 11\n\n\n\n12\nDD/MM\nTema da semana 12\n\n\n\n13\nDD/MM\nApresentação de projetos/seminários\n\n\n\n14\nDD/MM\nAvaliação final"
-  },
-  {
-    "objectID": "get-started/5-data.html",
-    "href": "get-started/5-data.html",
-    "title": "Dados em R",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/5-data.html#objetivo",
-    "href": "get-started/5-data.html#objetivo",
-    "title": "Dados em R",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/5-data.html#passo-a-passo",
-    "href": "get-started/5-data.html#passo-a-passo",
-    "title": "Dados em R",
-    "section": "Passo a passo",
-    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
-  },
-  {
-    "objectID": "get-started/5-data.html#exercício-rápido",
-    "href": "get-started/5-data.html#exercício-rápido",
-    "title": "Dados em R",
-    "section": "Exercício rápido",
-    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
-  },
-  {
-    "objectID": "get-started/3-syntax.html",
-    "href": "get-started/3-syntax.html",
-    "title": "Sintaxe & Estrutura de Dados",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/3-syntax.html#objetivo",
-    "href": "get-started/3-syntax.html#objetivo",
-    "title": "Sintaxe & Estrutura de Dados",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/3-syntax.html#passo-a-passo",
-    "href": "get-started/3-syntax.html#passo-a-passo",
-    "title": "Sintaxe & Estrutura de Dados",
-    "section": "Passo a passo",
-    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
-  },
-  {
-    "objectID": "get-started/3-syntax.html#exercício-rápido",
-    "href": "get-started/3-syntax.html#exercício-rápido",
-    "title": "Sintaxe & Estrutura de Dados",
-    "section": "Exercício rápido",
-    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
-  },
-  {
-    "objectID": "get-started/1-install.html",
-    "href": "get-started/1-install.html",
-    "title": "Instalar R & RStudio",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/1-install.html#objetivo",
-    "href": "get-started/1-install.html#objetivo",
-    "title": "Instalar R & RStudio",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/1-install.html#passo-a-passo",
-    "href": "get-started/1-install.html#passo-a-passo",
-    "title": "Instalar R & RStudio",
-    "section": "Passo a passo",
-    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
-  },
-  {
-    "objectID": "get-started/1-install.html#exercício-rápido",
-    "href": "get-started/1-install.html#exercício-rápido",
-    "title": "Instalar R & RStudio",
-    "section": "Exercício rápido",
-    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
-  },
-  {
-    "objectID": "assessment.html",
-    "href": "assessment.html",
-    "title": "Avaliação",
-    "section": "",
-    "text": "Instrumento\nPeso\n\n\n\n\nAvaliação parcial\n30%\n\n\nExercícios/Listas\n20%\n\n\nProjeto/Seminário final\n30%\n\n\nParticipação\n20%"
-  },
-  {
-    "objectID": "assessment.html#composição-da-nota",
-    "href": "assessment.html#composição-da-nota",
-    "title": "Avaliação",
-    "section": "",
-    "text": "Instrumento\nPeso\n\n\n\n\nAvaliação parcial\n30%\n\n\nExercícios/Listas\n20%\n\n\nProjeto/Seminário final\n30%\n\n\nParticipação\n20%"
-  },
-  {
-    "objectID": "assessment.html#descrição-dos-instrumentos",
-    "href": "assessment.html#descrição-dos-instrumentos",
-    "title": "Avaliação",
-    "section": "Descrição dos instrumentos",
-    "text": "Descrição dos instrumentos\n\nAvaliação parcial\nDescreva formato (prova escrita, take-home, etc.), data e conteúdo.\n\n\nProjeto/Seminário final\nDescreva o projeto semestral, critérios e cronograma de entregas."
-  },
-  {
-    "objectID": "assessment.html#política-de-prazos-e-reposição",
-    "href": "assessment.html#política-de-prazos-e-reposição",
-    "title": "Avaliação",
-    "section": "Política de prazos e reposição",
-    "text": "Política de prazos e reposição\nDescreva a política de atrasos, faltas e provas de reposição, conforme normas da UFPE."
-  },
-  {
-    "objectID": "exercises/index.html",
-    "href": "exercises/index.html",
-    "title": "Exercícios",
-    "section": "",
-    "text": "Lista de exercícios práticos da disciplina. Adicione um item por exercício/lista."
-  },
-  {
-    "objectID": "exercises/index.html#exercício-1-título",
-    "href": "exercises/index.html#exercício-1-título",
-    "title": "Exercícios",
-    "section": "Exercício 1 — Título",
-    "text": "Exercício 1 — Título\nEntrega: DD/MM/AAAA\nDescrição do exercício, dados necessários e instruções de entrega.\nBaixar dados/enunciado"
-  },
-  {
-    "objectID": "exercises/index.html#exercício-2-título",
-    "href": "exercises/index.html#exercício-2-título",
-    "title": "Exercícios",
-    "section": "Exercício 2 — Título",
-    "text": "Exercício 2 — Título\nEntrega: DD/MM/AAAA\nDescrição do exercício."
-  },
-  {
-    "objectID": "get-started/2-basic-intro.html",
-    "href": "get-started/2-basic-intro.html",
-    "title": "Introdução Básica ao R e RStudio",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/2-basic-intro.html#objetivo",
-    "href": "get-started/2-basic-intro.html#objetivo",
-    "title": "Introdução Básica ao R e RStudio",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/2-basic-intro.html#passo-a-passo",
-    "href": "get-started/2-basic-intro.html#passo-a-passo",
-    "title": "Introdução Básica ao R e RStudio",
-    "section": "Passo a passo",
-    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
-  },
-  {
-    "objectID": "get-started/2-basic-intro.html#exercício-rápido",
-    "href": "get-started/2-basic-intro.html#exercício-rápido",
-    "title": "Introdução Básica ao R e RStudio",
-    "section": "Exercício rápido",
-    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
-  },
-  {
-    "objectID": "get-started/4-functions.html",
-    "href": "get-started/4-functions.html",
-    "title": "Funções e Comandos",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/4-functions.html#objetivo",
-    "href": "get-started/4-functions.html#objetivo",
-    "title": "Funções e Comandos",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/4-functions.html#passo-a-passo",
-    "href": "get-started/4-functions.html#passo-a-passo",
-    "title": "Funções e Comandos",
-    "section": "Passo a passo",
-    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
-  },
-  {
-    "objectID": "get-started/4-functions.html#exercício-rápido",
-    "href": "get-started/4-functions.html#exercício-rápido",
-    "title": "Funções e Comandos",
-    "section": "Exercício rápido",
-    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
-  },
-  {
-    "objectID": "resources/index.html",
-    "href": "resources/index.html",
-    "title": "Recursos",
-    "section": "",
-    "text": "R\nRStudio\nQGIS (se aplicável)"
-  },
-  {
-    "objectID": "resources/index.html#softwares",
-    "href": "resources/index.html#softwares",
-    "title": "Recursos",
-    "section": "",
-    "text": "R\nRStudio\nQGIS (se aplicável)"
-  },
-  {
-    "objectID": "resources/index.html#bases-de-dados",
-    "href": "resources/index.html#bases-de-dados",
-    "title": "Recursos",
-    "section": "Bases de dados",
-    "text": "Bases de dados\n\nMapBiomas\nOutras bases relevantes ao tema da disciplina"
-  },
-  {
-    "objectID": "resources/index.html#leituras-complementares",
-    "href": "resources/index.html#leituras-complementares",
-    "title": "Recursos",
-    "section": "Leituras complementares",
-    "text": "Leituras complementares\n\nLinks e referências gerais que não pertencem a uma semana específica"
-  },
-  {
-    "objectID": "resources/index.html#comunidades-e-redes",
-    "href": "resources/index.html#comunidades-e-redes",
-    "title": "Recursos",
-    "section": "Comunidades e redes",
-    "text": "Comunidades e redes\n\nABECO, ReCaa, OCEAL, ou outras redes relevantes ao tema"
-  },
-  {
-    "objectID": "sessions/index.html",
-    "href": "sessions/index.html",
-    "title": "Todas as Aulas",
-    "section": "",
-    "text": "Aqui você encontra o material completo (texto e slides) de cada aula, em ordem cronológica.\n\n\n\n\n\n\n\n\n\n\n\nAula 1 — Introdução à Biodiversidade\n\n\n\n\n\nSem itens correspondentes"
-  },
-  {
-    "objectID": "sessions/week01.html#introdução",
-    "href": "sessions/week01.html#introdução",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "1 Introdução",
-    "text": "1 Introdução\nBiodiversidade é a variedade da vida em diferentes níveis de organização, dos genes aos ecossistemas, e constitui um conceito central para as ciências da vida e para a conservação (Gaggiotti et al., 2018; Boudouresque, 2014; Moreno, 2001). As definições mais aceitas convergem para três níveis fundamentais — diversidade genética, diversidade de espécies e diversidade de ecossistemas — embora vários autores também defendam a inclusão explícita de dimensões funcionais, filogenéticas e comportamentais (Liu et al., 2024; Coates et al., 2018; Cordero‐Rivera, 2017; Boudouresque, 2014).\nA biodiversidade é um conceito hierárquico e multidimensional, e isso torna inadequado descrevê-la por uma única métrica (Gaggiotti et al., 2018; Boudouresque, 2014). Diferentes medidas capturam componentes distintos da variação biológica, de modo que avaliações robustas dependem de abordagens integradas (Gaggiotti et al., 2018; Boudouresque, 2014; Karahan et al., 2025)."
-  },
-  {
-    "objectID": "sessions/week01.html#principais-vetores-de-extinção",
-    "href": "sessions/week01.html#principais-vetores-de-extinção",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "9 Principais vetores de extinção",
-    "text": "9 Principais vetores de extinção\nMudanças nas práticas agrícolas, perda de habitat associada, sobre-exploração, poluição e desenvolvimento estão entre as principais ameaças à biodiversidade (Hochkirch et al., 2023). Em sínteses mais amplas, a expansão agropecuária, fragmentação, espécies invasoras, monoculturas, poluição e mudança climática aparecem de forma recorrente como motores da erosão da biodiversidade (Kumari et al., 2021; Legge et al., 2023).\nA perda de habitat é um dos vetores mais consistentes da crise atual (Gonçalves-Souza et al., 2020). O desmatamento aumentou substancialmente a chance de vertebrados serem classificados como ameaçados, sofrerem reclassificação recente para categorias mais severas ou apresentarem populações em declínio (Betts et al., 2017).\nEsse efeito não se restringe a paisagens já muito fragmentadas (Betts et al., 2017). Em paisagens relativamente intactas, mesmo perdas pequenas de floresta tiveram consequências severas para a biodiversidade de vertebrados (Betts et al., 2017).\nAs ameaças também interagem entre si (Gonçalves-Souza et al., 2020). Habitat loss combinada com outros estressores pode produzir mais extinções do que a soma simples dos impactos individuais, o que torna previsões baseadas em um único fator potencialmente conservadoras (Gonçalves-Souza et al., 2020)."
   }
 ]

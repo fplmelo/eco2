@@ -1,83 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/index.html</loc>
-    <lastmod>2026-08-10T13:21:51.114Z</lastmod>
+    <loc>https://fplmelo.github.io/eco2/sessions/index.html</loc>
+    <lastmod>2026-08-10T17:24:11.168Z</lastmod>
   </url>
   <url>
-    <loc>https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/syllabus.html</loc>
-    <lastmod>2026-08-10T13:33:35.475Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/sessions/week01.html</loc>
-    <lastmod>2026-08-10T14:22:39.997Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/workbook/workbook.html</loc>
-    <lastmod>2026-08-06T18:54:29.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/schedule.html</loc>
-    <lastmod>2026-08-06T18:53:40.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/get-started/5-data.html</loc>
-    <lastmod>2026-08-06T18:54:24.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/get-started/3-syntax.html</loc>
-    <lastmod>2026-08-06T18:54:24.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/get-started/1-install.html</loc>
-    <lastmod>2026-08-06T18:54:24.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/assessment.html</loc>
-    <lastmod>2026-08-06T18:54:07.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/exercises/index.html</loc>
-    <lastmod>2026-08-06T18:53:59.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/get-started/2-basic-intro.html</loc>
-    <lastmod>2026-08-06T18:54:24.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/get-started/4-functions.html</loc>
-    <lastmod>2026-08-06T18:54:24.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/resources/index.html</loc>
-    <lastmod>2026-08-06T18:54:03.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/sessions/index.html</loc>
-    <lastmod>2026-08-06T18:53:44.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fplmelo.github.io/eco2/sessions/week01.html</loc>
-    <lastmod>2026-08-10T18:29:57.321Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fplmelo.github.io/eco2/workbook/workbook.html</loc>
+    <loc>https://fplmelo.github.io/eco2/syllabus.html</loc>
     <lastmod>2026-08-10T17:22:13.496Z</lastmod>
   </url>
   <url>
-    <loc>https://fplmelo.github.io/eco2/sessions/index.html</loc>
-    <lastmod>2026-08-10T17:24:11.168Z</lastmod>
+    <loc>https://fplmelo.github.io/eco2/assessment.html</loc>
+    <lastmod>2026-08-10T17:22:13.301Z</lastmod>
   </url>
   <url>
     <loc>https://fplmelo.github.io/eco2/resources/index.html</loc>
     <lastmod>2026-08-10T17:22:13.307Z</lastmod>
   </url>
   <url>
-    <loc>https://fplmelo.github.io/eco2/get-started/5-data.html</loc>
-    <lastmod>2026-08-10T17:22:13.307Z</lastmod>
+    <loc>https://fplmelo.github.io/eco2/workbook/workbook.html</loc>
+    <lastmod>2026-08-10T17:22:13.496Z</lastmod>
   </url>
   <url>
-    <loc>https://fplmelo.github.io/eco2/get-started/3-syntax.html</loc>
+    <loc>https://fplmelo.github.io/eco2/slides/avaliacao_ecologia_geral2.html</loc>
+    <lastmod>2026-08-10T17:22:13.365Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fplmelo.github.io/eco2/slides/clima_solo_vegetacao.html</loc>
+    <lastmod>2026-08-10T17:22:13.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fplmelo.github.io/eco2/slides/comunidades_biologicas_espaco.html</loc>
+    <lastmod>2026-08-10T17:22:13.424Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fplmelo.github.io/eco2/slides/aula2_magnitude.html</loc>
+    <lastmod>2026-08-10T17:22:13.339Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fplmelo.github.io/eco2/get-started/5-data.html</loc>
     <lastmod>2026-08-10T17:22:13.307Z</lastmod>
   </url>
   <url>
@@ -85,7 +45,7 @@
     <lastmod>2026-08-10T17:22:13.307Z</lastmod>
   </url>
   <url>
-    <loc>https://fplmelo.github.io/eco2/exercises/index.html</loc>
+    <loc>https://fplmelo.github.io/eco2/get-started/4-functions.html</loc>
     <lastmod>2026-08-10T17:22:13.307Z</lastmod>
   </url>
   <url>
@@ -93,11 +53,31 @@
     <lastmod>2026-08-10T17:22:13.307Z</lastmod>
   </url>
   <url>
-    <loc>https://fplmelo.github.io/eco2/get-started/4-functions.html</loc>
+    <loc>https://fplmelo.github.io/eco2/get-started/3-syntax.html</loc>
     <lastmod>2026-08-10T17:22:13.307Z</lastmod>
   </url>
   <url>
-    <loc>https://fplmelo.github.io/eco2/index.html</loc>
+    <loc>https://fplmelo.github.io/eco2/slides/comunidades_comparacao_aula2.html</loc>
+    <lastmod>2026-08-10T17:22:13.445Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fplmelo.github.io/eco2/slides/sucessao_ecologica.html</loc>
+    <lastmod>2026-08-10T17:22:13.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fplmelo.github.io/eco2/slides/Intro_biodiversidade.html</loc>
+    <lastmod>2026-08-10T18:28:38.412Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fplmelo.github.io/eco2/slides/week01-slides.html</loc>
+    <lastmod>2026-08-10T17:22:13.496Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fplmelo.github.io/eco2/slides/comunidades_comparacao.html</loc>
+    <lastmod>2026-08-10T17:22:13.445Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fplmelo.github.io/eco2/exercises/index.html</loc>
     <lastmod>2026-08-10T17:22:13.307Z</lastmod>
   </url>
   <url>
@@ -105,7 +85,11 @@
     <lastmod>2026-08-10T17:22:13.307Z</lastmod>
   </url>
   <url>
-    <loc>https://fplmelo.github.io/eco2/syllabus.html</loc>
-    <lastmod>2026-08-10T17:22:13.496Z</lastmod>
+    <loc>https://fplmelo.github.io/eco2/index.html</loc>
+    <lastmod>2026-08-10T17:22:13.307Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fplmelo.github.io/eco2/sessions/week01.html</loc>
+    <lastmod>2026-08-10T18:43:25.107Z</lastmod>
   </url>
 </urlset>
