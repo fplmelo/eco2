@@ -3,7 +3,7 @@ title: "Todas as Aulas"
 listing:
   contents: "."
   type: grid
-  sort: "date asc"
+  sort: "title asc"
   categories: false
   fields: [title, subtitle, date]
   exclude:

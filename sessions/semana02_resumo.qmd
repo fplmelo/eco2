@@ -1,0 +1,159 @@
+---
+title: "Semana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas"
+subtitle: "A síntese de Vellend: seleção, deriva, dispersão e especiação"
+author: "Ecologia de Comunidades"
+date: today
+lang: pt-BR
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-tools: false
+bibliography: referencias_semana02.bib
+---
+
+Slides desta Aula
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe data-external="1" src="/docs/slides/semana02_slides.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+
+## Apresentação e objetivos da aula
+
+Enquanto a Aula 1 tratou da biodiversidade em suas múltiplas facetas (genética, taxonômica e funcional), esta aula tem um objetivo mais ambicioso e, ao mesmo tempo, mais unificador: apresentar uma estrutura conceitual capaz de organizar a enorme diversidade de teorias, modelos e hipóteses que historicamente compuseram a ecologia de comunidades. O eixo da aula é a obra de Mark Vellend, *The Theory of Ecological Communities* [@vellend2016], e seu artigo precursor, *Conceptual Synthesis in Community Ecology* [@vellend2010].
+
+Ao final desta aula, espera-se que o(a) estudante seja capaz de:
+
+1. Explicar por que a ecologia de comunidades foi historicamente descrita como uma disciplina fragmentada, "uma bagunça conceitual" (*a mess*).
+2. Descrever a analogia estrutural entre a teoria de Vellend e a genética de populações.
+3. Definir e diferenciar os quatro processos de alto nível propostos por Vellend — seleção, deriva ecológica, dispersão e especiação — e reconhecer processos de nível mais baixo (competição, facilitação, predação, distúrbio) como manifestações desses quatro processos.
+4. Relacionar a síntese de Vellend com outras teorias importantes da disciplina (nicho de Hutchinson, neutralidade de Hubbell e biogeografia de ilhas).
+5. Identificar aplicações empíricas da síntese, redes ecológicas e domínios de viabilidade.
+6. Situar essa moldura teórica dentro da pesquisa ecológica produzida no Brasil, com atenção a sistemas de água doce, solo e florestas tropicais.
+
+## Por que a ecologia de comunidades precisava de uma teoria unificadora?
+
+Por décadas, a ecologia de comunidades foi acusada — inclusive por seus próprios praticantes — de ser uma coleção de estudos de caso, cada um com seu próprio jargão, seus próprios modelos e suas próprias explicações *ad hoc* para os padrões observados. Essa percepção de fragmentação não é exagero retórico: o campo produziu, ao longo do século XX, dezenas de modelos concorrentes para explicar coexistência, sucessão, diversidade e distribuição de espécies — do modelo de nicho de Hutchinson à teoria neutra de Hubbell, passando por modelos de *metacomunidades*, teorias de sucessão, hipóteses de perturbação intermediária e muitas outras. Cada nova pergunta parecia demandar um novo modelo, com pouca comunicação entre eles.
+
+Vellend parte de uma constatação simples, mas poderosa: a ecologia de comunidades e a genética de populações compartilham o mesmo objeto de estudo em essência — a variação na composição e na abundância de variantes biológicas (espécies, no caso da ecologia; alelos, no caso da genética) ao longo do espaço e do tempo [@vellend2016; @vellend2010]. A genética de populações resolveu seu próprio problema de fragmentação teórica ao redor de meados do século XX ao se organizar em torno de **quatro processos** capazes de explicar toda mudança na frequência alélica de uma população: **seleção, deriva genética, fluxo gênico (migração) e mutação**. Vellend propõe que a ecologia de comunidades pode — e deve — ser organizada de maneira análoga, ao redor de quatro processos de alto nível que, juntos, subsumem quase todos os modelos específicos construídos para descrever a dinâmica de comunidades de espécies interagentes [@vellend2016].
+
+Essa não é uma proposta que descarta décadas de pesquisa empírica e teórica em ecologia de comunidades. Pelo contrário: seu valor pedagógico e científico está em reorganizar esse conhecimento acumulado dentro de uma estrutura comum, permitindo comparações mais diretas entre sistemas de estudo tão diferentes quanto florestas tropicais, comunidades de plâncton e biofilmes bacterianos. Como resume Vellend, todos os modelos teóricos e conceituais em ecologia de comunidades podem ser compreendidos em função da ênfase relativa que atribuem a esses quatro processos [@vellend2010].
+
+::: {.callout-note}
+## Ponte com a Aula 1
+Na Aula 1 discutimos que a biodiversidade precisa ser medida em múltiplas dimensões — genética, taxonômica e funcional [@morrow2024]. A síntese de Vellend nos dá, agora, as *ferramentas causais* para entender por que essa diversidade assume os valores e os padrões que observamos em campo.
+:::
+
+## A analogia com a genética de populações
+
+A tabela a seguir resume a correspondência estrutural proposta por Vellend entre os processos fundamentais da genética de populações e os processos análogos na ecologia de comunidades.
+
+| Genética de populações | Processo análogo em ecologia de comunidades | Definição resumida |
+|---|---|---|
+| Seleção (dentro de espécies) | **Seleção** (entre espécies) | Diferenças determinísticas e sistemáticas de aptidão (*fitness* ecológico) entre espécies |
+| Deriva genética | **Deriva ecológica** | Flutuações estocásticas no tamanho populacional das espécies, independentes de diferenças de aptidão |
+| Fluxo gênico (migração) | **Dispersão** | Movimento de organismos (e, portanto, de indivíduos e propágulos) através do espaço |
+| Mutação | **Especiação** | Surgimento de novas espécies (variantes biológicas) dentro do sistema |
+
+É importante destacar que essa é uma analogia estrutural, não uma equivalência mecanicista perfeita — os processos operam em unidades biológicas diferentes (alelos dentro de populações versus espécies dentro de comunidades) e em escalas temporais distintas. Ainda assim, a analogia tem valor heurístico real: ela nos lembra que toda mudança observada na composição de espécies de uma comunidade, ao longo do tempo, é o resultado combinado desses quatro processos operando simultaneamente, tal como toda mudança em frequências alélicas resulta da combinação de seleção, deriva, fluxo gênico e mutação.
+
+## Os quatro processos de alto nível
+
+### Seleção (seleção ecológica)
+
+A seleção representa diferenças **determinísticas** de aptidão (fitness ecológico) entre espécies, decorrentes de diferenças em seus atributos (traços) em relação ao ambiente biótico e abiótico local. Em outras palavras: dado um conjunto de espécies com traços diferentes, algumas se saem sistematicamente melhor que outras em determinado contexto ambiental — seja porque toleram melhor um estresse abiótico (seca, salinidade, temperatura), seja porque competem, predam ou facilitam de forma mais eficaz outras espécies [@vellend2016]. A intensidade da seleção aumenta com a magnitude das diferenças de aptidão entre as espécies presentes.
+
+Um ponto pedagógico central: quase todos os mecanismos "clássicos" da ecologia de comunidades — competição interespecífica, facilitação, predação, herbivoria, parasitismo, filtragem ambiental (filtro abiótico) — são, na moldura de Vellend, formas específicas e de nível mais baixo de **seleção**. Isso não os torna menos importantes; apenas os reorganiza como instâncias de um processo mais geral, o que facilita a comparação entre sistemas de estudo muito diferentes.
+
+### Deriva ecológica
+
+A deriva ecológica é o análogo, em comunidades, da deriva genética: mudanças **estocásticas** na abundância relativa das espécies que ocorrem mesmo quando todas as espécies têm aptidão ecológica idêntica (equivalência ecológica). Sob deriva pura, quando um indivíduo morre ou um espaço/recurso se libera, cada espécie tem a mesma probabilidade de ocupar aquele espaço, independentemente de sua identidade. Ao longo do tempo, esse processo aleatório tende a levar à extinção local de espécies — mais rapidamente em comunidades pequenas (poucos indivíduos) do que em comunidades grandes, exatamente como ocorre com a deriva genética em populações pequenas versus grandes.
+
+A deriva ecológica é o pilar central da **teoria neutra da biodiversidade**, proposta por Hubbell [@hubbell2001], que assume equivalência ecológica entre espécies dentro de uma mesma guilda trófica para prever padrões de abundância, riqueza e distribuição espacial. Comunidades e metacomunidades governadas majoritariamente por deriva tendem a apresentar composições que divergem de forma imprevisível entre réplicas, mesmo sob condições ambientais idênticas — um padrão empírico importante para diferenciar deriva de seleção em estudos de campo.
+
+### Dispersão
+
+A dispersão é o movimento de organismos (sementes, esporos, larvas, indivíduos adultos, propágulos em geral) através do espaço, conectando comunidades locais dentro de uma metacomunidade regional. A dispersão desempenha um papel duplo na teoria: (i) ela introduz novas espécies em uma comunidade local vindas do *pool* regional, e (ii) sua taxa relativa (baixa, intermediária ou alta) modula a força relativa da seleção e da deriva. Taxas de dispersão muito altas podem homogeneizar comunidades ao longo do espaço (efeito de massa, ou *mass effect*), sobrepujando os efeitos da seleção local; taxas muito baixas podem isolar comunidades, permitindo que a deriva e a seleção local divirjam entre sítios sem grande possibilidade de "resgate" via imigração.
+
+A dispersão também é o processo que conecta explicitamente a ecologia de comunidades à **biogeografia de ilhas** de MacArthur e Wilson e às abordagens modernas de redes ecológicas, nas quais taxas de turnover de espécies e conectividade entre manchas de hábitat moldam a própria estrutura das interações [@ponisio2019; @guimaraes2020].
+
+### Especiação
+
+A especiação é o processo pelo qual novas espécies surgem — seja por especiação *in situ* dentro do sistema de estudo, seja por especiação em outro local seguida de dispersão até a comunidade focal. Embora a especiação opere, tipicamente, em escalas de tempo muito mais longas do que os outros três processos (o que faz com que, em estudos de curto prazo, ela seja frequentemente tratada como "pano de fundo" ou fixada como constante), ela é indispensável para explicar por que existe variação biológica para começar. Sem especiação (e sem dispersão de espécies originadas alhures), simplesmente não haveria novas espécies a serem filtradas pela seleção ou sujeitas à deriva.
+
+Em escalas evolutivas e biogeográficas mais amplas — tema que será retomado na Aula 4, sobre comunidades no tempo —, a especiação conecta diretamente a ecologia de comunidades à biogeografia histórica, cujo objeto é justamente reconstruir os processos evolutivos e geográficos que geraram os padrões atuais de distribuição de espécies.
+
+::: {.callout-tip}
+## Síntese em uma frase
+Espécies são adicionadas às comunidades por especiação e dispersão; as abundâncias relativas dessas espécies são então moldadas por deriva e seleção, junto com a dispersão contínua, que segue impulsionando a dinâmica da comunidade [@vellend2010].
+:::
+
+## Como os quatro processos interagem
+
+Um erro comum ao primeiro contato com essa teoria é tratar os quatro processos como categorias mutuamente exclusivas — como se cada comunidade real fosse "puramente neutra" ou "puramente selecionada". Na prática, os quatro processos operam **simultaneamente e em interação**, e boa parte do trabalho empírico contemporâneo consiste exatamente em estimar o **balanço relativo** entre processos determinísticos (seleção) e estocásticos (deriva), frequentemente moderado por dispersão.
+
+Um exemplo particularmente didático vem da ecologia microbiana: Dini-Andreote e colaboradores demonstraram, em um estudo de sucessão microbiana em sedimentos recém-formados, que o balanço entre processos estocásticos e determinísticos muda sistematicamente ao longo da sucessão — comunidades em estágios iniciais são fortemente influenciadas por deriva e dispersão, enquanto a seleção (moldada por mudanças no ambiente físico-químico) ganha peso crescente em estágios tardios [@dinilandreote2015]. Esse padrão dialoga diretamente com a ecologia clássica de sucessão de Horn, segundo a qual comunidades tendem a se estabilizar ao longo do tempo se o ambiente físico permanece relativamente constante [@horn1974], e será aprofundado na Aula 3.
+
+Outra frente de pesquisa recente busca ir além da simples classificação qualitativa dos quatro processos, propondo princípios organizadores gerais aplicáveis a múltiplos níveis de organização biológica — de comunidades microbianas a assembleias macroscópicas [@gralka2023]. Uma direção complementar, de caráter mais matemático, é a análise da **viabilidade** (*feasibility*) de comunidades: dado um conjunto de interações bióticas (essencialmente, um resultado de processos de seleção) e um contexto ambiental, existe um domínio de parâmetros — a "fronteira de viabilidade" — dentro do qual a coexistência de todas as espécies é matematicamente possível. A montagem de comunidades pode, então, ser ensinada como um problema de compatibilidade entre a estrutura das interações e as condições ambientais [@saavedra2026].
+
+## Diálogo com outras teorias centrais da ecologia de comunidades
+
+A síntese de Vellend não substitui outras teorias importantes; ela as reorganiza como casos específicos ou complementares dentro de sua estrutura de quatro processos.
+
+- **Teoria de nicho / coexistência de espécies (Chesson).** A teoria moderna de coexistência distingue mecanismos *estabilizadores* (que favorecem a diferenciação de nicho e, portanto, reduzem a probabilidade de exclusão competitiva) de mecanismos *equalizadores* (que reduzem diferenças de aptidão entre competidores) [@chesson2000]. Ambos os tipos de mecanismo operam, na linguagem de Vellend, dentro do processo de **seleção** — a diferença está em *como* a seleção atua sobre a composição da comunidade.
+- **Teoria neutra da biodiversidade (Hubbell).** Ao assumir equivalência ecológica entre espécies, a teoria neutra é essencialmente um modelo em que a **deriva** (mais dispersão limitada, no formato de dispersão espacialmente restrita) é o processo dominante, com seleção assumida como nula ou desprezível [@hubbell2001].
+- **Repensando a montagem de comunidades pela lente da teoria de coexistência.** HilleRisLambers e colaboradores revisaram como a moderna teoria de coexistência de nicho pode ser aplicada à montagem de comunidades reais, complementando a perspectiva de processos de Vellend com ferramentas quantitativas para medir força de seleção em campo [@hillerislambers2012].
+- **Comunidades como unidades funcionalmente organizadas.** O debate sobre se comunidades ecológicas devem ser entendidas como agregados frouxos de populações independentes ou como unidades com propriedades emergentes coesas — tema clássico da ecologia de comunidades — é revisitado por Wilson, que defende uma perspectiva multiníveis de seleção também aplicável a comunidades [@wilson1997].
+- **Modelos neutros anteriores a Hubbell.** Muito antes da teoria neutra moderna, Caswell já propunha modelos neutros como *linha de base* estatística contra a qual comparar padrões observados de estrutura comunitária — um antecessor conceitual direto da forma como hoje se testa a contribuição relativa da deriva ecológica [@caswell1976].
+- **Redes ecológicas.** A perspectiva de redes trata a arquitetura das interações bióticas (portanto, a estrutura fina da seleção) como um objeto de estudo em si, com propriedades emergentes em múltiplos níveis de organização — do par de espécies interagentes à paisagem [@guimaraes2020] — e integra explicitamente processos de dispersão e turnover de espécies à dinâmica da rede [@ponisio2019].
+
+## Evidências empíricas: como testar o peso relativo de cada processo?
+
+Um ponto forte da síntese de Vellend é que ela é **operacionalizável**: existem hoje diversas abordagens estatísticas para estimar a contribuição relativa de seleção, deriva e dispersão a partir de dados observacionais de composição de comunidades (por exemplo, análises de partição da variância espacial-ambiental, métricas de turnover filogenético e taxonômico, e comparações contra simulações neutras nulas). Esse é exatamente o tipo de ferramenta metodológica explorado, por exemplo, no estudo de comunidades de peixes em riachos brasileiros, no qual a síntese de Vellend é utilizada explicitamente como moldura conceitual para interpretar métricas quantitativas de diversidade taxonômica [@benonemontag2020] — um bom exemplo de aplicação da teoria a sistemas de água doce neotropicais, com relevância direta para conservação da biodiversidade no Brasil.
+
+Evidências empíricas para os quatro processos existem em abundância na literatura, com uma predominância histórica de estudos focados em seleção (por ser o processo mais tradicionalmente estudado pela ecologia de comunidades pré-Vellend), mas com um corpo crescente de trabalhos que quantificam deriva e dispersão de forma explícita, especialmente em sistemas microbianos, nos quais réplicas experimentais em larga escala são mais viáveis [@dinilandreote2015; @gralka2023].
+
+## Relevância para a conservação da biodiversidade
+
+Esta estrutura teórica tem implicações diretas e práticas para a conservação:
+
+- **Diagnóstico de causas de perda de diversidade.** Saber se a degradação de uma comunidade está sendo conduzida por seleção (por exemplo, filtragem ambiental decorrente de poluição ou mudança de uso do solo), por deriva (fragmentação que reduz drasticamente o tamanho populacional local) ou por limitação de dispersão (perda de conectividade da paisagem) direciona estratégias de manejo completamente distintas.
+- **Desenho de corredores ecológicos e conectividade.** Decisões sobre conectividade da paisagem são, na prática, decisões sobre a taxa de dispersão entre comunidades locais — com consequências diretas sobre o equilíbrio entre deriva e seleção nas comunidades restauradas.
+- **Restauração ecológica e sucessão.** Entender a sucessão como uma mudança previsível no balanço entre estocasticidade e determinismo ao longo do tempo [@dinilandreote2015; @horn1974] orienta expectativas realistas sobre a velocidade e a trajetória da recuperação de áreas degradadas — tema que retomaremos, em profundidade, na Aula 3.
+- **Priorização de áreas para conservação.** Abordagens de viabilidade de comunidades [@saavedra2026] e de estrutura de redes [@guimaraes2020] oferecem ferramentas quantitativas para antecipar quais conjuntos de espécies podem coexistir de forma estável em um dado contexto ambiental — informação valiosa para o planejamento de reintroduções e de unidades de conservação.
+
+## Críticas e limitações da síntese
+
+É importante apresentar a teoria de Vellend de forma equilibrada, sem tratá-la como consenso definitivo e isento de críticas:
+
+1. **Nível de abstração elevado.** Por operar em um nível muito geral, a síntese pode, em alguns casos, mascarar a riqueza mecanicista de processos específicos (por exemplo, distinguir entre facilitação e competição de recursos dentro da categoria ampla de "seleção" exige um segundo nível de detalhamento, não fornecido automaticamente pela moldura).
+2. **Dificuldade de quantificação em sistemas macroscópicos.** Embora a moldura seja operacionalizável, estimar de forma robusta e não enviesada a contribuição relativa de cada processo continua sendo estatisticamente desafiador, sobretudo fora de sistemas microbianos ou experimentais controlados.
+3. **Tratamento da especiação como processo de "pano de fundo".** Em escalas de tempo ecológicas, a especiação é frequentemente negligenciada em análises empíricas, o que pode subestimar sua importância relativa em sistemas com processos evolutivos rápidos (por exemplo, radiações adaptativas recentes).
+4. **Ainda há lacunas na integração com estados alternativos estáveis de ecossistemas** — tema da Aula 7 —, para o qual a base teórica de processos de Vellend oferece uma linguagem útil, mas não uma teoria completa e amplamente testada.
+
+## Síntese da aula e conexão com o restante do curso
+
+A síntese de Vellend nos dá o vocabulário comum que usaremos ao longo de todo o curso: quando discutirmos sucessão ecológica (Aula 3), estaremos essencialmente descrevendo a trajetória temporal do balanço entre deriva, dispersão e seleção; quando discutirmos biogeografia (Aula 4), estaremos aprofundando o papel da especiação e da dispersão em escalas históricas e regionais; quando discutirmos diversidade alfa, beta e gama (Aula 5), estaremos, em grande medida, quantificando as *assinaturas* desses processos na estrutura espacial da diversidade; e quando discutirmos clima, solo e vegetação (Aula 6), estaremos detalhando os mecanismos concretos que compõem o processo de seleção ambiental. A Aula 7, sobre estados alternativos estáveis, é o ponto em que a base teórica fornecida é mais indireta, e vale a pena tratá-la com cautela teórica, complementando com literatura específica.
+
+## Atividades e questões para discussão em sala
+
+1. Escolha um sistema ecológico que você conhece bem (pode ser de pesquisa própria, de literatura ou até hipotético) e tente classificar, com justificativa, qual processo (seleção, deriva, dispersão ou especiação) provavelmente domina a dinâmica de curto prazo desse sistema.
+2. Muitos estudos clássicos de competição interespecífica não usam a palavra "seleção". Releia um estudo clássico de competição (por exemplo, de sua própria área) e reinterprete seus resultados na linguagem de Vellend.
+3. Como você desenharia um experimento de campo (ou observacional) para tentar separar estatisticamente os efeitos de deriva e de dispersão limitada em uma comunidade real?
+4. Discuta com um colega: em que medida a moldura de Vellend é compatível — ou entra em tensão — com a ideia de comunidades como "unidades funcionalmente organizadas" [@wilson1997]?
+
+## Leituras complementares
+
+- @vellend2016 — capítulos introdutórios (1–3), para aprofundamento na base conceitual.
+- @chesson2000 e @hillerislambers2012, para a teoria moderna de coexistência de nicho.
+- @hubbell2001, para a formulação original da teoria neutra.
+- @ricklefsrelyea2021, capítulos sobre comunidades ecológicas, como referência introdutória em português.
+- @benonemontag2020, como exemplo de aplicação empírica da síntese de Vellend a sistemas aquáticos brasileiros.
+- @wikiecolcomunidades2026, como leitura introdutória de apoio em português.
+
+## Referências {.unnumbered}
+
+::: {#refs}
+:::

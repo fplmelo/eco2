@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ecologia de Comunidades">
+
+<title>Semana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas – INT0158 - Ecologia 2</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../img/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-76a3b5b39a8d53d348f4d43585fc83ef.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-4dd6780d42d52364ab0ec05228a77a88.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/logo_branco_ufpe.png" alt="" class="navbar-logo light-content">
+    <img src="../img/logo_branco_ufpe.png" alt="" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.html"> 
+<span class="menu-text">Ementa</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html"> 
+<span class="menu-text">Cronograma</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-r-intro" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">R Intro</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-r-intro">    
+        <li>
+    <a class="dropdown-item" href="../get-started/1-install.html">
+ <span class="dropdown-text">1 - Instalar R &amp; RStudio</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../get-started/2-basic-intro.html">
+ <span class="dropdown-text">2 - Introdução Básica ao R e RStudio</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../get-started/3-syntax.html">
+ <span class="dropdown-text">3 - Sintaxe &amp; Estrutura de Dados</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../get-started/4-functions.html">
+ <span class="dropdown-text">4 - Funções e Comandos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../get-started/5-data.html">
+ <span class="dropdown-text">5 - Dados em R</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../workbook/workbook.html">
+ <span class="dropdown-text">6 - Seu próprio site</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../sessions/index.html"> 
+<span class="menu-text">Todas as Aulas</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../exercises/index.html"> 
+<span class="menu-text">Exercícios</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../resources/index.html"> 
+<span class="menu-text">Recursos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../assessment.html"> 
+<span class="menu-text">Avaliação</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/fplmelo/eco2"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#apresentação-e-objetivos-da-aula" id="toc-apresentação-e-objetivos-da-aula" class="nav-link active" data-scroll-target="#apresentação-e-objetivos-da-aula"><span class="header-section-number">1</span> Apresentação e objetivos da aula</a></li>
+  <li><a href="#por-que-a-ecologia-de-comunidades-precisava-de-uma-teoria-unificadora" id="toc-por-que-a-ecologia-de-comunidades-precisava-de-uma-teoria-unificadora" class="nav-link" data-scroll-target="#por-que-a-ecologia-de-comunidades-precisava-de-uma-teoria-unificadora"><span class="header-section-number">2</span> Por que a ecologia de comunidades precisava de uma teoria unificadora?</a></li>
+  <li><a href="#a-analogia-com-a-genética-de-populações" id="toc-a-analogia-com-a-genética-de-populações" class="nav-link" data-scroll-target="#a-analogia-com-a-genética-de-populações"><span class="header-section-number">3</span> A analogia com a genética de populações</a></li>
+  <li><a href="#os-quatro-processos-de-alto-nível" id="toc-os-quatro-processos-de-alto-nível" class="nav-link" data-scroll-target="#os-quatro-processos-de-alto-nível"><span class="header-section-number">4</span> Os quatro processos de alto nível</a>
+  <ul class="collapse">
+  <li><a href="#seleção-seleção-ecológica" id="toc-seleção-seleção-ecológica" class="nav-link" data-scroll-target="#seleção-seleção-ecológica"><span class="header-section-number">4.1</span> Seleção (seleção ecológica)</a></li>
+  <li><a href="#deriva-ecológica" id="toc-deriva-ecológica" class="nav-link" data-scroll-target="#deriva-ecológica"><span class="header-section-number">4.2</span> Deriva ecológica</a></li>
+  <li><a href="#dispersão" id="toc-dispersão" class="nav-link" data-scroll-target="#dispersão"><span class="header-section-number">4.3</span> Dispersão</a></li>
+  <li><a href="#especiação" id="toc-especiação" class="nav-link" data-scroll-target="#especiação"><span class="header-section-number">4.4</span> Especiação</a></li>
+  </ul></li>
+  <li><a href="#como-os-quatro-processos-interagem" id="toc-como-os-quatro-processos-interagem" class="nav-link" data-scroll-target="#como-os-quatro-processos-interagem"><span class="header-section-number">5</span> Como os quatro processos interagem</a></li>
+  <li><a href="#diálogo-com-outras-teorias-centrais-da-ecologia-de-comunidades" id="toc-diálogo-com-outras-teorias-centrais-da-ecologia-de-comunidades" class="nav-link" data-scroll-target="#diálogo-com-outras-teorias-centrais-da-ecologia-de-comunidades"><span class="header-section-number">6</span> Diálogo com outras teorias centrais da ecologia de comunidades</a></li>
+  <li><a href="#evidências-empíricas-como-testar-o-peso-relativo-de-cada-processo" id="toc-evidências-empíricas-como-testar-o-peso-relativo-de-cada-processo" class="nav-link" data-scroll-target="#evidências-empíricas-como-testar-o-peso-relativo-de-cada-processo"><span class="header-section-number">7</span> Evidências empíricas: como testar o peso relativo de cada processo?</a></li>
+  <li><a href="#relevância-para-a-conservação-da-biodiversidade" id="toc-relevância-para-a-conservação-da-biodiversidade" class="nav-link" data-scroll-target="#relevância-para-a-conservação-da-biodiversidade"><span class="header-section-number">8</span> Relevância para a conservação da biodiversidade</a></li>
+  <li><a href="#críticas-e-limitações-da-síntese" id="toc-críticas-e-limitações-da-síntese" class="nav-link" data-scroll-target="#críticas-e-limitações-da-síntese"><span class="header-section-number">9</span> Críticas e limitações da síntese</a></li>
+  <li><a href="#síntese-da-aula-e-conexão-com-o-restante-do-curso" id="toc-síntese-da-aula-e-conexão-com-o-restante-do-curso" class="nav-link" data-scroll-target="#síntese-da-aula-e-conexão-com-o-restante-do-curso"><span class="header-section-number">10</span> Síntese da aula e conexão com o restante do curso</a></li>
+  <li><a href="#atividades-e-questões-para-discussão-em-sala" id="toc-atividades-e-questões-para-discussão-em-sala" class="nav-link" data-scroll-target="#atividades-e-questões-para-discussão-em-sala"><span class="header-section-number">11</span> Atividades e questões para discussão em sala</a></li>
+  <li><a href="#leituras-complementares" id="toc-leituras-complementares" class="nav-link" data-scroll-target="#leituras-complementares"><span class="header-section-number">12</span> Leituras complementares</a></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências">Referências</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Semana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas</h1>
+<p class="subtitle lead">A síntese de Vellend: seleção, deriva, dispersão e especiação</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ecologia de Comunidades </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">10 de agosto de 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Slides desta Aula</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<p><iframe data-external="1" src="../docs/slides/semana02_slides.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+</div>
+<section id="apresentação-e-objetivos-da-aula" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="apresentação-e-objetivos-da-aula"><span class="header-section-number">1</span> Apresentação e objetivos da aula</h2>
+<p>Enquanto a Aula 1 tratou da biodiversidade em suas múltiplas facetas (genética, taxonômica e funcional), esta aula tem um objetivo mais ambicioso e, ao mesmo tempo, mais unificador: apresentar uma estrutura conceitual capaz de organizar a enorme diversidade de teorias, modelos e hipóteses que historicamente compuseram a ecologia de comunidades. O eixo da aula é a obra de Mark Vellend, <em>The Theory of Ecological Communities</em> <span class="citation" data-cites="vellend2016">(<a href="#ref-vellend2016" role="doc-biblioref">Vellend 2016</a>)</span>, e seu artigo precursor, <em>Conceptual Synthesis in Community Ecology</em> <span class="citation" data-cites="vellend2010">(<a href="#ref-vellend2010" role="doc-biblioref">Vellend 2010</a>)</span>.</p>
+<p>Ao final desta aula, espera-se que o(a) estudante seja capaz de:</p>
+<ol type="1">
+<li>Explicar por que a ecologia de comunidades foi historicamente descrita como uma disciplina fragmentada, “uma bagunça conceitual” (<em>a mess</em>).</li>
+<li>Descrever a analogia estrutural entre a teoria de Vellend e a genética de populações.</li>
+<li>Definir e diferenciar os quatro processos de alto nível propostos por Vellend — seleção, deriva ecológica, dispersão e especiação — e reconhecer processos de nível mais baixo (competição, facilitação, predação, distúrbio) como manifestações desses quatro processos.</li>
+<li>Relacionar a síntese de Vellend com outras teorias importantes da disciplina (nicho de Hutchinson, neutralidade de Hubbell e biogeografia de ilhas).</li>
+<li>Identificar aplicações empíricas da síntese, redes ecológicas e domínios de viabilidade.</li>
+<li>Situar essa moldura teórica dentro da pesquisa ecológica produzida no Brasil, com atenção a sistemas de água doce, solo e florestas tropicais.</li>
+</ol>
+</section>
+<section id="por-que-a-ecologia-de-comunidades-precisava-de-uma-teoria-unificadora" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="por-que-a-ecologia-de-comunidades-precisava-de-uma-teoria-unificadora"><span class="header-section-number">2</span> Por que a ecologia de comunidades precisava de uma teoria unificadora?</h2>
+<p>Por décadas, a ecologia de comunidades foi acusada — inclusive por seus próprios praticantes — de ser uma coleção de estudos de caso, cada um com seu próprio jargão, seus próprios modelos e suas próprias explicações <em>ad hoc</em> para os padrões observados. Essa percepção de fragmentação não é exagero retórico: o campo produziu, ao longo do século XX, dezenas de modelos concorrentes para explicar coexistência, sucessão, diversidade e distribuição de espécies — do modelo de nicho de Hutchinson à teoria neutra de Hubbell, passando por modelos de <em>metacomunidades</em>, teorias de sucessão, hipóteses de perturbação intermediária e muitas outras. Cada nova pergunta parecia demandar um novo modelo, com pouca comunicação entre eles.</p>
+<p>Vellend parte de uma constatação simples, mas poderosa: a ecologia de comunidades e a genética de populações compartilham o mesmo objeto de estudo em essência — a variação na composição e na abundância de variantes biológicas (espécies, no caso da ecologia; alelos, no caso da genética) ao longo do espaço e do tempo <span class="citation" data-cites="vellend2016 vellend2010">(<a href="#ref-vellend2016" role="doc-biblioref">Vellend 2016</a>, <a href="#ref-vellend2010" role="doc-biblioref">2010</a>)</span>. A genética de populações resolveu seu próprio problema de fragmentação teórica ao redor de meados do século XX ao se organizar em torno de <strong>quatro processos</strong> capazes de explicar toda mudança na frequência alélica de uma população: <strong>seleção, deriva genética, fluxo gênico (migração) e mutação</strong>. Vellend propõe que a ecologia de comunidades pode — e deve — ser organizada de maneira análoga, ao redor de quatro processos de alto nível que, juntos, subsumem quase todos os modelos específicos construídos para descrever a dinâmica de comunidades de espécies interagentes <span class="citation" data-cites="vellend2016">(<a href="#ref-vellend2016" role="doc-biblioref">Vellend 2016</a>)</span>.</p>
+<p>Essa não é uma proposta que descarta décadas de pesquisa empírica e teórica em ecologia de comunidades. Pelo contrário: seu valor pedagógico e científico está em reorganizar esse conhecimento acumulado dentro de uma estrutura comum, permitindo comparações mais diretas entre sistemas de estudo tão diferentes quanto florestas tropicais, comunidades de plâncton e biofilmes bacterianos. Como resume Vellend, todos os modelos teóricos e conceituais em ecologia de comunidades podem ser compreendidos em função da ênfase relativa que atribuem a esses quatro processos <span class="citation" data-cites="vellend2010">(<a href="#ref-vellend2010" role="doc-biblioref">Vellend 2010</a>)</span>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Ponte com a Aula 1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Na Aula 1 discutimos que a biodiversidade precisa ser medida em múltiplas dimensões — genética, taxonômica e funcional <span class="citation" data-cites="morrow2024">(<a href="#ref-morrow2024" role="doc-biblioref">Morrow 2024</a>)</span>. A síntese de Vellend nos dá, agora, as <em>ferramentas causais</em> para entender por que essa diversidade assume os valores e os padrões que observamos em campo.</p>
+</div>
+</div>
+</section>
+<section id="a-analogia-com-a-genética-de-populações" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="a-analogia-com-a-genética-de-populações"><span class="header-section-number">3</span> A analogia com a genética de populações</h2>
+<p>A tabela a seguir resume a correspondência estrutural proposta por Vellend entre os processos fundamentais da genética de populações e os processos análogos na ecologia de comunidades.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Genética de populações</th>
+<th>Processo análogo em ecologia de comunidades</th>
+<th>Definição resumida</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Seleção (dentro de espécies)</td>
+<td><strong>Seleção</strong> (entre espécies)</td>
+<td>Diferenças determinísticas e sistemáticas de aptidão (<em>fitness</em> ecológico) entre espécies</td>
+</tr>
+<tr class="even">
+<td>Deriva genética</td>
+<td><strong>Deriva ecológica</strong></td>
+<td>Flutuações estocásticas no tamanho populacional das espécies, independentes de diferenças de aptidão</td>
+</tr>
+<tr class="odd">
+<td>Fluxo gênico (migração)</td>
+<td><strong>Dispersão</strong></td>
+<td>Movimento de organismos (e, portanto, de indivíduos e propágulos) através do espaço</td>
+</tr>
+<tr class="even">
+<td>Mutação</td>
+<td><strong>Especiação</strong></td>
+<td>Surgimento de novas espécies (variantes biológicas) dentro do sistema</td>
+</tr>
+</tbody>
+</table>
+<p>É importante destacar que essa é uma analogia estrutural, não uma equivalência mecanicista perfeita — os processos operam em unidades biológicas diferentes (alelos dentro de populações versus espécies dentro de comunidades) e em escalas temporais distintas. Ainda assim, a analogia tem valor heurístico real: ela nos lembra que toda mudança observada na composição de espécies de uma comunidade, ao longo do tempo, é o resultado combinado desses quatro processos operando simultaneamente, tal como toda mudança em frequências alélicas resulta da combinação de seleção, deriva, fluxo gênico e mutação.</p>
+</section>
+<section id="os-quatro-processos-de-alto-nível" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="os-quatro-processos-de-alto-nível"><span class="header-section-number">4</span> Os quatro processos de alto nível</h2>
+<section id="seleção-seleção-ecológica" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="seleção-seleção-ecológica"><span class="header-section-number">4.1</span> Seleção (seleção ecológica)</h3>
+<p>A seleção representa diferenças <strong>determinísticas</strong> de aptidão (fitness ecológico) entre espécies, decorrentes de diferenças em seus atributos (traços) em relação ao ambiente biótico e abiótico local. Em outras palavras: dado um conjunto de espécies com traços diferentes, algumas se saem sistematicamente melhor que outras em determinado contexto ambiental — seja porque toleram melhor um estresse abiótico (seca, salinidade, temperatura), seja porque competem, predam ou facilitam de forma mais eficaz outras espécies <span class="citation" data-cites="vellend2016">(<a href="#ref-vellend2016" role="doc-biblioref">Vellend 2016</a>)</span>. A intensidade da seleção aumenta com a magnitude das diferenças de aptidão entre as espécies presentes.</p>
+<p>Um ponto pedagógico central: quase todos os mecanismos “clássicos” da ecologia de comunidades — competição interespecífica, facilitação, predação, herbivoria, parasitismo, filtragem ambiental (filtro abiótico) — são, na moldura de Vellend, formas específicas e de nível mais baixo de <strong>seleção</strong>. Isso não os torna menos importantes; apenas os reorganiza como instâncias de um processo mais geral, o que facilita a comparação entre sistemas de estudo muito diferentes.</p>
+</section>
+<section id="deriva-ecológica" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="deriva-ecológica"><span class="header-section-number">4.2</span> Deriva ecológica</h3>
+<p>A deriva ecológica é o análogo, em comunidades, da deriva genética: mudanças <strong>estocásticas</strong> na abundância relativa das espécies que ocorrem mesmo quando todas as espécies têm aptidão ecológica idêntica (equivalência ecológica). Sob deriva pura, quando um indivíduo morre ou um espaço/recurso se libera, cada espécie tem a mesma probabilidade de ocupar aquele espaço, independentemente de sua identidade. Ao longo do tempo, esse processo aleatório tende a levar à extinção local de espécies — mais rapidamente em comunidades pequenas (poucos indivíduos) do que em comunidades grandes, exatamente como ocorre com a deriva genética em populações pequenas versus grandes.</p>
+<p>A deriva ecológica é o pilar central da <strong>teoria neutra da biodiversidade</strong>, proposta por Hubbell <span class="citation" data-cites="hubbell2001">(<a href="#ref-hubbell2001" role="doc-biblioref">Hubbell 2001</a>)</span>, que assume equivalência ecológica entre espécies dentro de uma mesma guilda trófica para prever padrões de abundância, riqueza e distribuição espacial. Comunidades e metacomunidades governadas majoritariamente por deriva tendem a apresentar composições que divergem de forma imprevisível entre réplicas, mesmo sob condições ambientais idênticas — um padrão empírico importante para diferenciar deriva de seleção em estudos de campo.</p>
+</section>
+<section id="dispersão" class="level3" data-number="4.3">
+<h3 data-number="4.3" class="anchored" data-anchor-id="dispersão"><span class="header-section-number">4.3</span> Dispersão</h3>
+<p>A dispersão é o movimento de organismos (sementes, esporos, larvas, indivíduos adultos, propágulos em geral) através do espaço, conectando comunidades locais dentro de uma metacomunidade regional. A dispersão desempenha um papel duplo na teoria: (i) ela introduz novas espécies em uma comunidade local vindas do <em>pool</em> regional, e (ii) sua taxa relativa (baixa, intermediária ou alta) modula a força relativa da seleção e da deriva. Taxas de dispersão muito altas podem homogeneizar comunidades ao longo do espaço (efeito de massa, ou <em>mass effect</em>), sobrepujando os efeitos da seleção local; taxas muito baixas podem isolar comunidades, permitindo que a deriva e a seleção local divirjam entre sítios sem grande possibilidade de “resgate” via imigração.</p>
+<p>A dispersão também é o processo que conecta explicitamente a ecologia de comunidades à <strong>biogeografia de ilhas</strong> de MacArthur e Wilson e às abordagens modernas de redes ecológicas, nas quais taxas de turnover de espécies e conectividade entre manchas de hábitat moldam a própria estrutura das interações <span class="citation" data-cites="ponisio2019 guimaraes2020">(<a href="#ref-ponisio2019" role="doc-biblioref">Ponisio et al. 2019</a>; <a href="#ref-guimaraes2020" role="doc-biblioref">Guimarães 2020</a>)</span>.</p>
+</section>
+<section id="especiação" class="level3" data-number="4.4">
+<h3 data-number="4.4" class="anchored" data-anchor-id="especiação"><span class="header-section-number">4.4</span> Especiação</h3>
+<p>A especiação é o processo pelo qual novas espécies surgem — seja por especiação <em>in situ</em> dentro do sistema de estudo, seja por especiação em outro local seguida de dispersão até a comunidade focal. Embora a especiação opere, tipicamente, em escalas de tempo muito mais longas do que os outros três processos (o que faz com que, em estudos de curto prazo, ela seja frequentemente tratada como “pano de fundo” ou fixada como constante), ela é indispensável para explicar por que existe variação biológica para começar. Sem especiação (e sem dispersão de espécies originadas alhures), simplesmente não haveria novas espécies a serem filtradas pela seleção ou sujeitas à deriva.</p>
+<p>Em escalas evolutivas e biogeográficas mais amplas — tema que será retomado na Aula 4, sobre comunidades no tempo —, a especiação conecta diretamente a ecologia de comunidades à biogeografia histórica, cujo objeto é justamente reconstruir os processos evolutivos e geográficos que geraram os padrões atuais de distribuição de espécies.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Síntese em uma frase
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Espécies são adicionadas às comunidades por especiação e dispersão; as abundâncias relativas dessas espécies são então moldadas por deriva e seleção, junto com a dispersão contínua, que segue impulsionando a dinâmica da comunidade <span class="citation" data-cites="vellend2010">(<a href="#ref-vellend2010" role="doc-biblioref">Vellend 2010</a>)</span>.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="como-os-quatro-processos-interagem" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="como-os-quatro-processos-interagem"><span class="header-section-number">5</span> Como os quatro processos interagem</h2>
+<p>Um erro comum ao primeiro contato com essa teoria é tratar os quatro processos como categorias mutuamente exclusivas — como se cada comunidade real fosse “puramente neutra” ou “puramente selecionada”. Na prática, os quatro processos operam <strong>simultaneamente e em interação</strong>, e boa parte do trabalho empírico contemporâneo consiste exatamente em estimar o <strong>balanço relativo</strong> entre processos determinísticos (seleção) e estocásticos (deriva), frequentemente moderado por dispersão.</p>
+<p>Um exemplo particularmente didático vem da ecologia microbiana: Dini-Andreote e colaboradores demonstraram, em um estudo de sucessão microbiana em sedimentos recém-formados, que o balanço entre processos estocásticos e determinísticos muda sistematicamente ao longo da sucessão — comunidades em estágios iniciais são fortemente influenciadas por deriva e dispersão, enquanto a seleção (moldada por mudanças no ambiente físico-químico) ganha peso crescente em estágios tardios <span class="citation" data-cites="dinilandreote2015">(<a href="#ref-dinilandreote2015" role="doc-biblioref">Dini-Andreote et al. 2015</a>)</span>. Esse padrão dialoga diretamente com a ecologia clássica de sucessão de Horn, segundo a qual comunidades tendem a se estabilizar ao longo do tempo se o ambiente físico permanece relativamente constante <span class="citation" data-cites="horn1974">(<a href="#ref-horn1974" role="doc-biblioref">Horn 1974</a>)</span>, e será aprofundado na Aula 3.</p>
+<p>Outra frente de pesquisa recente busca ir além da simples classificação qualitativa dos quatro processos, propondo princípios organizadores gerais aplicáveis a múltiplos níveis de organização biológica — de comunidades microbianas a assembleias macroscópicas <span class="citation" data-cites="gralka2023">(<a href="#ref-gralka2023" role="doc-biblioref">Gralka 2023</a>)</span>. Uma direção complementar, de caráter mais matemático, é a análise da <strong>viabilidade</strong> (<em>feasibility</em>) de comunidades: dado um conjunto de interações bióticas (essencialmente, um resultado de processos de seleção) e um contexto ambiental, existe um domínio de parâmetros — a “fronteira de viabilidade” — dentro do qual a coexistência de todas as espécies é matematicamente possível. A montagem de comunidades pode, então, ser ensinada como um problema de compatibilidade entre a estrutura das interações e as condições ambientais <span class="citation" data-cites="saavedra2026">(<a href="#ref-saavedra2026" role="doc-biblioref">Saavedra 2026</a>)</span>.</p>
+</section>
+<section id="diálogo-com-outras-teorias-centrais-da-ecologia-de-comunidades" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="diálogo-com-outras-teorias-centrais-da-ecologia-de-comunidades"><span class="header-section-number">6</span> Diálogo com outras teorias centrais da ecologia de comunidades</h2>
+<p>A síntese de Vellend não substitui outras teorias importantes; ela as reorganiza como casos específicos ou complementares dentro de sua estrutura de quatro processos.</p>
+<ul>
+<li><strong>Teoria de nicho / coexistência de espécies (Chesson).</strong> A teoria moderna de coexistência distingue mecanismos <em>estabilizadores</em> (que favorecem a diferenciação de nicho e, portanto, reduzem a probabilidade de exclusão competitiva) de mecanismos <em>equalizadores</em> (que reduzem diferenças de aptidão entre competidores) <span class="citation" data-cites="chesson2000">(<a href="#ref-chesson2000" role="doc-biblioref">Chesson 2000</a>)</span>. Ambos os tipos de mecanismo operam, na linguagem de Vellend, dentro do processo de <strong>seleção</strong> — a diferença está em <em>como</em> a seleção atua sobre a composição da comunidade.</li>
+<li><strong>Teoria neutra da biodiversidade (Hubbell).</strong> Ao assumir equivalência ecológica entre espécies, a teoria neutra é essencialmente um modelo em que a <strong>deriva</strong> (mais dispersão limitada, no formato de dispersão espacialmente restrita) é o processo dominante, com seleção assumida como nula ou desprezível <span class="citation" data-cites="hubbell2001">(<a href="#ref-hubbell2001" role="doc-biblioref">Hubbell 2001</a>)</span>.</li>
+<li><strong>Repensando a montagem de comunidades pela lente da teoria de coexistência.</strong> HilleRisLambers e colaboradores revisaram como a moderna teoria de coexistência de nicho pode ser aplicada à montagem de comunidades reais, complementando a perspectiva de processos de Vellend com ferramentas quantitativas para medir força de seleção em campo <span class="citation" data-cites="hillerislambers2012">(<a href="#ref-hillerislambers2012" role="doc-biblioref">HilleRisLambers et al. 2012</a>)</span>.</li>
+<li><strong>Comunidades como unidades funcionalmente organizadas.</strong> O debate sobre se comunidades ecológicas devem ser entendidas como agregados frouxos de populações independentes ou como unidades com propriedades emergentes coesas — tema clássico da ecologia de comunidades — é revisitado por Wilson, que defende uma perspectiva multiníveis de seleção também aplicável a comunidades <span class="citation" data-cites="wilson1997">(<a href="#ref-wilson1997" role="doc-biblioref">Wilson 1997</a>)</span>.</li>
+<li><strong>Modelos neutros anteriores a Hubbell.</strong> Muito antes da teoria neutra moderna, Caswell já propunha modelos neutros como <em>linha de base</em> estatística contra a qual comparar padrões observados de estrutura comunitária — um antecessor conceitual direto da forma como hoje se testa a contribuição relativa da deriva ecológica <span class="citation" data-cites="caswell1976">(<a href="#ref-caswell1976" role="doc-biblioref">Caswell 1976</a>)</span>.</li>
+<li><strong>Redes ecológicas.</strong> A perspectiva de redes trata a arquitetura das interações bióticas (portanto, a estrutura fina da seleção) como um objeto de estudo em si, com propriedades emergentes em múltiplos níveis de organização — do par de espécies interagentes à paisagem <span class="citation" data-cites="guimaraes2020">(<a href="#ref-guimaraes2020" role="doc-biblioref">Guimarães 2020</a>)</span> — e integra explicitamente processos de dispersão e turnover de espécies à dinâmica da rede <span class="citation" data-cites="ponisio2019">(<a href="#ref-ponisio2019" role="doc-biblioref">Ponisio et al. 2019</a>)</span>.</li>
+</ul>
+</section>
+<section id="evidências-empíricas-como-testar-o-peso-relativo-de-cada-processo" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="evidências-empíricas-como-testar-o-peso-relativo-de-cada-processo"><span class="header-section-number">7</span> Evidências empíricas: como testar o peso relativo de cada processo?</h2>
+<p>Um ponto forte da síntese de Vellend é que ela é <strong>operacionalizável</strong>: existem hoje diversas abordagens estatísticas para estimar a contribuição relativa de seleção, deriva e dispersão a partir de dados observacionais de composição de comunidades (por exemplo, análises de partição da variância espacial-ambiental, métricas de turnover filogenético e taxonômico, e comparações contra simulações neutras nulas). Esse é exatamente o tipo de ferramenta metodológica explorado, por exemplo, no estudo de comunidades de peixes em riachos brasileiros, no qual a síntese de Vellend é utilizada explicitamente como moldura conceitual para interpretar métricas quantitativas de diversidade taxonômica <span class="citation" data-cites="benonemontag2020">(<a href="#ref-benonemontag2020" role="doc-biblioref">Benone e Montag 2020</a>)</span> — um bom exemplo de aplicação da teoria a sistemas de água doce neotropicais, com relevância direta para conservação da biodiversidade no Brasil.</p>
+<p>Evidências empíricas para os quatro processos existem em abundância na literatura, com uma predominância histórica de estudos focados em seleção (por ser o processo mais tradicionalmente estudado pela ecologia de comunidades pré-Vellend), mas com um corpo crescente de trabalhos que quantificam deriva e dispersão de forma explícita, especialmente em sistemas microbianos, nos quais réplicas experimentais em larga escala são mais viáveis <span class="citation" data-cites="dinilandreote2015 gralka2023">(<a href="#ref-dinilandreote2015" role="doc-biblioref">Dini-Andreote et al. 2015</a>; <a href="#ref-gralka2023" role="doc-biblioref">Gralka 2023</a>)</span>.</p>
+</section>
+<section id="relevância-para-a-conservação-da-biodiversidade" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="relevância-para-a-conservação-da-biodiversidade"><span class="header-section-number">8</span> Relevância para a conservação da biodiversidade</h2>
+<p>Esta estrutura teórica tem implicações diretas e práticas para a conservação:</p>
+<ul>
+<li><strong>Diagnóstico de causas de perda de diversidade.</strong> Saber se a degradação de uma comunidade está sendo conduzida por seleção (por exemplo, filtragem ambiental decorrente de poluição ou mudança de uso do solo), por deriva (fragmentação que reduz drasticamente o tamanho populacional local) ou por limitação de dispersão (perda de conectividade da paisagem) direciona estratégias de manejo completamente distintas.</li>
+<li><strong>Desenho de corredores ecológicos e conectividade.</strong> Decisões sobre conectividade da paisagem são, na prática, decisões sobre a taxa de dispersão entre comunidades locais — com consequências diretas sobre o equilíbrio entre deriva e seleção nas comunidades restauradas.</li>
+<li><strong>Restauração ecológica e sucessão.</strong> Entender a sucessão como uma mudança previsível no balanço entre estocasticidade e determinismo ao longo do tempo <span class="citation" data-cites="dinilandreote2015 horn1974">(<a href="#ref-dinilandreote2015" role="doc-biblioref">Dini-Andreote et al. 2015</a>; <a href="#ref-horn1974" role="doc-biblioref">Horn 1974</a>)</span> orienta expectativas realistas sobre a velocidade e a trajetória da recuperação de áreas degradadas — tema que retomaremos, em profundidade, na Aula 3.</li>
+<li><strong>Priorização de áreas para conservação.</strong> Abordagens de viabilidade de comunidades <span class="citation" data-cites="saavedra2026">(<a href="#ref-saavedra2026" role="doc-biblioref">Saavedra 2026</a>)</span> e de estrutura de redes <span class="citation" data-cites="guimaraes2020">(<a href="#ref-guimaraes2020" role="doc-biblioref">Guimarães 2020</a>)</span> oferecem ferramentas quantitativas para antecipar quais conjuntos de espécies podem coexistir de forma estável em um dado contexto ambiental — informação valiosa para o planejamento de reintroduções e de unidades de conservação.</li>
+</ul>
+</section>
+<section id="críticas-e-limitações-da-síntese" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="críticas-e-limitações-da-síntese"><span class="header-section-number">9</span> Críticas e limitações da síntese</h2>
+<p>É importante apresentar a teoria de Vellend de forma equilibrada, sem tratá-la como consenso definitivo e isento de críticas:</p>
+<ol type="1">
+<li><strong>Nível de abstração elevado.</strong> Por operar em um nível muito geral, a síntese pode, em alguns casos, mascarar a riqueza mecanicista de processos específicos (por exemplo, distinguir entre facilitação e competição de recursos dentro da categoria ampla de “seleção” exige um segundo nível de detalhamento, não fornecido automaticamente pela moldura).</li>
+<li><strong>Dificuldade de quantificação em sistemas macroscópicos.</strong> Embora a moldura seja operacionalizável, estimar de forma robusta e não enviesada a contribuição relativa de cada processo continua sendo estatisticamente desafiador, sobretudo fora de sistemas microbianos ou experimentais controlados.</li>
+<li><strong>Tratamento da especiação como processo de “pano de fundo”.</strong> Em escalas de tempo ecológicas, a especiação é frequentemente negligenciada em análises empíricas, o que pode subestimar sua importância relativa em sistemas com processos evolutivos rápidos (por exemplo, radiações adaptativas recentes).</li>
+<li><strong>Ainda há lacunas na integração com estados alternativos estáveis de ecossistemas</strong> — tema da Aula 7 —, para o qual a base teórica de processos de Vellend oferece uma linguagem útil, mas não uma teoria completa e amplamente testada.</li>
+</ol>
+</section>
+<section id="síntese-da-aula-e-conexão-com-o-restante-do-curso" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="síntese-da-aula-e-conexão-com-o-restante-do-curso"><span class="header-section-number">10</span> Síntese da aula e conexão com o restante do curso</h2>
+<p>A síntese de Vellend nos dá o vocabulário comum que usaremos ao longo de todo o curso: quando discutirmos sucessão ecológica (Aula 3), estaremos essencialmente descrevendo a trajetória temporal do balanço entre deriva, dispersão e seleção; quando discutirmos biogeografia (Aula 4), estaremos aprofundando o papel da especiação e da dispersão em escalas históricas e regionais; quando discutirmos diversidade alfa, beta e gama (Aula 5), estaremos, em grande medida, quantificando as <em>assinaturas</em> desses processos na estrutura espacial da diversidade; e quando discutirmos clima, solo e vegetação (Aula 6), estaremos detalhando os mecanismos concretos que compõem o processo de seleção ambiental. A Aula 7, sobre estados alternativos estáveis, é o ponto em que a base teórica fornecida é mais indireta, e vale a pena tratá-la com cautela teórica, complementando com literatura específica.</p>
+</section>
+<section id="atividades-e-questões-para-discussão-em-sala" class="level2" data-number="11">
+<h2 data-number="11" class="anchored" data-anchor-id="atividades-e-questões-para-discussão-em-sala"><span class="header-section-number">11</span> Atividades e questões para discussão em sala</h2>
+<ol type="1">
+<li>Escolha um sistema ecológico que você conhece bem (pode ser de pesquisa própria, de literatura ou até hipotético) e tente classificar, com justificativa, qual processo (seleção, deriva, dispersão ou especiação) provavelmente domina a dinâmica de curto prazo desse sistema.</li>
+<li>Muitos estudos clássicos de competição interespecífica não usam a palavra “seleção”. Releia um estudo clássico de competição (por exemplo, de sua própria área) e reinterprete seus resultados na linguagem de Vellend.</li>
+<li>Como você desenharia um experimento de campo (ou observacional) para tentar separar estatisticamente os efeitos de deriva e de dispersão limitada em uma comunidade real?</li>
+<li>Discuta com um colega: em que medida a moldura de Vellend é compatível — ou entra em tensão — com a ideia de comunidades como “unidades funcionalmente organizadas” <span class="citation" data-cites="wilson1997">(<a href="#ref-wilson1997" role="doc-biblioref">Wilson 1997</a>)</span>?</li>
+</ol>
+</section>
+<section id="leituras-complementares" class="level2" data-number="12">
+<h2 data-number="12" class="anchored" data-anchor-id="leituras-complementares"><span class="header-section-number">12</span> Leituras complementares</h2>
+<ul>
+<li><span class="citation" data-cites="vellend2016">Vellend (<a href="#ref-vellend2016" role="doc-biblioref">2016</a>)</span> — capítulos introdutórios (1–3), para aprofundamento na base conceitual.</li>
+<li><span class="citation" data-cites="chesson2000">Chesson (<a href="#ref-chesson2000" role="doc-biblioref">2000</a>)</span> e <span class="citation" data-cites="hillerislambers2012">HilleRisLambers et al. (<a href="#ref-hillerislambers2012" role="doc-biblioref">2012</a>)</span>, para a teoria moderna de coexistência de nicho.</li>
+<li><span class="citation" data-cites="hubbell2001">Hubbell (<a href="#ref-hubbell2001" role="doc-biblioref">2001</a>)</span>, para a formulação original da teoria neutra.</li>
+<li><span class="citation" data-cites="ricklefsrelyea2021">Ricklefs e Relyea (<a href="#ref-ricklefsrelyea2021" role="doc-biblioref">2021</a>)</span>, capítulos sobre comunidades ecológicas, como referência introdutória em português.</li>
+<li><span class="citation" data-cites="benonemontag2020">Benone e Montag (<a href="#ref-benonemontag2020" role="doc-biblioref">2020</a>)</span>, como exemplo de aplicação empírica da síntese de Vellend a sistemas aquáticos brasileiros.</li>
+<li><span class="citation" data-cites="wikiecolcomunidades2026">Wikipédia, a enciclopédia livre (<a href="#ref-wikiecolcomunidades2026" role="doc-biblioref">2026</a>)</span>, como leitura introdutória de apoio em português.</li>
+</ul>
+</section>
+<section id="referências" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="referências">Referências</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-benonemontag2020" class="csl-entry" role="listitem">
+Benone, N. C., e L. F. A. Montag. 2020. <span>“M<span>é</span>todos Quantitativos para Mensurar a Diversidade Taxon<span>ô</span>mica em Peixes de Riacho”</span>. <em>Oecologia Australis</em>. <a href="https://revistas.ufrj.br/index.php/oa/article/download/398/23881">https://revistas.ufrj.br/index.php/oa/article/download/398/23881</a>.
+</div>
+<div id="ref-caswell1976" class="csl-entry" role="listitem">
+Caswell, H. 1976. <span>“Community Structure: A Neutral Model Analysis”</span>. <em>Ecological Monographs</em> 46: 327–54. <a href="https://doi.org/10.2307/1942257">https://doi.org/10.2307/1942257</a>.
+</div>
+<div id="ref-chesson2000" class="csl-entry" role="listitem">
+Chesson, Peter. 2000. <span>“Mechanisms of Maintenance of Species Diversity”</span>. <em>Annual Review of Ecology and Systematics</em> 31: 343–66. <a href="https://doi.org/10.1146/annurev.ecolsys.31.1.343">https://doi.org/10.1146/annurev.ecolsys.31.1.343</a>.
+</div>
+<div id="ref-dinilandreote2015" class="csl-entry" role="listitem">
+Dini-Andreote, F., J. Stegen, J. van Elsas, e J. Salles. 2015. <span>“Disentangling Mechanisms that Mediate the Balance Between Stochastic and Deterministic Processes in Microbial Succession”</span>. <em>Proceedings of the National Academy of Sciences</em> 112. <a href="https://doi.org/10.1073/pnas.1414261112">https://doi.org/10.1073/pnas.1414261112</a>.
+</div>
+<div id="ref-gralka2023" class="csl-entry" role="listitem">
+Gralka, Matti. 2023. <span>“Searching for Principles of Microbial Ecology Across Levels of Biological Organization”</span>. <em>Integrative and Comparative Biology</em> 63: 1520–31. <a href="https://doi.org/10.1093/icb/icad060">https://doi.org/10.1093/icb/icad060</a>.
+</div>
+<div id="ref-guimaraes2020" class="csl-entry" role="listitem">
+Guimarães, P. 2020. <span>“The Structure of Ecological Networks Across Levels of Organization”</span>. <em>Annual Review of Ecology, Evolution, and Systematics</em>, publicação prévia em linha. <a href="https://doi.org/10.1146/annurev-ecolsys-012220-120819">https://doi.org/10.1146/annurev-ecolsys-012220-120819</a>.
+</div>
+<div id="ref-hillerislambers2012" class="csl-entry" role="listitem">
+HilleRisLambers, Janneke, Peter B. Adler, W. Stanley Harpole, Jonathan M. Levine, e Margaret M. Mayfield. 2012. <span>“Rethinking Community Assembly through the Lens of Coexistence Theory”</span>. <em>Annual Review of Ecology, Evolution, and Systematics</em> 43: 227–48. <a href="https://doi.org/10.1146/annurev-ecolsys-110411-160411">https://doi.org/10.1146/annurev-ecolsys-110411-160411</a>.
+</div>
+<div id="ref-horn1974" class="csl-entry" role="listitem">
+Horn, H. 1974. <span>“The Ecology of Secondary Succession”</span>. <em>Annual Review of Ecology and Systematics</em> 5: 25–37. <a href="https://doi.org/10.1146/annurev.es.05.110174.000325">https://doi.org/10.1146/annurev.es.05.110174.000325</a>.
+</div>
+<div id="ref-hubbell2001" class="csl-entry" role="listitem">
+Hubbell, Stephen P. 2001. <em>The Unified Neutral Theory of Biodiversity and Biogeography</em>. Princeton University Press.
+</div>
+<div id="ref-morrow2024" class="csl-entry" role="listitem">
+Morrow, Katie. 2024. <span>“Neutral and Niche Theory in Community Ecology: A Framework for Comparing Model Realism”</span>. <em>Biology &amp; Philosophy</em> 39. <a href="https://doi.org/10.1007/s10539-024-09941-5">https://doi.org/10.1007/s10539-024-09941-5</a>.
+</div>
+<div id="ref-ponisio2019" class="csl-entry" role="listitem">
+Ponisio, Lauren, Fernanda Valdovinos, K. Allhoff, et al. 2019. <span>“A Network Perspective for Community Assembly”</span>. <em>Frontiers in Ecology and Evolution</em>, publicação prévia em linha. <a href="https://doi.org/10.3389/fevo.2019.00103">https://doi.org/10.3389/fevo.2019.00103</a>.
+</div>
+<div id="ref-ricklefsrelyea2021" class="csl-entry" role="listitem">
+Ricklefs, Robert E., e Rick Relyea. 2021. <em>A Economia da Natureza</em>. 8º ed. Gen/Guanabara Koogan.
+</div>
+<div id="ref-saavedra2026" class="csl-entry" role="listitem">
+Saavedra, Serguei. 2026. <span>“The Feasibility Principle in Community Ecology”</span>. <em>Oikos</em> 2026. <a href="https://doi.org/10.1002/oik.11355">https://doi.org/10.1002/oik.11355</a>.
+</div>
+<div id="ref-vellend2010" class="csl-entry" role="listitem">
+Vellend, Mark. 2010. <span>“Conceptual Synthesis in Community Ecology”</span>. <em>The Quarterly Review of Biology</em> 85 (2): 183–206. <a href="https://doi.org/10.1086/652373">https://doi.org/10.1086/652373</a>.
+</div>
+<div id="ref-vellend2016" class="csl-entry" role="listitem">
+Vellend, Mark. 2016. <em>The Theory of Ecological Communities</em>. Monographs em Population Biology, 57. Princeton University Press. <a href="https://doi.org/10.1515/9781400883790">https://doi.org/10.1515/9781400883790</a>.
+</div>
+<div id="ref-wikiecolcomunidades2026" class="csl-entry" role="listitem">
+Wikipédia, a enciclopédia livre. 2026. <em>Ecologia de Comunidades</em>. Verbete online. <a href="https://pt.wikipedia.org/wiki/Ecologia_de_comunidades">https://pt.wikipedia.org/wiki/Ecologia_de_comunidades</a>.
+</div>
+<div id="ref-wilson1997" class="csl-entry" role="listitem">
+Wilson, D. 1997. <span>“Biological Communities as Functionally Organized Units”</span>. <em>Ecology</em> 78: 2018–24. <a href="https://doi.org/10.1890/0012-9658(1997)078[2018:bcafou]2.0.co;2">https://doi.org/10.1890/0012-9658(1997)078[2018:bcafou]2.0.co;2</a>.
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/fplmelo\.github\.io\/eco2\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Conteúdo © 2026 por <a href="https://ecoaplic.org/">Prof.&nbsp;Felipe Melo</a><br> Licenciado sob <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Feito com <a href="https://quarto.org/docs/get-started/hello/rstudio.html">Quarto</a><br> <a href="https://github.com/fplmelo/eco2">Ver código-fonte no GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
