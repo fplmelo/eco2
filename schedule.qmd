@@ -6,19 +6,15 @@ Cronograma preliminar — sujeito a ajustes ao longo do semestre.
 
 | Semana | Data | Tema | Material |
 |:------:|:----:|:-----|:---------|
-| 1 | DD/MM | Apresentação da disciplina e conceitos introdutórios | [Slides](sessions/index.qmd) |
-| 2 | DD/MM | Tema da semana 2 | |
-| 3 | DD/MM | Tema da semana 3 | |
-| 4 | DD/MM | Tema da semana 4 | |
-| 5 | DD/MM | Tema da semana 5 | |
-| 6 | DD/MM | Tema da semana 6 | |
-| 7 | DD/MM | Avaliação parcial | |
-| 8 | DD/MM | Tema da semana 8 | |
-| 9 | DD/MM | Tema da semana 9 | |
-| 10 | DD/MM | Tema da semana 10 | |
-| 11 | DD/MM | Tema da semana 11 | |
-| 12 | DD/MM | Tema da semana 12 | |
-| 13 | DD/MM | Apresentação de projetos/seminários | |
-| 14 | DD/MM | Avaliação final | |
+| 1 | 13/08 | Apresentação da disciplina e conceitos introdutórios | [Resumo + Slides](sessions/week01.qmd) |
+| 2 | 20/08 | Bases teóricas para o estudo de comundades biológicas | |
+| 3 | 27/08 | Sucessão ecológica | |
+| 4 | 03/09 | Comunidades no tempo (Introduição à BIogeografia) | |
+| 5 | 10/09 | Comunidades no espaço (Montagem de comunidades) | |
+| 6 | 17/09 | Clima, solo e vegetação| |
+| 7 | 24/08 | Diversidade alfa, beta e gama | |
+| 8 | 01/10 | Prova Módulo Comunidades | |
+
+
 
 : {.tabela-cronograma tbl-colwidths="[10,10,55,25]"}

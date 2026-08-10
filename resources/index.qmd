@@ -11,12 +11,10 @@ title: "Recursos"
 ## Bases de dados
 
 - [MapBiomas](https://mapbiomas.org/)
-- Outras bases relevantes ao tema da disciplina
+- [GBIF-Brasil](https://www.gbif.org/pt/country/BR/summary)
+- [Sistema Brasileiro de Informação sobre a Biodiversidade - SIBBr](https://sibbr.gov.br/)
 
 ## Leituras complementares
 
-- Links e referências gerais que não pertencem a uma semana específica
+- [Análises Ecológicas no R](https://analises-ecologicas.com/)
 
-## Comunidades e redes
-
-- ABECO, ReCaa, OCEAL, ou outras redes relevantes ao tema

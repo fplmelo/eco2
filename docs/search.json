@@ -102,21 +102,14 @@
     "href": "resources/index.html#bases-de-dados",
     "title": "Recursos",
     "section": "Bases de dados",
-    "text": "Bases de dados\n\nMapBiomas\nOutras bases relevantes ao tema da disciplina"
+    "text": "Bases de dados\n\nMapBiomas\nGBIF-Brasil\nSistema Brasileiro de Informação sobre a Biodiversidade - SIBBr"
   },
   {
     "objectID": "resources/index.html#leituras-complementares",
     "href": "resources/index.html#leituras-complementares",
     "title": "Recursos",
     "section": "Leituras complementares",
-    "text": "Leituras complementares\n\nLinks e referências gerais que não pertencem a uma semana específica"
-  },
-  {
-    "objectID": "resources/index.html#comunidades-e-redes",
-    "href": "resources/index.html#comunidades-e-redes",
-    "title": "Recursos",
-    "section": "Comunidades e redes",
-    "text": "Comunidades e redes\n\nABECO, ReCaa, OCEAL, ou outras redes relevantes ao tema"
+    "text": "Leituras complementares\n\nAnálises Ecológicas no R"
   },
   {
     "objectID": "workbook/workbook.html",
@@ -1453,28 +1446,14 @@
     "href": "exercises/index.html",
     "title": "Exercícios",
     "section": "",
-    "text": "Lista de exercícios práticos da disciplina. Adicione um item por exercício/lista."
-  },
-  {
-    "objectID": "exercises/index.html#exercício-1-título",
-    "href": "exercises/index.html#exercício-1-título",
-    "title": "Exercícios",
-    "section": "Exercício 1 — Título",
-    "text": "Exercício 1 — Título\nEntrega: DD/MM/AAAA\nDescrição do exercício, dados necessários e instruções de entrega.\nBaixar dados/enunciado"
-  },
-  {
-    "objectID": "exercises/index.html#exercício-2-título",
-    "href": "exercises/index.html#exercício-2-título",
-    "title": "Exercícios",
-    "section": "Exercício 2 — Título",
-    "text": "Exercício 2 — Título\nEntrega: DD/MM/AAAA\nDescrição do exercício."
+    "text": "Lista de exercícios práticos da disciplina.\nEm construção…"
   },
   {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Cronograma",
     "section": "",
-    "text": "Cronograma preliminar — sujeito a ajustes ao longo do semestre.\n\n\n\n\n\n\n\n\n\nSemana\nData\nTema\nMaterial\n\n\n\n\n1\nDD/MM\nApresentação da disciplina e conceitos introdutórios\nSlides\n\n\n2\nDD/MM\nTema da semana 2\n\n\n\n3\nDD/MM\nTema da semana 3\n\n\n\n4\nDD/MM\nTema da semana 4\n\n\n\n5\nDD/MM\nTema da semana 5\n\n\n\n6\nDD/MM\nTema da semana 6\n\n\n\n7\nDD/MM\nAvaliação parcial\n\n\n\n8\nDD/MM\nTema da semana 8\n\n\n\n9\nDD/MM\nTema da semana 9\n\n\n\n10\nDD/MM\nTema da semana 10\n\n\n\n11\nDD/MM\nTema da semana 11\n\n\n\n12\nDD/MM\nTema da semana 12\n\n\n\n13\nDD/MM\nApresentação de projetos/seminários\n\n\n\n14\nDD/MM\nAvaliação final"
+    "text": "Cronograma preliminar — sujeito a ajustes ao longo do semestre.\n\n\n\n\n\n\n\n\n\nSemana\nData\nTema\nMaterial\n\n\n\n\n1\n13/08\nApresentação da disciplina e conceitos introdutórios\nResumo + Slides\n\n\n2\n20/08\nBases teóricas para o estudo de comundades biológicas\n\n\n\n3\n27/08\nSucessão ecológica\n\n\n\n4\n03/09\nComunidades no tempo (Introduição à BIogeografia)\n\n\n\n5\n10/09\nComunidades no espaço (Montagem de comunidades)\n\n\n\n6\n17/09\nClima, solo e vegetação\n\n\n\n7\n24/08\nDiversidade alfa, beta e gama\n\n\n\n8\n01/10\nProva Módulo Comunidades"
   },
   {
     "objectID": "index.html",
@@ -1489,6 +1468,111 @@
     "title": "INT0158 - ECOLOGIA 2",
     "section": "",
     "text": "Este ambiente será um apoio fundamental para o aprendizado durante a disciplina, especialmente no módulo de Ecologia de Comunidades"
+  },
+  {
+    "objectID": "sessions/week01/week01.html",
+    "href": "sessions/week01/week01.html",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "",
+    "text": "Slides da Aula"
+  },
+  {
+    "objectID": "sessions/week01/week01.html#introdução",
+    "href": "sessions/week01/week01.html#introdução",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "1 Introdução",
+    "text": "1 Introdução\nBiodiversidade é a variedade da vida em diferentes níveis de organização, dos genes aos ecossistemas, e constitui um conceito central para as ciências da vida e para a conservação (Gaggiotti et al., 2018; Boudouresque, 2014; Moreno, 2001). As definições mais aceitas convergem para três níveis fundamentais — diversidade genética, diversidade de espécies e diversidade de ecossistemas — embora vários autores também defendam a inclusão explícita de dimensões funcionais, filogenéticas e comportamentais (Liu et al., 2024; Coates et al., 2018; Cordero‐Rivera, 2017; Boudouresque, 2014).\nA biodiversidade é um conceito hierárquico e multidimensional, e isso torna inadequado descrevê-la por uma única métrica (Gaggiotti et al., 2018; Boudouresque, 2014). Diferentes medidas capturam componentes distintos da variação biológica, de modo que avaliações robustas dependem de abordagens integradas (Gaggiotti et al., 2018; Boudouresque, 2014; Karahan et al., 2025)."
+  },
+  {
+    "objectID": "sessions/week01/week01.html#o-conceito-de-biodiversidade",
+    "href": "sessions/week01/week01.html#o-conceito-de-biodiversidade",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "2 O Conceito de Biodiversidade",
+    "text": "2 O Conceito de Biodiversidade\n\nO uso moderno do termo biodiversidade se consolidou a partir da década de 1980 (Wang & Young, 2019). Desde então, o conceito passou a funcionar como um meta-conceito, reunindo hierarquias ecológicas, genéticas e taxonômicas, além de implicações éticas, políticas e sociais (Cordero‐Rivera, 2017).\nMesmo quando há acordo sobre os três níveis clássicos, permanece importante reconhecer que a biodiversidade não é apenas contagem de espécies (Kumari et al., 2021; Wang & Young, 2019). A diversidade de espécies envolve tanto riqueza quanto equidade de abundâncias, e a diversidade em níveis superiores também depende da organização funcional e espacial dos sistemas biológicos (Wang & Young, 2019; Moreno, 2001)."
+  },
+  {
+    "objectID": "sessions/week01/week01.html#níveis-da-biodiversidade",
+    "href": "sessions/week01/week01.html#níveis-da-biodiversidade",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "3 Níveis da Biodiversidade",
+    "text": "3 Níveis da Biodiversidade\nA tabela a seguir resume os níveis mais usados na literatura.\n\n\n\n\n\n\n\n\nNível\nDefinição sintética\nExemplo de foco analítico\n\n\n\n\nGenético\nVariação de genes e alelos dentro e entre populações\nPolimorfismos, estrutura populacional, adaptação (Kumari et al., 2021; Wang & Young, 2019)\n\n\nTaxonômico\nVariação na composição, número e na abundância relativa de espécies\nRiqueza, equidade, composição (Wang & Young, 2019; Moreno, 2001)\n\n\nEcossistemas\nVariação entre habitats, comunidades e processos ecológicos\nPaisagens, habitats, fluxos bióticos e abióticos (Guo, 2022; Moreno, 2001)\n\n\nFuncional\nVariação as funhções ecológicas e traços das espécies\nTraços funcionais, redundância, funcionamento (Karahan et al., 2025)\n\n\nFilogenética\nVariação na história evolutiva entre linhagens\nDistância evolutiva, endemismo filogenético (Liu et al., 2024; Cordero‐Rivera, 2017)\n\n\nComportamental\nVariação de traços comportamentais em múltiplos níveis\nPlasticidade, personalidade, estratégias reprodutivas (Cordero‐Rivera, 2017)\n\n\n\n\nFigura 1: Níveis clássicos e extensões contemporâneas do conceito de biodiversidade.\nA diversidade genética descreve a variabilidade hereditária dentro das espécies e é essencial para adaptação e persistência populacional (Coates et al., 2018; Kumari et al., 2021; Wang & Young, 2019). Populações com maior diversidade genética tendem a manter mais alelos e, portanto, maior capacidade de responder a mudanças ambientais (Wang & Young, 2019; Kumari et al., 2021).\nA diversidade de espécies continua sendo a medida mais usada em ecologia e conservação, porque espécies são unidades amplamente comunicáveis e operacionais para monitoramento e política pública (Coates et al., 2018). Ainda assim, essa ênfase pode obscurecer variação importante abaixo do nível de espécie, como populações historicamente isoladas e unidades evolutivamente significativas (Coates et al., 2018).\nA diversidade de ecossistemas trata da variação entre habitats, comunidades e processos dentro da biosfera (Guo, 2022; Wang & Young, 2019). Ela depende da interação entre diversidade genética e de espécies, além de fatores ambientais e históricos (Wang & Young, 2019; Guo, 2022)."
+  },
+  {
+    "objectID": "sessions/week01/week01.html#por-que-a-biodiversidade-importa",
+    "href": "sessions/week01/week01.html#por-que-a-biodiversidade-importa",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "4 Por que a Biodiversidade importa?",
+    "text": "4 Por que a Biodiversidade importa?\nA biodiversidade sustenta resiliência ecológica e serviços essenciais como alimento e água limpa (Karahan et al., 2025). Também é amplamente considerada essencial ao bem-estar humano (Johnson et al., 2017).\nHá forte consenso de que a perda de biodiversidade reduz o funcionamento dos ecossistemas e as contribuições da natureza para as pessoas (Isbell et al., 2022). Em julgamento de especialistas, a ameaça ou extinção global de espécies foi associada a reduções de cerca de 10% a 70% no funcionamento ecossistêmico e nas contribuições da natureza, com grande incerteza sobre a magnitude exata (Isbell et al., 2022).\nA relação entre biodiversidade e funcionamento também não se restringe à diversidade de espécies (Kumari et al., 2021; Fargeot et al., 2025). Em ecossistemas aquáticos naturais, o efeito absoluto da diversidade genética sobre funções ecossistêmicas foi semelhante ao da diversidade de espécies, embora com direção oposta nas correlações observadas nesse estudo (Fargeot et al., 2025). Esses resultados reforçam a necessidade de integrar dimensões múltiplas da biodiversidade ao prever consequências ecológicas da perda biológica (Fargeot et al., 2025)."
+  },
+  {
+    "objectID": "sessions/week01/week01.html#como-a-biodiversidade-é-medida",
+    "href": "sessions/week01/week01.html#como-a-biodiversidade-é-medida",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "5 Como a Biodiversidade é medida?",
+    "text": "5 Como a Biodiversidade é medida?\nA ausência de métricas padronizadas e consistentes entre níveis biológicos ainda dificulta estudos verdadeiramente integrativos (Gaggiotti et al., 2018; Moreno, 2001; Gaggiotti et al., 2018). Parte desse problema vem do desenvolvimento histórico separado entre ecologia de comunidades e genética de populações (Gaggiotti et al., 2018).\nNo nível de espécies, a literatura distingue diversidade alfa, beta e gama (Kumari et al., 2021; Moreno, 2001). A diversidade alfa descreve a diversidade dentro de uma comunidade, a beta expressa mudanças de composição entre comunidades e a gama representa a diversidade total em uma paisagem ou região (Kumari et al., 2021; Moreno, 2001).\nÍndices distintos enfatizam propriedades diferentes da comunidade (Moreno, 2001). Por isso, um mesmo impacto pode aumentar a diversidade alfa e reduzir a diversidade gama, ou gerar padrões discordantes entre riqueza de espécies e diversidade em níveis taxonômicos mais altos.\nAbordagens recentes propõem estruturas unificadoras capazes de medir biodiversidade de genes a ecossistemas com comportamento matemático consistente (Gaggiotti et al., 2018). Esse tipo de framework foi desenvolvido justamente para superar a fragmentação entre métricas genéticas, taxonômicas, funcionais e ecológicas (Gaggiotti et al., 2018)."
+  },
+  {
+    "objectID": "sessions/week01/week01.html#escalas-distribuição-e-hotspots",
+    "href": "sessions/week01/week01.html#escalas-distribuição-e-hotspots",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "6 Escalas, Distribuição e Hotspots",
+    "text": "6 Escalas, Distribuição e Hotspots\nA biodiversidade é distribuída de forma desigual no planeta (Kumari et al., 2021). Essa heterogeneidade espacial motivou a delimitação de hotspots, áreas com alto endemismo e forte perda de habitat (Kumari et al., 2021; Gonçalves-Souza et al., 2020).\nA desigualdade espacial também aparece entre níveis de biodiversidade (Liu et al., 2024). Áreas com maior diversidade genética, de espécies e de ecossistemas não coincidem necessariamente, o que implica que estratégias baseadas em um único componente podem falhar em representar a biodiversidade de forma abrangente (Liu et al., 2024).\nEm análises recentes de planejamento sistemático, a integração de múltiplos indicadores — riqueza de espécies, endemismo, diversidade filogenética, distintividade evolutiva, endemismo filogenético e valor de serviços ecossistêmicos — foi usada para identificar áreas prioritárias de conservação de forma mais completa (Liu et al., 2024). Isso reforça que a biodiversidade relevante para conservação é multicritério, não apenas taxonômica."
+  },
+  {
+    "objectID": "sessions/week01/week01.html#biodiversidade-e-conservação",
+    "href": "sessions/week01/week01.html#biodiversidade-e-conservação",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "7 Biodiversidade e Conservação",
+    "text": "7 Biodiversidade e Conservação\nA política internacional reconhece explicitamente os níveis genético, de espécies e de ecossistemas como alvos de conservação (Coates et al., 2018). Na prática, porém, a gestão ainda se apoia sobretudo em espécies, áreas geográficas e comunidades ecológicas, com menor atenção à diversidade genética (Coates et al., 2018).\nEssa assimetria é importante porque muitas espécies reconhecidas não são geneticamente homogêneas (Coates et al., 2018). Linhagens profundas e populações historicamente isoladas podem carregar diversidade única, e sua perda aumenta o risco de extinção críptica (Coates et al., 2018).\nAo mesmo tempo, dados genômicos trazem uma tensão metodológica: eles aumentam muito a resolução sobre estrutura populacional, mas também podem levar a sobredelimitação de espécies se forem interpretados sem cautela (Coates et al., 2018). A literatura recomenda interpretar esses dados de forma conservadora e fortalecer a identificação de unidades intraespecíficas bem justificadas para conservação (Coates et al., 2018)."
+  },
+  {
+    "objectID": "sessions/week01/week01.html#a-crise-da-perda-de-biodiversidade",
+    "href": "sessions/week01/week01.html#a-crise-da-perda-de-biodiversidade",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "8 A Crise da perda de Biodiversidade",
+    "text": "8 A Crise da perda de Biodiversidade\nA perda de biodiversidade é um grande desafio global (Hochkirch et al., 2023; Di Marco et al., 2019). As taxas atuais de extinção estão cerca de 1000 vezes acima da taxa de fundo provável (Pimm et al., 2014).\nUma parte substancial das espécies avaliadas já está ameaçada (Hochkirch et al., 2023; Kumari et al., 2021). Em uma análise de 14.669 espécies europeias, 19% estavam ameaçadas de extinção, com risco maior para plantas (27%) e invertebrados (24%) do que para vertebrados (18%) (Hochkirch et al., 2023). Esses valores excederam estimativas recentes usadas em avaliações globais (Hochkirch et al., 2023).\nO conhecimento disponível ainda cobre apenas uma fração da vida na Terra (Pimm et al., 2014; Isbell et al., 2022). Muitas espécies permanecem não descritas, e apenas cerca de 1% do número estimado de espécies foi avaliado quanto ao risco de extinção pela IUCN nas últimas duas décadas (Pimm et al., 2014; Isbell et al., 2022)."
+  },
+  {
+    "objectID": "sessions/week01/week01.html#principais-vetores-de-extinção",
+    "href": "sessions/week01/week01.html#principais-vetores-de-extinção",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "9 Principais vetores de extinção",
+    "text": "9 Principais vetores de extinção\nMudanças nas práticas agrícolas, perda de habitat associada, sobre-exploração, poluição e desenvolvimento estão entre as principais ameaças à biodiversidade (Hochkirch et al., 2023). Em sínteses mais amplas, a expansão agropecuária, fragmentação, espécies invasoras, monoculturas, poluição e mudança climática aparecem de forma recorrente como motores da erosão da biodiversidade (Kumari et al., 2021; Legge et al., 2023).\nA perda de habitat é um dos vetores mais consistentes da crise atual (Gonçalves-Souza et al., 2020). O desmatamento aumentou substancialmente a chance de vertebrados serem classificados como ameaçados, sofrerem reclassificação recente para categorias mais severas ou apresentarem populações em declínio (Betts et al., 2017).\nEsse efeito não se restringe a paisagens já muito fragmentadas (Betts et al., 2017). Em paisagens relativamente intactas, mesmo perdas pequenas de floresta tiveram consequências severas para a biodiversidade de vertebrados (Betts et al., 2017).\nAs ameaças também interagem entre si (Gonçalves-Souza et al., 2020). Habitat loss combinada com outros estressores pode produzir mais extinções do que a soma simples dos impactos individuais, o que torna previsões baseadas em um único fator potencialmente conservadoras (Gonçalves-Souza et al., 2020)."
+  },
+  {
+    "objectID": "sessions/week01/week01.html#proteção-lacunas-e-prioridades",
+    "href": "sessions/week01/week01.html#proteção-lacunas-e-prioridades",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "10 Proteção, Lacunas e Prioridades",
+    "text": "10 Proteção, Lacunas e Prioridades\nEmbora tenha havido expansão rápida de áreas protegidas, essa rede ainda não representa a biodiversidade de forma ótima (Pimm et al., 2014). Em projeções globais por ecorregiões, houve baixa sobreposição entre previsões de extinção e a distribuição atual de áreas protegidas (Gonçalves-Souza et al., 2020).\nAnálises em larga escala sugerem que a ameaça futura está concentrada em algumas localidades megadiversas, inclusive fora dos hotspots clássicos (Gonçalves-Souza et al., 2020). Isso indica que estratégias de conservação precisam combinar vulnerabilidade atual, endemismo, irreplaceabilidade e tendências de transformação do uso da terra (Gonçalves-Souza et al., 2020).\nAs áreas selvagens remanescentes também são centrais para a persistência da biodiversidade (Di Marco et al., 2019). O risco de extinção em comunidades dentro de áreas wilderness foi, em média, menos da metade do observado fora delas (Di Marco et al., 2019). Apesar disso, essas áreas seguem pouco protegidas e exigem retenção direcionada, em paralelo à restauração de ambientes degradados (Di Marco et al., 2019)."
+  },
+  {
+    "objectID": "sessions/week01/week01.html#dimensões-emergentes",
+    "href": "sessions/week01/week01.html#dimensões-emergentes",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "11 Dimensões Emergentes",
+    "text": "11 Dimensões Emergentes\nA literatura recente mostra que biodiversidade não deve ser reduzida aos três níveis clássicos, embora eles permaneçam a base conceitual mais estável (Liu et al., 2024; Cordero‐Rivera, 2017). Diversidade funcional, filogenética e comportamental ampliam a capacidade de detectar diferenças ecologicamente relevantes entre comunidades (Cordero‐Rivera, 2017; Karahan et al., 2025).\nA proposta de etnodiversidade argumenta que a variação comportamental é parte negligenciada, mas ecologicamente importante, da biodiversidade (Cordero‐Rivera, 2017). Segundo essa perspectiva, conservar biodiversidade exige ir além da contagem de genes, espécies e ecossistemas, incorporando explicitamente componentes comportamentais (Cordero‐Rivera, 2017).\n\n\n\n\n\n\nDicaSíntese para a Aula\n\n\n\nBiodiversidade é um conceito multinível, multidimensional e escalonado. A mensagem central é que genes, espécies, populações, comunidades e ecossistemas variam conjuntamente, mas nem sempre de forma concordante. Também é essencial deixar claro que a biodiversidade não é apenas um inventário naturalista, mas um componente estrutural do funcionamento dos ecossistemas e do bem-estar humano . Por fim, a crise contemporânea de perda biológica é rápida, espacialmente desigual e impulsionada por múltiplos vetores antrópicos, o que exige conservação integrada e baseada em diferentes dimensões da diversidade."
+  },
+  {
+    "objectID": "sessions/week01/week01.html#referências",
+    "href": "sessions/week01/week01.html#referências",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "12 Referências",
+    "text": "12 Referências\n\nBateman I, Balmford A. Current conservation policies risk accelerating biodiversity loss. Nature (2023). Link: https://doi.org/\n\nBetts MG, Wolf C, Ripple WJ, et al. Global forest loss disproportionately erodes biodiversity in intact landscapes. Nature (2017). Link: https://doi.org/10.1038/nature23285\nCoates DJ, Byrne M, Moritz C. Genetic Diversity and Conservation Units: Dealing With the Species-Population Continuum in the Age of Genomics. Frontiers in Ecology and Evolution (2018). Link: https://doi.org/10.3389/fevo.2018.00165\nCordero-Rivera A. Behavioral Diversity (Ethodiversity): A Neglected Level in the Study of Biodiversity. Frontiers in Ecology and Evolution (2017). Link: https://doi.org/10.3389/fevo.2017.00007\nDi Marco M, Ferrier S, Harwood TD, Hoskins AJ, Watson JEM. Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature (2019). Link: https://doi.org/10.1038/s41586-019-1567\n\nThese search results were found and analyzed using Consensus, an AI-powered search engine for research. Try it at https://consensus.app. © 2026 Consensus NLP, Inc. Personal, non-commercial use only; redistribution requires copyright holders’ consent."
+  },
+  {
+    "objectID": "sessions/week01/week01.html#references",
+    "href": "sessions/week01/week01.html#references",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "13 References",
+    "text": "13 References\nBetts, M., Wolf, C., Ripple, W., Phalan, B., Millers, K. A., Duarte, A., Butchart, S., & Levi, T. (2017). Global forest loss disproportionately erodes biodiversity in intact landscapes. Nature, 547, 441-444. https://doi.org/10.1038/nature23285\nCoates, D., Byrne, M., & Moritz, C. (2018). Genetic Diversity and Conservation Units: Dealing With the Species-Population Continuum in the Age of Genomics. Frontiers in Ecology and Evolution. https://doi.org/10.3389/fevo.2018.00165\nCordero‐Rivera, A. (2017). Behavioral Diversity (Ethodiversity): A Neglected Level in the Study of Biodiversity. Frontiers in Ecology and Evolution, 5. https://doi.org/10.3389/fevo.2017.00007\nDi Marco, M., Ferrier, S., Harwood, T., Hoskins, A., & Watson, J. (2019). Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature, 573, 582 - 585. https://doi.org/10.1038/s41586-019-1567-7\nFargeot, L., Poésy, C., Lefort, M., Prunier, J. G., Krick, M., Verdonck, R., Veyssière, C., Richard, M., Legrand, D., Loot, G., & Blanchet, S. (2025). Genetic diversity affects ecosystem functions across trophic levels as much as species diversity, but in an opposite direction. eLife, 13. https://doi.org/10.1101/2024.03.27.586944\nGaggiotti, O., Chao, A., Peres‐Neto, P., Chiu, C., Edwards, C., Fortin, M., Jost, L., Richards, C., & Selkoe, K. (2018). Diversity from genes to ecosystems: A unifying framework to study variation across biological metrics and scales. Evolutionary Applications, 11, 1176 - 1193. https://doi.org/10.1111/eva.12593\nGonçalves-Souza, D., Verburg, P., & Dobrovolski, R. (2020). Habitat loss, extinction predictability and conservation efforts in the terrestrial ecoregions. Biological Conservation. https://doi.org/10.1016/j.biocon.2020.108579\nGuo, G. (2022). Review of Habitat Loss and Biodiversity in Poyang Lake Region. Proceedings of the 2022 International Conference on Urban Planning and Regional Economy（UPRE 2022）. https://doi.org/10.2991/aebmr.k.220502.096\nHochkirch, A., Bilz, M., Ferreira, C., Danielczak, A., Allen, D., Nieto, A., Rondinini, C., Harding, K., Hilton‐Taylor, C., Pollock, C., Seddon, M., Vié, J., Alexander, K., Beech, E., Biscoito, M., Braud, Y., Burfield, I., Buzzetti, F. M., Cálix, M., . . . Zuna-Kratky, T. (2023). A multi-taxon analysis of European Red Lists reveals major threats to biodiversity. PLOS ONE, 18. https://doi.org/10.1371/journal.pone.0293083\nIsbell, F., Balvanera, P., Mori, A. S., He, J., Bullock, J., Regmi, G. R., Seabloom, E., Ferrier, S., Sala, O., Guerrero‐Ramírez, N. R., Tavella, J., Larkin, D., Schmid, B., Outhwaite, C. L., Pramual, P., Borer, E., Loreau, M., Omotoriogun, T., Obura, D., . . . Palmer, M. (2022). Expert perspectives on global biodiversity loss and its drivers and impacts on people. Frontiers in Ecology and the Environment. https://doi.org/10.1002/fee.2536\nJohnson, C. N., Balmford, A., Brook, B., Buettel, J., Galetti, M., Lei, G., & Wilmshurst, J. (2017). Biodiversity losses and conservation responses in the Anthropocene. Science, 356, 270 - 275. https://doi.org/10.1126/science.aam9317\nKarahan, A., Durgut, B., Iannucci, S., Turicchia, E., Ponti, M., Ivanova, P., Dzhembekova, N., & Rinkevich, B. (2025). MAF biodiversity measurements: Species, ecosystem, and genetic. Open Research Europe. https://doi.org/10.12688/openreseurope.20835.1\nKumari, R., A., D., & Bhatnagar, S. (2021). Biodiversity Loss: Threats and Conservation Strategies. International Journal of Pharmaceutical Sciences Review and Research. https://doi.org/10.47583/ijpsrr.2021.v68i01.037\nLegge, S., Rumpff, L., Garnett, S., & Woinarski, J. (2023). Loss of terrestrial biodiversity in Australia: Magnitude, causation, and response. Science, 381, 622 - 631. https://doi.org/10.1126/science.adg7870\nLiu, Y., Wang, J., Wu, Z., Li, S., & Dai, W. (2024). Identification of biodiversity priority conservation areas in China by integrating genetic, species and ecosystem diversity. Biological Conservation. https://doi.org/10.1016/j.biocon.2024.110854\nMoreno, C. (2001). Métodos para medir la biodiversidad.\nPimm, S., Jenkins, C. N., Abell, R., Brooks, T., Gittleman, J. L., Joppa, L., Raven, P., Roberts, C., & Sexton, J. (2014). The biodiversity of species and their rates of extinction, distribution, and protection. Science, 344. https://doi.org/10.1126/science.1246752\nWang, E. T., & Young, J. (2019). History of Rhizobial Taxonomy. Ecology and Evolution of Rhizobia. https://doi.org/10.1007/978-981-32-9555-1_2"
+  },
+  {
+    "objectID": "sessions/week01.html",
+    "href": "sessions/week01.html",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "",
+    "text": "Slides da Aula"
   },
   {
     "objectID": "sessions/week01.html#introdução",

@@ -4,13 +4,19 @@ subtitle: "Aula 1 - Introdução à Biodiversidade"
 author: "Felipe Melo"
 institute: "Laboratório de Ecologia Aplicada - UFPE"
 date: today
+lang: pt-BR
 format:
   revealjs:
+    embed-resources: true # <--- ADICIONE ISSO AQUI (Isso isola o slide do resto do site)
     theme: default
-    transition: slide
     slide-number: true
-    chalkboard: true
-    scrollable: true
+    # chalkboard: true
+    # footer: "Ecologia da Restauração · UFPE"
+    transition: slide
+    background-transition: fade
+    width: 1280
+    height: 720
+    fig-align: center
 ---
 
 # O que é biodiversidade?
