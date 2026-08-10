@@ -45,16 +45,16 @@ website:
         href: assessment.qmd
     right:
       - icon: github
-        href: https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO
+        href: https://github.com/fplmelo/eco2
         aria-label: GitHub
 
   page-footer:
     left: |
-      Conteúdo © 2026 por [Prof. NOME COMPLETO](https://SEU-SITE.org/)<br>
+      Conteúdo © 2026 por [Prof. Felipe Melo](https://ecoaplic.org/)<br>
       Licenciado sob [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
     right: |
-      Feito com [Quarto](https://quarto.org/)<br>
-      [Ver código-fonte no GitHub](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO)
+      Feito com [Quarto](https://quarto.org/docs/get-started/hello/rstudio.html)<br>
+      [Ver código-fonte no GitHub](https://github.com/fplmelo/eco2)
 
 format:
   html:
