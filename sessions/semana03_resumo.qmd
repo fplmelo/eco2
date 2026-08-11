@@ -1,0 +1,138 @@
+---
+title: "Semana 3 — Sucessão Ecológica"
+subtitle: "Ecologia de Comunidades"
+author: "Prof. Felipe Melo"
+date: today
+date-format: "DD [de] MMMM [de] YYYY"
+lang: pt-BR
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+    code-fold: false
+    smooth-scroll: true
+    fig-align: center
+    embed-resources: true
+bibliography: referencias_semana03.bib
+nocite: |
+  @ricklefsrelyea2020, @townsend2010
+---
+
+Slides desta Aula
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe src="/slides/sucessao_ecologica.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen="true"></iframe>
+</div>
+
+
+## Introdução {#sec-intro}
+
+A Semana 2 encerrou-se com a moldura de síntese proposta por Vellend [@vellend2016], segundo a qual toda a dinâmica de comunidades biológicas pode ser reduzida a quatro processos de alto nível: **seleção**, **deriva ecológica**, **dispersão** e **especiação**. A aula de hoje aplica essa moldura a um dos fenômenos mais antigos e mais estudados da ecologia — a **sucessão ecológica** — tratando-a não como um tópico isolado, mas como um laboratório natural onde os quatro processos de Vellend interagem e mudam de peso relativo ao longo do tempo.
+
+::: {.callout-note}
+## Pergunta orientadora da aula
+Por que a composição de uma comunidade muda de forma relativamente previsível após um distúrbio, e por que essa previsibilidade tende a diminuir (ou aumentar) conforme a comunidade envelhece?
+:::
+
+Este resumo expandido cobre: (1) a definição operacional de sucessão e sua origem histórica; (2) os principais mecanismos propostos para explicar a substituição de espécies ao longo do tempo; (3) a integração da sucessão à moldura de Vellend, com ênfase no balanço entre estocasticidade e determinismo; (4) estudos de caso empíricos, com destaque para cronossequências microbianas e vegetais; (5) sucessão e função ecossistêmica; e (6) as implicações da sucessão para a ecologia da conservação e da restauração em um mundo em mudança.
+
+## Definindo sucessão ecológica {#sec-definicao}
+
+![](https://www.aces.edu/wp-content/uploads/2023/03/FOR-2095-Ecological-Succession24x14_-030222L-e1686079266346.png)
+
+Em sua revisão clássica, Horn define sucessão secundária como a mudança na composição de espécies de uma comunidade após um distúrbio severo ou a abertura de uma nova clareira (*patch*), processo que tende a desacelerar em estágios tardios caso o ambiente físico permaneça relativamente estável [@horn1974]. Essa definição tem três componentes importantes que vale destacar para a turma:
+
+1. **Ponto de partida**: um evento que remove total ou parcialmente a comunidade preexistente (distúrbio) ou expõe um substrato novo (sucessão primária, como lava vulcânica recém-solidificada ou geleiras em retração).
+2. **Trajetória**: uma sequência de mudanças na composição de espécies, geralmente com identidade funcional previsível (pioneiras → intermediárias → tardias), embora nem sempre determinística.
+3. **Assíntota relativa**: uma desaceleração da taxa de mudança à medida que a comunidade se aproxima de uma configuração mais estável — não necessariamente um "clímax" fixo, conceito hoje tratado com cautela.
+
+::: {.callout-tip}
+## Sucessão primária × secundária
+- **Primária**: início a partir de substrato estéril, sem banco de sementes ou solo desenvolvido (ex.: recuo de geleiras, depósitos de lava, dunas recém-formadas). Progressão inicial é limitada por **dispersão** e pela formação de solo.
+
+![](https://i0.wp.com/vegsciblog.org/wp-content/uploads/2020/07/20200710_Korablev_etal_JVS_1.jpg?resize=1024%2C683&ssl=1)
+
+- **Secundária**: início a partir de solo já estruturado, com banco de sementes, propágulos e, frequentemente, rebrota (ex.: campo abandonado, área agrícola após pousio, floresta após corte raso). A recolonização é mais rápida porque a **dispersão** já não é o principal fator limitante.
+
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sere_de_sucess%C3%A3o_em_floresta.jpg/1280px-Sere_de_sucess%C3%A3o_em_floresta.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+
+:::
+
+Horn também chama atenção para um padrão recorrente: espécies pioneiras frequentemente colonizam primeiro por serem boas dispersoras e tolerantes a condições abióticas adversas, mas acabam modificando o próprio ambiente (sombreamento, acúmulo de matéria orgânica, alteração do microclima) de forma a favorecer espécies competitivamente superiores que as substituem nas fases seguintes [@horn1974]. Esse mecanismo de autoextinção da fase pioneira é central para entender por que a sucessão tem direção, e não é apenas um processo aleatório de chegada de espécies.
+
+
+
+
+## Os três mecanismos clássicos de substituição de espécies {#sec-mecanismos}
+
+A formalização mais influente dos mecanismos de sucessão é a de Connell & Slatyer, que propuseram três modelos não mutuamente exclusivos para explicar como uma espécie residente afeta a probabilidade de estabelecimento das espécies seguintes [@connellslatyer1977]:
+
+| Modelo | Efeito da espécie residente sobre as seguintes | Consequência para a trajetória sucessional |
+|---|---|---|
+| **Facilitação** | Positivo — modifica o ambiente de forma a torná-lo mais favorável (sombra, solo, matéria orgânica) | Sequência relativamente previsível; espécies "abrem caminho" para as seguintes |
+| **Tolerância** | Neutro — espécies posteriores simplesmente conseguem se estabelecer independentemente da presença das pioneiras, mas crescem mais devagar | Substituição ocorre porque tolerantes superam pioneiras em condições de baixo recurso, não porque dependam delas |
+| **Inibição** | Negativo — espécie residente impede ativamente o estabelecimento de outras (competição por espaço, luz, alelopatia) | Substituição só ocorre quando o residente morre ou é removido; trajetória menos previsível, mais dependente de história de colonização |
+
+::: {.callout-important}
+## Ponto pedagógico
+Nenhum desses três modelos precisa operar isoladamente em uma comunidade real. Um mesmo sistema pode mostrar facilitação em estágios iniciais (ex.: fixadoras de nitrogênio preparando o solo) e inibição em estágios intermediários (ex.: dossel fechado impedindo regeneração de heliófitas). É produtivo pedir aos alunos que identifiquem, para um caso concreto (ex.: sucessão em área de mineração ou em campo agrícola abandonado no Nordeste), qual mecanismo domina em cada fase.
+:::
+
+## Sucessão através da moldura de Vellend {#sec-vellend}
+
+
+### Seleção
+A seleção — diferenças determinísticas em desempenho entre espécies dado o ambiente local — é o processo mais evidentemente ligado à sucessão clássica. Traços de história de vida (tamanho de semente, taxa de crescimento, tolerância à sombra) determinam *quem* se estabelece em cada fase, e a mudança nas condições ambientais ao longo do tempo (luz, nutrientes, estrutura do solo) desloca o "vencedor" esperado da seleção a cada estágio. Os modelos de facilitação, tolerância e inibição de Connell & Slatyer [@connellslatyer1977] são, nesse sentido, hipóteses sobre *como a seleção muda de sinal* ao longo da sucessão.
+
+### Deriva ecológica e estocasticidade
+Um dos avanços mais importantes na literatura recente é mostrar que a sucessão não é puramente determinística: a importância relativa de processos estocásticos (deriva, chegada aleatória de propágulos) versus determinísticos (seleção ambiental) muda sistematicamente ao longo do tempo sucessional. Em um estudo com comunidades microbianas em sucessão, Dini-Andreote e colaboradores demonstram que a montagem da comunidade é dominada por processos estocásticos nos estágios iniciais e progressivamente substituída por processos determinísticos (seleção ambiental) em estágios tardios [@diniandreote2015]. Esse resultado é notável porque formaliza, com dados quantitativos e um arcabouço de partição de betadiversidade, uma intuição antiga da ecologia vegetal: comunidades jovens são mais "abertas ao acaso" e comunidades maduras são mais fortemente filtradas pelo ambiente.
+
+::: {.callout-note}
+## Conectando com a Semana 2
+Se "seleção" e "deriva" são dois extremos de um contínuo, a sucessão oferece um eixo temporal natural para observar esse contínuo em ação — algo que análises de comunidade em um único ponto no tempo não conseguem capturar.
+:::
+
+### Dispersão
+A dispersão é limitante de forma diferente conforme o tipo de sucessão. Na sucessão primária, a dispersão frequentemente é o fator mais restritivo nas fases iniciais — sem banco de sementes local, a chegada de propágulos de fora determina quem pode, sequer, competir pelo espaço. Na sucessão secundária, a dispersão já é menos limitante (banco de sementes, rebrota, matriz de vegetação próxima), o que ajuda a explicar por que a sucessão secundária costuma ser mais rápida e mais previsível do que a primária.
+
+### Especiação
+A especiação atua em escalas de tempo muito mais longas do que uma sucessão típica (décadas a séculos), mas não deve ser descartada em discussões sobre paisagens antigas ou sucessão em escalas geológicas (ex.: recolonização pós-glacial). 
+
+
+## Sucessão vegetal: testando modelos conceituais {#sec-vegetal}
+
+Enquanto a literatura microbiana oferece resolução temporal e genômica, a literatura vegetal clássica ainda é insubstituível para discutir gradientes de distúrbio. Chang e colaboradores testam explicitamente modelos conceituais de sucessão vegetal inicial ao longo de um gradiente de severidade de distúrbio, avaliando até que ponto os padrões observados em campo correspondem às previsões teóricas de facilitação, tolerância e inibição [@chang2019testing]. Esse tipo de teste — comparar predição teórica com dado de campo ao longo de um gradiente controlado — é um bom modelo de raciocínio científico para apresentar aos alunos, pois evidencia que os "mecanismos clássicos" (@sec-mecanismos) não são leis universais, mas hipóteses que precisam ser testadas caso a caso.
+
+### Sucessão em campos abandonados (*old-field succession*)
+Um sistema clássico e amplamente estudado é a sucessão em terrenos agrícolas abandonados. Pérez-Hernández & Gavilán revisam os impactos de mudanças no uso da terra sobre vegetação e função ecossistêmica ao longo da sucessão secundária em campos abandonados, discutindo tanto a recuperação da estrutura vegetal quanto de processos funcionais como ciclagem de nutrientes e produtividade [@perezhernandez2021]. Esse é um sistema pedagogicamente valioso por ser diretamente relevante à paisagem agrícola do Nordeste brasileiro, onde áreas de pastagem e agricultura abandonadas frequentemente entram em sucessão secundária (capoeiras).
+
+![](https://specials.fnghub.com/ng/br/agrofloresta/assets/img/cena_3.jpg)
+
+## Sucessão em um mundo em mudança {#sec-mudanca}
+
+Chang & Turner argumentam que a mudança climática, a introdução de espécies exóticas e a alteração nos regimes de distúrbio estão modificando as próprias regras da sucessão ecológica — trajetórias sucessionais historicamente previsíveis podem não mais levar aos mesmos estados finais, porque tanto o pool de espécies disponíveis para colonização quanto as condições ambientais estão mudando simultaneamente [@changturner2019]. A sucessão não deve ser tratada como um processo determinístico e imutável, mas como um processo contingente ao contexto histórico e ambiental — o que tem implicações diretas para restauração ecológica.
+
+::: {.callout-warning}
+## Implicação para restauração ecológica
+Se trajetórias sucessionais estão mudando devido à mudança climática e à introdução de espécies exóticas, projetos de restauração baseados em referências históricas fixas ("recriar o estado pré-distúrbio") podem estar mirando um alvo que já não é ecologicamente alcançável nas condições ambientais atuais. Isso motiva abordagens de restauração mais flexíveis, baseadas em função ecossistêmica-alvo em vez de composição de espécies fixa.
+:::
+
+## Síntese integradora {#sec-sintese}
+
+Recapitulando os pontos centrais da aula, articulados com a moldura de Vellend [@vellend2016]:
+
+1. Sucessão é a mudança direcional (mas não necessariamente determinística) na composição de comunidades após distúrbio ou abertura de novo hábitat [@horn1974].
+2. Os mecanismos clássicos — facilitação, tolerância, inibição [@connellslatyer1977] — descrevem *como* a seleção muda de sinal ao longo do tempo, mas nenhum deles opera isoladamente ou universalmente [@chang2019testing].
+3. O balanço entre estocasticidade (deriva) e determinismo (seleção) muda sistematicamente ao longo da sucessão, com maior peso de processos determinísticos em estágios tardios [@diniandreote2015].
+4. Sucessão vegetal e microbiana estão frequentemente acopladas via retroalimentações planta-solo [@qiang2021], e a sucessão afeta não apenas composição, mas função ecossistêmica — ciclagem de carbono e nutrientes [@zhong2018; @liu2020; @shu2021].
+5. Filtros ambientais recorrentes (pH, nitrogênio, umidade) emergem como determinantes gerais da fase de seleção em múltiplos sistemas [@yu2025].
+6. Mudanças globais estão alterando as próprias regras da sucessão, com implicações diretas para a prática da restauração ecológica [@changturner2019; @perezhernandez2021].
+
+
+## Referências {#sec-referencias}
+
+::: {#refs}
+:::

@@ -5,6 +5,7 @@ author: "Ecologia de Comunidades"
 date: today
 format:
   revealjs:
+    embed-resources: true
     theme: default
     slide-number: true
     progress: true
@@ -13,8 +14,8 @@ format:
     highlight-style: github
     logo: ""
     footer: ""
-    css: styles.css
-    chalkboard: false
+    # css: styles.css
+    # chalkboard: false
     incremental: false
     fig-align: center
     width: 1280
@@ -141,15 +142,11 @@ scrollable: true
 </div>
 </div>
 
----
 
-# Módulo 1 {background-color="#1b5e20"}
 
 ## Montagem de Comunidades Ecológicas
 
 **Gleason vs. Clements**
-
----
 
 ## Visão Clementsiana — A Comunidade como Superorganismo
 
@@ -182,7 +179,6 @@ Séries de substituição
 </div>
 </div>
 
----
 
 ## Visão Gleasoniana — O Individualismo das Espécies
 
@@ -261,10 +257,6 @@ Limitação de dispersão e acaso histórico completam a montagem
 ::: {.destaque}
 **Pool Regional** → Filtro Abiótico → Filtro de Dispersão → Filtro Biótico → **Comunidade Local**
 :::
-
----
-
-# Módulo 2 {background-color="#1b5e20"}
 
 ## Estratégias de Regeneração
 
@@ -353,11 +345,6 @@ Espécies reais ocupam posições **intermediárias** no triângulo (CS, SR, CR,
 ## CSR em figura
 
 ![](https://images.squarespace-cdn.com/content/v1/59442d0b29687f26bd3daf50/460e01ab-e340-46a6-848f-e5f7ab304251/CSR+Diagram.png?format=2500w){fig-align=center}
-
----
-
-## Módulo 3 Sucessão Primária e Secundária {background-color="#1b5e20".center}
-
 
 
 ## Sucessão Primária — Colonização do Zero
@@ -452,11 +439,6 @@ Pasto abandonado → floresta secundária:
 Porém: **espécies raras e lianas tardias levam 200+ anos** para retornar.
 </div>
 </div>
-
----
-
-# Módulo 4 - Distúrbio e Sucessão Ecológica {background-color="#1b5e20"}
-
 
 ---
 
@@ -628,11 +610,6 @@ Clareiras grandes (> 200 m²) na Floresta Atlântica são colonizadas preferenci
 :::
 </div>
 </div>
-
----
-
-# Módulo 5 - Ecologia Funcional e Sucessão {background-color="#1b5e20"}
-
 
 ---
 
@@ -907,20 +884,6 @@ Modelos dinâmicos de vegetação global (TRIFFID, JSBACH, ED2) integram traços
 
 ---
 
-# Obrigado! {background-color="#2C5F2D"}
-
-<div style="color:white; font-size:1.1em; margin-top:1.5em;">
-**Sucessão Ecológica nos Biomas Brasileiros**
-</div>
+## Obrigado! {background-color="#2C5F2D"}
 
 
-<div style="margin-top:2em; color:#c8e6c9; font-size:0.9em;">
-
-🌿 Montagem de Comunidades  
-🔄 Estratégias r/K e CSR  
-🌱 Sucessão Primária e Secundária  
-🔥 Distúrbio e Diversidade  
-🧬 Ecologia Funcional  
-🇧🇷 Amazônia · Cerrado · Mata Atlântica · Caatinga · Pantanal · Pampa
-
-</div>

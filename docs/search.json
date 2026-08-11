@@ -4,7 +4,70 @@
     "href": "sessions/index.html",
     "title": "Todas as Aulas",
     "section": "",
-    "text": "Aqui você encontra o material completo (texto e slides) de cada aula, em ordem cronológica.\n\n\n\n\n\n\n\n\n\n\n\nSemana 1 — Introdução à Biodiversidade\n\n\n\n\n\n\n\n\n\nSemana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas\n\n\nA síntese de Vellend: seleção, deriva, dispersão e especiação\n\n\n\n10 de ago. de 2026\n\n\n\n\n\n\nSem itens correspondentes"
+    "text": "Aqui você encontra o material completo (texto e slides) de cada aula, em ordem cronológica.\n\n\n\n\n\n\n\n\n\n\n\nSemana 1 — Introdução à Biodiversidade\n\n\n\n\n\n\n\n\n\nSemana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas\n\n\nA síntese de Vellend: seleção, deriva, dispersão e especiação\n\n\n\n11 de ago. de 2026\n\n\n\n\n\n\n\n\n\n\nSemana 3 — Sucessão Ecológica\n\n\nEcologia de Comunidades\n\n\n\n11 de ago. de 2026\n\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "sessions/semana03_resumo.html",
+    "href": "sessions/semana03_resumo.html",
+    "title": "Semana 3 — Sucessão Ecológica",
+    "section": "",
+    "text": "Slides desta Aula"
+  },
+  {
+    "objectID": "sessions/semana03_resumo.html#sec-intro",
+    "href": "sessions/semana03_resumo.html#sec-intro",
+    "title": "Semana 3 — Sucessão Ecológica",
+    "section": "1 Introdução",
+    "text": "1 Introdução\nA Semana 2 encerrou-se com a moldura de síntese proposta por Vellend (Vellend 2016), segundo a qual toda a dinâmica de comunidades biológicas pode ser reduzida a quatro processos de alto nível: seleção, deriva ecológica, dispersão e especiação. A aula de hoje aplica essa moldura a um dos fenômenos mais antigos e mais estudados da ecologia — a sucessão ecológica — tratando-a não como um tópico isolado, mas como um laboratório natural onde os quatro processos de Vellend interagem e mudam de peso relativo ao longo do tempo.\n\n\n\n\n\n\nNotaPergunta orientadora da aula\n\n\n\nPor que a composição de uma comunidade muda de forma relativamente previsível após um distúrbio, e por que essa previsibilidade tende a diminuir (ou aumentar) conforme a comunidade envelhece?\n\n\nEste resumo expandido cobre: (1) a definição operacional de sucessão e sua origem histórica; (2) os principais mecanismos propostos para explicar a substituição de espécies ao longo do tempo; (3) a integração da sucessão à moldura de Vellend, com ênfase no balanço entre estocasticidade e determinismo; (4) estudos de caso empíricos, com destaque para cronossequências microbianas e vegetais; (5) sucessão e função ecossistêmica; e (6) as implicações da sucessão para a ecologia da conservação e da restauração em um mundo em mudança."
+  },
+  {
+    "objectID": "sessions/semana03_resumo.html#sec-definicao",
+    "href": "sessions/semana03_resumo.html#sec-definicao",
+    "title": "Semana 3 — Sucessão Ecológica",
+    "section": "2 Definindo sucessão ecológica",
+    "text": "2 Definindo sucessão ecológica\n\nEm sua revisão clássica, Horn define sucessão secundária como a mudança na composição de espécies de uma comunidade após um distúrbio severo ou a abertura de uma nova clareira (patch), processo que tende a desacelerar em estágios tardios caso o ambiente físico permaneça relativamente estável (Horn 1974). Essa definição tem três componentes importantes que vale destacar para a turma:\n\nPonto de partida: um evento que remove total ou parcialmente a comunidade preexistente (distúrbio) ou expõe um substrato novo (sucessão primária, como lava vulcânica recém-solidificada ou geleiras em retração).\nTrajetória: uma sequência de mudanças na composição de espécies, geralmente com identidade funcional previsível (pioneiras → intermediárias → tardias), embora nem sempre determinística.\nAssíntota relativa: uma desaceleração da taxa de mudança à medida que a comunidade se aproxima de uma configuração mais estável — não necessariamente um “clímax” fixo, conceito hoje tratado com cautela.\n\n\n\n\n\n\n\nDicaSucessão primária × secundária\n\n\n\n\nPrimária: início a partir de substrato estéril, sem banco de sementes ou solo desenvolvido (ex.: recuo de geleiras, depósitos de lava, dunas recém-formadas). Progressão inicial é limitada por dispersão e pela formação de solo.\n\n\n\nSecundária: início a partir de solo já estruturado, com banco de sementes, propágulos e, frequentemente, rebrota (ex.: campo abandonado, área agrícola após pousio, floresta após corte raso). A recolonização é mais rápida porque a dispersão já não é o principal fator limitante.\n\n\n\n\nHorn também chama atenção para um padrão recorrente: espécies pioneiras frequentemente colonizam primeiro por serem boas dispersoras e tolerantes a condições abióticas adversas, mas acabam modificando o próprio ambiente (sombreamento, acúmulo de matéria orgânica, alteração do microclima) de forma a favorecer espécies competitivamente superiores que as substituem nas fases seguintes (Horn 1974). Esse mecanismo de autoextinção da fase pioneira é central para entender por que a sucessão tem direção, e não é apenas um processo aleatório de chegada de espécies."
+  },
+  {
+    "objectID": "sessions/semana03_resumo.html#sec-mecanismos",
+    "href": "sessions/semana03_resumo.html#sec-mecanismos",
+    "title": "Semana 3 — Sucessão Ecológica",
+    "section": "3 Os três mecanismos clássicos de substituição de espécies",
+    "text": "3 Os três mecanismos clássicos de substituição de espécies\nA formalização mais influente dos mecanismos de sucessão é a de Connell & Slatyer, que propuseram três modelos não mutuamente exclusivos para explicar como uma espécie residente afeta a probabilidade de estabelecimento das espécies seguintes (Connell e Slatyer 1977):\n\n\n\n\n\n\n\n\nModelo\nEfeito da espécie residente sobre as seguintes\nConsequência para a trajetória sucessional\n\n\n\n\nFacilitação\nPositivo — modifica o ambiente de forma a torná-lo mais favorável (sombra, solo, matéria orgânica)\nSequência relativamente previsível; espécies “abrem caminho” para as seguintes\n\n\nTolerância\nNeutro — espécies posteriores simplesmente conseguem se estabelecer independentemente da presença das pioneiras, mas crescem mais devagar\nSubstituição ocorre porque tolerantes superam pioneiras em condições de baixo recurso, não porque dependam delas\n\n\nInibição\nNegativo — espécie residente impede ativamente o estabelecimento de outras (competição por espaço, luz, alelopatia)\nSubstituição só ocorre quando o residente morre ou é removido; trajetória menos previsível, mais dependente de história de colonização\n\n\n\n\n\n\n\n\n\nImportantePonto pedagógico\n\n\n\nNenhum desses três modelos precisa operar isoladamente em uma comunidade real. Um mesmo sistema pode mostrar facilitação em estágios iniciais (ex.: fixadoras de nitrogênio preparando o solo) e inibição em estágios intermediários (ex.: dossel fechado impedindo regeneração de heliófitas). É produtivo pedir aos alunos que identifiquem, para um caso concreto (ex.: sucessão em área de mineração ou em campo agrícola abandonado no Nordeste), qual mecanismo domina em cada fase."
+  },
+  {
+    "objectID": "sessions/semana03_resumo.html#sec-vellend",
+    "href": "sessions/semana03_resumo.html#sec-vellend",
+    "title": "Semana 3 — Sucessão Ecológica",
+    "section": "4 Sucessão através da moldura de Vellend",
+    "text": "4 Sucessão através da moldura de Vellend\n\n4.1 Seleção\nA seleção — diferenças determinísticas em desempenho entre espécies dado o ambiente local — é o processo mais evidentemente ligado à sucessão clássica. Traços de história de vida (tamanho de semente, taxa de crescimento, tolerância à sombra) determinam quem se estabelece em cada fase, e a mudança nas condições ambientais ao longo do tempo (luz, nutrientes, estrutura do solo) desloca o “vencedor” esperado da seleção a cada estágio. Os modelos de facilitação, tolerância e inibição de Connell & Slatyer (Connell e Slatyer 1977) são, nesse sentido, hipóteses sobre como a seleção muda de sinal ao longo da sucessão.\n\n\n4.2 Deriva ecológica e estocasticidade\nUm dos avanços mais importantes na literatura recente é mostrar que a sucessão não é puramente determinística: a importância relativa de processos estocásticos (deriva, chegada aleatória de propágulos) versus determinísticos (seleção ambiental) muda sistematicamente ao longo do tempo sucessional. Em um estudo com comunidades microbianas em sucessão, Dini-Andreote e colaboradores demonstram que a montagem da comunidade é dominada por processos estocásticos nos estágios iniciais e progressivamente substituída por processos determinísticos (seleção ambiental) em estágios tardios (Dini-Andreote et al. 2015). Esse resultado é notável porque formaliza, com dados quantitativos e um arcabouço de partição de betadiversidade, uma intuição antiga da ecologia vegetal: comunidades jovens são mais “abertas ao acaso” e comunidades maduras são mais fortemente filtradas pelo ambiente.\n\n\n\n\n\n\nNotaConectando com a Semana 2\n\n\n\nSe “seleção” e “deriva” são dois extremos de um contínuo, a sucessão oferece um eixo temporal natural para observar esse contínuo em ação — algo que análises de comunidade em um único ponto no tempo não conseguem capturar.\n\n\n\n\n4.3 Dispersão\nA dispersão é limitante de forma diferente conforme o tipo de sucessão. Na sucessão primária, a dispersão frequentemente é o fator mais restritivo nas fases iniciais — sem banco de sementes local, a chegada de propágulos de fora determina quem pode, sequer, competir pelo espaço. Na sucessão secundária, a dispersão já é menos limitante (banco de sementes, rebrota, matriz de vegetação próxima), o que ajuda a explicar por que a sucessão secundária costuma ser mais rápida e mais previsível do que a primária.\n\n\n4.4 Especiação\nA especiação atua em escalas de tempo muito mais longas do que uma sucessão típica (décadas a séculos), mas não deve ser descartada em discussões sobre paisagens antigas ou sucessão em escalas geológicas (ex.: recolonização pós-glacial)."
+  },
+  {
+    "objectID": "sessions/semana03_resumo.html#sec-vegetal",
+    "href": "sessions/semana03_resumo.html#sec-vegetal",
+    "title": "Semana 3 — Sucessão Ecológica",
+    "section": "5 Sucessão vegetal: testando modelos conceituais",
+    "text": "5 Sucessão vegetal: testando modelos conceituais\nEnquanto a literatura microbiana oferece resolução temporal e genômica, a literatura vegetal clássica ainda é insubstituível para discutir gradientes de distúrbio. Chang e colaboradores testam explicitamente modelos conceituais de sucessão vegetal inicial ao longo de um gradiente de severidade de distúrbio, avaliando até que ponto os padrões observados em campo correspondem às previsões teóricas de facilitação, tolerância e inibição (Chang et al. 2019). Esse tipo de teste — comparar predição teórica com dado de campo ao longo de um gradiente controlado — é um bom modelo de raciocínio científico para apresentar aos alunos, pois evidencia que os “mecanismos clássicos” (Seção 3) não são leis universais, mas hipóteses que precisam ser testadas caso a caso.\n\n5.1 Sucessão em campos abandonados (old-field succession)\nUm sistema clássico e amplamente estudado é a sucessão em terrenos agrícolas abandonados. Pérez-Hernández & Gavilán revisam os impactos de mudanças no uso da terra sobre vegetação e função ecossistêmica ao longo da sucessão secundária em campos abandonados, discutindo tanto a recuperação da estrutura vegetal quanto de processos funcionais como ciclagem de nutrientes e produtividade (Pérez-Hernández e Gavilán 2021). Esse é um sistema pedagogicamente valioso por ser diretamente relevante à paisagem agrícola do Nordeste brasileiro, onde áreas de pastagem e agricultura abandonadas frequentemente entram em sucessão secundária (capoeiras)."
+  },
+  {
+    "objectID": "sessions/semana03_resumo.html#sec-mudanca",
+    "href": "sessions/semana03_resumo.html#sec-mudanca",
+    "title": "Semana 3 — Sucessão Ecológica",
+    "section": "6 Sucessão em um mundo em mudança",
+    "text": "6 Sucessão em um mundo em mudança\nChang & Turner argumentam que a mudança climática, a introdução de espécies exóticas e a alteração nos regimes de distúrbio estão modificando as próprias regras da sucessão ecológica — trajetórias sucessionais historicamente previsíveis podem não mais levar aos mesmos estados finais, porque tanto o pool de espécies disponíveis para colonização quanto as condições ambientais estão mudando simultaneamente (Chang e Turner 2019). A sucessão não deve ser tratada como um processo determinístico e imutável, mas como um processo contingente ao contexto histórico e ambiental — o que tem implicações diretas para restauração ecológica.\n\n\n\n\n\n\nAvisoImplicação para restauração ecológica\n\n\n\nSe trajetórias sucessionais estão mudando devido à mudança climática e à introdução de espécies exóticas, projetos de restauração baseados em referências históricas fixas (“recriar o estado pré-distúrbio”) podem estar mirando um alvo que já não é ecologicamente alcançável nas condições ambientais atuais. Isso motiva abordagens de restauração mais flexíveis, baseadas em função ecossistêmica-alvo em vez de composição de espécies fixa."
+  },
+  {
+    "objectID": "sessions/semana03_resumo.html#sec-sintese",
+    "href": "sessions/semana03_resumo.html#sec-sintese",
+    "title": "Semana 3 — Sucessão Ecológica",
+    "section": "7 Síntese integradora",
+    "text": "7 Síntese integradora\nRecapitulando os pontos centrais da aula, articulados com a moldura de Vellend (Vellend 2016):\n\nSucessão é a mudança direcional (mas não necessariamente determinística) na composição de comunidades após distúrbio ou abertura de novo hábitat (Horn 1974).\nOs mecanismos clássicos — facilitação, tolerância, inibição (Connell e Slatyer 1977) — descrevem como a seleção muda de sinal ao longo do tempo, mas nenhum deles opera isoladamente ou universalmente (Chang et al. 2019).\nO balanço entre estocasticidade (deriva) e determinismo (seleção) muda sistematicamente ao longo da sucessão, com maior peso de processos determinísticos em estágios tardios (Dini-Andreote et al. 2015).\nSucessão vegetal e microbiana estão frequentemente acopladas via retroalimentações planta-solo (Qiang et al. 2021), e a sucessão afeta não apenas composição, mas função ecossistêmica — ciclagem de carbono e nutrientes (Zhong et al. 2018; Liu et al. 2020; Shu et al. 2021).\nFiltros ambientais recorrentes (pH, nitrogênio, umidade) emergem como determinantes gerais da fase de seleção em múltiplos sistemas (Yu et al. 2025).\nMudanças globais estão alterando as próprias regras da sucessão, com implicações diretas para a prática da restauração ecológica (Chang e Turner 2019; Pérez-Hernández e Gavilán 2021)."
+  },
+  {
+    "objectID": "sessions/semana03_resumo.html#sec-referencias",
+    "href": "sessions/semana03_resumo.html#sec-referencias",
+    "title": "Semana 3 — Sucessão Ecológica",
+    "section": "8 Referências",
+    "text": "8 Referências\n\n\nChang, C. C., C. B. Halpern, J. A. Antos, et al. 2019. “Testing Conceptual Models of Early Plant Succession Across a Disturbance Gradient”. Journal of Ecology 107: 517–30. https://doi.org/10.1111/1365-2745.13120.\n\n\nChang, C. C., e B. L. Turner. 2019. “Ecological Succession in a Changing World”. Journal of Ecology 107: 503–9. https://doi.org/10.1111/1365-2745.13132.\n\n\nConnell, J. H., e R. O. Slatyer. 1977. “Mechanisms of Succession in Natural Communities and Their Role in Community Stability and Organization”. The American Naturalist 111 (982): 1119–44.\n\n\nDini-Andreote, F., J. C. Stegen, J. D. Van Elsas, e J. F. Salles. 2015. “Disentangling Mechanisms that Mediate the Balance Between Stochastic and Deterministic Processes in Microbial Succession”. Proceedings of the National Academy of Sciences 112. https://doi.org/10.1073/pnas.1414261112.\n\n\nHorn, H. S. 1974. “The Ecology of Secondary Succession”. Annual Review of Ecology, Evolution, and Systematics 5: 25–37. https://doi.org/10.1146/annurev.es.05.110174.000325.\n\n\nLiu, J., X. Jia, W. Yan, Y. Zhong, e Z. Shangguan. 2020. “Changes in Soil Microbial Community Structure During Long-Term Secondary Succession”. Land Degradation & Development 31: 1151–66. https://doi.org/10.1002/ldr.3505.\n\n\nPérez-Hernández, J., e R. G. Gavilán. 2021. “Impacts of Land-Use Changes on Vegetation and Ecosystem Functioning: Old-Field Secondary Succession”. Plants 10. https://doi.org/10.3390/plants10050990.\n\n\nQiang, W., L. He, Y. Zhang, et al. 2021. “Aboveground Vegetation and Soil Physicochemical Properties Jointly Drive the Shift of Soil Microbial Community During Subalpine Secondary Succession in Southwest China”. CATENA, publicação prévia em linha. https://doi.org/10.1016/j.catena.2021.105251.\n\n\nRicklefs, R. E., e R. Relyea. 2020. A Economia da Natureza. 7º ed. Guanabara Koogan.\n\n\nShu, D., Y.-Q. Guo, B. Zhang, et al. 2021. “Rare Prokaryotic Sub-Communities Dominate the Complexity of Ecological Networks and Soil Multinutrient Cycling During Long-Term Secondary Succession in China’s Loess Plateau”. Science of the Total Environment 774: 145737. https://doi.org/10.1016/j.scitotenv.2021.145737.\n\n\nTownsend, C. R., M. Begon, e J. L. Harper. 2010. Fundamentos em Ecologia. 3º ed. Artmed.\n\n\nVellend, M. 2016. The Theory of Ecological Communities (MPB-57). Princeton University Press. https://doi.org/10.1515/9781400883790.\n\n\nYu, Z., X.-M. Zeng, X. Cheng, Q. Zhang, e K. Zhang. 2025. “Patterns and Environmental Drivers of Soil Microbial Succession”. Global Change Biology 31. https://doi.org/10.1111/gcb.70475.\n\n\nZhong, Y., W. Yan, R. Wang, W. Wang, e Z. Shangguan. 2018. “Decreased Occurrence of Carbon Cycle Functions in Microbial Communities Along with Long-Term Secondary Succession”. Soil Biology and Biochemistry, publicação prévia em linha. https://doi.org/10.1016/j.soilbio.2018.05.017."
   },
   {
     "objectID": "syllabus.html",
@@ -546,6 +609,419 @@
     "text": "Resumo da Aula\n\n\n\n\n\n\n\n\nConceito\nDefinição chave\nFerramenta\n\n\n\n\nHeterogeneidade espacial\nVariação ambiental no espaço\nGradientes, SIG\n\n\nDiversidade α\nDiversidade local\nRiqueza, H’, Hill\n\n\nDiversidade β\nVariação composicional\nSørensen, Bray-Curtis, NMDS\n\n\nDiversidade γ\nDiversidade regional\nPartição α × β\n\n\nNúmeros de Hill\nFamília unificada de medidas\nvegan, hillR\n\n\nTurnover vs. aninhamento\nComponentes de β\nbetapart\n\n\nAplicações\nConservação, restauração, impacto\nAnálise multivariada"
   },
   {
+    "objectID": "slides/semana02_slides.html#o-que-é-uma-comunidade-ecológica",
+    "href": "slides/semana02_slides.html#o-que-é-uma-comunidade-ecológica",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "O que é uma Comunidade Ecológica?",
+    "text": "O que é uma Comunidade Ecológica?\n\n\n\nConjunto de populações de diferentes espécies que coexistem em um local e tempo\nInteragem entre si e com o ambiente\nApresentam estrutura e organização próprias\nSão dinâmicas: mudam ao longo do tempo e espaço\n\n\n\n\n\nRecifes de coral"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#por-que-comparar-comunidades",
+    "href": "slides/semana02_slides.html#por-que-comparar-comunidades",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Por que Comparar Comunidades?",
+    "text": "Por que Comparar Comunidades?\n\n\n\nAvaliar impactos ambientais e perturbações\nMonitorar mudanças ao longo do tempo\nComparar habitats distintos\nEntender padrões de biodiversidade\nEmbasar decisões de conservação"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#a-ecologia-é-uma-bagunça",
+    "href": "slides/semana02_slides.html#a-ecologia-é-uma-bagunça",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "A Ecologia é uma “Bagunça”",
+    "text": "A Ecologia é uma “Bagunça”\n\nNa genética de populações:\n\nSeleção — mudanças nas frequências alélicas\nDeriva — mudanças estocásticas\nMutação — fonte de nova variação\nFluxo gênico — entrada/saída de alelos\n\nVellend (2010) propõe uma síntese unificada da disciplina"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#os-4-processos-de-vellend-2010",
+    "href": "slides/semana02_slides.html#os-4-processos-de-vellend-2010",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Os 4 Processos de Vellend (2010)",
+    "text": "Os 4 Processos de Vellend (2010)\n\n\n\nEcologia de Comunidades\nGenética de Populações\n\n\n\n\nSeleção\nSeleção\n\n\nDeriva\nDeriva genética\n\n\nEspeciação\nMutação\n\n\nDispersão\nFluxo gênico\n\n\n\n\nEsses processos não são excludentes — interagem continuamente\nA teoria geral: espécies entram via especiação e dispersão; abundâncias relativas são moldadas por deriva e seleção"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#section",
+    "href": "slides/semana02_slides.html#section",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "",
+    "text": "Espécies são adicionadas via especiação e dispersão; abundâncias relativas são moldadas por deriva e seleção (Vellend 2010)"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#processo-1-seleção",
+    "href": "slides/semana02_slides.html#processo-1-seleção",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 1: Seleção",
+    "text": "Processo 1: Seleção\n\nDefinição: diferenças determinísticas de fitness\nTrês formas principais:\n\nSeleção constante: uma espécie sempre “ganha”\nSeleção dependente da densidade : favorece coexistência estável\nSeleção variável no espaço/tempo: permite coexistência via trade-offs"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#processo-1-seleção-1",
+    "href": "slides/semana02_slides.html#processo-1-seleção-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 1: Seleção",
+    "text": "Processo 1: Seleção"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#processo-2-deriva-ecológica-drift",
+    "href": "slides/semana02_slides.html#processo-2-deriva-ecológica-drift",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 2: Deriva Ecológica (Drift)",
+    "text": "Processo 2: Deriva Ecológica (Drift)\n\nDefinição: mudanças estocásticas nas abundâncias relativas das espécies\nHubbell (2001): Teoria Neutra Unificada — bases da deriva ecológica\nImportância da deriva aumenta quando:\n\nComunidades são pequenas\nDiferenças de fitness entre espécies são fracas\nDistúrbios reduzem o tamanho da comunidade"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#processo-2-deriva-ecológica-drift-1",
+    "href": "slides/semana02_slides.html#processo-2-deriva-ecológica-drift-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 2: Deriva Ecológica (Drift)",
+    "text": "Processo 2: Deriva Ecológica (Drift)"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#processo-3-especiação",
+    "href": "slides/semana02_slides.html#processo-3-especiação",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 3: Especiação",
+    "text": "Processo 3: Especiação\n\nDefinição: criação de novas espécies\nEquivale à mutação na genética de populações\nDetermina o pool regional de espécies (Div Gama)\nHipótese do pool de espécies (Taylor et al. 1990): habitats mais antigos geram mais espécies adaptadas a eles\nPadrões que dependem de especiação:\n\nBeta Diversidade entre regiões com condições similares\nGradientes de diversidade com altitude, latitude ou produtividade"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#processo-3-especiação-1",
+    "href": "slides/semana02_slides.html#processo-3-especiação-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 3: Especiação",
+    "text": "Processo 3: Especiação"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#processo-4-dispersão",
+    "href": "slides/semana02_slides.html#processo-4-dispersão",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 4: Dispersão",
+    "text": "Processo 4: Dispersão\n\nDefinição: movimento de organismos no espaço\n\nEquivale ao fluxo gênico na genética de populações\nConecta comunidades locais → metacomunidades\n\nEfeitos da dispersão dependem de sua interação com seleção e deriva:\n\nDispersão baixa: deriva domina → comunidades divergem\nDispersão moderada: riqueza local é maximizada\nDispersão alta: competidores superiores dominam globalmente → riqueza cai"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#processo-4-dispersão-1",
+    "href": "slides/semana02_slides.html#processo-4-dispersão-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 4: Dispersão",
+    "text": "Processo 4: Dispersão"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#interações-entre-os-4-processos",
+    "href": "slides/semana02_slides.html#interações-entre-os-4-processos",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Interações entre os 4 Processos",
+    "text": "Interações entre os 4 Processos\n\nOs 4 processos raramente atuam isoladamente\nPodem ser combinados de 12 formas distintas para gerar modelos\n\n(especiação e dispersão exigem ao menos seleção ou deriva para serem operacionais)\n\nExemplos de interações:\n\nSeleção + Deriva: resultados determinísticos com ruído estocástico\nDeriva + Dispersão: Teoria da Biogeografia de Ilhas (MacArthur & Wilson 1967)\nDeriva + Dispersão + Especiação: Teoria Neutra de Hubbell (2001)\nSeleção + Dispersão: metacomunidades com species sorting e mass effects\nTodos os 4: teoria geral de comunidades (Vellend 2010)"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#interações-entre-os-4-processos-1",
+    "href": "slides/semana02_slides.html#interações-entre-os-4-processos-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Interações entre os 4 Processos",
+    "text": "Interações entre os 4 Processos"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#as-12-combinações-de-processos-e-teorias",
+    "href": "slides/semana02_slides.html#as-12-combinações-de-processos-e-teorias",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "As 12 Combinações de Processos e Teorias",
+    "text": "As 12 Combinações de Processos e Teorias\n\n\n\n\n\n\n\n\n\n\n\n\n#\nSel.\nDer.\nEsp.\nDisp.\nTeoria / Modelo\n\n\n\n\n1\n✓\n\n\n\nModelos de nicho (competição por recursos, predador-presa, teias tróficas)\n\n\n2\n\n✓\n\n\nTeoria Neutra I (estocasticidade demográfica)\n\n\n3\n✓\n✓\n\n\nModelos nicho-neutro (qualquer modelo de nicho com estocasticidade)\n\n\n4\n✓\n\n✓\n\nEcologia histórica I (hipótese do pool, gradientes de diversidade)\n\n\n5\n\n✓\n✓\n\nTeoria Neutra II (não espacial)\n\n\n6\n✓\n\n\n✓\nMetacomunidades determinísticas (mass effects, teias tróficas espaciais)\n\n\n7\n\n✓\n\n✓\nBiogeografia de Ilhas (MacArthur & Wilson 1967)\n\n\n8\n✓\n✓\n✓\n\nEcologia histórica II\n\n\n9\n✓\n\n✓\n✓\nEcologia histórica III\n\n\n10\n\n✓\n✓\n✓\nTeoria Neutra IV (espacial — Hubbell 2001)\n\n\n11\n✓\n✓\n\n✓\nMetacomunidades estocásticas (trade-off colonização-competição)\n\n\n12\n✓\n✓\n✓\n✓\nTeoria geral de comunidades (Vellend 2010)"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#padrões-em-comunidades-a-caixa-preta",
+    "href": "slides/semana02_slides.html#padrões-em-comunidades-a-caixa-preta",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Padrões em Comunidades: A “Caixa Preta”",
+    "text": "Padrões em Comunidades: A “Caixa Preta”\n\nOs 4 processos geram padrões amplamente estudados:\n\nRelação espécies-área\nDistribuição de abundâncias relativas\nGradiente latitudinal de diversidade\nRelação diversidade-distância (decaimento de similaridade)\nRelações diversidade-produtividade e diversidade-distúrbio"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#exemplos",
+    "href": "slides/semana02_slides.html#exemplos",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Exemplos",
+    "text": "Exemplos\n\nProblema central: a maioria dos padrões tem múltiplas explicações possíveis\nExemplo: relação espécies-área pode ser explicada por deriva (extinção menor em ilhas grandes), dispersão (maior área = maior alvo), seleção (maior heterogeneidade ambiental) e especiação (mais oportunidades em ilhas grandes)"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#espécie-área",
+    "href": "slides/semana02_slides.html#espécie-área",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Espécie-Área",
+    "text": "Espécie-Área"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#teoria-neutra-de-hubbell-2001",
+    "href": "slides/semana02_slides.html#teoria-neutra-de-hubbell-2001",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Teoria Neutra de Hubbell (2001)",
+    "text": "Teoria Neutra de Hubbell (2001)\n\nCaso especial: apenas Deriva + Dispersão + Especiação (sem seleção)\nPressuposto: todos os indivíduos são ecologicamente equivalentes (neutralidade)\nComunidade local determinada por:\n\nTamanho da metacomunidade (JM)\nTaxa de especiação (ν)\nTaxa de dispersão (m)\n\nContribuição: formalizou a deriva como processo legítimo, não apenas “ruído”"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#teoria-neutra-de-hubbell-2001-1",
+    "href": "slides/semana02_slides.html#teoria-neutra-de-hubbell-2001-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Teoria Neutra de Hubbell (2001)",
+    "text": "Teoria Neutra de Hubbell (2001)"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#metacomunidades-dispersão-como-eixo-central",
+    "href": "slides/semana02_slides.html#metacomunidades-dispersão-como-eixo-central",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Metacomunidades: Dispersão como Eixo Central",
+    "text": "Metacomunidades: Dispersão como Eixo Central\n\nMetacomunidade: conjunto de comunidades locais conectadas por dispersão\n\nNeutralidade: deriva + dispersão (sem seleção)\nDinâmica de patches: trade-off colonização-competição\nFiltros: seleção filtra espécies por gradiente ambiental\nEfeitos de massa: dispersão mantém espécies em habitats desfavoráveis\n\nDiversidade beta é a assinatura espacial das metacomunidades"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#metacomunidades-dispersão-como-eixo-central-1",
+    "href": "slides/semana02_slides.html#metacomunidades-dispersão-como-eixo-central-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Metacomunidades: Dispersão como Eixo Central",
+    "text": "Metacomunidades: Dispersão como Eixo Central"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#implicações",
+    "href": "slides/semana02_slides.html#implicações",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Implicações",
+    "text": "Implicações\n\nPara o ensino: organiza toda a ecologia de comunidades em torno de 4 processos — mais coerente que listagem de padrões e interações\nPara a pesquisa: permite localizar qualquer teoria na Tabela 2 → evita reinvenção da roda\nPara aplicações: conservação e manejo podem ser guiados por identificar qual processo é dominante:\n\nFragmentação → limita dispersão\nInvasões → alteram seleção\nPerda de habitat → intensifica deriva\nExtinções locais → afetam o pool via especiação\n\nDesafio permanente: inferir processo a partir de padrão — a “caixa preta” continua"
+  },
+  {
+    "objectID": "slides/semana02_slides.html#resumo",
+    "href": "slides/semana02_slides.html#resumo",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Resumo",
+    "text": "Resumo\n\nA ecologia de comunidades tem uma teoria geral\nOs 4 processos são concomitantes\nA teoria geral ecoa a Síntese Moderna da biologia evolutiva\nPadrões têm múltiplas causas — isso não é fraqueza da ecologia, é sua natureza\n\nLeitura complementar:\n\nVellend (2016). The Theory of Ecological Communities. Princeton University Press.\nHubbell (2001). The Unified Neutral Theory of Biodiversity and Biogeography. Princeton.\nHolyoak et al. (2005). Metacommunities. University of Chicago Press."
+  },
+  {
+    "objectID": "slides/semana02_slides.html#fim",
+    "href": "slides/semana02_slides.html#fim",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Fim",
+    "text": "Fim"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#riqueza-de-espécies-s",
+    "href": "slides/comunidades_comparacao_aula2.html#riqueza-de-espécies-s",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Riqueza de Espécies (S)",
+    "text": "Riqueza de Espécies (S)\n\n\n\nNúmero total de espécies presentes em uma comunidade\nMétrica mais simples e intuitiva\nNão considera a distribuição de abundâncias\nSensível ao esforço amostral\nPode ser corrigida por:\n\nrarefação\nestimadores de riqueza (Chao1, ACE)\n\nComparações válidas exigem igual esforço amostral\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# Riqueza por sítio (número de espécies)\nS &lt;- specnumber(dune)\nprint(S)\n\n# Riqueza total do conjunto\nsum(colSums(dune) &gt; 0)\n\n# Curva de acumulação de espécies\ncurva &lt;- specaccum(dune, method = \"random\")\nplot(curva,\n     xlab = \"Sítios amostrados\",\n     ylab = \"Riqueza acumulada\")"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#abundância-e-equitabilidade",
+    "href": "slides/comunidades_comparacao_aula2.html#abundância-e-equitabilidade",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Abundância e Equitabilidade",
+    "text": "Abundância e Equitabilidade\n\n\n\nAbundância total: soma dos indivíduos por sítio\nAbundância relativa: proporção de cada espécie\nÍndice de Shannon (H’): mede diversidade considerando riqueza e equitabilidade\nÍndice de Simpson (D): probabilidade de dois indivíduos pertencerem a espécies diferentes\nEquitabilidade de Pielou (J’): H’ / H’máx\n\nvaria de 0 (dominância) a 1 (equitativo)\n\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# Índice de Shannon\nH &lt;- diversity(dune, index = \"shannon\")\n\n# Índice de Simpson\nD &lt;- diversity(dune, index = \"simpson\")\n\n# Equitabilidade de Pielou\nS &lt;- specnumber(dune)\nJ &lt;- H / log(S)\n\n# Resumo por sítio\ndados_div &lt;- data.frame(\n  Riqueza    = S,\n  Shannon    = round(H, 2),\n  Simpson    = round(D, 2),\n  Equitabil. = round(J, 2)\n)\nhead(dados_div)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#rarefação-comparando-riqueza-justa",
+    "href": "slides/comunidades_comparacao_aula2.html#rarefação-comparando-riqueza-justa",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Rarefação: Comparando Riqueza Justa",
+    "text": "Rarefação: Comparando Riqueza Justa\n\n\n\nComunidades com diferentes tamanhos amostrais não devem ter riqueza comparada diretamente\nRarefação: reamostrar todas as comunidades para o mesmo N mínimo\nPermite comparações mais honestas de riqueza\nNão descarta informação — apenas padroniza\nImplementada com rarefy() ou rrarefy() no vegan\n\n\n\nlibrary(vegan)\ndata(BCI)  # floresta tropical BCI\n\n# Abundância total por sítio\nN &lt;- rowSums(BCI)\nmin(N)  # menor esforço amostral\n\n# Riqueza esperada com N mínimo\nS_raref &lt;- rarefy(BCI, sample = min(N))\n\n# Curvas de rarefação\nrarecurve(BCI[1:10, ],\n          step   = 20,\n          sample = min(N),\n          xlab   = \"Indivíduos\",\n          ylab   = \"Riqueza esperada\",\n          label  = FALSE)\nabline(v = min(N), lty = 2, col = \"red\")"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#composição-de-espécies",
+    "href": "slides/comunidades_comparacao_aula2.html#composição-de-espécies",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Composição de Espécies",
+    "text": "Composição de Espécies\n\n\n\nQuais espécies estão presentes — não apenas quantas\nComunidades com mesma riqueza podem ser completamente distintas\nAvaliada por índices de similaridade/dissimilaridade:\n\nJaccard (presença/ausência)\nBray-Curtis (abundâncias)\nSørensen (presença/ausência, ponderado)\n\nResultado: matriz de distâncias entre pares de comunidades\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# Dissimilaridade de Bray-Curtis\ndist_BC &lt;- vegdist(dune, method = \"bray\")\n\n# Dissimilaridade de Jaccard\n# (presença/ausência)\ndist_J &lt;- vegdist(dune,\n                  method = \"jaccard\",\n                  binary = TRUE)\n\n# Visualizando as primeiras distâncias\nas.matrix(dist_BC)[1:5, 1:5]"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#índices-de-similaridade-comparativo",
+    "href": "slides/comunidades_comparacao_aula2.html#índices-de-similaridade-comparativo",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Índices de Similaridade: Comparativo",
+    "text": "Índices de Similaridade: Comparativo\n\n\n\n\n\nÍndice\nDados\nFórmula\n\n\n\n\nJaccard\nP/A\n\\(a / (a+b+c)\\)\n\n\nSørensen\nP/A\n\\(2a / (2a+b+c)\\)\n\n\nBray-Curtis\nAbund.\n\\(1 - 2W/(A+B)\\)\n\n\n\n\na = sp. compartilhadas\nb, c = sp. exclusivas de cada comunidade\nW = soma dos mínimos de abundância\nBray-Curtis: mais recomendado para abundâncias\nJaccard/Sørensen: para dados de inventário\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# Cálculo manual de Bray-Curtis\n# entre sítios 1 e 2\ncom1 &lt;- dune[1, ]\ncom2 &lt;- dune[2, ]\n\nW &lt;- sum(pmin(com1, com2))\nA &lt;- sum(com1)\nB &lt;- sum(com2)\n\nBC &lt;- 1 - (2 * W) / (A + B)\ncat(\"Bray-Curtis (1 vs 2):\", round(BC, 3))\n\n# Usando vegan\nvegdist(dune[1:2, ], method = \"bray\")"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#ordenação-nmds",
+    "href": "slides/comunidades_comparacao_aula2.html#ordenação-nmds",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Ordenação: NMDS",
+    "text": "Ordenação: NMDS\n\n\n\nNMDS (Non-metric Multidimensional Scaling): técnica de ordenação exploratória\nReduz a matriz de distâncias em 2 (ou 3) dimensões\nPontos próximos = comunidades mais similares\nAvaliado pelo stress: &lt; 0.1 excelente, &lt; 0.2 aceitável\nNão assume distribuição dos dados\nIdeal para dados ecológicos com muitos zeros\n\n\n\nlibrary(vegan)\ndata(dune)\ndata(dune.env)\n\n# NMDS com Bray-Curtis\nset.seed(42)\nnmds &lt;- metaMDS(dune,\n                distance = \"bray\",\n                k        = 2,\n                trymax   = 100)\n\ncat(\"Stress:\", round(nmds$stress, 3))\n\n# Gráfico básico\nplot(nmds, type = \"t\")\n\n# Com grupos por uso do solo\nordiplot(nmds, display = \"sites\")\nordihull(nmds,\n         groups = dune.env$Management,\n         draw   = \"polygon\",\n         alpha  = 80)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#ordenação-pcoa-e-pca",
+    "href": "slides/comunidades_comparacao_aula2.html#ordenação-pcoa-e-pca",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Ordenação: PCoA e PCA",
+    "text": "Ordenação: PCoA e PCA\n\n\n\nPCoA (Principal Coordinates Analysis): ordena qualquer matriz de distâncias\nPCA (Principal Component Analysis): usa distância euclidiana (dados transformados)\nDiferença do NMDS: axes têm interpretação métrica (% da variância explicada)\nTransformação de Hellinger recomendada antes de PCA em dados de comunidades\n\nreduz o efeito dos zeros\nestabiliza variâncias\n\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# PCoA com Bray-Curtis\ndist_BC &lt;- vegdist(dune, method = \"bray\")\npcoa    &lt;- wcmdscale(dist_BC, eig = TRUE)\n\n# Variância explicada\neig_pct &lt;- 100 * pcoa$eig / sum(pcoa$eig[pcoa$eig &gt; 0])\ncat(\"Eixo 1:\", round(eig_pct[1], 1), \"%\")\ncat(\"Eixo 2:\", round(eig_pct[2], 1), \"%\")\n\n# PCA com transformação Hellinger\ndune_hel &lt;- decostand(dune, \"hellinger\")\npca      &lt;- rda(dune_hel)\nbiplot(pca, scaling = 2)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#análise-de-diversidade-beta",
+    "href": "slides/comunidades_comparacao_aula2.html#análise-de-diversidade-beta",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Análise de Diversidade Beta",
+    "text": "Análise de Diversidade Beta\n\n\n\nDiversidade beta (β): variação na composição entre comunidades\nPode ser decomposta em:\n\nReposição (turnover): substituição de espécies\nAninhamento (nestedness): subconjuntos de espécies\n\nPacote betapart realiza essa decomposição\nAlta reposição → gradientes ambientais acentuados\nAlto aninhamento → perda progressiva de espécies\n\n\n\nlibrary(betapart)\ndata(ceram.s)  # dados do pacote betapart\n\n# Partição da diversidade beta (P/A)\nbeta_pair &lt;- beta.pair(ceram.s,\n                       index.family = \"sorensen\")\n\n# Componentes:\n# beta.sim  = turnover (reposição)\n# beta.sne  = nestedness\n# beta.sor  = total (Sørensen)\n\n# Resumo estatístico\nsummary(as.vector(\n  as.matrix(beta_pair$beta.sim)\n))\n\n# Mapa de calor de dissimilaridade\nimage(as.matrix(beta_pair$beta.sor),\n      main = \"Dissimilaridade total (Sørensen)\")"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#teste-estatístico-permanova",
+    "href": "slides/comunidades_comparacao_aula2.html#teste-estatístico-permanova",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Teste Estatístico: PERMANOVA",
+    "text": "Teste Estatístico: PERMANOVA\n\n\n\nPERMANOVA (adonis2): testa se grupos diferem em composição\nAnálogo a uma ANOVA multivariada, mas por permutações\nPode incluir múltiplas variáveis explicativas\nRetorna R² (variância explicada) e valor-p\nAtenção: sensível a diferenças na dispersão intra-grupo\n\nverificar com betadisper()\n\nRequer variável de agrupamento (ex: tratamento, habitat)\n\n\n\nlibrary(vegan)\ndata(dune)\ndata(dune.env)\n\n# Dissimilaridade de Bray-Curtis\ndist_BC &lt;- vegdist(dune, method = \"bray\")\n\n# PERMANOVA\nset.seed(42)\nperm &lt;- adonis2(dist_BC ~ Management,\n                data    = dune.env,\n                permutations = 999)\nprint(perm)\n\n# Homogeneidade de dispersão\ndisp &lt;- betadisper(dist_BC,\n                   dune.env$Management)\nanova(disp)\nboxplot(disp, main = \"Dispersão por grupo\")"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#exemplo-completo-pipeline-de-análise",
+    "href": "slides/comunidades_comparacao_aula2.html#exemplo-completo-pipeline-de-análise",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Exemplo Completo: Pipeline de Análise",
+    "text": "Exemplo Completo: Pipeline de Análise\n\n\nFluxo típico de análise:\n\nImportar e inspecionar a matriz\nCalcular métricas alfa (H’, S, J’)\nCalcular dissimilaridade (Bray-Curtis)\nOrdenar comunidades (NMDS ou PCoA)\nTestar diferenças com PERMANOVA\nVerificar homogeneidade (betadisper)\nDecompor beta-diversidade (betapart)\nInterpretar resultados biologicamente\n\n\n\nlibrary(vegan)\ndata(dune); data(dune.env)\n\n# 1. Métricas alfa\nalfa &lt;- data.frame(\n  S = specnumber(dune),\n  H = diversity(dune)\n)\n\n# 2. Dissimilaridade\nd &lt;- vegdist(dune, \"bray\")\n\n# 3. Ordenação\nset.seed(1)\nord &lt;- metaMDS(dune, k = 2)\n\n# 4. Teste de hipótese\nadonis2(d ~ Management,\n        data = dune.env)\n\n# 5. Visualização final\nplot(ord, type = \"n\")\npoints(ord,\n       col  = as.numeric(dune.env$Management),\n       pch  = 16, cex = 1.5)\nlegend(\"topright\",\n       legend = levels(dune.env$Management),\n       col    = 1:4, pch = 16)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#resumo-dos-conceitos",
+    "href": "slides/comunidades_comparacao_aula2.html#resumo-dos-conceitos",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Resumo dos Conceitos",
+    "text": "Resumo dos Conceitos\n\n\n\n\n\nConceito\nMétrica\nFunção R\n\n\n\n\nRiqueza\nS\nspecnumber()\n\n\nDiversidade\nH’, D\ndiversity()\n\n\nEquitabilidade\nJ’\nH’ / log(S)\n\n\nRarefação\nS esperado\nrarefy()\n\n\nDissimilaridade\nBray-Curtis\nvegdist()\n\n\nOrdenação\nNMDS, PCoA\nmetaMDS()\n\n\nTeste\nPERMANOVA\nadonis2()\n\n\nBeta-div.\nturn. + nest.\nbeta.pair()\n\n\n\n\nBoas práticas:\n\nSempre verificar esforço amostral antes de comparar riquezas\nEscolher índice de dissimilaridade adequado ao tipo de dado\nValidar PERMANOVA com betadisper\nInterpretar ordenações com stress ou % variância\nReportar tanto diversidade alfa quanto beta\nUsar gráficos para comunicar padrões multivariados\nDocumentar código reproduzível (R Markdown / Quarto)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#referências-e-recursos",
+    "href": "slides/comunidades_comparacao_aula2.html#referências-e-recursos",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Referências e Recursos",
+    "text": "Referências e Recursos\n\n\nLivros fundamentais:\n\nMagurran, A. E. (2004). Measuring Biological Diversity. Blackwell.\nLegendre & Legendre (2012). Numerical Ecology. Elsevier.\nGotelli & Ellison (2004). A Primer of Ecological Statistics. Sinauer.\n\nArtigos-chave:\n\nBaselga (2010). Betapart decomposition — Global Ecology & Biogeography\nAnderson et al. (2011). PERMANOVA — Methods in Ecology & Evolution\n\n\nPacotes R principais:\n\nvegan — análises multivariadas de comunidades\nbetapart — decomposição de beta-diversidade\niNEXT — rarefação e extrapolação de diversidade\nBiodiversityR — interface gráfica para vegan\nggordiplots — gráficos de ordenação com ggplot2\n\nRecursos online:\n\nCRAN Task View: Environmetrics\nVegan tutoriais: cran.r-project.org/vegan\nCurso de Ecologia Numérica com R (Borcard et al.)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao_aula2.html#fim",
+    "href": "slides/comunidades_comparacao_aula2.html#fim",
+    "title": "Comparação entre Comunidades Ecológicas",
+    "section": "Fim",
+    "text": "Fim"
+  },
+  {
+    "objectID": "get-started/3-syntax.html",
+    "href": "get-started/3-syntax.html",
+    "title": "Sintaxe & Estrutura de Dados",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/3-syntax.html#objetivo",
+    "href": "get-started/3-syntax.html#objetivo",
+    "title": "Sintaxe & Estrutura de Dados",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/3-syntax.html#passo-a-passo",
+    "href": "get-started/3-syntax.html#passo-a-passo",
+    "title": "Sintaxe & Estrutura de Dados",
+    "section": "Passo a passo",
+    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
+  },
+  {
+    "objectID": "get-started/3-syntax.html#exercício-rápido",
+    "href": "get-started/3-syntax.html#exercício-rápido",
+    "title": "Sintaxe & Estrutura de Dados",
+    "section": "Exercício rápido",
+    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
+  },
+  {
+    "objectID": "get-started/2-basic-intro.html",
+    "href": "get-started/2-basic-intro.html",
+    "title": "Introdução Básica ao R e RStudio",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/2-basic-intro.html#objetivo",
+    "href": "get-started/2-basic-intro.html#objetivo",
+    "title": "Introdução Básica ao R e RStudio",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/2-basic-intro.html#passo-a-passo",
+    "href": "get-started/2-basic-intro.html#passo-a-passo",
+    "title": "Introdução Básica ao R e RStudio",
+    "section": "Passo a passo",
+    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
+  },
+  {
+    "objectID": "get-started/2-basic-intro.html#exercício-rápido",
+    "href": "get-started/2-basic-intro.html#exercício-rápido",
+    "title": "Introdução Básica ao R e RStudio",
+    "section": "Exercício rápido",
+    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
+  },
+  {
+    "objectID": "get-started/4-functions.html",
+    "href": "get-started/4-functions.html",
+    "title": "Funções e Comandos",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/4-functions.html#objetivo",
+    "href": "get-started/4-functions.html#objetivo",
+    "title": "Funções e Comandos",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/4-functions.html#passo-a-passo",
+    "href": "get-started/4-functions.html#passo-a-passo",
+    "title": "Funções e Comandos",
+    "section": "Passo a passo",
+    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
+  },
+  {
+    "objectID": "get-started/4-functions.html#exercício-rápido",
+    "href": "get-started/4-functions.html#exercício-rápido",
+    "title": "Funções e Comandos",
+    "section": "Exercício rápido",
+    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
+  },
+  {
+    "objectID": "get-started/1-install.html",
+    "href": "get-started/1-install.html",
+    "title": "Instalar R & RStudio",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/1-install.html#objetivo",
+    "href": "get-started/1-install.html#objetivo",
+    "title": "Instalar R & RStudio",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/1-install.html#passo-a-passo",
+    "href": "get-started/1-install.html#passo-a-passo",
+    "title": "Instalar R & RStudio",
+    "section": "Passo a passo",
+    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
+  },
+  {
+    "objectID": "get-started/1-install.html#exercício-rápido",
+    "href": "get-started/1-install.html#exercício-rápido",
+    "title": "Instalar R & RStudio",
+    "section": "Exercício rápido",
+    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
+  },
+  {
+    "objectID": "get-started/5-data.html",
+    "href": "get-started/5-data.html",
+    "title": "Dados em R",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/5-data.html#objetivo",
+    "href": "get-started/5-data.html#objetivo",
+    "title": "Dados em R",
+    "section": "",
+    "text": "Descreva o objetivo deste tutorial."
+  },
+  {
+    "objectID": "get-started/5-data.html#passo-a-passo",
+    "href": "get-started/5-data.html#passo-a-passo",
+    "title": "Dados em R",
+    "section": "Passo a passo",
+    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
+  },
+  {
+    "objectID": "get-started/5-data.html#exercício-rápido",
+    "href": "get-started/5-data.html#exercício-rápido",
+    "title": "Dados em R",
+    "section": "Exercício rápido",
+    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
+  },
+  {
     "objectID": "slides/aula2_magnitude.html#o-que-precisamos-saber-hoje",
     "href": "slides/aula2_magnitude.html#o-que-precisamos-saber-hoje",
     "title": "Ecologia Geral 2",
@@ -693,237 +1169,6 @@
     "text": "Aplicações na conservação da biodiversidade\n\n\n\nBrooks et al 2006"
   },
   {
-    "objectID": "get-started/5-data.html",
-    "href": "get-started/5-data.html",
-    "title": "Dados em R",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/5-data.html#objetivo",
-    "href": "get-started/5-data.html#objetivo",
-    "title": "Dados em R",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/5-data.html#passo-a-passo",
-    "href": "get-started/5-data.html#passo-a-passo",
-    "title": "Dados em R",
-    "section": "Passo a passo",
-    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
-  },
-  {
-    "objectID": "get-started/5-data.html#exercício-rápido",
-    "href": "get-started/5-data.html#exercício-rápido",
-    "title": "Dados em R",
-    "section": "Exercício rápido",
-    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
-  },
-  {
-    "objectID": "get-started/1-install.html",
-    "href": "get-started/1-install.html",
-    "title": "Instalar R & RStudio",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/1-install.html#objetivo",
-    "href": "get-started/1-install.html#objetivo",
-    "title": "Instalar R & RStudio",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/1-install.html#passo-a-passo",
-    "href": "get-started/1-install.html#passo-a-passo",
-    "title": "Instalar R & RStudio",
-    "section": "Passo a passo",
-    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
-  },
-  {
-    "objectID": "get-started/1-install.html#exercício-rápido",
-    "href": "get-started/1-install.html#exercício-rápido",
-    "title": "Instalar R & RStudio",
-    "section": "Exercício rápido",
-    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
-  },
-  {
-    "objectID": "get-started/4-functions.html",
-    "href": "get-started/4-functions.html",
-    "title": "Funções e Comandos",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/4-functions.html#objetivo",
-    "href": "get-started/4-functions.html#objetivo",
-    "title": "Funções e Comandos",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/4-functions.html#passo-a-passo",
-    "href": "get-started/4-functions.html#passo-a-passo",
-    "title": "Funções e Comandos",
-    "section": "Passo a passo",
-    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
-  },
-  {
-    "objectID": "get-started/4-functions.html#exercício-rápido",
-    "href": "get-started/4-functions.html#exercício-rápido",
-    "title": "Funções e Comandos",
-    "section": "Exercício rápido",
-    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
-  },
-  {
-    "objectID": "get-started/2-basic-intro.html",
-    "href": "get-started/2-basic-intro.html",
-    "title": "Introdução Básica ao R e RStudio",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/2-basic-intro.html#objetivo",
-    "href": "get-started/2-basic-intro.html#objetivo",
-    "title": "Introdução Básica ao R e RStudio",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/2-basic-intro.html#passo-a-passo",
-    "href": "get-started/2-basic-intro.html#passo-a-passo",
-    "title": "Introdução Básica ao R e RStudio",
-    "section": "Passo a passo",
-    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
-  },
-  {
-    "objectID": "get-started/2-basic-intro.html#exercício-rápido",
-    "href": "get-started/2-basic-intro.html#exercício-rápido",
-    "title": "Introdução Básica ao R e RStudio",
-    "section": "Exercício rápido",
-    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
-  },
-  {
-    "objectID": "get-started/3-syntax.html",
-    "href": "get-started/3-syntax.html",
-    "title": "Sintaxe & Estrutura de Dados",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/3-syntax.html#objetivo",
-    "href": "get-started/3-syntax.html#objetivo",
-    "title": "Sintaxe & Estrutura de Dados",
-    "section": "",
-    "text": "Descreva o objetivo deste tutorial."
-  },
-  {
-    "objectID": "get-started/3-syntax.html#passo-a-passo",
-    "href": "get-started/3-syntax.html#passo-a-passo",
-    "title": "Sintaxe & Estrutura de Dados",
-    "section": "Passo a passo",
-    "text": "Passo a passo\n\nPasso 1\nPasso 2\nPasso 3"
-  },
-  {
-    "objectID": "get-started/3-syntax.html#exercício-rápido",
-    "href": "get-started/3-syntax.html#exercício-rápido",
-    "title": "Sintaxe & Estrutura de Dados",
-    "section": "Exercício rápido",
-    "text": "Exercício rápido\nProponha um pequeno exercício para fixação."
-  },
-  {
-    "objectID": "slides/comunidades_comparacao_aula2.html#riqueza-de-espécies-s",
-    "href": "slides/comunidades_comparacao_aula2.html#riqueza-de-espécies-s",
-    "title": "Comparação entre Comunidades Ecológicas",
-    "section": "Riqueza de Espécies (S)",
-    "text": "Riqueza de Espécies (S)\n\n\n\nNúmero total de espécies presentes em uma comunidade\nMétrica mais simples e intuitiva\nNão considera a distribuição de abundâncias\nSensível ao esforço amostral\nPode ser corrigida por:\n\nrarefação\nestimadores de riqueza (Chao1, ACE)\n\nComparações válidas exigem igual esforço amostral\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# Riqueza por sítio (número de espécies)\nS &lt;- specnumber(dune)\nprint(S)\n\n# Riqueza total do conjunto\nsum(colSums(dune) &gt; 0)\n\n# Curva de acumulação de espécies\ncurva &lt;- specaccum(dune, method = \"random\")\nplot(curva,\n     xlab = \"Sítios amostrados\",\n     ylab = \"Riqueza acumulada\")"
-  },
-  {
-    "objectID": "slides/comunidades_comparacao_aula2.html#abundância-e-equitabilidade",
-    "href": "slides/comunidades_comparacao_aula2.html#abundância-e-equitabilidade",
-    "title": "Comparação entre Comunidades Ecológicas",
-    "section": "Abundância e Equitabilidade",
-    "text": "Abundância e Equitabilidade\n\n\n\nAbundância total: soma dos indivíduos por sítio\nAbundância relativa: proporção de cada espécie\nÍndice de Shannon (H’): mede diversidade considerando riqueza e equitabilidade\nÍndice de Simpson (D): probabilidade de dois indivíduos pertencerem a espécies diferentes\nEquitabilidade de Pielou (J’): H’ / H’máx\n\nvaria de 0 (dominância) a 1 (equitativo)\n\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# Índice de Shannon\nH &lt;- diversity(dune, index = \"shannon\")\n\n# Índice de Simpson\nD &lt;- diversity(dune, index = \"simpson\")\n\n# Equitabilidade de Pielou\nS &lt;- specnumber(dune)\nJ &lt;- H / log(S)\n\n# Resumo por sítio\ndados_div &lt;- data.frame(\n  Riqueza    = S,\n  Shannon    = round(H, 2),\n  Simpson    = round(D, 2),\n  Equitabil. = round(J, 2)\n)\nhead(dados_div)"
-  },
-  {
-    "objectID": "slides/comunidades_comparacao_aula2.html#rarefação-comparando-riqueza-justa",
-    "href": "slides/comunidades_comparacao_aula2.html#rarefação-comparando-riqueza-justa",
-    "title": "Comparação entre Comunidades Ecológicas",
-    "section": "Rarefação: Comparando Riqueza Justa",
-    "text": "Rarefação: Comparando Riqueza Justa\n\n\n\nComunidades com diferentes tamanhos amostrais não devem ter riqueza comparada diretamente\nRarefação: reamostrar todas as comunidades para o mesmo N mínimo\nPermite comparações mais honestas de riqueza\nNão descarta informação — apenas padroniza\nImplementada com rarefy() ou rrarefy() no vegan\n\n\n\nlibrary(vegan)\ndata(BCI)  # floresta tropical BCI\n\n# Abundância total por sítio\nN &lt;- rowSums(BCI)\nmin(N)  # menor esforço amostral\n\n# Riqueza esperada com N mínimo\nS_raref &lt;- rarefy(BCI, sample = min(N))\n\n# Curvas de rarefação\nrarecurve(BCI[1:10, ],\n          step   = 20,\n          sample = min(N),\n          xlab   = \"Indivíduos\",\n          ylab   = \"Riqueza esperada\",\n          label  = FALSE)\nabline(v = min(N), lty = 2, col = \"red\")"
-  },
-  {
-    "objectID": "slides/comunidades_comparacao_aula2.html#composição-de-espécies",
-    "href": "slides/comunidades_comparacao_aula2.html#composição-de-espécies",
-    "title": "Comparação entre Comunidades Ecológicas",
-    "section": "Composição de Espécies",
-    "text": "Composição de Espécies\n\n\n\nQuais espécies estão presentes — não apenas quantas\nComunidades com mesma riqueza podem ser completamente distintas\nAvaliada por índices de similaridade/dissimilaridade:\n\nJaccard (presença/ausência)\nBray-Curtis (abundâncias)\nSørensen (presença/ausência, ponderado)\n\nResultado: matriz de distâncias entre pares de comunidades\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# Dissimilaridade de Bray-Curtis\ndist_BC &lt;- vegdist(dune, method = \"bray\")\n\n# Dissimilaridade de Jaccard\n# (presença/ausência)\ndist_J &lt;- vegdist(dune,\n                  method = \"jaccard\",\n                  binary = TRUE)\n\n# Visualizando as primeiras distâncias\nas.matrix(dist_BC)[1:5, 1:5]"
-  },
-  {
-    "objectID": "slides/comunidades_comparacao_aula2.html#índices-de-similaridade-comparativo",
-    "href": "slides/comunidades_comparacao_aula2.html#índices-de-similaridade-comparativo",
-    "title": "Comparação entre Comunidades Ecológicas",
-    "section": "Índices de Similaridade: Comparativo",
-    "text": "Índices de Similaridade: Comparativo\n\n\n\n\n\nÍndice\nDados\nFórmula\n\n\n\n\nJaccard\nP/A\n\\(a / (a+b+c)\\)\n\n\nSørensen\nP/A\n\\(2a / (2a+b+c)\\)\n\n\nBray-Curtis\nAbund.\n\\(1 - 2W/(A+B)\\)\n\n\n\n\na = sp. compartilhadas\nb, c = sp. exclusivas de cada comunidade\nW = soma dos mínimos de abundância\nBray-Curtis: mais recomendado para abundâncias\nJaccard/Sørensen: para dados de inventário\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# Cálculo manual de Bray-Curtis\n# entre sítios 1 e 2\ncom1 &lt;- dune[1, ]\ncom2 &lt;- dune[2, ]\n\nW &lt;- sum(pmin(com1, com2))\nA &lt;- sum(com1)\nB &lt;- sum(com2)\n\nBC &lt;- 1 - (2 * W) / (A + B)\ncat(\"Bray-Curtis (1 vs 2):\", round(BC, 3))\n\n# Usando vegan\nvegdist(dune[1:2, ], method = \"bray\")"
-  },
-  {
-    "objectID": "slides/comunidades_comparacao_aula2.html#ordenação-nmds",
-    "href": "slides/comunidades_comparacao_aula2.html#ordenação-nmds",
-    "title": "Comparação entre Comunidades Ecológicas",
-    "section": "Ordenação: NMDS",
-    "text": "Ordenação: NMDS\n\n\n\nNMDS (Non-metric Multidimensional Scaling): técnica de ordenação exploratória\nReduz a matriz de distâncias em 2 (ou 3) dimensões\nPontos próximos = comunidades mais similares\nAvaliado pelo stress: &lt; 0.1 excelente, &lt; 0.2 aceitável\nNão assume distribuição dos dados\nIdeal para dados ecológicos com muitos zeros\n\n\n\nlibrary(vegan)\ndata(dune)\ndata(dune.env)\n\n# NMDS com Bray-Curtis\nset.seed(42)\nnmds &lt;- metaMDS(dune,\n                distance = \"bray\",\n                k        = 2,\n                trymax   = 100)\n\ncat(\"Stress:\", round(nmds$stress, 3))\n\n# Gráfico básico\nplot(nmds, type = \"t\")\n\n# Com grupos por uso do solo\nordiplot(nmds, display = \"sites\")\nordihull(nmds,\n         groups = dune.env$Management,\n         draw   = \"polygon\",\n         alpha  = 80)"
-  },
-  {
-    "objectID": "slides/comunidades_comparacao_aula2.html#ordenação-pcoa-e-pca",
-    "href": "slides/comunidades_comparacao_aula2.html#ordenação-pcoa-e-pca",
-    "title": "Comparação entre Comunidades Ecológicas",
-    "section": "Ordenação: PCoA e PCA",
-    "text": "Ordenação: PCoA e PCA\n\n\n\nPCoA (Principal Coordinates Analysis): ordena qualquer matriz de distâncias\nPCA (Principal Component Analysis): usa distância euclidiana (dados transformados)\nDiferença do NMDS: axes têm interpretação métrica (% da variância explicada)\nTransformação de Hellinger recomendada antes de PCA em dados de comunidades\n\nreduz o efeito dos zeros\nestabiliza variâncias\n\n\n\n\nlibrary(vegan)\ndata(dune)\n\n# PCoA com Bray-Curtis\ndist_BC &lt;- vegdist(dune, method = \"bray\")\npcoa    &lt;- wcmdscale(dist_BC, eig = TRUE)\n\n# Variância explicada\neig_pct &lt;- 100 * pcoa$eig / sum(pcoa$eig[pcoa$eig &gt; 0])\ncat(\"Eixo 1:\", round(eig_pct[1], 1), \"%\")\ncat(\"Eixo 2:\", round(eig_pct[2], 1), \"%\")\n\n# PCA com transformação Hellinger\ndune_hel &lt;- decostand(dune, \"hellinger\")\npca      &lt;- rda(dune_hel)\nbiplot(pca, scaling = 2)"
-  },
-  {
-    "objectID": "slides/comunidades_comparacao_aula2.html#análise-de-diversidade-beta",
-    "href": "slides/comunidades_comparacao_aula2.html#análise-de-diversidade-beta",
-    "title": "Comparação entre Comunidades Ecológicas",
-    "section": "Análise de Diversidade Beta",
-    "text": "Análise de Diversidade Beta\n\n\n\nDiversidade beta (β): variação na composição entre comunidades\nPode ser decomposta em:\n\nReposição (turnover): substituição de espécies\nAninhamento (nestedness): subconjuntos de espécies\n\nPacote betapart realiza essa decomposição\nAlta reposição → gradientes ambientais acentuados\nAlto aninhamento → perda progressiva de espécies\n\n\n\nlibrary(betapart)\ndata(ceram.s)  # dados do pacote betapart\n\n# Partição da diversidade beta (P/A)\nbeta_pair &lt;- beta.pair(ceram.s,\n                       index.family = \"sorensen\")\n\n# Componentes:\n# beta.sim  = turnover (reposição)\n# beta.sne  = nestedness\n# beta.sor  = total (Sørensen)\n\n# Resumo estatístico\nsummary(as.vector(\n  as.matrix(beta_pair$beta.sim)\n))\n\n# Mapa de calor de dissimilaridade\nimage(as.matrix(beta_pair$beta.sor),\n      main = \"Dissimilaridade total (Sørensen)\")"
-  },
-  {
-    "objectID": "slides/comunidades_comparacao_aula2.html#teste-estatístico-permanova",
-    "href": "slides/comunidades_comparacao_aula2.html#teste-estatístico-permanova",
-    "title": "Comparação entre Comunidades Ecológicas",
-    "section": "Teste Estatístico: PERMANOVA",
-    "text": "Teste Estatístico: PERMANOVA\n\n\n\nPERMANOVA (adonis2): testa se grupos diferem em composição\nAnálogo a uma ANOVA multivariada, mas por permutações\nPode incluir múltiplas variáveis explicativas\nRetorna R² (variância explicada) e valor-p\nAtenção: sensível a diferenças na dispersão intra-grupo\n\nverificar com betadisper()\n\nRequer variável de agrupamento (ex: tratamento, habitat)\n\n\n\nlibrary(vegan)\ndata(dune)\ndata(dune.env)\n\n# Dissimilaridade de Bray-Curtis\ndist_BC &lt;- vegdist(dune, method = \"bray\")\n\n# PERMANOVA\nset.seed(42)\nperm &lt;- adonis2(dist_BC ~ Management,\n                data    = dune.env,\n                permutations = 999)\nprint(perm)\n\n# Homogeneidade de dispersão\ndisp &lt;- betadisper(dist_BC,\n                   dune.env$Management)\nanova(disp)\nboxplot(disp, main = \"Dispersão por grupo\")"
-  },
-  {
-    "objectID": "slides/comunidades_comparacao_aula2.html#exemplo-completo-pipeline-de-análise",
-    "href": "slides/comunidades_comparacao_aula2.html#exemplo-completo-pipeline-de-análise",
-    "title": "Comparação entre Comunidades Ecológicas",
-    "section": "Exemplo Completo: Pipeline de Análise",
-    "text": "Exemplo Completo: Pipeline de Análise\n\n\nFluxo típico de análise:\n\nImportar e inspecionar a matriz\nCalcular métricas alfa (H’, S, J’)\nCalcular dissimilaridade (Bray-Curtis)\nOrdenar comunidades (NMDS ou PCoA)\nTestar diferenças com PERMANOVA\nVerificar homogeneidade (betadisper)\nDecompor beta-diversidade (betapart)\nInterpretar resultados biologicamente\n\n\n\nlibrary(vegan)\ndata(dune); data(dune.env)\n\n# 1. Métricas alfa\nalfa &lt;- data.frame(\n  S = specnumber(dune),\n  H = diversity(dune)\n)\n\n# 2. Dissimilaridade\nd &lt;- vegdist(dune, \"bray\")\n\n# 3. Ordenação\nset.seed(1)\nord &lt;- metaMDS(dune, k = 2)\n\n# 4. Teste de hipótese\nadonis2(d ~ Management,\n        data = dune.env)\n\n# 5. Visualização final\nplot(ord, type = \"n\")\npoints(ord,\n       col  = as.numeric(dune.env$Management),\n       pch  = 16, cex = 1.5)\nlegend(\"topright\",\n       legend = levels(dune.env$Management),\n       col    = 1:4, pch = 16)"
-  },
-  {
-    "objectID": "slides/comunidades_comparacao_aula2.html#resumo-dos-conceitos",
-    "href": "slides/comunidades_comparacao_aula2.html#resumo-dos-conceitos",
-    "title": "Comparação entre Comunidades Ecológicas",
-    "section": "Resumo dos Conceitos",
-    "text": "Resumo dos Conceitos\n\n\n\n\n\nConceito\nMétrica\nFunção R\n\n\n\n\nRiqueza\nS\nspecnumber()\n\n\nDiversidade\nH’, D\ndiversity()\n\n\nEquitabilidade\nJ’\nH’ / log(S)\n\n\nRarefação\nS esperado\nrarefy()\n\n\nDissimilaridade\nBray-Curtis\nvegdist()\n\n\nOrdenação\nNMDS, PCoA\nmetaMDS()\n\n\nTeste\nPERMANOVA\nadonis2()\n\n\nBeta-div.\nturn. + nest.\nbeta.pair()\n\n\n\n\nBoas práticas:\n\nSempre verificar esforço amostral antes de comparar riquezas\nEscolher índice de dissimilaridade adequado ao tipo de dado\nValidar PERMANOVA com betadisper\nInterpretar ordenações com stress ou % variância\nReportar tanto diversidade alfa quanto beta\nUsar gráficos para comunicar padrões multivariados\nDocumentar código reproduzível (R Markdown / Quarto)"
-  },
-  {
-    "objectID": "slides/comunidades_comparacao_aula2.html#referências-e-recursos",
-    "href": "slides/comunidades_comparacao_aula2.html#referências-e-recursos",
-    "title": "Comparação entre Comunidades Ecológicas",
-    "section": "Referências e Recursos",
-    "text": "Referências e Recursos\n\n\nLivros fundamentais:\n\nMagurran, A. E. (2004). Measuring Biological Diversity. Blackwell.\nLegendre & Legendre (2012). Numerical Ecology. Elsevier.\nGotelli & Ellison (2004). A Primer of Ecological Statistics. Sinauer.\n\nArtigos-chave:\n\nBaselga (2010). Betapart decomposition — Global Ecology & Biogeography\nAnderson et al. (2011). PERMANOVA — Methods in Ecology & Evolution\n\n\nPacotes R principais:\n\nvegan — análises multivariadas de comunidades\nbetapart — decomposição de beta-diversidade\niNEXT — rarefação e extrapolação de diversidade\nBiodiversityR — interface gráfica para vegan\nggordiplots — gráficos de ordenação com ggplot2\n\nRecursos online:\n\nCRAN Task View: Environmetrics\nVegan tutoriais: cran.r-project.org/vegan\nCurso de Ecologia Numérica com R (Borcard et al.)"
-  },
-  {
-    "objectID": "slides/comunidades_comparacao_aula2.html#fim",
-    "href": "slides/comunidades_comparacao_aula2.html#fim",
-    "title": "Comparação entre Comunidades Ecológicas",
-    "section": "Fim",
-    "text": "Fim"
-  },
-  {
     "objectID": "slides/sucessao_ecologica.html#o-que-é-sucessão-ecológica",
     "href": "slides/sucessao_ecologica.html#o-que-é-sucessão-ecológica",
     "title": "Sucessão Ecológica",
@@ -992,13 +1237,6 @@
     "title": "Sucessão Ecológica",
     "section": "CSR em figura",
     "text": "CSR em figura"
-  },
-  {
-    "objectID": "slides/sucessao_ecologica.html#módulo-3-sucessão-primária-e-secundária",
-    "href": "slides/sucessao_ecologica.html#módulo-3-sucessão-primária-e-secundária",
-    "title": "Sucessão Ecológica",
-    "section": "Módulo 3 Sucessão Primária e Secundária",
-    "text": "Módulo 3 Sucessão Primária e Secundária"
   },
   {
     "objectID": "slides/sucessao_ecologica.html#sucessão-primária-colonização-do-zero",
@@ -1111,6 +1349,13 @@
     "title": "Sucessão Ecológica",
     "section": "Conceitos-Chave para Revisão",
     "text": "Conceitos-Chave para Revisão\n\n\nGlossário essencial:\n\nFacilitação / Inibição / Tolerância — modelos de substituição de espécies\nTraços funcionais — características que mediam resposta e efeito das espécies\nPool regional de espécies — conjunto disponível para colonização\nFiltros de montagem — abiótico, biótico, dispersão\nEstados alternativos estáveis — múltiplos equilíbrios possíveis\nRedundância funcional — resiliência via diversidade de funções\nClímax vs. estado dinâmico — visões antigas vs. modernas\nDistúrbio intermediário — maximização da diversidade\n\n\n\nPerguntas reflexivas:\n\nPor que o modelo de Clements ainda é útil mesmo que “errado”?\nComo a teoria CSR e r/K se complementam?\nO fogo no Cerrado é um distúrbio ou um componente constitutivo?\nPor que a sucessão secundária amazônica pode ser mais lenta que a primária em algumas condições?\nComo traços funcionais podem guiar a seleção de espécies para restauração?\nO que os estados alternativos estáveis implicam para a conservação do Cerrado?"
+  },
+  {
+    "objectID": "slides/sucessao_ecologica.html#obrigado",
+    "href": "slides/sucessao_ecologica.html#obrigado",
+    "title": "Sucessão Ecológica",
+    "section": "Obrigado!",
+    "text": "Obrigado!"
   },
   {
     "objectID": "slides/Intro_biodiversidade.html#definições",
@@ -1470,97 +1715,6 @@
     "text": "Este ambiente será um apoio fundamental para o aprendizado durante a disciplina, especialmente no módulo de Ecologia de Comunidades"
   },
   {
-    "objectID": "sessions/week01.html",
-    "href": "sessions/week01.html",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "",
-    "text": "Slides da Aula"
-  },
-  {
-    "objectID": "sessions/week01.html#introdução",
-    "href": "sessions/week01.html#introdução",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "1 Introdução",
-    "text": "1 Introdução\nBiodiversidade é a variedade da vida em diferentes níveis de organização, dos genes aos ecossistemas, e constitui um conceito central para as ciências da vida e para a conservação (Gaggiotti et al., 2018; Boudouresque, 2014; Moreno, 2001). As definições mais aceitas convergem para três níveis fundamentais — diversidade genética, diversidade de espécies e diversidade de ecossistemas — embora vários autores também defendam a inclusão explícita de dimensões funcionais, filogenéticas e comportamentais (Liu et al., 2024; Coates et al., 2018; Cordero‐Rivera, 2017; Boudouresque, 2014).\nA biodiversidade é um conceito hierárquico e multidimensional, e isso torna inadequado descrevê-la por uma única métrica (Gaggiotti et al., 2018; Boudouresque, 2014). Diferentes medidas capturam componentes distintos da variação biológica, de modo que avaliações robustas dependem de abordagens integradas (Gaggiotti et al., 2018; Boudouresque, 2014; Karahan et al., 2025)."
-  },
-  {
-    "objectID": "sessions/week01.html#o-conceito-de-biodiversidade",
-    "href": "sessions/week01.html#o-conceito-de-biodiversidade",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "2 O Conceito de Biodiversidade",
-    "text": "2 O Conceito de Biodiversidade\n\nO uso moderno do termo biodiversidade se consolidou a partir da década de 1980 (Wang & Young, 2019). Desde então, o conceito passou a funcionar como um meta-conceito, reunindo hierarquias ecológicas, genéticas e taxonômicas, além de implicações éticas, políticas e sociais (Cordero‐Rivera, 2017).\nMesmo quando há acordo sobre os três níveis clássicos, permanece importante reconhecer que a biodiversidade não é apenas contagem de espécies (Kumari et al., 2021; Wang & Young, 2019). A diversidade de espécies envolve tanto riqueza quanto equidade de abundâncias, e a diversidade em níveis superiores também depende da organização funcional e espacial dos sistemas biológicos (Wang & Young, 2019; Moreno, 2001)."
-  },
-  {
-    "objectID": "sessions/week01.html#níveis-da-biodiversidade",
-    "href": "sessions/week01.html#níveis-da-biodiversidade",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "3 Níveis da Biodiversidade",
-    "text": "3 Níveis da Biodiversidade\nA tabela a seguir resume os níveis mais usados na literatura.\n\n\n\n\n\n\n\n\nNível\nDefinição sintética\nExemplo de foco analítico\n\n\n\n\nGenético\nVariação de genes e alelos dentro e entre populações\nPolimorfismos, estrutura populacional, adaptação (Kumari et al., 2021; Wang & Young, 2019)\n\n\nTaxonômico\nVariação na composição, número e na abundância relativa de espécies\nRiqueza, equidade, composição (Wang & Young, 2019; Moreno, 2001)\n\n\nEcossistemas\nVariação entre habitats, comunidades e processos ecológicos\nPaisagens, habitats, fluxos bióticos e abióticos (Guo, 2022; Moreno, 2001)\n\n\nFuncional\nVariação as funhções ecológicas e traços das espécies\nTraços funcionais, redundância, funcionamento (Karahan et al., 2025)\n\n\nFilogenética\nVariação na história evolutiva entre linhagens\nDistância evolutiva, endemismo filogenético (Liu et al., 2024; Cordero‐Rivera, 2017)\n\n\nComportamental\nVariação de traços comportamentais em múltiplos níveis\nPlasticidade, personalidade, estratégias reprodutivas (Cordero‐Rivera, 2017)\n\n\n\n\nFigura 1: Níveis clássicos e extensões contemporâneas do conceito de biodiversidade.\nA diversidade genética descreve a variabilidade hereditária dentro das espécies e é essencial para adaptação e persistência populacional (Coates et al., 2018; Kumari et al., 2021; Wang & Young, 2019). Populações com maior diversidade genética tendem a manter mais alelos e, portanto, maior capacidade de responder a mudanças ambientais (Wang & Young, 2019; Kumari et al., 2021).\nA diversidade de espécies continua sendo a medida mais usada em ecologia e conservação, porque espécies são unidades amplamente comunicáveis e operacionais para monitoramento e política pública (Coates et al., 2018). Ainda assim, essa ênfase pode obscurecer variação importante abaixo do nível de espécie, como populações historicamente isoladas e unidades evolutivamente significativas (Coates et al., 2018).\nA diversidade de ecossistemas trata da variação entre habitats, comunidades e processos dentro da biosfera (Guo, 2022; Wang & Young, 2019). Ela depende da interação entre diversidade genética e de espécies, além de fatores ambientais e históricos (Wang & Young, 2019; Guo, 2022)."
-  },
-  {
-    "objectID": "sessions/week01.html#por-que-a-biodiversidade-importa",
-    "href": "sessions/week01.html#por-que-a-biodiversidade-importa",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "4 Por que a Biodiversidade importa?",
-    "text": "4 Por que a Biodiversidade importa?\nA biodiversidade sustenta resiliência ecológica e serviços essenciais como alimento e água limpa (Karahan et al., 2025). Também é amplamente considerada essencial ao bem-estar humano (Johnson et al., 2017).\nHá forte consenso de que a perda de biodiversidade reduz o funcionamento dos ecossistemas e as contribuições da natureza para as pessoas (Isbell et al., 2022). Em julgamento de especialistas, a ameaça ou extinção global de espécies foi associada a reduções de cerca de 10% a 70% no funcionamento ecossistêmico e nas contribuições da natureza, com grande incerteza sobre a magnitude exata (Isbell et al., 2022).\nA relação entre biodiversidade e funcionamento também não se restringe à diversidade de espécies (Kumari et al., 2021; Fargeot et al., 2025). Em ecossistemas aquáticos naturais, o efeito absoluto da diversidade genética sobre funções ecossistêmicas foi semelhante ao da diversidade de espécies, embora com direção oposta nas correlações observadas nesse estudo (Fargeot et al., 2025). Esses resultados reforçam a necessidade de integrar dimensões múltiplas da biodiversidade ao prever consequências ecológicas da perda biológica (Fargeot et al., 2025)."
-  },
-  {
-    "objectID": "sessions/week01.html#como-a-biodiversidade-é-medida",
-    "href": "sessions/week01.html#como-a-biodiversidade-é-medida",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "5 Como a Biodiversidade é medida?",
-    "text": "5 Como a Biodiversidade é medida?\nA ausência de métricas padronizadas e consistentes entre níveis biológicos ainda dificulta estudos verdadeiramente integrativos (Gaggiotti et al., 2018; Moreno, 2001; Gaggiotti et al., 2018). Parte desse problema vem do desenvolvimento histórico separado entre ecologia de comunidades e genética de populações (Gaggiotti et al., 2018).\nNo nível de espécies, a literatura distingue diversidade alfa, beta e gama (Kumari et al., 2021; Moreno, 2001). A diversidade alfa descreve a diversidade dentro de uma comunidade, a beta expressa mudanças de composição entre comunidades e a gama representa a diversidade total em uma paisagem ou região (Kumari et al., 2021; Moreno, 2001).\nÍndices distintos enfatizam propriedades diferentes da comunidade (Moreno, 2001). Por isso, um mesmo impacto pode aumentar a diversidade alfa e reduzir a diversidade gama, ou gerar padrões discordantes entre riqueza de espécies e diversidade em níveis taxonômicos mais altos.\nAbordagens recentes propõem estruturas unificadoras capazes de medir biodiversidade de genes a ecossistemas com comportamento matemático consistente (Gaggiotti et al., 2018). Esse tipo de framework foi desenvolvido justamente para superar a fragmentação entre métricas genéticas, taxonômicas, funcionais e ecológicas (Gaggiotti et al., 2018)."
-  },
-  {
-    "objectID": "sessions/week01.html#escalas-distribuição-e-hotspots",
-    "href": "sessions/week01.html#escalas-distribuição-e-hotspots",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "6 Escalas, Distribuição e Hotspots",
-    "text": "6 Escalas, Distribuição e Hotspots\nA biodiversidade é distribuída de forma desigual no planeta (Kumari et al., 2021). Essa heterogeneidade espacial motivou a delimitação de hotspots, áreas com alto endemismo e forte perda de habitat (Kumari et al., 2021; Gonçalves-Souza et al., 2020).\nA desigualdade espacial também aparece entre níveis de biodiversidade (Liu et al., 2024). Áreas com maior diversidade genética, de espécies e de ecossistemas não coincidem necessariamente, o que implica que estratégias baseadas em um único componente podem falhar em representar a biodiversidade de forma abrangente (Liu et al., 2024).\nEm análises recentes de planejamento sistemático, a integração de múltiplos indicadores — riqueza de espécies, endemismo, diversidade filogenética, distintividade evolutiva, endemismo filogenético e valor de serviços ecossistêmicos — foi usada para identificar áreas prioritárias de conservação de forma mais completa (Liu et al., 2024). Isso reforça que a biodiversidade relevante para conservação é multicritério, não apenas taxonômica."
-  },
-  {
-    "objectID": "sessions/week01.html#biodiversidade-e-conservação",
-    "href": "sessions/week01.html#biodiversidade-e-conservação",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "7 Biodiversidade e Conservação",
-    "text": "7 Biodiversidade e Conservação\nA política internacional reconhece explicitamente os níveis genético, de espécies e de ecossistemas como alvos de conservação (Coates et al., 2018). Na prática, porém, a gestão ainda se apoia sobretudo em espécies, áreas geográficas e comunidades ecológicas, com menor atenção à diversidade genética (Coates et al., 2018).\nEssa assimetria é importante porque muitas espécies reconhecidas não são geneticamente homogêneas (Coates et al., 2018). Linhagens profundas e populações historicamente isoladas podem carregar diversidade única, e sua perda aumenta o risco de extinção críptica (Coates et al., 2018).\nAo mesmo tempo, dados genômicos trazem uma tensão metodológica: eles aumentam muito a resolução sobre estrutura populacional, mas também podem levar a sobredelimitação de espécies se forem interpretados sem cautela (Coates et al., 2018). A literatura recomenda interpretar esses dados de forma conservadora e fortalecer a identificação de unidades intraespecíficas bem justificadas para conservação (Coates et al., 2018)."
-  },
-  {
-    "objectID": "sessions/week01.html#a-crise-da-perda-de-biodiversidade",
-    "href": "sessions/week01.html#a-crise-da-perda-de-biodiversidade",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "8 A Crise da perda de Biodiversidade",
-    "text": "8 A Crise da perda de Biodiversidade\nA perda de biodiversidade é um grande desafio global (Hochkirch et al., 2023; Di Marco et al., 2019). As taxas atuais de extinção estão cerca de 1000 vezes acima da taxa de fundo provável (Pimm et al., 2014).\nUma parte substancial das espécies avaliadas já está ameaçada (Hochkirch et al., 2023; Kumari et al., 2021). Em uma análise de 14.669 espécies europeias, 19% estavam ameaçadas de extinção, com risco maior para plantas (27%) e invertebrados (24%) do que para vertebrados (18%) (Hochkirch et al., 2023). Esses valores excederam estimativas recentes usadas em avaliações globais (Hochkirch et al., 2023).\nO conhecimento disponível ainda cobre apenas uma fração da vida na Terra (Pimm et al., 2014; Isbell et al., 2022). Muitas espécies permanecem não descritas, e apenas cerca de 1% do número estimado de espécies foi avaliado quanto ao risco de extinção pela IUCN nas últimas duas décadas (Pimm et al., 2014; Isbell et al., 2022)."
-  },
-  {
-    "objectID": "sessions/week01.html#principais-vetores-de-extinção",
-    "href": "sessions/week01.html#principais-vetores-de-extinção",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "9 Principais vetores de extinção",
-    "text": "9 Principais vetores de extinção\nMudanças nas práticas agrícolas, perda de habitat associada, sobre-exploração, poluição e desenvolvimento estão entre as principais ameaças à biodiversidade (Hochkirch et al., 2023). Em sínteses mais amplas, a expansão agropecuária, fragmentação, espécies invasoras, monoculturas, poluição e mudança climática aparecem de forma recorrente como motores da erosão da biodiversidade (Kumari et al., 2021; Legge et al., 2023).\nA perda de habitat é um dos vetores mais consistentes da crise atual (Gonçalves-Souza et al., 2020). O desmatamento aumentou substancialmente a chance de vertebrados serem classificados como ameaçados, sofrerem reclassificação recente para categorias mais severas ou apresentarem populações em declínio (Betts et al., 2017).\nEsse efeito não se restringe a paisagens já muito fragmentadas (Betts et al., 2017). Em paisagens relativamente intactas, mesmo perdas pequenas de floresta tiveram consequências severas para a biodiversidade de vertebrados (Betts et al., 2017).\nAs ameaças também interagem entre si (Gonçalves-Souza et al., 2020). Habitat loss combinada com outros estressores pode produzir mais extinções do que a soma simples dos impactos individuais, o que torna previsões baseadas em um único fator potencialmente conservadoras (Gonçalves-Souza et al., 2020)."
-  },
-  {
-    "objectID": "sessions/week01.html#proteção-lacunas-e-prioridades",
-    "href": "sessions/week01.html#proteção-lacunas-e-prioridades",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "10 Proteção, Lacunas e Prioridades",
-    "text": "10 Proteção, Lacunas e Prioridades\nEmbora tenha havido expansão rápida de áreas protegidas, essa rede ainda não representa a biodiversidade de forma ótima (Pimm et al., 2014). Em projeções globais por ecorregiões, houve baixa sobreposição entre previsões de extinção e a distribuição atual de áreas protegidas (Gonçalves-Souza et al., 2020).\nAnálises em larga escala sugerem que a ameaça futura está concentrada em algumas localidades megadiversas, inclusive fora dos hotspots clássicos (Gonçalves-Souza et al., 2020). Isso indica que estratégias de conservação precisam combinar vulnerabilidade atual, endemismo, irreplaceabilidade e tendências de transformação do uso da terra (Gonçalves-Souza et al., 2020).\nAs áreas selvagens remanescentes também são centrais para a persistência da biodiversidade (Di Marco et al., 2019). O risco de extinção em comunidades dentro de áreas wilderness foi, em média, menos da metade do observado fora delas (Di Marco et al., 2019). Apesar disso, essas áreas seguem pouco protegidas e exigem retenção direcionada, em paralelo à restauração de ambientes degradados (Di Marco et al., 2019)."
-  },
-  {
-    "objectID": "sessions/week01.html#dimensões-emergentes",
-    "href": "sessions/week01.html#dimensões-emergentes",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "11 Dimensões Emergentes",
-    "text": "11 Dimensões Emergentes\nA literatura recente mostra que biodiversidade não deve ser reduzida aos três níveis clássicos, embora eles permaneçam a base conceitual mais estável (Liu et al., 2024; Cordero‐Rivera, 2017). Diversidade funcional, filogenética e comportamental ampliam a capacidade de detectar diferenças ecologicamente relevantes entre comunidades (Cordero‐Rivera, 2017; Karahan et al., 2025).\nA proposta de etnodiversidade argumenta que a variação comportamental é parte negligenciada, mas ecologicamente importante, da biodiversidade (Cordero‐Rivera, 2017). Segundo essa perspectiva, conservar biodiversidade exige ir além da contagem de genes, espécies e ecossistemas, incorporando explicitamente componentes comportamentais (Cordero‐Rivera, 2017).\n\n\n\n\n\n\nDicaSíntese para a Aula\n\n\n\nBiodiversidade é um conceito multinível, multidimensional e escalonado. A mensagem central é que genes, espécies, populações, comunidades e ecossistemas variam conjuntamente, mas nem sempre de forma concordante. Também é essencial deixar claro que a biodiversidade não é apenas um inventário naturalista, mas um componente estrutural do funcionamento dos ecossistemas e do bem-estar humano . Por fim, a crise contemporânea de perda biológica é rápida, espacialmente desigual e impulsionada por múltiplos vetores antrópicos, o que exige conservação integrada e baseada em diferentes dimensões da diversidade."
-  },
-  {
-    "objectID": "sessions/week01.html#references",
-    "href": "sessions/week01.html#references",
-    "title": "Semana 1 — Introdução à Biodiversidade",
-    "section": "12 References",
-    "text": "12 References\nBetts, M., Wolf, C., Ripple, W., Phalan, B., Millers, K. A., Duarte, A., Butchart, S., & Levi, T. (2017). Global forest loss disproportionately erodes biodiversity in intact landscapes. Nature, 547, 441-444. https://doi.org/10.1038/nature23285\nCoates, D., Byrne, M., & Moritz, C. (2018). Genetic Diversity and Conservation Units: Dealing With the Species-Population Continuum in the Age of Genomics. Frontiers in Ecology and Evolution. https://doi.org/10.3389/fevo.2018.00165\nCordero‐Rivera, A. (2017). Behavioral Diversity (Ethodiversity): A Neglected Level in the Study of Biodiversity. Frontiers in Ecology and Evolution, 5. https://doi.org/10.3389/fevo.2017.00007\nDi Marco, M., Ferrier, S., Harwood, T., Hoskins, A., & Watson, J. (2019). Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature, 573, 582 - 585. https://doi.org/10.1038/s41586-019-1567-7\nFargeot, L., Poésy, C., Lefort, M., Prunier, J. G., Krick, M., Verdonck, R., Veyssière, C., Richard, M., Legrand, D., Loot, G., & Blanchet, S. (2025). Genetic diversity affects ecosystem functions across trophic levels as much as species diversity, but in an opposite direction. eLife, 13. https://doi.org/10.1101/2024.03.27.586944\nGaggiotti, O., Chao, A., Peres‐Neto, P., Chiu, C., Edwards, C., Fortin, M., Jost, L., Richards, C., & Selkoe, K. (2018). Diversity from genes to ecosystems: A unifying framework to study variation across biological metrics and scales. Evolutionary Applications, 11, 1176 - 1193. https://doi.org/10.1111/eva.12593\nGonçalves-Souza, D., Verburg, P., & Dobrovolski, R. (2020). Habitat loss, extinction predictability and conservation efforts in the terrestrial ecoregions. Biological Conservation. https://doi.org/10.1016/j.biocon.2020.108579\nGuo, G. (2022). Review of Habitat Loss and Biodiversity in Poyang Lake Region. Proceedings of the 2022 International Conference on Urban Planning and Regional Economy（UPRE 2022）. https://doi.org/10.2991/aebmr.k.220502.096\nHochkirch, A., Bilz, M., Ferreira, C., Danielczak, A., Allen, D., Nieto, A., Rondinini, C., Harding, K., Hilton‐Taylor, C., Pollock, C., Seddon, M., Vié, J., Alexander, K., Beech, E., Biscoito, M., Braud, Y., Burfield, I., Buzzetti, F. M., Cálix, M., . . . Zuna-Kratky, T. (2023). A multi-taxon analysis of European Red Lists reveals major threats to biodiversity. PLOS ONE, 18. https://doi.org/10.1371/journal.pone.0293083\nIsbell, F., Balvanera, P., Mori, A. S., He, J., Bullock, J., Regmi, G. R., Seabloom, E., Ferrier, S., Sala, O., Guerrero‐Ramírez, N. R., Tavella, J., Larkin, D., Schmid, B., Outhwaite, C. L., Pramual, P., Borer, E., Loreau, M., Omotoriogun, T., Obura, D., . . . Palmer, M. (2022). Expert perspectives on global biodiversity loss and its drivers and impacts on people. Frontiers in Ecology and the Environment. https://doi.org/10.1002/fee.2536\nJohnson, C. N., Balmford, A., Brook, B., Buettel, J., Galetti, M., Lei, G., & Wilmshurst, J. (2017). Biodiversity losses and conservation responses in the Anthropocene. Science, 356, 270 - 275. https://doi.org/10.1126/science.aam9317\nKarahan, A., Durgut, B., Iannucci, S., Turicchia, E., Ponti, M., Ivanova, P., Dzhembekova, N., & Rinkevich, B. (2025). MAF biodiversity measurements: Species, ecosystem, and genetic. Open Research Europe. https://doi.org/10.12688/openreseurope.20835.1\nKumari, R., A., D., & Bhatnagar, S. (2021). Biodiversity Loss: Threats and Conservation Strategies. International Journal of Pharmaceutical Sciences Review and Research. https://doi.org/10.47583/ijpsrr.2021.v68i01.037\nLegge, S., Rumpff, L., Garnett, S., & Woinarski, J. (2023). Loss of terrestrial biodiversity in Australia: Magnitude, causation, and response. Science, 381, 622 - 631. https://doi.org/10.1126/science.adg7870\nLiu, Y., Wang, J., Wu, Z., Li, S., & Dai, W. (2024). Identification of biodiversity priority conservation areas in China by integrating genetic, species and ecosystem diversity. Biological Conservation. https://doi.org/10.1016/j.biocon.2024.110854\nMoreno, C. (2001). Métodos para medir la biodiversidad.\nPimm, S., Jenkins, C. N., Abell, R., Brooks, T., Gittleman, J. L., Joppa, L., Raven, P., Roberts, C., & Sexton, J. (2014). The biodiversity of species and their rates of extinction, distribution, and protection. Science, 344. https://doi.org/10.1126/science.1246752\nWang, E. T., & Young, J. (2019). History of Rhizobial Taxonomy. Ecology and Evolution of Rhizobia. https://doi.org/10.1007/978-981-32-9555-1_2"
-  },
-  {
     "objectID": "sessions/semana02_resumo.html",
     "href": "sessions/semana02_resumo.html",
     "title": "Semana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas",
@@ -1659,304 +1813,94 @@
     "text": "Referências\n\n\nBenone, N. C., e L. F. A. Montag. 2020. “Métodos Quantitativos para Mensurar a Diversidade Taxonômica em Peixes de Riacho”. Oecologia Australis. https://revistas.ufrj.br/index.php/oa/article/download/398/23881.\n\n\nCaswell, H. 1976. “Community Structure: A Neutral Model Analysis”. Ecological Monographs 46: 327–54. https://doi.org/10.2307/1942257.\n\n\nChesson, Peter. 2000. “Mechanisms of Maintenance of Species Diversity”. Annual Review of Ecology and Systematics 31: 343–66. https://doi.org/10.1146/annurev.ecolsys.31.1.343.\n\n\nDini-Andreote, F., J. Stegen, J. van Elsas, e J. Salles. 2015. “Disentangling Mechanisms that Mediate the Balance Between Stochastic and Deterministic Processes in Microbial Succession”. Proceedings of the National Academy of Sciences 112. https://doi.org/10.1073/pnas.1414261112.\n\n\nGralka, Matti. 2023. “Searching for Principles of Microbial Ecology Across Levels of Biological Organization”. Integrative and Comparative Biology 63: 1520–31. https://doi.org/10.1093/icb/icad060.\n\n\nGuimarães, P. 2020. “The Structure of Ecological Networks Across Levels of Organization”. Annual Review of Ecology, Evolution, and Systematics, publicação prévia em linha. https://doi.org/10.1146/annurev-ecolsys-012220-120819.\n\n\nHilleRisLambers, Janneke, Peter B. Adler, W. Stanley Harpole, Jonathan M. Levine, e Margaret M. Mayfield. 2012. “Rethinking Community Assembly through the Lens of Coexistence Theory”. Annual Review of Ecology, Evolution, and Systematics 43: 227–48. https://doi.org/10.1146/annurev-ecolsys-110411-160411.\n\n\nHorn, H. 1974. “The Ecology of Secondary Succession”. Annual Review of Ecology and Systematics 5: 25–37. https://doi.org/10.1146/annurev.es.05.110174.000325.\n\n\nHubbell, Stephen P. 2001. The Unified Neutral Theory of Biodiversity and Biogeography. Princeton University Press.\n\n\nMorrow, Katie. 2024. “Neutral and Niche Theory in Community Ecology: A Framework for Comparing Model Realism”. Biology & Philosophy 39. https://doi.org/10.1007/s10539-024-09941-5.\n\n\nPonisio, Lauren, Fernanda Valdovinos, K. Allhoff, et al. 2019. “A Network Perspective for Community Assembly”. Frontiers in Ecology and Evolution, publicação prévia em linha. https://doi.org/10.3389/fevo.2019.00103.\n\n\nRicklefs, Robert E., e Rick Relyea. 2021. A Economia da Natureza. 8º ed. Gen/Guanabara Koogan.\n\n\nSaavedra, Serguei. 2026. “The Feasibility Principle in Community Ecology”. Oikos 2026. https://doi.org/10.1002/oik.11355.\n\n\nVellend, Mark. 2010. “Conceptual Synthesis in Community Ecology”. The Quarterly Review of Biology 85 (2): 183–206. https://doi.org/10.1086/652373.\n\n\nVellend, Mark. 2016. The Theory of Ecological Communities. Monographs em Population Biology, 57. Princeton University Press. https://doi.org/10.1515/9781400883790.\n\n\nWikipédia, a enciclopédia livre. 2026. Ecologia de Comunidades. Verbete online. https://pt.wikipedia.org/wiki/Ecologia_de_comunidades.\n\n\nWilson, D. 1997. “Biological Communities as Functionally Organized Units”. Ecology 78: 2018–24. https://doi.org/10.1890/0012-9658(1997)078[2018:bcafou]2.0.co;2."
   },
   {
-    "objectID": "slides/semana02_slides.html",
-    "href": "slides/semana02_slides.html",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
+    "objectID": "sessions/week01.html",
+    "href": "sessions/week01.html",
+    "title": "Semana 1 — Introdução à Biodiversidade",
     "section": "",
-    "text": "Aula 1 — Biodiversidade (genética, taxonômica, funcional)\nAula 2 (hoje) — Bases teóricas: a síntese de Vellend\nAula 3 — Sucessão ecológica\nAula 4 — Comunidades no tempo (biogeografia)\nAula 5 — Diversidade alfa, beta e gama\nAula 6 — Clima, solo e vegetação\nAula 7 — Estados alternativos estáveis"
+    "text": "Slides da Aula"
   },
   {
-    "objectID": "slides/semana02_slides.html#onde-estamos-no-curso",
-    "href": "slides/semana02_slides.html#onde-estamos-no-curso",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "",
-    "text": "Aula 1 — Biodiversidade (genética, taxonômica, funcional)\nAula 2 (hoje) — Bases teóricas: a síntese de Vellend\nAula 3 — Sucessão ecológica\nAula 4 — Comunidades no tempo (biogeografia)\nAula 5 — Diversidade alfa, beta e gama\nAula 6 — Clima, solo e vegetação\nAula 7 — Estados alternativos estáveis"
+    "objectID": "sessions/week01.html#introdução",
+    "href": "sessions/week01.html#introdução",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "1 Introdução",
+    "text": "1 Introdução\nBiodiversidade é a variedade da vida em diferentes níveis de organização, dos genes aos ecossistemas, e constitui um conceito central para as ciências da vida e para a conservação (Gaggiotti et al., 2018; Boudouresque, 2014; Moreno, 2001). As definições mais aceitas convergem para três níveis fundamentais — diversidade genética, diversidade de espécies e diversidade de ecossistemas — embora vários autores também defendam a inclusão explícita de dimensões funcionais, filogenéticas e comportamentais (Liu et al., 2024; Coates et al., 2018; Cordero‐Rivera, 2017; Boudouresque, 2014).\nA biodiversidade é um conceito hierárquico e multidimensional, e isso torna inadequado descrevê-la por uma única métrica (Gaggiotti et al., 2018; Boudouresque, 2014). Diferentes medidas capturam componentes distintos da variação biológica, de modo que avaliações robustas dependem de abordagens integradas (Gaggiotti et al., 2018; Boudouresque, 2014; Karahan et al., 2025)."
   },
   {
-    "objectID": "slides/semana02_slides.html#o-problema-uma-disciplina-fragmentada",
-    "href": "slides/semana02_slides.html#o-problema-uma-disciplina-fragmentada",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "O problema: uma disciplina fragmentada",
-    "text": "O problema: uma disciplina fragmentada\n\nDezenas de modelos concorrentes: nicho, neutralidade, metacomunidades, perturbação intermediária…\nCada sistema de estudo parecia exigir uma nova explicação ad hoc\nPouca comunicação entre subáreas\n\n\n“Community ecology is often perceived as a mess” [@vellend2016]"
+    "objectID": "sessions/week01.html#o-conceito-de-biodiversidade",
+    "href": "sessions/week01.html#o-conceito-de-biodiversidade",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "2 O Conceito de Biodiversidade",
+    "text": "2 O Conceito de Biodiversidade\n\nO uso moderno do termo biodiversidade se consolidou a partir da década de 1980 (Wang & Young, 2019). Desde então, o conceito passou a funcionar como um meta-conceito, reunindo hierarquias ecológicas, genéticas e taxonômicas, além de implicações éticas, políticas e sociais (Cordero‐Rivera, 2017).\nMesmo quando há acordo sobre os três níveis clássicos, permanece importante reconhecer que a biodiversidade não é apenas contagem de espécies (Kumari et al., 2021; Wang & Young, 2019). A diversidade de espécies envolve tanto riqueza quanto equidade de abundâncias, e a diversidade em níveis superiores também depende da organização funcional e espacial dos sistemas biológicos (Wang & Young, 2019; Moreno, 2001)."
   },
   {
-    "objectID": "slides/semana02_slides.html#a-proposta-de-vellend",
-    "href": "slides/semana02_slides.html#a-proposta-de-vellend",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "A proposta de Vellend",
-    "text": "A proposta de Vellend\nEcologia de comunidades e genética de populações compartilham o mesmo problema central:\n\nvariação na composição e abundância de variantes biológicas no espaço e no tempo [@vellend2010]\n\nA genética de populações já resolveu esse problema com quatro processos. Por que não a ecologia de comunidades?"
+    "objectID": "sessions/week01.html#níveis-da-biodiversidade",
+    "href": "sessions/week01.html#níveis-da-biodiversidade",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "3 Níveis da Biodiversidade",
+    "text": "3 Níveis da Biodiversidade\nA tabela a seguir resume os níveis mais usados na literatura.\n\n\n\n\n\n\n\n\nNível\nDefinição sintética\nExemplo de foco analítico\n\n\n\n\nGenético\nVariação de genes e alelos dentro e entre populações\nPolimorfismos, estrutura populacional, adaptação (Kumari et al., 2021; Wang & Young, 2019)\n\n\nTaxonômico\nVariação na composição, número e na abundância relativa de espécies\nRiqueza, equidade, composição (Wang & Young, 2019; Moreno, 2001)\n\n\nEcossistemas\nVariação entre habitats, comunidades e processos ecológicos\nPaisagens, habitats, fluxos bióticos e abióticos (Guo, 2022; Moreno, 2001)\n\n\nFuncional\nVariação as funhções ecológicas e traços das espécies\nTraços funcionais, redundância, funcionamento (Karahan et al., 2025)\n\n\nFilogenética\nVariação na história evolutiva entre linhagens\nDistância evolutiva, endemismo filogenético (Liu et al., 2024; Cordero‐Rivera, 2017)\n\n\nComportamental\nVariação de traços comportamentais em múltiplos níveis\nPlasticidade, personalidade, estratégias reprodutivas (Cordero‐Rivera, 2017)\n\n\n\n\nFigura 1: Níveis clássicos e extensões contemporâneas do conceito de biodiversidade.\nA diversidade genética descreve a variabilidade hereditária dentro das espécies e é essencial para adaptação e persistência populacional (Coates et al., 2018; Kumari et al., 2021; Wang & Young, 2019). Populações com maior diversidade genética tendem a manter mais alelos e, portanto, maior capacidade de responder a mudanças ambientais (Wang & Young, 2019; Kumari et al., 2021).\nA diversidade de espécies continua sendo a medida mais usada em ecologia e conservação, porque espécies são unidades amplamente comunicáveis e operacionais para monitoramento e política pública (Coates et al., 2018). Ainda assim, essa ênfase pode obscurecer variação importante abaixo do nível de espécie, como populações historicamente isoladas e unidades evolutivamente significativas (Coates et al., 2018).\nA diversidade de ecossistemas trata da variação entre habitats, comunidades e processos dentro da biosfera (Guo, 2022; Wang & Young, 2019). Ela depende da interação entre diversidade genética e de espécies, além de fatores ambientais e históricos (Wang & Young, 2019; Guo, 2022)."
   },
   {
-    "objectID": "slides/semana02_slides.html#a-analogia-estrutural",
-    "href": "slides/semana02_slides.html#a-analogia-estrutural",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "A analogia estrutural",
-    "text": "A analogia estrutural\n\n\n\nGenética de populações\nEcologia de comunidades\n\n\n\n\nSeleção (intraespecífica)\nSeleção (entre espécies)\n\n\nDeriva genética\nDeriva ecológica\n\n\nFluxo gênico\nDispersão\n\n\nMutação\nEspeciação\n\n\n\n\nJuntos, esses quatro processos subsumem quase todos os modelos específicos da ecologia de comunidades [@vellend2016]."
+    "objectID": "sessions/week01.html#por-que-a-biodiversidade-importa",
+    "href": "sessions/week01.html#por-que-a-biodiversidade-importa",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "4 Por que a Biodiversidade importa?",
+    "text": "4 Por que a Biodiversidade importa?\nA biodiversidade sustenta resiliência ecológica e serviços essenciais como alimento e água limpa (Karahan et al., 2025). Também é amplamente considerada essencial ao bem-estar humano (Johnson et al., 2017).\nHá forte consenso de que a perda de biodiversidade reduz o funcionamento dos ecossistemas e as contribuições da natureza para as pessoas (Isbell et al., 2022). Em julgamento de especialistas, a ameaça ou extinção global de espécies foi associada a reduções de cerca de 10% a 70% no funcionamento ecossistêmico e nas contribuições da natureza, com grande incerteza sobre a magnitude exata (Isbell et al., 2022).\nA relação entre biodiversidade e funcionamento também não se restringe à diversidade de espécies (Kumari et al., 2021; Fargeot et al., 2025). Em ecossistemas aquáticos naturais, o efeito absoluto da diversidade genética sobre funções ecossistêmicas foi semelhante ao da diversidade de espécies, embora com direção oposta nas correlações observadas nesse estudo (Fargeot et al., 2025). Esses resultados reforçam a necessidade de integrar dimensões múltiplas da biodiversidade ao prever consequências ecológicas da perda biológica (Fargeot et al., 2025)."
   },
   {
-    "objectID": "slides/semana02_slides.html#processo-1-seleção",
-    "href": "slides/semana02_slides.html#processo-1-seleção",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Processo 1: Seleção",
-    "text": "Processo 1: Seleção\n\nDefinição: diferenças determinísticas de fitness\nTrês formas principais:\n\nSeleção constante: uma espécie sempre “ganha”\nSeleção dependente da densidade : favorece coexistência estável\nSeleção variável no espaço/tempo: permite coexistência via trade-offs"
+    "objectID": "sessions/week01.html#como-a-biodiversidade-é-medida",
+    "href": "sessions/week01.html#como-a-biodiversidade-é-medida",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "5 Como a Biodiversidade é medida?",
+    "text": "5 Como a Biodiversidade é medida?\nA ausência de métricas padronizadas e consistentes entre níveis biológicos ainda dificulta estudos verdadeiramente integrativos (Gaggiotti et al., 2018; Moreno, 2001; Gaggiotti et al., 2018). Parte desse problema vem do desenvolvimento histórico separado entre ecologia de comunidades e genética de populações (Gaggiotti et al., 2018).\nNo nível de espécies, a literatura distingue diversidade alfa, beta e gama (Kumari et al., 2021; Moreno, 2001). A diversidade alfa descreve a diversidade dentro de uma comunidade, a beta expressa mudanças de composição entre comunidades e a gama representa a diversidade total em uma paisagem ou região (Kumari et al., 2021; Moreno, 2001).\nÍndices distintos enfatizam propriedades diferentes da comunidade (Moreno, 2001). Por isso, um mesmo impacto pode aumentar a diversidade alfa e reduzir a diversidade gama, ou gerar padrões discordantes entre riqueza de espécies e diversidade em níveis taxonômicos mais altos.\nAbordagens recentes propõem estruturas unificadoras capazes de medir biodiversidade de genes a ecossistemas com comportamento matemático consistente (Gaggiotti et al., 2018). Esse tipo de framework foi desenvolvido justamente para superar a fragmentação entre métricas genéticas, taxonômicas, funcionais e ecológicas (Gaggiotti et al., 2018)."
   },
   {
-    "objectID": "slides/semana02_slides.html#processo-2-deriva-ecológica",
-    "href": "slides/semana02_slides.html#processo-2-deriva-ecológica",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "Processo 2 — Deriva ecológica",
-    "text": "Processo 2 — Deriva ecológica\n\nMudanças estocásticas de abundância, mesmo entre espécies ecologicamente equivalentes\nBase da teoria neutra da biodiversidade [@hubbell2001]\nMais forte em comunidades pequenas → maior chance de extinção local aleatória"
+    "objectID": "sessions/week01.html#escalas-distribuição-e-hotspots",
+    "href": "sessions/week01.html#escalas-distribuição-e-hotspots",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "6 Escalas, Distribuição e Hotspots",
+    "text": "6 Escalas, Distribuição e Hotspots\nA biodiversidade é distribuída de forma desigual no planeta (Kumari et al., 2021). Essa heterogeneidade espacial motivou a delimitação de hotspots, áreas com alto endemismo e forte perda de habitat (Kumari et al., 2021; Gonçalves-Souza et al., 2020).\nA desigualdade espacial também aparece entre níveis de biodiversidade (Liu et al., 2024). Áreas com maior diversidade genética, de espécies e de ecossistemas não coincidem necessariamente, o que implica que estratégias baseadas em um único componente podem falhar em representar a biodiversidade de forma abrangente (Liu et al., 2024).\nEm análises recentes de planejamento sistemático, a integração de múltiplos indicadores — riqueza de espécies, endemismo, diversidade filogenética, distintividade evolutiva, endemismo filogenético e valor de serviços ecossistêmicos — foi usada para identificar áreas prioritárias de conservação de forma mais completa (Liu et al., 2024). Isso reforça que a biodiversidade relevante para conservação é multicritério, não apenas taxonômica."
   },
   {
-    "objectID": "slides/semana02_slides.html#processo-3-dispersão",
-    "href": "slides/semana02_slides.html#processo-3-dispersão",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "Processo 3 — Dispersão",
-    "text": "Processo 3 — Dispersão\n\nMovimento de organismos/propágulos no espaço\nIntroduz espécies vindas do pool regional\nTaxas altas → homogeneização (mass effect)\nTaxas baixas → isolamento, divergência entre comunidades\nConecta com biogeografia de ilhas e redes ecológicas [@ponisio2019; @guimaraes2020]"
+    "objectID": "sessions/week01.html#biodiversidade-e-conservação",
+    "href": "sessions/week01.html#biodiversidade-e-conservação",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "7 Biodiversidade e Conservação",
+    "text": "7 Biodiversidade e Conservação\nA política internacional reconhece explicitamente os níveis genético, de espécies e de ecossistemas como alvos de conservação (Coates et al., 2018). Na prática, porém, a gestão ainda se apoia sobretudo em espécies, áreas geográficas e comunidades ecológicas, com menor atenção à diversidade genética (Coates et al., 2018).\nEssa assimetria é importante porque muitas espécies reconhecidas não são geneticamente homogêneas (Coates et al., 2018). Linhagens profundas e populações historicamente isoladas podem carregar diversidade única, e sua perda aumenta o risco de extinção críptica (Coates et al., 2018).\nAo mesmo tempo, dados genômicos trazem uma tensão metodológica: eles aumentam muito a resolução sobre estrutura populacional, mas também podem levar a sobredelimitação de espécies se forem interpretados sem cautela (Coates et al., 2018). A literatura recomenda interpretar esses dados de forma conservadora e fortalecer a identificação de unidades intraespecíficas bem justificadas para conservação (Coates et al., 2018)."
   },
   {
-    "objectID": "slides/semana02_slides.html#processo-4-especiação",
-    "href": "slides/semana02_slides.html#processo-4-especiação",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "Processo 4 — Especiação",
-    "text": "Processo 4 — Especiação\n\nOrigem de novas espécies (in situ ou alhures + dispersão)\nEscala de tempo tipicamente mais longa\nSem especiação, não há variação biológica nova para seleção e deriva atuarem"
+    "objectID": "sessions/week01.html#a-crise-da-perda-de-biodiversidade",
+    "href": "sessions/week01.html#a-crise-da-perda-de-biodiversidade",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "8 A Crise da perda de Biodiversidade",
+    "text": "8 A Crise da perda de Biodiversidade\nA perda de biodiversidade é um grande desafio global (Hochkirch et al., 2023; Di Marco et al., 2019). As taxas atuais de extinção estão cerca de 1000 vezes acima da taxa de fundo provável (Pimm et al., 2014).\nUma parte substancial das espécies avaliadas já está ameaçada (Hochkirch et al., 2023; Kumari et al., 2021). Em uma análise de 14.669 espécies europeias, 19% estavam ameaçadas de extinção, com risco maior para plantas (27%) e invertebrados (24%) do que para vertebrados (18%) (Hochkirch et al., 2023). Esses valores excederam estimativas recentes usadas em avaliações globais (Hochkirch et al., 2023).\nO conhecimento disponível ainda cobre apenas uma fração da vida na Terra (Pimm et al., 2014; Isbell et al., 2022). Muitas espécies permanecem não descritas, e apenas cerca de 1% do número estimado de espécies foi avaliado quanto ao risco de extinção pela IUCN nas últimas duas décadas (Pimm et al., 2014; Isbell et al., 2022)."
   },
   {
-    "objectID": "slides/semana02_slides.html#síntese-em-uma-frase",
-    "href": "slides/semana02_slides.html#síntese-em-uma-frase",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "Síntese em uma frase",
-    "text": "Síntese em uma frase\n\nEspécies são adicionadas por especiação e dispersão; suas abundâncias relativas são moldadas por deriva e seleção, com dispersão contínua sustentando a dinâmica [@vellend2010]."
+    "objectID": "sessions/week01.html#principais-vetores-de-extinção",
+    "href": "sessions/week01.html#principais-vetores-de-extinção",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "9 Principais vetores de extinção",
+    "text": "9 Principais vetores de extinção\nMudanças nas práticas agrícolas, perda de habitat associada, sobre-exploração, poluição e desenvolvimento estão entre as principais ameaças à biodiversidade (Hochkirch et al., 2023). Em sínteses mais amplas, a expansão agropecuária, fragmentação, espécies invasoras, monoculturas, poluição e mudança climática aparecem de forma recorrente como motores da erosão da biodiversidade (Kumari et al., 2021; Legge et al., 2023).\nA perda de habitat é um dos vetores mais consistentes da crise atual (Gonçalves-Souza et al., 2020). O desmatamento aumentou substancialmente a chance de vertebrados serem classificados como ameaçados, sofrerem reclassificação recente para categorias mais severas ou apresentarem populações em declínio (Betts et al., 2017).\nEsse efeito não se restringe a paisagens já muito fragmentadas (Betts et al., 2017). Em paisagens relativamente intactas, mesmo perdas pequenas de floresta tiveram consequências severas para a biodiversidade de vertebrados (Betts et al., 2017).\nAs ameaças também interagem entre si (Gonçalves-Souza et al., 2020). Habitat loss combinada com outros estressores pode produzir mais extinções do que a soma simples dos impactos individuais, o que torna previsões baseadas em um único fator potencialmente conservadoras (Gonçalves-Souza et al., 2020)."
   },
   {
-    "objectID": "slides/semana02_slides.html#os-processos-interagem-exemplo-microbiano",
-    "href": "slides/semana02_slides.html#os-processos-interagem-exemplo-microbiano",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "Os processos interagem — exemplo microbiano",
-    "text": "Os processos interagem — exemplo microbiano\nSucessão em sedimentos recém-formados [@dinilandreote2015]:\n\n\nEstágios iniciais → deriva e dispersão dominam\nEstágios tardios → seleção ganha peso (ambiente físico-químico se estabiliza)\nDialoga com a ecologia clássica de sucessão [@horn1974]"
+    "objectID": "sessions/week01.html#proteção-lacunas-e-prioridades",
+    "href": "sessions/week01.html#proteção-lacunas-e-prioridades",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "10 Proteção, Lacunas e Prioridades",
+    "text": "10 Proteção, Lacunas e Prioridades\nEmbora tenha havido expansão rápida de áreas protegidas, essa rede ainda não representa a biodiversidade de forma ótima (Pimm et al., 2014). Em projeções globais por ecorregiões, houve baixa sobreposição entre previsões de extinção e a distribuição atual de áreas protegidas (Gonçalves-Souza et al., 2020).\nAnálises em larga escala sugerem que a ameaça futura está concentrada em algumas localidades megadiversas, inclusive fora dos hotspots clássicos (Gonçalves-Souza et al., 2020). Isso indica que estratégias de conservação precisam combinar vulnerabilidade atual, endemismo, irreplaceabilidade e tendências de transformação do uso da terra (Gonçalves-Souza et al., 2020).\nAs áreas selvagens remanescentes também são centrais para a persistência da biodiversidade (Di Marco et al., 2019). O risco de extinção em comunidades dentro de áreas wilderness foi, em média, menos da metade do observado fora delas (Di Marco et al., 2019). Apesar disso, essas áreas seguem pouco protegidas e exigem retenção direcionada, em paralelo à restauração de ambientes degradados (Di Marco et al., 2019)."
   },
   {
-    "objectID": "slides/semana02_slides.html#diálogo-com-outras-teorias",
-    "href": "slides/semana02_slides.html#diálogo-com-outras-teorias",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "Diálogo com outras teorias",
-    "text": "Diálogo com outras teorias\n\nChesson (2000) — mecanismos estabilizadores/equalizadores → dentro de seleção [@chesson2000]\nHubbell (2001) — equivalência ecológica → deriva + dispersão limitada [@hubbell2001]\nHilleRisLambers et al. (2012) — teoria de coexistência aplicada à montagem [@hillerislambers2012]\nWilson (1997) — comunidades como unidades funcionalmente organizadas [@wilson1997]\nCaswell (1976) — modelos neutros como linha de base estatística [@caswell1976]"
+    "objectID": "sessions/week01.html#dimensões-emergentes",
+    "href": "sessions/week01.html#dimensões-emergentes",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "11 Dimensões Emergentes",
+    "text": "11 Dimensões Emergentes\nA literatura recente mostra que biodiversidade não deve ser reduzida aos três níveis clássicos, embora eles permaneçam a base conceitual mais estável (Liu et al., 2024; Cordero‐Rivera, 2017). Diversidade funcional, filogenética e comportamental ampliam a capacidade de detectar diferenças ecologicamente relevantes entre comunidades (Cordero‐Rivera, 2017; Karahan et al., 2025).\nA proposta de etnodiversidade argumenta que a variação comportamental é parte negligenciada, mas ecologicamente importante, da biodiversidade (Cordero‐Rivera, 2017). Segundo essa perspectiva, conservar biodiversidade exige ir além da contagem de genes, espécies e ecossistemas, incorporando explicitamente componentes comportamentais (Cordero‐Rivera, 2017).\n\n\n\n\n\n\nDicaSíntese para a Aula\n\n\n\nBiodiversidade é um conceito multinível, multidimensional e escalonado. A mensagem central é que genes, espécies, populações, comunidades e ecossistemas variam conjuntamente, mas nem sempre de forma concordante. Também é essencial deixar claro que a biodiversidade não é apenas um inventário naturalista, mas um componente estrutural do funcionamento dos ecossistemas e do bem-estar humano . Por fim, a crise contemporânea de perda biológica é rápida, espacialmente desigual e impulsionada por múltiplos vetores antrópicos, o que exige conservação integrada e baseada em diferentes dimensões da diversidade."
   },
   {
-    "objectID": "slides/semana02_slides.html#ferramentas-quantitativas-atuais",
-    "href": "slides/semana02_slides.html#ferramentas-quantitativas-atuais",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "Ferramentas quantitativas atuais",
-    "text": "Ferramentas quantitativas atuais\n\nDomínios de viabilidade de comunidades [@saavedra2026]\nEstrutura de redes ecológicas multiníveis [@guimaraes2020]\nPrincípios gerais em múltiplos níveis de organização [@gralka2023]\nAplicação a peixes de riacho no Brasil [@benonemontag2020]"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#relevância-para-conservação",
-    "href": "slides/semana02_slides.html#relevância-para-conservação",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "Relevância para conservação",
-    "text": "Relevância para conservação\n\n\nDiagnosticar causa da perda de diversidade (filtro ambiental × fragmentação × conectividade)\nDesenho de corredores ecológicos = decisão sobre taxa de dispersão\nExpectativas realistas de restauração ecológica (trajetória sucessional)\nPriorização de áreas via viabilidade de comunidades"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#limitações-da-síntese",
-    "href": "slides/semana02_slides.html#limitações-da-síntese",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "Limitações da síntese",
-    "text": "Limitações da síntese\n\n\nNível de abstração elevado — mecanismos específicos exigem um segundo nível de detalhe\nDifícil quantificar contribuição relativa fora de sistemas microbianos/experimentais\nEspeciação costuma ser tratada como “pano de fundo” em estudos de curto prazo\nIntegração ainda incompleta com estados alternativos estáveis (Aula 7)"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#conectando-com-o-resto-do-curso",
-    "href": "slides/semana02_slides.html#conectando-com-o-resto-do-curso",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "Conectando com o resto do curso",
-    "text": "Conectando com o resto do curso\n\n\n\nAula\nConexão com os 4 processos\n\n\n\n\n3 — Sucessão\nTrajetória temporal do balanço deriva/seleção\n\n\n4 — Biogeografia\nEspeciação e dispersão em escala histórica\n\n\n5 — Alfa/beta/gama\nAssinaturas espaciais dos processos\n\n\n6 — Clima/solo/vegetação\nMecanismos concretos de seleção ambiental"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#para-discutir-em-sala",
-    "href": "slides/semana02_slides.html#para-discutir-em-sala",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "Para discutir em sala",
-    "text": "Para discutir em sala\n\n\nEm um sistema que você conhece, qual processo domina a dinâmica de curto prazo?\nReinterprete um estudo clássico de competição na linguagem de Vellend\nComo separar estatisticamente deriva e dispersão limitada em campo?\nA moldura de Vellend é compatível com comunidades como “unidades funcionais” [@wilson1997]?"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#referências",
-    "href": "slides/semana02_slides.html#referências",
-    "title": "Bases Teóricas para o Estudo de Comunidades Biológicas",
-    "section": "Referências",
-    "text": "Referências"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#o-que-é-uma-comunidade-ecológica",
-    "href": "slides/semana02_slides.html#o-que-é-uma-comunidade-ecológica",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "O que é uma Comunidade Ecológica?",
-    "text": "O que é uma Comunidade Ecológica?\n\n\n\nConjunto de populações de diferentes espécies que coexistem em um local e tempo\nInteragem entre si e com o ambiente\nApresentam estrutura e organização próprias\nSão dinâmicas: mudam ao longo do tempo e espaço\n\n\n\n\n\nRecifes de coral"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#por-que-comparar-comunidades",
-    "href": "slides/semana02_slides.html#por-que-comparar-comunidades",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Por que Comparar Comunidades?",
-    "text": "Por que Comparar Comunidades?\n\n\n\nAvaliar impactos ambientais e perturbações\nMonitorar mudanças ao longo do tempo\nComparar habitats distintos\nEntender padrões de biodiversidade\nEmbasar decisões de conservação"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#a-ecologia-é-uma-bagunça",
-    "href": "slides/semana02_slides.html#a-ecologia-é-uma-bagunça",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "A Ecologia é uma “Bagunça”",
-    "text": "A Ecologia é uma “Bagunça”\n\nNa genética de populações:\n\nSeleção — mudanças nas frequências alélicas\nDeriva — mudanças estocásticas\nMutação — fonte de nova variação\nFluxo gênico — entrada/saída de alelos\n\nVellend (2010) propõe uma síntese unificada da disciplina"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#os-4-processos-de-vellend-2010",
-    "href": "slides/semana02_slides.html#os-4-processos-de-vellend-2010",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Os 4 Processos de Vellend (2010)",
-    "text": "Os 4 Processos de Vellend (2010)\n\n\n\nEcologia de Comunidades\nGenética de Populações\n\n\n\n\nSeleção\nSeleção\n\n\nDeriva\nDeriva genética\n\n\nEspeciação\nMutação\n\n\nDispersão\nFluxo gênico\n\n\n\n\nEsses processos não são excludentes — interagem continuamente\nA teoria geral: espécies entram via especiação e dispersão; abundâncias relativas são moldadas por deriva e seleção"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#section",
-    "href": "slides/semana02_slides.html#section",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "",
-    "text": "Espécies são adicionadas via especiação e dispersão; abundâncias relativas são moldadas por deriva e seleção (Vellend 2010)"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#processo-1-seleção-1",
-    "href": "slides/semana02_slides.html#processo-1-seleção-1",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Processo 1: Seleção",
-    "text": "Processo 1: Seleção"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#processo-2-deriva-ecológica-drift",
-    "href": "slides/semana02_slides.html#processo-2-deriva-ecológica-drift",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Processo 2: Deriva Ecológica (Drift)",
-    "text": "Processo 2: Deriva Ecológica (Drift)\n\nDefinição: mudanças estocásticas nas abundâncias relativas das espécies\nHubbell (2001): Teoria Neutra Unificada — bases da deriva ecológica\nImportância da deriva aumenta quando:\n\nComunidades são pequenas\nDiferenças de fitness entre espécies são fracas\nDistúrbios reduzem o tamanho da comunidade"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#processo-2-deriva-ecológica-drift-1",
-    "href": "slides/semana02_slides.html#processo-2-deriva-ecológica-drift-1",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Processo 2: Deriva Ecológica (Drift)",
-    "text": "Processo 2: Deriva Ecológica (Drift)"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#processo-3-especiação",
-    "href": "slides/semana02_slides.html#processo-3-especiação",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Processo 3: Especiação",
-    "text": "Processo 3: Especiação\n\nDefinição: criação de novas espécies\nEquivale à mutação na genética de populações\nDetermina o pool regional de espécies (Div Gama)\nHipótese do pool de espécies (Taylor et al. 1990): habitats mais antigos geram mais espécies adaptadas a eles\nPadrões que dependem de especiação:\n\nBeta Diversidade entre regiões com condições similares\nGradientes de diversidade com altitude, latitude ou produtividade"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#processo-3-especiação-1",
-    "href": "slides/semana02_slides.html#processo-3-especiação-1",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Processo 3: Especiação",
-    "text": "Processo 3: Especiação"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#processo-4-dispersão",
-    "href": "slides/semana02_slides.html#processo-4-dispersão",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Processo 4: Dispersão",
-    "text": "Processo 4: Dispersão\n\nDefinição: movimento de organismos no espaço\n\nEquivale ao fluxo gênico na genética de populações\nConecta comunidades locais → metacomunidades\n\nEfeitos da dispersão dependem de sua interação com seleção e deriva:\n\nDispersão baixa: deriva domina → comunidades divergem\nDispersão moderada: riqueza local é maximizada\nDispersão alta: competidores superiores dominam globalmente → riqueza cai"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#processo-4-dispersão-1",
-    "href": "slides/semana02_slides.html#processo-4-dispersão-1",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Processo 4: Dispersão",
-    "text": "Processo 4: Dispersão"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#interações-entre-os-4-processos",
-    "href": "slides/semana02_slides.html#interações-entre-os-4-processos",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Interações entre os 4 Processos",
-    "text": "Interações entre os 4 Processos\n\nOs 4 processos raramente atuam isoladamente\nPodem ser combinados de 12 formas distintas para gerar modelos\n\n(especiação e dispersão exigem ao menos seleção ou deriva para serem operacionais)\n\nExemplos de interações:\n\nSeleção + Deriva: resultados determinísticos com ruído estocástico\nDeriva + Dispersão: Teoria da Biogeografia de Ilhas (MacArthur & Wilson 1967)\nDeriva + Dispersão + Especiação: Teoria Neutra de Hubbell (2001)\nSeleção + Dispersão: metacomunidades com species sorting e mass effects\nTodos os 4: teoria geral de comunidades (Vellend 2010)"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#interações-entre-os-4-processos-1",
-    "href": "slides/semana02_slides.html#interações-entre-os-4-processos-1",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Interações entre os 4 Processos",
-    "text": "Interações entre os 4 Processos"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#as-12-combinações-de-processos-e-teorias",
-    "href": "slides/semana02_slides.html#as-12-combinações-de-processos-e-teorias",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "As 12 Combinações de Processos e Teorias",
-    "text": "As 12 Combinações de Processos e Teorias\n\n\n\n\n\n\n\n\n\n\n\n\n#\nSel.\nDer.\nEsp.\nDisp.\nTeoria / Modelo\n\n\n\n\n1\n✓\n\n\n\nModelos de nicho (competição por recursos, predador-presa, teias tróficas)\n\n\n2\n\n✓\n\n\nTeoria Neutra I (estocasticidade demográfica)\n\n\n3\n✓\n✓\n\n\nModelos nicho-neutro (qualquer modelo de nicho com estocasticidade)\n\n\n4\n✓\n\n✓\n\nEcologia histórica I (hipótese do pool, gradientes de diversidade)\n\n\n5\n\n✓\n✓\n\nTeoria Neutra II (não espacial)\n\n\n6\n✓\n\n\n✓\nMetacomunidades determinísticas (mass effects, teias tróficas espaciais)\n\n\n7\n\n✓\n\n✓\nBiogeografia de Ilhas (MacArthur & Wilson 1967)\n\n\n8\n✓\n✓\n✓\n\nEcologia histórica II\n\n\n9\n✓\n\n✓\n✓\nEcologia histórica III\n\n\n10\n\n✓\n✓\n✓\nTeoria Neutra IV (espacial — Hubbell 2001)\n\n\n11\n✓\n✓\n\n✓\nMetacomunidades estocásticas (trade-off colonização-competição)\n\n\n12\n✓\n✓\n✓\n✓\nTeoria geral de comunidades (Vellend 2010)"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#padrões-em-comunidades-a-caixa-preta",
-    "href": "slides/semana02_slides.html#padrões-em-comunidades-a-caixa-preta",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Padrões em Comunidades: A “Caixa Preta”",
-    "text": "Padrões em Comunidades: A “Caixa Preta”\n\nOs 4 processos geram padrões amplamente estudados:\n\nRelação espécies-área\nDistribuição de abundâncias relativas\nGradiente latitudinal de diversidade\nRelação diversidade-distância (decaimento de similaridade)\nRelações diversidade-produtividade e diversidade-distúrbio"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#exemplos",
-    "href": "slides/semana02_slides.html#exemplos",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Exemplos",
-    "text": "Exemplos\n\nProblema central: a maioria dos padrões tem múltiplas explicações possíveis\nExemplo: relação espécies-área pode ser explicada por deriva (extinção menor em ilhas grandes), dispersão (maior área = maior alvo), seleção (maior heterogeneidade ambiental) e especiação (mais oportunidades em ilhas grandes)"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#espécie-área",
-    "href": "slides/semana02_slides.html#espécie-área",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Espécie-Área",
-    "text": "Espécie-Área"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#teoria-neutra-de-hubbell-2001",
-    "href": "slides/semana02_slides.html#teoria-neutra-de-hubbell-2001",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Teoria Neutra de Hubbell (2001)",
-    "text": "Teoria Neutra de Hubbell (2001)\n\nCaso especial: apenas Deriva + Dispersão + Especiação (sem seleção)\nPressuposto: todos os indivíduos são ecologicamente equivalentes (neutralidade)\nComunidade local determinada por:\n\nTamanho da metacomunidade (JM)\nTaxa de especiação (ν)\nTaxa de dispersão (m)\n\nContribuição: formalizou a deriva como processo legítimo, não apenas “ruído”"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#teoria-neutra-de-hubbell-2001-1",
-    "href": "slides/semana02_slides.html#teoria-neutra-de-hubbell-2001-1",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Teoria Neutra de Hubbell (2001)",
-    "text": "Teoria Neutra de Hubbell (2001)"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#metacomunidades-dispersão-como-eixo-central",
-    "href": "slides/semana02_slides.html#metacomunidades-dispersão-como-eixo-central",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Metacomunidades: Dispersão como Eixo Central",
-    "text": "Metacomunidades: Dispersão como Eixo Central\n\nMetacomunidade: conjunto de comunidades locais conectadas por dispersão\n\nNeutralidade: deriva + dispersão (sem seleção)\nDinâmica de patches: trade-off colonização-competição\nFiltros: seleção filtra espécies por gradiente ambiental\nEfeitos de massa: dispersão mantém espécies em habitats desfavoráveis\n\nDiversidade beta é a assinatura espacial das metacomunidades"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#metacomunidades-dispersão-como-eixo-central-1",
-    "href": "slides/semana02_slides.html#metacomunidades-dispersão-como-eixo-central-1",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Metacomunidades: Dispersão como Eixo Central",
-    "text": "Metacomunidades: Dispersão como Eixo Central"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#implicações",
-    "href": "slides/semana02_slides.html#implicações",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Implicações",
-    "text": "Implicações\n\nPara o ensino: organiza toda a ecologia de comunidades em torno de 4 processos — mais coerente que listagem de padrões e interações\nPara a pesquisa: permite localizar qualquer teoria na Tabela 2 → evita reinvenção da roda\nPara aplicações: conservação e manejo podem ser guiados por identificar qual processo é dominante:\n\nFragmentação → limita dispersão\nInvasões → alteram seleção\nPerda de habitat → intensifica deriva\nExtinções locais → afetam o pool via especiação\n\nDesafio permanente: inferir processo a partir de padrão — a “caixa preta” continua"
-  },
-  {
-    "objectID": "slides/semana02_slides.html#resumo",
-    "href": "slides/semana02_slides.html#resumo",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Resumo",
-    "text": "Resumo\n\nA ecologia de comunidades tem uma teoria geral\nOs 4 processos são concomitantes\nA teoria geral ecoa a Síntese Moderna da biologia evolutiva\nPadrões têm múltiplas causas — isso não é fraqueza da ecologia, é sua natureza\n\nLeitura complementar:\n\nVellend (2016). The Theory of Ecological Communities. Princeton University Press.\nHubbell (2001). The Unified Neutral Theory of Biodiversity and Biogeography. Princeton.\nHolyoak et al. (2005). Metacommunities. University of Chicago Press."
-  },
-  {
-    "objectID": "slides/semana02_slides.html#fim",
-    "href": "slides/semana02_slides.html#fim",
-    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
-    "section": "Fim",
-    "text": "Fim"
+    "objectID": "sessions/week01.html#references",
+    "href": "sessions/week01.html#references",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "12 References",
+    "text": "12 References\nBetts, M., Wolf, C., Ripple, W., Phalan, B., Millers, K. A., Duarte, A., Butchart, S., & Levi, T. (2017). Global forest loss disproportionately erodes biodiversity in intact landscapes. Nature, 547, 441-444. https://doi.org/10.1038/nature23285\nCoates, D., Byrne, M., & Moritz, C. (2018). Genetic Diversity and Conservation Units: Dealing With the Species-Population Continuum in the Age of Genomics. Frontiers in Ecology and Evolution. https://doi.org/10.3389/fevo.2018.00165\nCordero‐Rivera, A. (2017). Behavioral Diversity (Ethodiversity): A Neglected Level in the Study of Biodiversity. Frontiers in Ecology and Evolution, 5. https://doi.org/10.3389/fevo.2017.00007\nDi Marco, M., Ferrier, S., Harwood, T., Hoskins, A., & Watson, J. (2019). Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature, 573, 582 - 585. https://doi.org/10.1038/s41586-019-1567-7\nFargeot, L., Poésy, C., Lefort, M., Prunier, J. G., Krick, M., Verdonck, R., Veyssière, C., Richard, M., Legrand, D., Loot, G., & Blanchet, S. (2025). Genetic diversity affects ecosystem functions across trophic levels as much as species diversity, but in an opposite direction. eLife, 13. https://doi.org/10.1101/2024.03.27.586944\nGaggiotti, O., Chao, A., Peres‐Neto, P., Chiu, C., Edwards, C., Fortin, M., Jost, L., Richards, C., & Selkoe, K. (2018). Diversity from genes to ecosystems: A unifying framework to study variation across biological metrics and scales. Evolutionary Applications, 11, 1176 - 1193. https://doi.org/10.1111/eva.12593\nGonçalves-Souza, D., Verburg, P., & Dobrovolski, R. (2020). Habitat loss, extinction predictability and conservation efforts in the terrestrial ecoregions. Biological Conservation. https://doi.org/10.1016/j.biocon.2020.108579\nGuo, G. (2022). Review of Habitat Loss and Biodiversity in Poyang Lake Region. Proceedings of the 2022 International Conference on Urban Planning and Regional Economy（UPRE 2022）. https://doi.org/10.2991/aebmr.k.220502.096\nHochkirch, A., Bilz, M., Ferreira, C., Danielczak, A., Allen, D., Nieto, A., Rondinini, C., Harding, K., Hilton‐Taylor, C., Pollock, C., Seddon, M., Vié, J., Alexander, K., Beech, E., Biscoito, M., Braud, Y., Burfield, I., Buzzetti, F. M., Cálix, M., . . . Zuna-Kratky, T. (2023). A multi-taxon analysis of European Red Lists reveals major threats to biodiversity. PLOS ONE, 18. https://doi.org/10.1371/journal.pone.0293083\nIsbell, F., Balvanera, P., Mori, A. S., He, J., Bullock, J., Regmi, G. R., Seabloom, E., Ferrier, S., Sala, O., Guerrero‐Ramírez, N. R., Tavella, J., Larkin, D., Schmid, B., Outhwaite, C. L., Pramual, P., Borer, E., Loreau, M., Omotoriogun, T., Obura, D., . . . Palmer, M. (2022). Expert perspectives on global biodiversity loss and its drivers and impacts on people. Frontiers in Ecology and the Environment. https://doi.org/10.1002/fee.2536\nJohnson, C. N., Balmford, A., Brook, B., Buettel, J., Galetti, M., Lei, G., & Wilmshurst, J. (2017). Biodiversity losses and conservation responses in the Anthropocene. Science, 356, 270 - 275. https://doi.org/10.1126/science.aam9317\nKarahan, A., Durgut, B., Iannucci, S., Turicchia, E., Ponti, M., Ivanova, P., Dzhembekova, N., & Rinkevich, B. (2025). MAF biodiversity measurements: Species, ecosystem, and genetic. Open Research Europe. https://doi.org/10.12688/openreseurope.20835.1\nKumari, R., A., D., & Bhatnagar, S. (2021). Biodiversity Loss: Threats and Conservation Strategies. International Journal of Pharmaceutical Sciences Review and Research. https://doi.org/10.47583/ijpsrr.2021.v68i01.037\nLegge, S., Rumpff, L., Garnett, S., & Woinarski, J. (2023). Loss of terrestrial biodiversity in Australia: Magnitude, causation, and response. Science, 381, 622 - 631. https://doi.org/10.1126/science.adg7870\nLiu, Y., Wang, J., Wu, Z., Li, S., & Dai, W. (2024). Identification of biodiversity priority conservation areas in China by integrating genetic, species and ecosystem diversity. Biological Conservation. https://doi.org/10.1016/j.biocon.2024.110854\nMoreno, C. (2001). Métodos para medir la biodiversidad.\nPimm, S., Jenkins, C. N., Abell, R., Brooks, T., Gittleman, J. L., Joppa, L., Raven, P., Roberts, C., & Sexton, J. (2014). The biodiversity of species and their rates of extinction, distribution, and protection. Science, 344. https://doi.org/10.1126/science.1246752\nWang, E. T., & Young, J. (2019). History of Rhizobial Taxonomy. Ecology and Evolution of Rhizobia. https://doi.org/10.1007/978-981-32-9555-1_2"
   }
 ]
