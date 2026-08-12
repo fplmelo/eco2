@@ -1,0 +1,206 @@
+---
+title: "Semana 4 — Introdução à Biogeografia"
+subtitle: "Padrões de distribuição e magnitude da biodiversidade na Terra"
+author: "Felipe Melo"
+date: today
+lang: pt
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: false
+    embed-resources: true
+    fig-align: center
+execute:
+  echo: false
+  warning: false
+bibliography: referencias_semana04.bib
+---
+
+Slides desta aula
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe data-external="1" src="/slides/aula2_magnitude.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+## Objetivos de aprendizagem
+
+::: {.callout-note}
+## O que precisamos saber ao final desta aula
+
+- Compreender como a biodiversidade se organiza espacial e temporalmente na Terra.
+- Reconhecer os grandes marcos históricos e conceituais da Biogeografia como disciplina científica.
+- Diferenciar biogeografia ecológica de biogeografia histórica, e entender como ambas se articulam com o arcabouço de processos de alto nível discutido na Semana 2 (seleção, deriva ecológica, dispersão e especiação; @vellend2016).
+- Compreender a relação espécie-área, a teoria da biogeografia de ilhas e os tipos de raridade.
+- Aplicar esses conceitos ao planejamento de estratégias de conservação da biodiversidade.
+:::
+
+Depois de duas semanas dedicadas a *quanto* e *como* medimos a biodiversidade (Semana 1) e a *quais processos* geram e mantêm a estrutura das comunidades ecológicas (Semana 2), esta quarta aula desloca o foco para uma pergunta igualmente fundamental: **onde** a biodiversidade está, e **por que ela está distribuída de forma tão desigual pelo planeta**. Essa é a pergunta central da Biogeografia — o campo que estuda os padrões de distribuição espacial de organismos, populações e comunidades ao longo do tempo geológico e ecológico.
+
+A Biogeografia não é um apêndice da Ecologia de Comunidades: ela é uma de suas raízes históricas e, como veremos, um dos quatro processos de alto nível de @vellend2016 — a **dispersão** — é, em essência, um fenômeno biogeográfico. Compreender por que uma espécie ocorre em um lugar e não em outro exige combinar mecanismos ecológicos contemporâneos (nicho, interações, capacidade de dispersão) com a história profunda da Terra (deriva continental, glaciações, eventos de especiação e extinção). Esta aula introduz esse diálogo entre ecologia e história, que será retomado nas próximas semanas quando tratarmos de sucessão ecológica e montagem de comunidades.
+
+![](https://www.blogs.unicamp.br/colecionadores/wp-content/uploads/sites/243/2015/09/Wallace03-1038x576.jpg)
+
+# A história da biodiversidade na Terra
+
+A vida na Terra é o produto cumulativo de aproximadamente 4,5 bilhões de anos de evolução, especiação, extinção e dispersão. Essa afirmação, aparentemente simples, carrega uma implicação poderosa para quem estuda ecologia de comunidades: **os padrões de biodiversidade que observamos hoje em qualquer trecho de floresta, rio ou recife de coral não podem ser plenamente explicados apenas por processos ecológicos contemporâneos**. Eles carregam a assinatura de eventos que ocorreram em escalas de tempo muito mais longas — a fragmentação de supercontinentes, oscilações climáticas do Quaternário, radiações adaptativas e crises de extinção em massa.
+
+Vivemos, em termos absolutos, no período mais biodiverso da história da Terra: o número de espécies vivas hoje provavelmente excede o de qualquer momento anterior do registro fóssil. Mas essa trajetória não foi suave. O registro geológico documenta ao menos cinco grandes extinções em massa — a mais severa delas, no limite Permiano-Triássico, eliminou a maior parte das espécies marinhas então existentes. Após cada um desses eventos, a vida se recuperou e prosperou, ainda que com composições taxonômicas e funcionais radicalmente diferentes das anteriores. Essa alternância entre diversificação e colapso é, ela própria, um processo biogeográfico: extinções abrem espaço ecológico que é preenchido por dispersão e especiação, redesenhando continuamente o mapa da vida.
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Timeline_evolution_of_life.svg/1920px-Timeline_evolution_of_life.svg.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=thumbnail)
+
+::: {.callout-tip}
+## Ideia central
+
+A biodiversidade atual não é um estado de equilíbrio estático, mas um instantâneo de um processo histórico contínuo de diversificação, extinção e redistribuição geográfica. Isso justifica por que a Biogeografia é indispensável à Ecologia de Comunidades: sem a dimensão histórica, corremos o risco de interpretar como "regra ecológica universal" algo que é, na verdade, um acidente contingente da história da Terra.
+:::
+
+# Fronteiras biológicas da Terra: as províncias biogeográficas
+
+Um dos primeiros produtos da Biogeografia como disciplina foi o reconhecimento de que a superfície terrestre pode ser dividida em grandes **províncias biogeográficas** (também chamadas de reinos ou regiões biogeográficas), áreas caracterizadas por conjuntos relativamente distintos e coerentes de táxons, delimitadas por barreiras geográficas — oceanos, cadeias de montanhas, desertos — que restringem a dispersão ao longo do tempo evolutivo. As províncias clássicas (Paleártica, Neártica, Neotropical, Afrotropical, Indomalaia, Australasiana e Antártica/Oceânica) foram propostas ainda no século XIX e, apesar de refinamentos contínuos baseados em filogenias moleculares, continuam sendo uma ferramenta organizadora fundamental para pensar conservação em escala global.
+
+É importante notar que essas fronteiras não são absolutas nem imutáveis: elas refletem a soma histórica de eventos de vicariância (separação de biotas por surgimento de barreiras) e dispersão (movimento ativo ou passivo de organismos através de barreiras preexistentes). A escola moderna de biogeografia histórica trata a delimitação de províncias como uma hipótese testável, e não como um dado fixo — algo que retomaremos adiante.
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ecozones.svg/1920px-Ecozones.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+
+# A desigualdade da árvore da vida
+
+Uma segunda observação fundamental, além da desigualdade espacial, é a **desigualdade taxonômica**: a árvore da vida não se ramifica de maneira uniforme. Alguns clados — como os besouros entre os insetos, ou os passeriformes entre as aves — são extraordinariamente ricos em espécies, enquanto clados irmãos de idade comparável permanecem depauperados. @purvishector2000, em uma revisão influente sobre como medir a biodiversidade, sintetizaram evidências de que esse padrão de riqueza "aninhada" e desigual se repete em praticamente todos os níveis taxonômicos e em todos os grandes grupos de organismos: poucos clados concentram a maior parte das espécies, enquanto a maioria dos clados é relativamente pobre em espécies.
+
+Esse padrão tem pelo menos duas implicações práticas para quem trabalha com conservação:
+
+1. **Prioridades de pesquisa e conservação não podem ser distribuídas uniformemente entre os clados**, porque a própria diversidade biológica não está distribuída uniformemente entre eles.
+2. **Nosso conhecimento sobre a biodiversidade também é desigual entre clados** — fenômeno conhecido como *Linnean shortfall* (a lacuna entre o número de espécies descritas e o número real de espécies existentes). Grupos carismáticos e de corpo grande (vertebrados, angiospermas) são proporcionalmente muito mais bem descritos do que grupos hiperdiversos e de corpo pequeno (insetos, fungos, microrganismos), o que distorce nossa percepção de onde, de fato, está concentrada a maior parte da diversidade biológica do planeta.
+
+
+
+# Alfred Russel Wallace e o nascimento da Biogeografia
+
+1[](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Alfred-Russel-Wallace-c1895.jpg/500px-Alfred-Russel-Wallace-c1895.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail)
+
+Alfred Russel Wallace (1823–1913) é amplamente considerado o fundador da Biogeografia moderna. Contemporâneo e correspondente de Charles Darwin — com quem compartilhou a autoria da teoria da seleção natural em 1858 — Wallace passou anos coletando espécimes no arquipélago Malaio e na Amazônia, observando como conjuntos de espécies mudavam abruptamente através de fronteiras geográficas aparentemente sutis. A mais famosa delas, a **Linha de Wallace**, separa a fauna de afinidade asiática (a oeste) da fauna de afinidade australiana (a leste) no arquipélago Indonésio, apesar da proximidade geográfica e da aparente continuidade de habitat entre as ilhas de Bali e Lombok.
+
+Em sua obra *The Geographical Distribution of Animals* [-@wallace1876], Wallace sistematizou pela primeira vez a divisão do globo em regiões zoogeográficas com base na composição de fauna, lançando as bases conceituais que, mais de um século depois, ainda orientam a delimitação de províncias biogeográficas. Wallace já intuía algo que se tornaria central para a disciplina: os padrões de distribuição de espécies refletem tanto processos ecológicos contemporâneos quanto a história geológica e evolutiva das regiões — uma tensão conceitual que persiste até hoje na distinção entre biogeografia ecológica e biogeografia histórica, discutida a seguir.
+
+# Biodiversidade em ilhas: um laboratório natural para a Biogeografia
+
+
+Ilhas — sejam elas oceânicas, montanhas isoladas ("ilhas" de habitat continentais), lagos ou fragmentos florestais — desempenharam um papel histórico central no desenvolvimento da teoria biogeográfica, porque funcionam como sistemas naturalmente replicados e com fronteiras bem definidas. O estudo de padrões de biodiversidade em ilhas levanta quatro perguntas inter-relacionadas que estruturam boa parte da Biogeografia contemporânea:
+
+- Por que ilhas maiores tendem a abrigar mais espécies? (relação espécie-área)
+- Que combinação de tolerâncias fisiológicas e recursos disponíveis permite que uma espécie persista em determinado local? (nicho ecológico)
+- O padrão observado reflete processos ecológicos atuais ou heranças históricas? (ecologia *vs.* história)
+- Como a presença de competidores, predadores, polinizadores e mutualistas altera a probabilidade de estabelecimento e persistência de uma espécie? (interação entre espécies)
+
+## A relação espécie-área
+
+A **relação espécie-área** é um dos padrões mais robustos e mais antigos da ecologia e da biogeografia: o número de espécies registrado em um levantamento aumenta com a área amostrada. Essa relação pode assumir diferentes formas funcionais, sendo as duas mais discutidas:
+
+- **Forma em potência (frequentemente linearizada em escala log-log)**: $S = c \cdot A^{z}$, em que $S$ é a riqueza de espécies, $A$ é a área, $c$ é uma constante relacionada à riqueza regional e $z$ é o expoente da relação (tipicamente entre 0,20 e 0,35 para ilhas verdadeiras, e menor, entre 0,10 e 0,20, para amostras contíguas dentro de um continente). Em escala logarítmica, essa relação se torna aproximadamente linear.
+- **Forma exponencial/semi-log**: $S = c + z \cdot \log(A)$, mais comumente ajustada a amostras aninhadas dentro de uma mesma região continental.
+
+A distinção não é meramente estatística: relações espécie-área mais íngremes (valores de $z$ mais altos) geralmente indicam maior isolamento e maior papel de processos de especiação *in situ* e endemismo local — típico de arquipélagos oceânicos verdadeiros —, enquanto relações mais suaves refletem principalmente amostragem de uma mesma metacomunidade regional. Esse padrão é uma manifestação empírica direta de processos discutidos na Semana 1 (partição de diversidade alfa, beta e gama) e na Semana 2 (o papel da dispersão e da deriva ecológica na estruturação de metacomunidades).
+
+## Biogeografia ecológica *vs.* biogeografia histórica
+
+Um dos debates conceituais mais duradouros da Biogeografia é a distinção — e a tensão — entre duas abordagens complementares:
+
+::: {.callout-important}
+## Duas lentes, um mesmo objeto
+
+**Biogeografia ecológica** busca explicar padrões atuais de distribuição a partir de processos contemporâneos e mensuráveis: clima, disponibilidade de recursos, interações bióticas, capacidade de dispersão e tolerância fisiológica das espécies. É a lente do "aqui e agora".
+
+**Biogeografia histórica** busca reconstruir a sequência de eventos — vicariância (fragmentação de áreas antes contínuas, por deriva continental, formação de cadeias montanhosas ou mudança do nível do mar) e dispersão de longa distância — que geraram os padrões de distribuição observados hoje. É a lente do "como chegamos até aqui".
+:::
+
+@endler1982 já apontava, ainda no início da década de 1980, como é metodologicamente difícil separar esses dois conjuntos de fatores na prática: um padrão de distribuição disjunta pode ser explicado tanto por vicariância antiga quanto por diferenças ecológicas atuais que impedem a espécie de ocupar o espaço geográfico intermediário, e distinguir entre essas hipóteses exige integrar dados filogenéticos, paleoclimáticos e ecológicos. @wiensdonoghue2004 retomam esse debate argumentando que biogeografia histórica e ecologia não deveriam ser tratadas como alternativas concorrentes, mas como processos operando em escalas de tempo diferentes e mutuamente informativos: eventos históricos (especiação, extinção, dispersão de longa distância) determinam o "pool" regional de linhagens disponível, enquanto processos ecológicos contemporâneos filtram, dentro desse pool, quais espécies efetivamente coexistem localmente. Essa é, novamente, uma ponte direta com o arcabouço de @vellend2016: o pool regional histórico corresponde à ação acumulada de especiação e dispersão em escalas de tempo profundas, enquanto seleção e deriva ecológica atuam sobre esse pool em escalas de tempo contemporâneas.
+
+Do ponto de vista metodológico, a biogeografia histórica desenvolveu ferramentas próprias para testar hipóteses de vicariância *versus* dispersão, como a análise de dispersão-vicariância (DIVA) proposta por @ronquist1997, que reconstrói cenários biogeográficos ancestrais a partir de filogenias datadas e da distribuição geográfica atual dos táxons terminais. Avanços recentes têm buscado integrar esses métodos filogenéticos com modelos de distribuição de espécies e dados paleoclimáticos [@franklin2023], e mesmo com ferramentas computacionais que unem macroevolução, biogeografia e ecologia de comunidades em um único fluxo analítico [@nakamuraetal2023]. @warrenetal2014 alertam, contudo, para um erro comum nessa integração: inferir processos históricos (como especiação alopátrica) diretamente de padrões de distribuição atuais sem considerar explicitamente o papel do nicho ecológico — um problema que os autores resumem no título de seu artigo como "confundir geografia com biologia".
+
+## Biogeografia de ilhas: a teoria de MacArthur & Wilson
+
+![](https://hosho.ees.hokudai.ac.jp/tsuyu/top/dct/stt/isl_02.png)
+
+
+A contribuição teórica mais influente sobre biodiversidade em ilhas é a **Teoria da Biogeografia de Ilhas**, proposta por Robert MacArthur e Edward O. Wilson [-@macarthurwilson1967]. A teoria propõe que o número de espécies em uma ilha reflete um **equilíbrio dinâmico** entre duas taxas opostas:
+
+- a **taxa de imigração** (colonização de novas espécies vindas do continente ou de outras ilhas), que diminui à medida que a ilha acumula mais espécies (porque restam cada vez menos espécies do pool regional ainda não estabelecidas) e que também diminui com o aumento da distância da ilha ao continente-fonte; e
+- a **taxa de extinção local**, que aumenta com o número de espécies já presentes (por efeitos de competição e populações pequenas) e que é inversamente relacionada ao tamanho da ilha (ilhas maiores comportam populações maiores e, portanto, menos vulneráveis à extinção estocástica).
+
+O ponto de equilíbrio entre essas duas curvas prevê o número de espécies esperado em equilíbrio, e gera duas previsões centrais amplamente corroboradas empiricamente: ilhas maiores tendem a ter mais espécies do que ilhas menores, e ilhas mais próximas do continente-fonte tendem a ter mais espécies do que ilhas mais distantes e igualmente grandes. Embora formulada originalmente para ilhas oceânicas, a teoria foi rapidamente estendida para qualquer sistema insularizado — fragmentos florestais, topos de montanha, lagos, cavernas, unidades de conservação — tornando-se um dos pilares conceituais da **biologia da conservação de paisagens fragmentadas**, tema que retomaremos com mais profundidade nas próximas semanas.
+
+Vale notar que a teoria de MacArthur & Wilson é essencialmente um modelo de biogeografia ecológica em escala de tempo ecológica (colonização e extinção correntes), e não incorpora explicitamente especiação *in situ* — um processo que se torna relevante em escalas de tempo mais longas, especialmente em arquipélagos antigos e isolados, onde radiações adaptativas (como os tentilhões de Darwin em Galápagos ou os Drosophilídeos havaianos) desempenham papel central na composição final da biota insular. Esse é exatamente o ponto em que biogeografia ecológica e biogeografia histórica precisam ser lidas em conjunto.
+
+## Interação entre espécies
+
+Além da área e do isolamento, a composição final de uma biota insular (ou de qualquer comunidade delimitada espacialmente) depende de **interações bióticas** que ocorrem após a chegada de uma espécie: competição por recursos, predação, herbivoria, parasitismo e mutualismos (polinização, dispersão de sementes, simbioses). Uma espécie pode ser fisiologicamente capaz de tolerar as condições abióticas de um local — isto é, estar dentro de seu nicho fundamental — e ainda assim não conseguir se estabelecer, porque competidores ou predadores já presentes reduzem seu nicho realizado a zero. Esse é um dos elos conceituais mais diretos entre Biogeografia e o arcabouço de processos de @vellend2016: a **seleção** (no sentido amplo de Vellend, que inclui interações bióticas e abióticas determinísticas) opera *depois* que a dispersão trouxe a espécie até a localidade, filtrando quais colonizações efetivamente resultam em estabelecimento persistente.
+
+# Tipos de raridade
+
+Nem todas as espécies raras são raras da mesma maneira, e essa distinção tem implicações diretas para o diagnóstico de vulnerabilidade e para o desenho de estratégias de conservação. Em um trabalho seminal, @rabinowitz1981 propôs uma tipologia com **sete formas de raridade**, construída a partir do cruzamento de três eixos binários:
+
+![](https://www.researchgate.net/profile/Douglas-Boyes/publication/336343580/figure/fig3/AS:817566788370435@1571934520763/Rabinowitzs-1981-rarity-typology-rendered-as-a-cube-It-identifies-seven-forms-of_W640.jpg)
+
+1. **Extensão geográfica** — ampla *versus* restrita;
+2. **Especificidade de hábitat** — generalista (ocorre em múltiplos tipos de hábitat) *versus* especialista (restrita a um tipo de hábitat);
+3. **Tamanho populacional local** — populações grandes e densas *versus* populações pequenas e esparsas em qualquer ponto de sua distribuição.
+
+A combinação dessas três dimensões gera sete categorias distintas de raridade (a oitava combinação — ampla, generalista e localmente abundante — corresponde, por definição, a uma espécie comum, e não rara). Espécies com distribuição geográfica restrita, alta especificidade de hábitat e baixa densidade populacional local representam a forma de raridade mais extrema e, tipicamente, o maior risco de extinção. A grande contribuição prática dessa tipologia é mostrar que **"raridade" não é uma variável única**, mas um espaço multidimensional: uma espécie pode ser rara por ocupar uma área geográfica minúscula (como muitas espécies endêmicas de topos de montanha isolados, um cenário conceitualmente análogo à biogeografia de ilhas discutida acima) ou por ocorrer em baixíssima densidade mesmo estando amplamente distribuída — e essas duas situações exigem estratégias de conservação distintas.
+
+# Aplicações da Biogeografia à conservação da biodiversidade
+
+Os conceitos biogeográficos discutidos nesta aula não são apenas ferramentas descritivas: eles fundamentam, de forma direta, os principais critérios usados hoje para priorizar áreas e espécies para conservação. Três métricas biogeográficas se destacam:
+
+**Riqueza de espécies** identifica áreas com grande número absoluto de espécies, mas, isoladamente, pode direcionar recursos para regiões grandes e bem amostradas às custas de áreas menores, porém insubstituíveis.
+
+**Endemismo** — a proporção de espécies de uma área que não ocorre em nenhum outro lugar — captura a dimensão de **insubstituibilidade**: perder uma área rica em endemismos significa perder linhagens evolutivas inteiras, algo que a simples contagem de riqueza não revela. @medellinsoberon1999, em um estudo sobre diversidade de mamíferos em quatro grandes massas de terra, demonstraram como padrões de riqueza e de endemismo podem divergir substancialmente entre regiões, reforçando a necessidade de tratá-los como critérios complementares, e não intercambiáveis, no planejamento de conservação.
+
+**Descoberta de novas espécies** é um indicador, ainda que indireto, de quão completo é nosso inventário biológico de uma região — e, por extensão, de quanta biodiversidade "invisível" pode estar sob ameaça sem que sequer tenhamos documentado sua existência. @ceballosehrlich2009 mostraram que, mesmo em um grupo tão bem estudado quanto os mamíferos, 408 novas espécies foram descritas entre 1993 e a data de publicação do estudo — cerca de 10% da fauna mamífera previamente conhecida —, muitas delas já sob forte pressão de perda de hábitat no momento de sua descrição. O achado reforça um ponto já levantado na discussão sobre a desigualdade da árvore da vida: se mesmo mamíferos guardam uma fração substancial de diversidade não descrita, o problema é necessariamente mais agudo em grupos hiperdiversos e menos carismáticos.
+
+Esses três critérios — riqueza, endemismo e taxas de descoberta de novas espécies — alimentam diretamente os exercícios de **priorização espacial de conservação em escala global**, dos quais o mais influente é provavelmente a abordagem de **hotspots de biodiversidade**, sintetizada por @brooksetal2006. Um hotspot é definido operacionalmente pela combinação de (i) alto endemismo de plantas vasculares e (ii) perda de pelo menos 70% da vegetação original — ou seja, uma combinação explícita de insubstituibilidade biogeográfica com vulnerabilidade antrópica atual. O Brasil sedia dois dos hotspots mais emblemáticos do planeta — a Mata Atlântica e o Cerrado —, o que torna esse arcabouço conceitual particularmente relevante para quem estuda e pratica conservação da biodiversidade no país.
+
+::: {.callout-warning}
+## Ponto de atenção metodológico
+
+Priorizações baseadas exclusivamente em riqueza tendem a favorecer sistematicamente grandes áreas contínuas e bem amostradas (florestas tropicais úmidas, por exemplo), enquanto priorizações baseadas em endemismo tendem a destacar áreas menores, historicamente isoladas (arquipélagos, topos de montanha, "ilhas" de vegetação como os campos rupestres brasileiros). Um plano de conservação robusto normalmente precisa combinar múltiplos critérios biogeográficos — e não adotar um único indicador como substituto universal de "importância para a biodiversidade".
+:::
+
+# Contextos e ferramentas para aprofundamento
+
+A Biogeografia contemporânea é cada vez mais uma ciência de dados: bases digitais de ocorrência de espécies, filogenias moleculares em larga escala e coleções de herbário e museus digitalizados vêm permitindo reconstruir padrões biogeográficos com resolução impensável há poucas décadas. @daru2025, por exemplo, discute como registros de herbário digitalizados vêm revelando dimensões antes ocultas da biogeografia de plantas, incluindo padrões fenológicos e mudanças de distribuição ao longo de décadas. Ao mesmo tempo, revisões recentes têm insistido em situar a Biogeografia não apenas como campo teórico, mas como **prática aplicada** de tomada de decisão sob incerteza [@kumaranetal2025] e como um caso particular de um problema mais amplo — historicamente estudado também em sistemas neotropicais, como no caso das florestas tropicais sazonalmente secas do Brasil, cujos núcleos disjuntos ao sul da Amazônia (incluindo a Caatinga) ilustram de forma direta o papel conjunto de vicariância histórica e limitações ecológicas atuais na definição de padrões de distribuição regionais [@limaetal2018]. Para leitores interessados em uma introdução acessível em língua portuguesa aos conceitos de biogeografia de ilhas discutidos nesta aula, recomenda-se também o texto de divulgação disponível em @recologia2016.
+
+# Síntese: a Biogeografia como parte do arcabouço de Vellend
+
+Retomando a Semana 2: @vellend2016 propõe que toda a diversidade de teorias em ecologia de comunidades pode ser reduzida a quatro processos de alto nível — **seleção**, **deriva ecológica**, **dispersão** e **especiação**. A Biogeografia, tal como apresentada nesta aula, ilumina especialmente dois desses processos:
+
+- A **dispersão** é, em sua essência, um fenômeno biogeográfico: a capacidade (ou incapacidade) de organismos atravessarem barreiras geográficas determina diretamente quais espécies do pool regional têm sequer a chance de colonizar uma localidade — pré-condição necessária para que seleção e deriva ecológica atuem localmente.
+- A **especiação**, por sua vez, é o processo que, em escalas de tempo profundas, gera novas linhagens frequentemente associadas a eventos biogeográficos de vicariância ou colonização de novos territórios (como em radiações insulares), populando o pool regional de espécies disponíveis para dispersão.
+
+Compreender biogeografia, portanto, não é um desvio da ecologia de comunidades, mas uma forma de dar profundidade histórica e espacial a dois dos quatro pilares do arcabouço teórico que estrutura todo este curso. Nas próximas semanas, veremos como esses mesmos processos — agora enriquecidos pela dimensão biogeográfica — se manifestam ao longo do tempo ecológico durante a sucessão e a montagem de comunidades.
+
+## Para revisar
+
+::: {.callout-note collapse="true"}
+## Perguntas de revisão
+
+1. Por que a Biogeografia é considerada uma das raízes históricas da Ecologia de Comunidades, e não um campo à parte?
+2. Qual é a diferença conceitual entre biogeografia ecológica e biogeografia histórica? Dê um exemplo de pergunta de pesquisa típica de cada abordagem.
+3. Explique, em suas próprias palavras, por que a Teoria da Biogeografia de Ilhas prevê que ilhas grandes e próximas ao continente devem abrigar mais espécies do que ilhas pequenas e distantes.
+4. Segundo a tipologia de Rabinowitz (1981), quais são as três dimensões que definem as sete formas de raridade? Cite um exemplo hipotético (ou real) de espécie para cada combinação extrema.
+5. Como riqueza de espécies e endemismo podem gerar priorizações de conservação diferentes para uma mesma região? Por que hotspots de biodiversidade combinam os dois critérios com um indicador de ameaça?
+6. Relacione o conceito de dispersão discutido nesta aula com o processo homônimo no arcabouço de Vellend (2016).
+:::
+
+## Leituras complementares recomendadas
+
+- @vellend2016 — para revisitar o arcabouço teórico unificador do curso.
+- @wiensdonoghue2004 — uma defesa concisa e influente da integração entre biogeografia histórica e ecologia.
+- @franklin2023 — sobre o uso de modelos de distribuição de espécies em biogeografia contemporânea.
+- @limaetal2018 — estudo de caso em português sobre biogeografia histórica de ecossistemas secos neotropicais, incluindo a Caatinga.
+- @recologia2016 — introdução em português à biogeografia de ilhas, de leitura leve e acessível.
+
+# Referências {-}
+
+::: {#refs}
+:::
