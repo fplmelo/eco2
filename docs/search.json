@@ -1972,5 +1972,103 @@
     "title": "Ecologia 2",
     "section": "",
     "text": "Como a biodiversidade se organiza espacial e temporalmente na Terra\nComo usar essas informações para desenhar estratégias de conservação\nAprender um pouco de Biogeografia"
+  },
+  {
+    "objectID": "sessions/semana05_resumo.html",
+    "href": "sessions/semana05_resumo.html",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "",
+    "text": "Sejam bem-vindos à nossa quinta semana de Ecologia de Comunidades. Até agora, discutimos como os indivíduos interagem e como as populações crescem. No entanto, as assembleias biológicas não existem no vácuo; elas estão inseridas em matrizes espaciais complexas. Hoje, entenderemos por que certas espécies ocorrem em um fragmento de Mata Atlântica em Pernambuco e não na Caatinga, e como a escala de análise altera nossa percepção sobre a biodiversidade.\nA ecologia de comunidades busca compreender a distribuição e abundância de agrupamentos de espécies, influenciados tanto por fatores abióticos (filtros ambientais) quanto por interações bióticas. Veremos que a montagem de comunidades é um processo dinâmico de colonização e extinção condicionado pela área, distância e heterogeneidade do habitat."
+  },
+  {
+    "objectID": "sessions/semana05_resumo.html#a-hipótese-da-heterogeneidade-do-habitat",
+    "href": "sessions/semana05_resumo.html#a-hipótese-da-heterogeneidade-do-habitat",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "2.1 A Hipótese da Heterogeneidade do Habitat",
+    "text": "2.1 A Hipótese da Heterogeneidade do Habitat\nUm dos princípios fundamentais da ecologia espacial é que ambientes mais heterogêneos acomodam mais espécies. Isso ocorre porque a complexidade arquitetônica (como a estratificação vertical de uma floresta) oferece uma gama maior de micro-habitats e recursos, permitindo que espécies com diferentes nichos coexistam.\n\n\n\n\n\n\nNotaExemplo Prático: Mata Atlântica de Pernambuco\n\n\n\nEm fragmentos bem conservados da Mata Atlântica pernambucana, a presença de estratos arbóreos distintos (sub-bosque, dossel e árvores emergentes) cria gradientes de luz e umidade. Isso permite que diferentes guildas de aves e insetos ocupem o mesmo espaço horizontal, mas em “espaços de nicho” verticais distintos."
+  },
+  {
+    "objectID": "sessions/semana05_resumo.html#o-gradiente-latitudinal-de-diversidade-gld",
+    "href": "sessions/semana05_resumo.html#o-gradiente-latitudinal-de-diversidade-gld",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "2.2 O Gradiente Latitudinal de Diversidade (GLD)",
+    "text": "2.2 O Gradiente Latitudinal de Diversidade (GLD)\nO aumento da riqueza de espécies dos polos em direção ao equador é um dos padrões mais consistentes da biosfera. Para explicar esse fenômeno, os ecólogos propõem cinco hipóteses principais:\n\nEnergia e Produtividade: Regiões tropicais recebem maior radiação solar e possuem temperaturas mais elevadas, o que aumenta a produtividade primária líquida. Isso permite populações maiores e reduz as taxas de extinção.\nEstabilidade Climática: O clima tropical é menos sazonal e mais previsível em escalas temporais longas (como períodos interglaciais), permitindo uma especialização de nicho mais acentuada.\nTempo e Idade: Os trópicos são considerados comunidades mais “antigas” que não sofreram o impacto direto das grandes glaciações recentes, permitindo mais tempo para o processo de especiação.\nÁrea: A zona tropical ocupa uma área contígua maior no globo terrestre. Áreas maiores suportam mais indivíduos e, consequentemente, têm menores taxas de extinção e maiores taxas de especiação alopátrica.\nInterações Bióticas (Predação/Mutualismo): A predação é mais intensa nos trópicos, o que mantém as populações de presas abaixo da capacidade de carga, reduzindo a exclusão competitiva e permitindo maior coexistência (coexistência mediada pelo consumidor)."
+  },
+  {
+    "objectID": "sessions/semana05_resumo.html#a-relação-espécie-área-rea",
+    "href": "sessions/semana05_resumo.html#a-relação-espécie-área-rea",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "2.3 A Relação Espécie-Área (REA)",
+    "text": "2.3 A Relação Espécie-Área (REA)\nA relação entre o número de espécies (\\(S\\)) e a área amostrada (\\(A\\)) é descrita matematicamente pela equação de Arrhenius:\n\\[S = c \\cdot A^z\\]\nOnde: * \\(S\\) é a riqueza de espécies. * \\(A\\) é a área. * \\(c\\) é uma constante de intercepto que depende do grupo taxonômico e da região. * \\(z\\) é a inclinação da curva em escala log-log, indicando a taxa de acúmulo de espécies.\nAo aplicarmos o logaritmo em ambos os lados, obtemos uma função linear:\n\\[\\log(S) = \\log(c) + z \\cdot \\log(A)\\]\n\n\n\n\n\n\nDica\\(z\\) em Ilhas vs. Continentes\n\n\n\nEm sistemas de ilhas oceânicas (como o arquipélago de Fernando de Noronha), os valores de \\(z\\) tendem a ser maiores (entre 0,20 e 0,35), indicando um isolamento maior e taxas de colonização menores. Em áreas continentais contíguas, o \\(z\\) é tipicamente menor (0,12 a 0,17), pois o fluxo de indivíduos mascara as extinções locais."
+  },
+  {
+    "objectID": "sessions/semana05_resumo.html#definições-conceituais",
+    "href": "sessions/semana05_resumo.html#definições-conceituais",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "3.1 Definições Conceituais",
+    "text": "3.1 Definições Conceituais\n\nDiversidade Alfa (\\(\\alpha\\)): É a diversidade local, medida dentro de uma comunidade ou habitat específico (ex: o número de espécies de peixes em um único recife de corais em Tamandaré).\nDiversidade Gama (\\(\\gamma\\)): É a diversidade total de uma paisagem ou região geográfica. Representa o “pool” total de espécies disponíveis (ex: todas as espécies de peixes registradas no litoral de Pernambuco).\nDiversidade Beta (\\(\\beta\\)): É a variação na composição de espécies entre as comunidades da região. Reflete o turnover (substituição) de espécies ao longo de gradientes ambientais."
+  },
+  {
+    "objectID": "sessions/semana05_resumo.html#a-relação-multiplicativa-e-aditiva",
+    "href": "sessions/semana05_resumo.html#a-relação-multiplicativa-e-aditiva",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "3.2 A Relação Multiplicativa e Aditiva",
+    "text": "3.2 A Relação Multiplicativa e Aditiva\nWhittaker originalmente propôs uma relação multiplicativa: \\[\\gamma = \\alpha \\times \\beta \\implies \\beta = \\frac{\\gamma}{\\alpha}\\]\nMais recentemente, o particionamento aditivo tem sido utilizado para escalas hierárquicas: \\[\\gamma = \\bar{\\alpha} + \\beta\\] Neste caso, \\(\\beta\\) representa o número médio de espécies não compartilhadas entre os habitats."
+  },
+  {
+    "objectID": "sessions/semana05_resumo.html#a-equação-unificada-qd",
+    "href": "sessions/semana05_resumo.html#a-equação-unificada-qd",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "4.1 A Equação Unificada \\(^qD\\)",
+    "text": "4.1 A Equação Unificada \\(^qD\\)\n\\[^qD = \\left( \\sum_{i=1}^{S} p_i^q \\right)^{1/(1-q)}\\]\nOnde \\(p_i\\) é a abundância relativa da espécie \\(i\\) e \\(q\\) é a ordem da diversidade.\n\n4.1.1 Ordens de \\(q\\) e seu significado\n\n\\(q = 0\\) (Riqueza de Espécies): Insensível às abundâncias relativas. Pesa igualmente espécies raras e abundantes.\n\\(q = 1\\) (Exponencial de Shannon): Pesa as espécies proporcionalmente às suas abundâncias. O limite quando \\(q \\to 1\\) é \\(\\exp(H')\\).\n\\(q = 2\\) (Inverso de Simpson): Dá maior peso às espécies dominantes. É calculado como \\(1 / \\sum p_i^2\\)."
+  },
+  {
+    "objectID": "sessions/semana05_resumo.html#o-princípio-do-dobramento",
+    "href": "sessions/semana05_resumo.html#o-princípio-do-dobramento",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "4.2 O Princípio do Dobramento",
+    "text": "4.2 O Princípio do Dobramento\nA grande vantagem dos Números de Hill é que eles obedecem ao princípio do dobramento: se tivermos duas comunidades completamente distintas (sem espécies em comum) com diversidade \\(X\\), a diversidade gama da união delas será exatamente \\(2X\\). Os índices brutos de Shannon e Simpson não possuem essa linearidade, o que gera erros de interpretação em análises espaciais."
+  },
+  {
+    "objectID": "sessions/semana05_resumo.html#turnover-vs.-aninhamento-nestedness",
+    "href": "sessions/semana05_resumo.html#turnover-vs.-aninhamento-nestedness",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "5.1 Turnover vs. Aninhamento (Nestedness)",
+    "text": "5.1 Turnover vs. Aninhamento (Nestedness)\nA variação composicional pode ocorrer por dois processos distintos: 1. Turnover (Substituição): Espécies são substituídas por outras ao longo de um gradiente, geralmente devido a filtros ambientais ou barreiras. 2. Aninhamento (Nestedness): Sítios com menor riqueza são subconjuntos bióticos de sítios mais ricos. Isso ocorre frequentemente em processos de extinção ordenada por fragmentação, onde apenas espécies generalistas persistem em manchas menores."
+  },
+  {
+    "objectID": "sessions/semana05_resumo.html#coeficientes-de-similaridade",
+    "href": "sessions/semana05_resumo.html#coeficientes-de-similaridade",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "5.2 Coeficientes de Similaridade",
+    "text": "5.2 Coeficientes de Similaridade\nPara quantificar a similaridade (\\(1 - \\beta\\)), usamos frequentemente termos baseados em tabelas de contingência binária (\\(a, b, c\\)): * \\(a\\): número de espécies presentes em ambos os sítios. * \\(b\\): espécies exclusivas do sítio 1. * \\(c\\): espécies exclusivas do sítio 2.\n\n5.2.1 Jaccard (\\(S_j\\)) e Sørensen (\\(S_s\\))\n\\[S_j = \\frac{a}{a + b + c}\\] \\[S_s = \\frac{2a}{2a + b + c}\\]\nO índice de Sørensen dá peso dobrado às co-ocorrências (\\(a\\)), sendo mais sensível à presença comum do que o Jaccard."
+  },
+  {
+    "objectID": "sessions/semana05_resumo.html#decaimento-de-similaridade-com-a-distância",
+    "href": "sessions/semana05_resumo.html#decaimento-de-similaridade-com-a-distância",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "5.3 Decaimento de Similaridade com a Distância",
+    "text": "5.3 Decaimento de Similaridade com a Distância\nEm ecologia espacial, espera-se que a similaridade composicional diminua à medida que a distância geográfica entre os pontos aumenta (Distance Decay). Isso se deve a: 1. Limitação de Dispersão: Espécies demoram a chegar em locais distantes. 2. Autocorrelação Ambiental: Locais próximos tendem a ser ambientalmente mais parecidos do que locais distantes."
+  },
+  {
+    "objectID": "sessions/semana05_resumo.html#o-debate-sloss-single-large-or-several-small",
+    "href": "sessions/semana05_resumo.html#o-debate-sloss-single-large-or-several-small",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "7.1 O Debate SLOSS (Single Large or Several Small)",
+    "text": "7.1 O Debate SLOSS (Single Large or Several Small)\nA teoria de biogeografia de ilhas de MacArthur e Wilson gerou o debate SLOSS: * Single Large (Um Único Grande): Reservas maiores tendem a ter menores taxas de extinção e suportar predadores de topo (espécies-chave). * Several Small (Vários Pequenos): Se os pequenos fragmentos possuírem alta beta-diversidade (baixa similaridade entre eles), o conjunto de pequenas reservas pode proteger mais espécies totais (\\(\\gamma\\)) do que uma única reserva grande.\nEm Pernambuco, a fragmentação extrema da Mata Atlântica torna o debate crucial: devemos expandir fragmentos existentes ou criar corredores ecológicos para conectar manchas isoladas?."
+  },
+  {
+    "objectID": "sessions/semana05_resumo.html#homogeneização-biótica",
+    "href": "sessions/semana05_resumo.html#homogeneização-biótica",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "7.2 Homogeneização Biótica",
+    "text": "7.2 Homogeneização Biótica\nA introdução de espécies invasoras e a degradação ambiental podem levar à perda de diversidade beta, um processo chamado homogeneização biótica. Quando as mesmas espécies generalistas (ex: o pardal ou certas gramíneas exóticas) passam a dominar todas as comunidades, a similaridade entre elas aumenta, e a diversidade gama da região diminui, mesmo que a riqueza alfa local permaneça constante."
+  },
+  {
+    "objectID": "sessions/semana05_resumo.html#avaliação-de-restauração-ecológica",
+    "href": "sessions/semana05_resumo.html#avaliação-de-restauração-ecológica",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "7.3 Avaliação de Restauração Ecológica",
+    "text": "7.3 Avaliação de Restauração Ecológica\nA similaridade composicional (Jaccard ou Sørensen) é um indicador robusto do sucesso de projetos de restauração. Comparamos a comunidade em restauração com uma “área de referência” bem preservada. À medida que a sucessão ecológica avança (de pioneiras para climácicas), espera-se que a similaridade com a referência aumente significativamente."
   }
 ]
