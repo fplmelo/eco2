@@ -24,41 +24,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -241,42 +206,35 @@ window.Quarto = {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#introdução-o-espaço-como-determinante-da-estrutura" id="toc-introdução-o-espaço-como-determinante-da-estrutura" class="nav-link active" data-scroll-target="#introdução-o-espaço-como-determinante-da-estrutura"><span class="header-section-number">1</span> Introdução: O Espaço como Determinante da Estrutura</a></li>
-  <li><a href="#heterogeneidade-espacial-e-padrões-globais-de-diversidade" id="toc-heterogeneidade-espacial-e-padrões-globais-de-diversidade" class="nav-link" data-scroll-target="#heterogeneidade-espacial-e-padrões-globais-de-diversidade"><span class="header-section-number">2</span> Heterogeneidade Espacial e Padrões Globais de Diversidade</a>
+  <li><a href="#introdução-o-espaço-como-determinante-da-estrutura" id="toc-introdução-o-espaço-como-determinante-da-estrutura" class="nav-link active" data-scroll-target="#introdução-o-espaço-como-determinante-da-estrutura"><span class="header-section-number">1</span> Introdução: O espaço como determinante da estrutura</a></li>
+  <li><a href="#heterogeneidade-espacial-e-padrões-globais-de-diversidade" id="toc-heterogeneidade-espacial-e-padrões-globais-de-diversidade" class="nav-link" data-scroll-target="#heterogeneidade-espacial-e-padrões-globais-de-diversidade"><span class="header-section-number">2</span> Heterogeneidade espacial e padrões globais de diversidade</a>
   <ul class="collapse">
-  <li><a href="#a-hipótese-da-heterogeneidade-do-habitat" id="toc-a-hipótese-da-heterogeneidade-do-habitat" class="nav-link" data-scroll-target="#a-hipótese-da-heterogeneidade-do-habitat"><span class="header-section-number">2.1</span> A Hipótese da Heterogeneidade do Habitat</a></li>
-  <li><a href="#o-gradiente-latitudinal-de-diversidade-gld" id="toc-o-gradiente-latitudinal-de-diversidade-gld" class="nav-link" data-scroll-target="#o-gradiente-latitudinal-de-diversidade-gld"><span class="header-section-number">2.2</span> O Gradiente Latitudinal de Diversidade (GLD)</a></li>
-  <li><a href="#a-relação-espécie-área-rea" id="toc-a-relação-espécie-área-rea" class="nav-link" data-scroll-target="#a-relação-espécie-área-rea"><span class="header-section-number">2.3</span> A Relação Espécie-Área (REA)</a></li>
+  <li><a href="#a-hipótese-da-heterogeneidade-do-habitat" id="toc-a-hipótese-da-heterogeneidade-do-habitat" class="nav-link" data-scroll-target="#a-hipótese-da-heterogeneidade-do-habitat"><span class="header-section-number">2.1</span> A hipótese da heterogeneidade do habitat</a></li>
+  <li><a href="#o-gradiente-latitudinal-de-diversidade-gld" id="toc-o-gradiente-latitudinal-de-diversidade-gld" class="nav-link" data-scroll-target="#o-gradiente-latitudinal-de-diversidade-gld"><span class="header-section-number">2.2</span> O Gradiente latitudinal de diversidade (GLD)</a></li>
+  <li><a href="#a-relação-espécie-área" id="toc-a-relação-espécie-área" class="nav-link" data-scroll-target="#a-relação-espécie-área"><span class="header-section-number">2.3</span> A relação espécie-área</a></li>
   </ul></li>
   <li><a href="#o-framework-de-whittaker-alfa-beta-e-gama" id="toc-o-framework-de-whittaker-alfa-beta-e-gama" class="nav-link" data-scroll-target="#o-framework-de-whittaker-alfa-beta-e-gama"><span class="header-section-number">3</span> O Framework de Whittaker: Alfa, Beta e Gama</a>
   <ul class="collapse">
   <li><a href="#definições-conceituais" id="toc-definições-conceituais" class="nav-link" data-scroll-target="#definições-conceituais"><span class="header-section-number">3.1</span> Definições Conceituais</a></li>
   <li><a href="#a-relação-multiplicativa-e-aditiva" id="toc-a-relação-multiplicativa-e-aditiva" class="nav-link" data-scroll-target="#a-relação-multiplicativa-e-aditiva"><span class="header-section-number">3.2</span> A Relação Multiplicativa e Aditiva</a></li>
-  </ul></li>
-  <li><a href="#números-de-hill-1973-rumo-à-diversidade-efetiva" id="toc-números-de-hill-1973-rumo-à-diversidade-efetiva" class="nav-link" data-scroll-target="#números-de-hill-1973-rumo-à-diversidade-efetiva"><span class="header-section-number">4</span> Números de Hill (1973): Rumo à Diversidade Efetiva</a>
+  <li><a href="#números-de-hill-1973-rumo-à-diversidade-efetiva" id="toc-números-de-hill-1973-rumo-à-diversidade-efetiva" class="nav-link" data-scroll-target="#números-de-hill-1973-rumo-à-diversidade-efetiva"><span class="header-section-number">3.3</span> Números de Hill (1973): Rumo à Diversidade Efetiva</a></li>
+  <li><a href="#a-equação-unificada-qd" id="toc-a-equação-unificada-qd" class="nav-link" data-scroll-target="#a-equação-unificada-qd"><span class="header-section-number">3.4</span> A Equação Unificada <span class="math inline">\(^qD\)</span></a>
   <ul class="collapse">
-  <li><a href="#a-equação-unificada-qd" id="toc-a-equação-unificada-qd" class="nav-link" data-scroll-target="#a-equação-unificada-qd"><span class="header-section-number">4.1</span> A Equação Unificada <span class="math inline">\(^qD\)</span></a>
+  <li><a href="#ordens-de-q-e-seu-significado" id="toc-ordens-de-q-e-seu-significado" class="nav-link" data-scroll-target="#ordens-de-q-e-seu-significado"><span class="header-section-number">3.4.1</span> Ordens de <span class="math inline">\(q\)</span> e seu significado</a></li>
+  </ul></li>
+  <li><a href="#o-princípio-do-dobramento" id="toc-o-princípio-do-dobramento" class="nav-link" data-scroll-target="#o-princípio-do-dobramento"><span class="header-section-number">3.5</span> O Princípio do Dobramento</a></li>
+  </ul></li>
+  <li><a href="#beta-diversidade-em-detalhes" id="toc-beta-diversidade-em-detalhes" class="nav-link" data-scroll-target="#beta-diversidade-em-detalhes"><span class="header-section-number">4</span> Beta-Diversidade em Detalhes</a>
   <ul class="collapse">
-  <li><a href="#ordens-de-q-e-seu-significado" id="toc-ordens-de-q-e-seu-significado" class="nav-link" data-scroll-target="#ordens-de-q-e-seu-significado"><span class="header-section-number">4.1.1</span> Ordens de <span class="math inline">\(q\)</span> e seu significado</a></li>
+  <li><a href="#turnover-vs.-aninhamento-nestedness" id="toc-turnover-vs.-aninhamento-nestedness" class="nav-link" data-scroll-target="#turnover-vs.-aninhamento-nestedness"><span class="header-section-number">4.1</span> Turnover vs.&nbsp;Aninhamento (Nestedness)</a></li>
+  <li><a href="#coeficientes-de-similaridade" id="toc-coeficientes-de-similaridade" class="nav-link" data-scroll-target="#coeficientes-de-similaridade"><span class="header-section-number">4.2</span> Coeficientes de Similaridade</a></li>
+  <li><a href="#jaccard-s_j-e-sørensen-s_s" id="toc-jaccard-s_j-e-sørensen-s_s" class="nav-link" data-scroll-target="#jaccard-s_j-e-sørensen-s_s"><span class="header-section-number">4.3</span> Jaccard (<span class="math inline">\(S_j\)</span>) e Sørensen (<span class="math inline">\(S_s\)</span>)</a></li>
+  <li><a href="#decaimento-de-similaridade-com-a-distância" id="toc-decaimento-de-similaridade-com-a-distância" class="nav-link" data-scroll-target="#decaimento-de-similaridade-com-a-distância"><span class="header-section-number">4.4</span> Decaimento de Similaridade com a Distância</a></li>
+  <li><a href="#aplicações-práticas-conservação-e-restauração" id="toc-aplicações-práticas-conservação-e-restauração" class="nav-link" data-scroll-target="#aplicações-práticas-conservação-e-restauração"><span class="header-section-number">4.5</span> Aplicações Práticas: Conservação e Restauração</a></li>
   </ul></li>
-  <li><a href="#o-princípio-do-dobramento" id="toc-o-princípio-do-dobramento" class="nav-link" data-scroll-target="#o-princípio-do-dobramento"><span class="header-section-number">4.2</span> O Princípio do Dobramento</a></li>
-  </ul></li>
-  <li><a href="#beta-diversidade-em-detalhes" id="toc-beta-diversidade-em-detalhes" class="nav-link" data-scroll-target="#beta-diversidade-em-detalhes"><span class="header-section-number">5</span> Beta-Diversidade em Detalhes</a>
-  <ul class="collapse">
-  <li><a href="#turnover-vs.-aninhamento-nestedness" id="toc-turnover-vs.-aninhamento-nestedness" class="nav-link" data-scroll-target="#turnover-vs.-aninhamento-nestedness"><span class="header-section-number">5.1</span> Turnover vs.&nbsp;Aninhamento (Nestedness)</a></li>
-  <li><a href="#coeficientes-de-similaridade" id="toc-coeficientes-de-similaridade" class="nav-link" data-scroll-target="#coeficientes-de-similaridade"><span class="header-section-number">5.2</span> Coeficientes de Similaridade</a>
-  <ul class="collapse">
-  <li><a href="#jaccard-s_j-e-sørensen-s_s" id="toc-jaccard-s_j-e-sørensen-s_s" class="nav-link" data-scroll-target="#jaccard-s_j-e-sørensen-s_s"><span class="header-section-number">5.2.1</span> Jaccard (<span class="math inline">\(S_j\)</span>) e Sørensen (<span class="math inline">\(S_s\)</span>)</a></li>
-  </ul></li>
-  <li><a href="#decaimento-de-similaridade-com-a-distância" id="toc-decaimento-de-similaridade-com-a-distância" class="nav-link" data-scroll-target="#decaimento-de-similaridade-com-a-distância"><span class="header-section-number">5.3</span> Decaimento de Similaridade com a Distância</a></li>
-  </ul></li>
-  <li><a href="#exemplos-práticos-e-simulação-em-r" id="toc-exemplos-práticos-e-simulação-em-r" class="nav-link" data-scroll-target="#exemplos-práticos-e-simulação-em-r"><span class="header-section-number">6</span> Exemplos Práticos e Simulação em R</a></li>
-  <li><a href="#aplicações-práticas-conservação-e-restauração" id="toc-aplicações-práticas-conservação-e-restauração" class="nav-link" data-scroll-target="#aplicações-práticas-conservação-e-restauração"><span class="header-section-number">7</span> Aplicações Práticas: Conservação e Restauração</a>
-  <ul class="collapse">
-  <li><a href="#o-debate-sloss-single-large-or-several-small" id="toc-o-debate-sloss-single-large-or-several-small" class="nav-link" data-scroll-target="#o-debate-sloss-single-large-or-several-small"><span class="header-section-number">7.1</span> O Debate SLOSS (Single Large or Several Small)</a></li>
-  <li><a href="#homogeneização-biótica" id="toc-homogeneização-biótica" class="nav-link" data-scroll-target="#homogeneização-biótica"><span class="header-section-number">7.2</span> Homogeneização Biótica</a></li>
-  <li><a href="#avaliação-de-restauração-ecológica" id="toc-avaliação-de-restauração-ecológica" class="nav-link" data-scroll-target="#avaliação-de-restauração-ecológica"><span class="header-section-number">7.3</span> Avaliação de Restauração Ecológica</a></li>
-  </ul></li>
+  <li><a href="#o-debate-sloss-single-large-or-several-small" id="toc-o-debate-sloss-single-large-or-several-small" class="nav-link" data-scroll-target="#o-debate-sloss-single-large-or-several-small"><span class="header-section-number">5</span> O Debate SLOSS (Single Large or Several Small)</a></li>
+  <li><a href="#homogeneização-biótica" id="toc-homogeneização-biótica" class="nav-link" data-scroll-target="#homogeneização-biótica"><span class="header-section-number">6</span> Homogeneização Biótica</a></li>
+  <li><a href="#avaliação-de-restauração-ecológica" id="toc-avaliação-de-restauração-ecológica" class="nav-link" data-scroll-target="#avaliação-de-restauração-ecológica"><span class="header-section-number">7</span> Avaliação de Restauração Ecológica</a></li>
   <li><a href="#conclusão" id="toc-conclusão" class="nav-link" data-scroll-target="#conclusão"><span class="header-section-number">8</span> Conclusão</a></li>
   </ul>
 </nav>
@@ -322,16 +280,22 @@ window.Quarto = {
 </header>
 
 
+<p>Slides desta aula</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<p><iframe data-external="1" src="../slides/comunidades_biologicas_espaco.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+</div>
 <section id="introdução-o-espaço-como-determinante-da-estrutura" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Introdução: O Espaço como Determinante da Estrutura</h1>
+<h1 data-number="1"><span class="header-section-number">1</span> Introdução: O espaço como determinante da estrutura</h1>
 <p>Sejam bem-vindos à nossa quinta semana de Ecologia de Comunidades. Até agora, discutimos como os indivíduos interagem e como as populações crescem. No entanto, as assembleias biológicas não existem no vácuo; elas estão inseridas em matrizes espaciais complexas. Hoje, entenderemos por que certas espécies ocorrem em um fragmento de <strong>Mata Atlântica</strong> em Pernambuco e não na <strong>Caatinga</strong>, e como a escala de análise altera nossa percepção sobre a biodiversidade.</p>
 <p>A ecologia de comunidades busca compreender a distribuição e abundância de agrupamentos de espécies, influenciados tanto por fatores abióticos (filtros ambientais) quanto por interações bióticas. Veremos que a montagem de comunidades é um processo dinâmico de colonização e extinção condicionado pela área, distância e heterogeneidade do habitat.</p>
 </section>
 <section id="heterogeneidade-espacial-e-padrões-globais-de-diversidade" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Heterogeneidade Espacial e Padrões Globais de Diversidade</h1>
+<h1 data-number="2"><span class="header-section-number">2</span> Heterogeneidade espacial e padrões globais de diversidade</h1>
 <section id="a-hipótese-da-heterogeneidade-do-habitat" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="a-hipótese-da-heterogeneidade-do-habitat"><span class="header-section-number">2.1</span> A Hipótese da Heterogeneidade do Habitat</h2>
+<h2 data-number="2.1" class="anchored" data-anchor-id="a-hipótese-da-heterogeneidade-do-habitat"><span class="header-section-number">2.1</span> A hipótese da heterogeneidade do habitat</h2>
 <p>Um dos princípios fundamentais da ecologia espacial é que ambientes mais heterogêneos acomodam mais espécies. Isso ocorre porque a complexidade arquitetônica (como a estratificação vertical de uma floresta) oferece uma gama maior de micro-habitats e recursos, permitindo que espécies com diferentes nichos coexistam.</p>
+<p><img src="https://www.biodiversity-exploratories.de/wp-content/uploads/csm_the_trade-off_01_a6fb6fa776.png" class="img-fluid"></p>
+<p>Firura: Dado um espaço limitado, a heterogeneidade de hábitats tem um efeito negativo sobre a área de cada hábitat. <a href="https://www.biodiversity-exploratories.de/en/projects/from-land-management-through-habitat-heterogeneity-to-biodiversity-in-grassland-ecosystems-a-combined-theoretical-experimental-and-observational-study/">fonte</a></p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -343,11 +307,13 @@ window.Quarto = {
 </div>
 <div class="callout-body-container callout-body">
 <p>Em fragmentos bem conservados da Mata Atlântica pernambucana, a presença de estratos arbóreos distintos (sub-bosque, dossel e árvores emergentes) cria gradientes de luz e umidade. Isso permite que diferentes guildas de aves e insetos ocupem o mesmo espaço horizontal, mas em “espaços de nicho” verticais distintos.</p>
+<p><img src="../img/strata.webp" class="img-fluid"></p>
 </div>
 </div>
 </section>
 <section id="o-gradiente-latitudinal-de-diversidade-gld" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="o-gradiente-latitudinal-de-diversidade-gld"><span class="header-section-number">2.2</span> O Gradiente Latitudinal de Diversidade (GLD)</h2>
+<h2 data-number="2.2" class="anchored" data-anchor-id="o-gradiente-latitudinal-de-diversidade-gld"><span class="header-section-number">2.2</span> O Gradiente latitudinal de diversidade (GLD)</h2>
+<p><img src="https://evolution.berkeley.edu/wp-content/uploads/2021/05/diversity_globe2.jpg" class="img-fluid"></p>
 <p>O aumento da riqueza de espécies dos polos em direção ao equador é um dos padrões mais consistentes da biosfera. Para explicar esse fenômeno, os ecólogos propõem cinco hipóteses principais:</p>
 <ol type="1">
 <li><strong>Energia e Produtividade:</strong> Regiões tropicais recebem maior radiação solar e possuem temperaturas mais elevadas, o que aumenta a produtividade primária líquida. Isso permite populações maiores e reduz as taxas de extinção.</li>
@@ -357,8 +323,8 @@ window.Quarto = {
 <li><strong>Interações Bióticas (Predação/Mutualismo):</strong> A predação é mais intensa nos trópicos, o que mantém as populações de presas abaixo da capacidade de carga, reduzindo a exclusão competitiva e permitindo maior coexistência (coexistência mediada pelo consumidor).</li>
 </ol>
 </section>
-<section id="a-relação-espécie-área-rea" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="a-relação-espécie-área-rea"><span class="header-section-number">2.3</span> A Relação Espécie-Área (REA)</h2>
+<section id="a-relação-espécie-área" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="a-relação-espécie-área"><span class="header-section-number">2.3</span> A relação espécie-área</h2>
 <p>A relação entre o número de espécies (<span class="math inline">\(S\)</span>) e a área amostrada (<span class="math inline">\(A\)</span>) é descrita matematicamente pela equação de Arrhenius:</p>
 <p><span class="math display">\[S = c \cdot A^z\]</span></p>
 <p>Onde: * <span class="math inline">\(S\)</span> é a riqueza de espécies. * <span class="math inline">\(A\)</span> é a área. * <span class="math inline">\(c\)</span> é uma constante de intercepto que depende do grupo taxonômico e da região. * <span class="math inline">\(z\)</span> é a inclinação da curva em escala log-log, indicando a taxa de acúmulo de espécies.</p>
@@ -375,6 +341,7 @@ window.Quarto = {
 </div>
 <div class="callout-body-container callout-body">
 <p>Em sistemas de ilhas oceânicas (como o arquipélago de Fernando de Noronha), os valores de <span class="math inline">\(z\)</span> tendem a ser maiores (entre 0,20 e 0,35), indicando um isolamento maior e taxas de colonização menores. Em áreas continentais contíguas, o <span class="math inline">\(z\)</span> é tipicamente menor (0,12 a 0,17), pois o fluxo de indivíduos mascara as extinções locais.</p>
+<p><img src="https://www.vestiprovas.com.br/arquivos/UEG(NOVAS)GO-2011.2-QUEST%2061.JPG" class="img-fluid"></p>
 </div>
 </div>
 </section>
@@ -395,16 +362,16 @@ window.Quarto = {
 <p>Whittaker originalmente propôs uma relação multiplicativa: <span class="math display">\[\gamma = \alpha \times \beta \implies \beta = \frac{\gamma}{\alpha}\]</span></p>
 <p>Mais recentemente, o particionamento aditivo tem sido utilizado para escalas hierárquicas: <span class="math display">\[\gamma = \bar{\alpha} + \beta\]</span> Neste caso, <span class="math inline">\(\beta\)</span> representa o número médio de espécies não compartilhadas entre os habitats.</p>
 </section>
-</section>
-<section id="números-de-hill-1973-rumo-à-diversidade-efetiva" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Números de Hill (1973): Rumo à Diversidade Efetiva</h1>
+<section id="números-de-hill-1973-rumo-à-diversidade-efetiva" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="números-de-hill-1973-rumo-à-diversidade-efetiva"><span class="header-section-number">3.3</span> Números de Hill (1973): Rumo à Diversidade Efetiva</h2>
 <p>Os índices clássicos de diversidade (Shannon, Simpson) possuem propriedades matemáticas distintas que dificultam a comparação direta. Hill (1973) unificou essas medidas em uma única equação paramétrica, convertendo os índices em <strong>números efetivos de espécies</strong> (o número de espécies igualmente abundantes necessário para produzir o valor observado do índice).</p>
-<section id="a-equação-unificada-qd" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="a-equação-unificada-qd"><span class="header-section-number">4.1</span> A Equação Unificada <span class="math inline">\(^qD\)</span></h2>
+</section>
+<section id="a-equação-unificada-qd" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="a-equação-unificada-qd"><span class="header-section-number">3.4</span> A Equação Unificada <span class="math inline">\(^qD\)</span></h2>
 <p><span class="math display">\[^qD = \left( \sum_{i=1}^{S} p_i^q \right)^{1/(1-q)}\]</span></p>
 <p>Onde <span class="math inline">\(p_i\)</span> é a abundância relativa da espécie <span class="math inline">\(i\)</span> e <span class="math inline">\(q\)</span> é a ordem da diversidade.</p>
-<section id="ordens-de-q-e-seu-significado" class="level3" data-number="4.1.1">
-<h3 data-number="4.1.1" class="anchored" data-anchor-id="ordens-de-q-e-seu-significado"><span class="header-section-number">4.1.1</span> Ordens de <span class="math inline">\(q\)</span> e seu significado</h3>
+<section id="ordens-de-q-e-seu-significado" class="level3" data-number="3.4.1">
+<h3 data-number="3.4.1" class="anchored" data-anchor-id="ordens-de-q-e-seu-significado"><span class="header-section-number">3.4.1</span> Ordens de <span class="math inline">\(q\)</span> e seu significado</h3>
 <ul>
 <li><strong><span class="math inline">\(q = 0\)</span> (Riqueza de Espécies):</strong> Insensível às abundâncias relativas. Pesa igualmente espécies raras e abundantes.</li>
 <li><strong><span class="math inline">\(q = 1\)</span> (Exponencial de Shannon):</strong> Pesa as espécies proporcionalmente às suas abundâncias. O limite quando <span class="math inline">\(q \to 1\)</span> é <span class="math inline">\(\exp(H')\)</span>.</li>
@@ -412,113 +379,58 @@ window.Quarto = {
 </ul>
 </section>
 </section>
-<section id="o-princípio-do-dobramento" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="o-princípio-do-dobramento"><span class="header-section-number">4.2</span> O Princípio do Dobramento</h2>
+<section id="o-princípio-do-dobramento" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="o-princípio-do-dobramento"><span class="header-section-number">3.5</span> O Princípio do Dobramento</h2>
 <p>A grande vantagem dos Números de Hill é que eles obedecem ao <strong>princípio do dobramento</strong>: se tivermos duas comunidades completamente distintas (sem espécies em comum) com diversidade <span class="math inline">\(X\)</span>, a diversidade gama da união delas será exatamente <span class="math inline">\(2X\)</span>. Os índices brutos de Shannon e Simpson não possuem essa linearidade, o que gera erros de interpretação em análises espaciais.</p>
 </section>
 </section>
-<section id="beta-diversidade-em-detalhes" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> Beta-Diversidade em Detalhes</h1>
+<section id="beta-diversidade-em-detalhes" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Beta-Diversidade em Detalhes</h1>
 <p>A diversidade beta é a chave para entender como a biodiversidade responde à fragmentação.</p>
-<section id="turnover-vs.-aninhamento-nestedness" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="turnover-vs.-aninhamento-nestedness"><span class="header-section-number">5.1</span> Turnover vs.&nbsp;Aninhamento (Nestedness)</h2>
+<section id="turnover-vs.-aninhamento-nestedness" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="turnover-vs.-aninhamento-nestedness"><span class="header-section-number">4.1</span> Turnover vs.&nbsp;Aninhamento (Nestedness)</h2>
 <p>A variação composicional pode ocorrer por dois processos distintos: 1. <strong>Turnover (Substituição):</strong> Espécies são substituídas por outras ao longo de um gradiente, geralmente devido a filtros ambientais ou barreiras. 2. <strong>Aninhamento (Nestedness):</strong> Sítios com menor riqueza são subconjuntos bióticos de sítios mais ricos. Isso ocorre frequentemente em processos de extinção ordenada por fragmentação, onde apenas espécies generalistas persistem em manchas menores.</p>
 </section>
-<section id="coeficientes-de-similaridade" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="coeficientes-de-similaridade"><span class="header-section-number">5.2</span> Coeficientes de Similaridade</h2>
+<section id="coeficientes-de-similaridade" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="coeficientes-de-similaridade"><span class="header-section-number">4.2</span> Coeficientes de Similaridade</h2>
 <p>Para quantificar a similaridade (<span class="math inline">\(1 - \beta\)</span>), usamos frequentemente termos baseados em tabelas de contingência binária (<span class="math inline">\(a, b, c\)</span>): * <span class="math inline">\(a\)</span>: número de espécies presentes em ambos os sítios. * <span class="math inline">\(b\)</span>: espécies exclusivas do sítio 1. * <span class="math inline">\(c\)</span>: espécies exclusivas do sítio 2.</p>
-<section id="jaccard-s_j-e-sørensen-s_s" class="level3" data-number="5.2.1">
-<h3 data-number="5.2.1" class="anchored" data-anchor-id="jaccard-s_j-e-sørensen-s_s"><span class="header-section-number">5.2.1</span> Jaccard (<span class="math inline">\(S_j\)</span>) e Sørensen (<span class="math inline">\(S_s\)</span>)</h3>
+</section>
+<section id="jaccard-s_j-e-sørensen-s_s" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="jaccard-s_j-e-sørensen-s_s"><span class="header-section-number">4.3</span> Jaccard (<span class="math inline">\(S_j\)</span>) e Sørensen (<span class="math inline">\(S_s\)</span>)</h2>
 <p><span class="math display">\[S_j = \frac{a}{a + b + c}\]</span> <span class="math display">\[S_s = \frac{2a}{2a + b + c}\]</span></p>
 <p>O índice de Sørensen dá peso dobrado às co-ocorrências (<span class="math inline">\(a\)</span>), sendo mais sensível à presença comum do que o Jaccard.</p>
 </section>
-</section>
-<section id="decaimento-de-similaridade-com-a-distância" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="decaimento-de-similaridade-com-a-distância"><span class="header-section-number">5.3</span> Decaimento de Similaridade com a Distância</h2>
+<section id="decaimento-de-similaridade-com-a-distância" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="decaimento-de-similaridade-com-a-distância"><span class="header-section-number">4.4</span> Decaimento de Similaridade com a Distância</h2>
 <p>Em ecologia espacial, espera-se que a similaridade composicional diminua à medida que a distância geográfica entre os pontos aumenta (Distance Decay). Isso se deve a: 1. <strong>Limitação de Dispersão:</strong> Espécies demoram a chegar em locais distantes. 2. <strong>Autocorrelação Ambiental:</strong> Locais próximos tendem a ser ambientalmente mais parecidos do que locais distantes.</p>
 </section>
+<section id="aplicações-práticas-conservação-e-restauração" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="aplicações-práticas-conservação-e-restauração"><span class="header-section-number">4.5</span> Aplicações Práticas: Conservação e Restauração</h2>
 </section>
-<section id="exemplos-práticos-e-simulação-em-r" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Exemplos Práticos e Simulação em R</h1>
-<p>Vamos demonstrar como calcular esses índices utilizando o pacote <code>vegan</code>. Simularemos dados de três fitofisionomias de Pernambuco: Mata Atlântica (MA), Caatinga (CA) e Brejos de Altitude (BA).</p>
-<div class="cell">
-<details open="" class="code-fold">
-<summary>Código</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(vegan)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Criando matriz de abundância (Sítios x Espécies)</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Sítio 1: Mata Atlântica (Rica, Equitativa)</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Sítio 2: Caatinga (Riqueza menor, poucas dominantes)</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Sítio 3: Brejos de Altitude (Intermediária, isolada)</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>comunidades <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="fu">c</span>(</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="dv">20</span>, <span class="dv">15</span>, <span class="dv">10</span>, <span class="dv">12</span>, <span class="dv">8</span>, <span class="dv">5</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="co"># MA</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">2</span>, <span class="dv">0</span>, <span class="dv">50</span>, <span class="dv">30</span>, <span class="dv">20</span>, <span class="dv">10</span>,  <span class="co"># CA</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="dv">10</span>, <span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">15</span>, <span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">2</span>     <span class="co"># BA</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>), <span class="at">nrow =</span> <span class="dv">3</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">rownames</span>(comunidades) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Mata_Atlantica"</span>, <span class="st">"Caatinga"</span>, <span class="st">"Brejo_Altitude"</span>)</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(comunidades) <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"Sp"</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>)</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Diversidade Alfa (Shannon e Simpson)</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>alfa_shannon <span class="ot">&lt;-</span> <span class="fu">diversity</span>(comunidades, <span class="at">index =</span> <span class="st">"shannon"</span>)</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>alfa_simpson <span class="ot">&lt;-</span> <span class="fu">diversity</span>(comunidades, <span class="at">index =</span> <span class="st">"simpson"</span>)</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Números de Hill (q=1)</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>hill_q1 <span class="ot">&lt;-</span> <span class="fu">exp</span>(alfa_shannon)</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Diversidade Beta (Jaccard)</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>dist_jaccard <span class="ot">&lt;-</span> <span class="fu">vegdist</span>(comunidades, <span class="at">method =</span> <span class="st">"jaccard"</span>, <span class="at">binary =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">list</span>(</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  <span class="at">Abundancias =</span> comunidades,</span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>  <span class="at">Hill_q1 =</span> hill_q1,</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>  <span class="at">Beta_Distancia =</span> dist_jaccard</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>))</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>$Abundancias
-               Sp1 Sp2 Sp3 Sp4 Sp5 Sp6 Sp7 Sp8 Sp9 Sp10
-Mata_Atlantica  20  15  10  12   8   5   0   0   0    0
-Caatinga         0   0   0   5   2   0  50  30  20   10
-Brejo_Altitude  10   0   5   0   0   0  15   0   5    2
-
-$Hill_q1
-Mata_Atlantica       Caatinga Brejo_Altitude 
-      5.499957       4.173463       4.130047 
-
-$Beta_Distancia
-               Mata_Atlantica  Caatinga
-Caatinga            0.8000000          
-Brejo_Altitude      0.7777778 0.6250000</code></pre>
-</div>
-</div>
 </section>
-<section id="aplicações-práticas-conservação-e-restauração" class="level1" data-number="7">
-<h1 data-number="7"><span class="header-section-number">7</span> Aplicações Práticas: Conservação e Restauração</h1>
-<section id="o-debate-sloss-single-large-or-several-small" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="o-debate-sloss-single-large-or-several-small"><span class="header-section-number">7.1</span> O Debate SLOSS (Single Large or Several Small)</h2>
+<section id="o-debate-sloss-single-large-or-several-small" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> O Debate SLOSS (Single Large or Several Small)</h1>
+<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_5Wo0mdKSvE4IvdQDRKpK4mxXHvD4B50E1KTnbEUxPKyo_7Hhdvsk55efC-6B8ufKg4UP-RpK1-LZCg8rGRPIh-s57jD1MwopL5SnwEo_Boi1eRSRE8oVE0N_8WMAwJzRA5ow8tmFKymjqW8UgXN-v2G7FbTdSKeMMSFxVZKEJIN5UCGHY66yRGAX/s835/pa%20design%20graphic.jpg" class="img-fluid"></p>
 <p>A teoria de biogeografia de ilhas de MacArthur e Wilson gerou o debate SLOSS: * <strong>Single Large (Um Único Grande):</strong> Reservas maiores tendem a ter menores taxas de extinção e suportar predadores de topo (espécies-chave). * <strong>Several Small (Vários Pequenos):</strong> Se os pequenos fragmentos possuírem alta beta-diversidade (baixa similaridade entre eles), o conjunto de pequenas reservas pode proteger mais espécies totais (<span class="math inline">\(\gamma\)</span>) do que uma única reserva grande.</p>
 <p>Em Pernambuco, a fragmentação extrema da Mata Atlântica torna o debate crucial: devemos expandir fragmentos existentes ou criar corredores ecológicos para conectar manchas isoladas?.</p>
 </section>
-<section id="homogeneização-biótica" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="homogeneização-biótica"><span class="header-section-number">7.2</span> Homogeneização Biótica</h2>
+<section id="homogeneização-biótica" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Homogeneização Biótica</h1>
 <p>A introdução de espécies invasoras e a degradação ambiental podem levar à perda de diversidade beta, um processo chamado <strong>homogeneização biótica</strong>. Quando as mesmas espécies generalistas (ex: o pardal ou certas gramíneas exóticas) passam a dominar todas as comunidades, a similaridade entre elas aumenta, e a diversidade gama da região diminui, mesmo que a riqueza alfa local permaneça constante.</p>
 </section>
-<section id="avaliação-de-restauração-ecológica" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="avaliação-de-restauração-ecológica"><span class="header-section-number">7.3</span> Avaliação de Restauração Ecológica</h2>
+<section id="avaliação-de-restauração-ecológica" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Avaliação de Restauração Ecológica</h1>
 <p>A similaridade composicional (Jaccard ou Sørensen) é um indicador robusto do sucesso de projetos de restauração. Comparamos a comunidade em restauração com uma “área de referência” bem preservada. À medida que a sucessão ecológica avança (de pioneiras para climácicas), espera-se que a similaridade com a referência aumente significativamente.</p>
-</section>
 </section>
 <section id="conclusão" class="level1" data-number="8">
 <h1 data-number="8"><span class="header-section-number">8</span> Conclusão</h1>
 <p>A organização das comunidades no espaço é o resultado de um balanço entre a colonização de clareiras e a exclusão competitiva, modulado pela geometria da paisagem. Compreender que a diversidade é uma propriedade de múltiplos níveis (<span class="math inline">\(\alpha, \beta, \gamma\)</span>) e que deve ser medida por números efetivos (Hill) é essencial para qualquer ecólogo que deseje manejar os biomas neotropicais sob crescente pressão antrópica.</p>
 <hr>
-<p><strong>Referências Bibliográficas Consultadas:</strong></p>
+<p><strong><a href="https://classroom.google.com/c/ODcyMTEwOTQ3NzAz/p/ODc0NTAyODI3MDg1/details">Referências Bibliográficas</a></strong></p>
 <ol type="1">
 <li>PERONI, N.; HERNÁNDEZ, M. I. M. <strong>Ecologia de Populações e Comunidades</strong>. Florianópolis: CCB/EAD/UFSC, 2011.</li>
 <li>BEGON, M.; TOWNSEND, C. R.; HARPER, J. L. <strong>Ecology: From Individuals to Ecosystems</strong>. 4. ed.&nbsp;Oxford: Blackwell, 2006.</li>
-<li><strong>Diversidade Alfa, Beta e Gamma na Ecologia</strong>. Resumo técnico baseado em Whittaker (1960) e Hill (1973).```</li>
+<li><strong>Diversidade Alfa, Beta e Gamma na Ecologia</strong>. Resumo técnico baseado em Whittaker (1960) e Hill (1973).</li>
 </ol>
 
 
