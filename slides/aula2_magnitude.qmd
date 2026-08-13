@@ -1,6 +1,6 @@
 ---
-title: "Ecologia Geral 2"
-subtitle: "Aula 2 - Padrões de distribuição e magnitude da biodiversidade"
+title: "Ecologia 2"
+subtitle: "Semana 4 - Padrões de distribuição e magnitude da biodiversidade"
 author: "Felipe Melo"
 institute: "Laboratório de Ecologia Aplicada - UFPE"
 #date: today
