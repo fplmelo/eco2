@@ -1,0 +1,290 @@
+---
+title: "Semana 6 — Clima, Solo e Vegetação"
+subtitle: "Determinantes abióticos da diversidade e biogeografia"
+author: "Prof. Felipe Melo — Ecologia de Comunidades"
+lang: pt
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    embed-resources: true
+    # theme: cosmo
+    code-fold: true
+bibliography: referencias_semana06.bib
+# csl: null
+nocite: |
+  @vellend2016, @jenny1941
+---
+
+Slides desta aula
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe data-external="1" src="/slides/clima_solo_vegetacao.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+# Introdução: Por que Começar pelo Clima?
+
+Nas cinco semanas anteriores deste curso, construímos progressivamente uma teoria dos padrões de biodiversidade — primeiro descrevendo suas dimensões e métricas (Semana 1), depois organizando essas dimensões em torno dos quatro processos de alto nível de @vellend2016 (seleção, deriva, dispersão e especiação; Semana 2), e em seguida explorando dois processos temporais que geram e reorganizam a diversidade local — a sucessão ecológica (Semana 3) e a distribuição espacial das espécies em escalas continentais — a biogeografia clássica (Semana 4). Nesta sexta semana, fechamos um ciclo conceitual essencial: precisamos entender **de onde vêm os gradientes ambientais** que a seleção (no sentido de Vellend) converte em padrões de diversidade observados.
+
+Até aqui, tratamos "o ambiente" de forma relativamente abstrata — como um conjunto de "condições" que filtram espécies. Nesta aula, abrimos essa caixa-preta e examinamos três determinantes abióticos concretos, hierarquicamente relacionados, que juntos explicam a maior parte da variação espacial na diversidade terrestre: **clima, solo e vegetação**. A tese central da aula, condensada no slide de fechamento de Felipe Melo, é sucinta e memorável:
+
+> *"Clima cria o palco. Solo escreve as regras. Vegetação joga o jogo."*
+
+Essa frase resume uma hierarquia causal que é ao mesmo tempo simples e profundamente generativa. O clima define, em primeira instância, quais organismos podem fisiologicamente existir em um dado local — ele estabelece os limites térmicos e hídricos dentro dos quais a vida é possível, regula a produtividade primária líquida disponível para sustentar cadeias tróficas, sincroniza a fenologia das espécies e determina a frequência e intensidade de distúrbios recorrentes como secas, incêndios e geadas. O solo, por sua vez, é parcialmente *produto* do clima (a intensidade do intemperismo químico e da lixiviação depende diretamente de temperatura e precipitação), mas também atua como um filtro independente e adicional: dentro de uma mesma faixa climática, variações no pH, na textura, na toxicidade por alumínio e na fertilidade geram mosaicos de comunidades radicalmente distintas. Finalmente, a vegetação — que é ela mesma moldada por clima e solo — deixa de ser um simples produto passivo e passa a atuar como *engenheira ecossistêmica*: ela cria estratos verticais, gera heterogeneidade horizontal, modifica o microclima abaixo do dossel e retroalimenta as próprias propriedades do solo do qual emergiu. Essa cadeia de filtros aninhados — clima → solo → vegetação → comunidade local — é a espinha dorsal conceitual de toda a aula, e é também, como veremos na síntese final, uma forma particular e espacializada de enxergar o processo de **seleção** no arcabouço de Vellend.
+
+::: {.callout-note}
+## Hierarquia de filtros ecológicos
+
+```
+CLIMA
+  │ filtra
+SOLO ◄──── formado em parte pelo clima
+  │ filtra
+VEGETAÇÃO ◄── estrutura o microclima
+  │ filtra
+COMUNIDADE LOCAL
+```
+
+O clima é o filtro primário — aquele que determina, antes de qualquer interação biótica, quais organismos podem sequer existir em um dado lugar. Solo e vegetação são filtros subsequentes, aninhados dentro dos limites já impostos pelo clima, mas cada um deles introduz retroalimentações que tornam o sistema mais complexo do que uma simples cascata unidirecional.
+:::
+
+Esta aula tem três objetivos específicos. Primeiro, revisar os mecanismos pelos quais clima, solo e vegetação moldam, separadamente e em conjunto, os componentes alfa, beta e gama da diversidade — recuperando e aprofundando o arcabouço de partição de diversidade introduzido na Semana 1. Segundo, aplicar esses mecanismos à biogeografia dos biomas brasileiros, com ênfase especial no Cerrado (como estudo de caso paradigmático da relação solo-vegetação-diversidade) e na Caatinga (como estudo de caso de vulnerabilidade climática e degradação antrópica). Terceiro, e mais importante para a arquitetura conceitual do curso, mostrar como esses três determinantes abióticos se conectam à tríade dispersão-filtragem-montagem de comunidades, preparando o terreno para as semanas subsequentes sobre interações bióticas e redes ecológicas.
+
+# Clima como determinante da Biodiversidade
+
+## Variáveis atmosféricas e padrões de diversidade
+
+O clima é comumente descrito por um conjunto padronizado de variáveis bioclimáticas — as chamadas variáveis BIO1 a BIO19 da base WorldClim, que capturam não apenas médias anuais de temperatura e precipitação, mas também sazonalidade, extremos e variabilidade intra-anual. Essa granularidade importa porque a diversidade biológica não responde apenas às médias climáticas, mas de forma crucial à *variância* e à *previsibilidade* do clima ao longo do ano.
+
+O papel do clima como determinante primário de diversidade tem uma longa tradição na biogeografia, remontando às observações de Alexander von Humboldt sobre a correlação entre latitude, altitude e riqueza de espécies. Essa tradição culminou, já no século XXI, em uma extensa literatura de macroecologia que buscou testar rigorosamente qual componente climático — energia, água, ou a interação entre ambos — melhor explica os gradientes de riqueza de espécies em escala continental e global.
+
+![Não são apenas o calor e a umidade que fazem dos climas tropicais os mais biodiversos da Terra](https://images.theconversation.com/files/553182/original/file-20231011-23-1b78sm.png?ixlib=rb-4.1.1&q=45&auto=format&w=1000&fit=clip)
+## Energia, Água e o Triângulo da Diversidade: a Hipótese Água-Energia
+
+A **hipótese água-energia** (*water-energy hypothesis*) unifica dois motores clássicos, historicamente tratados de forma isolada, dos padrões de diversidade: a hipótese da energia (que postula que a disponibilidade de energia solar e calor limita a riqueza de espécies, por meio de seus efeitos sobre metabolismo, taxas de especiação e capacidade de suporte) e a hipótese da água (que postula que a disponibilidade hídrica limita a produtividade primária e, por consequência, a riqueza).
+
+A síntese mais influente e amplamente citada dessa literatura é o trabalho de @hawkins2003, que revisou dezenas de estudos empíricos e demonstrou que, isoladamente ou em conjunto, medidas de energia, água ou do balanço água-energia explicam a variação espacial em riqueza de espécies de plantas e animais melhor do que qualquer outra variável climática ou não-climática testada. Um achado particularmente relevante desse trabalho é que a importância relativa de água versus energia varia sistematicamente com a latitude: em regiões temperadas frias, onde a energia é escassa, ela tende a ser o preditor dominante da riqueza; já em regiões tropicais e subtropicais quentes — como é o caso da quase totalidade do território brasileiro — a energia deixa de ser limitante e a disponibilidade de água passa a ser o fator mais fortemente correlacionado com a riqueza de espécies, tanto diretamente (tolerância fisiológica à seca) quanto indiretamente (via seu efeito sobre a produtividade primária, que por sua vez sustenta maior diversificação trófica). Esse padrão foi formalizado anteriormente por @obrien1998, cujo "modelo geral interino" propôs uma métrica combinada de água-energia (a evapotranspiração potencial ajustada pela disponibilidade hídrica) como preditor da riqueza de plantas lenhosas em escala continental — um modelo particularmente relevante para entender a distribuição da flora lenhosa dos biomas brasileiros discutidos adiante neste resumo. Testes subsequentes em outros continentes, como o de @whittaker2007 usando dados europeus para cinco táxons distintos (plantas, mamíferos, aves, anfíbios e répteis), confirmaram a robustez geral da conjectura água-energia, ainda que com variações importantes conforme o táxon e a escala espacial analisada — um lembrete valioso de que generalizações macroecológicas amplas quase sempre escondem heterogeneidade taxonômica substancial.
+
+Para o contexto brasileiro, essa hipótese tem uma implicação direta e imediata: como o país está quase inteiramente situado entre os trópicos, onde a energia solar é abundante durante todo o ano, o principal eixo de variação na diversidade de plantas ao longo do território deveria ser primariamente hídrico — e é exatamente esse padrão que observamos ao comparar, por exemplo, a exuberância florística da Amazônia (regime de chuvas quase perene) com a diversidade reduzida, porém altamente especializada, da Caatinga (regime de seca severa e prolongada).
+
+## Sazonalidade climática e diversidade alfa
+
+![](https://external-preview.redd.it/seasonal-temperature-range-over-land-berkeley-earth-surface-v0-liSSi6kdB9okRlhrH6tQdWdYOm5IRkuIb5rIGcCL3lg.png?auto=webp&s=2a134efd945dd13ee7a1164c127359537adadee7)
+
+Um ponto frequentemente subestimado em discussões introdutórias sobre clima e diversidade é que **a estabilidade climática ao longo do ano importa tanto quanto os valores médios**. Duas localidades podem ter precipitação anual total idêntica e, ainda assim, sustentar comunidades radicalmente diferentes se uma delas distribui essa chuva uniformemente ao longo dos doze meses e a outra a concentra em uma janela estreita de poucos meses.
+
+Ao comparar três localidades brasileiras emblemáticas — Manaus (Amazônia), Petrolina (Caatinga) e Porto Alegre (Pampa) — observamos padrões sazonais marcadamente distintos: Manaus apresenta chuva relativamente distribuída ao longo do ano (embora com um período mais seco entre junho e setembro) e temperaturas médias altas e estáveis; Petrolina apresenta uma estação chuvosa extremamente concentrada (poucos meses, sobretudo entre janeiro e abril) seguida por um longo período de seca quase absoluta; e Porto Alegre apresenta chuva relativamente bem distribuída, mas com grande amplitude térmica sazonal, alternando verões quentes e invernos frios. Esse contraste ilustra um princípio geral em ecologia de comunidades: **alta sazonalidade climática tende a reduzir a diversidade alfa local**, porque atua como um filtro temporal adicional — apenas espécies capazes de tolerar (fisiologicamente, via dormência, ou fenologicamente, via sincronização reprodutiva) o período desfavorável conseguem persistir. Ao mesmo tempo, **alta sazonalidade tende a elevar a diversidade beta entre estações**, na medida em que a composição de espécies ativas (florescendo, reproduzindo, forrageando) muda substancialmente entre a estação favorável e a desfavorável. O resultado líquido é que ambientes fortemente sazonais, como a Caatinga, tendem a ser dominados por um subconjunto relativamente pequeno de espécies com adaptações extremas à tolerância ao estresse hídrico (suculência, caducifolia, dormência de sementes, fisiologia CAM), enquanto ambientes climaticamente mais estáveis, como partes da Amazônia, permitem a coexistência de um número muito maior de estratégias ecológicas simultâneas — desde espécies de crescimento rápido e vida curta até espécies de crescimento lento e longevidade extrema — sem que nenhuma delas precise necessariamente tolerar extremos fisiológicos severos.
+
+## Mudanças climáticas e distribuições futuras de espécies
+
+As projeções climáticas do IPCC AR6 (Sexto Relatório de Avaliação), particularmente sob o cenário de altas emissões SSP3-7.0, indicam níveis de vulnerabilidade climática marcadamente distintos entre os biomas brasileiros até o final do século. Embora os valores numéricos exatos variem conforme o modelo climático regional utilizado, o padrão geral que emerge de exercícios de modelagem desse tipo — mapeando aquecimento projetado (ΔT) contra mudança projetada na precipitação — é consistente: **Caatinga e Cerrado tendem a apresentar simultaneamente alto aquecimento projetado e redução acentuada de precipitação**, colocando-os entre os biomas de maior risco relativo combinado; a Amazônia e o Pantanal também mostram redução de precipitação com aquecimento moderado a alto, o que é particularmente preocupante dado o papel desses biomas na reciclagem de umidade atmosférica continental (o chamado "rios voadores"); já o Pampa, situado nas latitudes mais austrais do país, tende a apresentar um padrão climático projetado distinto, por vezes com pequeno aumento de precipitação combinado a aquecimento moderado.
+
+Essas projeções não são meramente acadêmicas: elas têm implicações diretas e testáveis para a teoria da biogeografia discutida na Semana 4. Se o clima é, como argumentamos, o filtro primário sobre o qual solo e vegetação atuam secundariamente, então mudanças na distribuição espacial das variáveis climáticas devem, com uma defasagem temporal que depende da capacidade de dispersão e da longevidade dos organismos, deslocar os limites das distribuições geográficas das espécies — um fenômeno já documentado extensivamente na literatura de modelagem de distribuição de espécies sob mudança climática (ver Semana 4, e @franklin2023 para uma revisão recente sobre o papel dessas modelagens na compreensão de biogeografias passadas, presentes e futuras).
+
+![Em vermelho, áreas com maior distribuição e adaptabilidade da espécie A. leiocarpa hoje (à esquerda) e no futuro (à direita), com intervenção da mudança climática](https://www.ecodebate.com.br/wp-content/uploads/2022/07/20220707-220707-2-mudanca-climatica-reduz-germinacao-e-distribuicao-geografica-de-plantas-no-cerrado.jpg)
+
+# Solo como filtro ecológico
+
+## Solo: Muito além de "substrato"
+
+Uma concepção ingênua trata o solo como mero substrato físico de sustentação para as plantas — um "chão" inerte sobre o qual a vegetação simplesmente se apoia. Essa visão é profundamente equivocada. O solo é, na verdade, **um ecossistema vivo** que filtra, armazena, transforma e recicla nutrientes, água e carbono, e que exerce sobre a composição da comunidade vegetal um controle tão poderoso quanto o próprio clima — em muitas paisagens tropicais, de fato, o solo explica *mais* variação composicional em escala local do que o clima, precisamente porque o clima tende a ser relativamente homogêneo em pequenas extensões espaciais, enquanto o solo pode variar drasticamente em distâncias de poucos metros a poucos quilômetros.
+
+As propriedades edáficas mais relevantes para a filtragem de comunidades vegetais incluem:
+
+| Propriedade | Efeito na comunidade |
+|---|---|
+| pH | Define disponibilidade de nutrientes; filtra espécies calcícolas (adaptadas a solos alcalinos/neutros) versus acidófilas (adaptadas a solos ácidos) |
+| Textura (argila/areia) | Determina a capacidade de retenção hídrica e, portanto, a disponibilidade de água mesmo dentro de um mesmo regime de precipitação |
+| Teor de Al³⁺ (alumínio trocável) | Toxicidade radicular — elimina espécies não fisiologicamente adaptadas à tolerância ao alumínio |
+| Saturação por bases | Separa solos eutróficos (ricos em cátions como Ca²⁺, Mg²⁺, K⁺) de solos distróficos (pobres) |
+| Profundidade efetiva | Limita o volume de enraizamento explorável; determina a capacidade de suporte hídrico e nutricional em períodos de seca |
+| Matéria orgânica | Sustenta a diversidade microbiana do solo e regula as taxas de ciclagem de nutrientes |
+
+A formação dessas propriedades ao longo do tempo geológico é descrita classicamente pela **equação de estado de Jenny** [@jenny1941], frequentemente resumida pelo mnemônico *CLORPT*: o solo, em qualquer ponto do espaço e do tempo, é uma função de cinco fatores de estado independentes — clima (*climate*), organismos (*organisms*), relevo (*relief*), material de origem (*parent material*) e tempo (*time*). Essa formulação, ainda hoje o arcabouço conceitual dominante em pedologia, é diretamente relevante para a ecologia de comunidades porque estabelece explicitamente que o solo não é um fator abiótico "puro" e independente — ele é, em parte, um produto histórico da própria vegetação e da fauna que nele atuaram ao longo do tempo, um ponto ao qual retornaremos na discussão do "triângulo pedológico" adiante.
+
+## Gradientes edáficos e beta-diversidade no Cerrado
+
+O Cerrado brasileiro é, entre todos os biomas do país, aquele em que a relação **solo × vegetação × diversidade** se manifesta de forma mais nítida e mais bem documentada na literatura ecológica. Distintamente do que uma leitura superficial poderia sugerir, o Cerrado não é uma formação vegetal homogênea, mas um **mosaico de fitofisionomias** organizado ao longo de gradientes edáficos e hidrológicos. A classificação de referência para essas fitofisionomias, amplamente adotada na literatura brasileira, é a de @ribeirowalter2008, que reconhece onze tipos fitofisionômicos principais organizados em três grandes formações: formações florestais (mata ciliar, mata de galeria, mata seca, cerradão), formações savânicas (cerrado sentido restrito, parque de cerrado, palmeiral, vereda) e formações campestres (campo sujo, campo rupestre, campo limpo).
+
+A distribuição espacial dessas fitofisionomias ao longo da paisagem — desde a mata ciliar às margens dos cursos d'água, passando pelas formações savânicas de fertilidade intermediária, até os campos rupestres sobre afloramentos rochosos pobres — é controlada em grande medida pela combinação de fertilidade do solo, profundidade do lençol freático e presença ou ausência de camadas impeditivas de drenagem. A literatura internacional que sintetiza esse padrão para toda a flora lenhosa do bioma é a de @oliveirafilho2002, um capítulo de referência que analisou a composição florística de centenas de áreas de Cerrado e demonstrou que a fertilidade e a disponibilidade hídrica do solo — mais do que o clima regional, relativamente homogêneo dentro do domínio do Cerrado — são os principais determinantes da fisionomia e composição da vegetação lenhosa em escala local.
+
+![Os tipos de Cerrado](https://sme.goiania.go.gov.br/conexaoescola/wp-content/uploads/2024/11/classificacao-do-cerrado-e1732793771486-1024x454.png)
+
+::: {.callout-tip}
+## Beta-diversidade edáfica
+
+A transição de campo limpo distrófico (solo pobre, drenagem livre) para mata de galeria eutrófica (solo relativamente rico, saturado) ao longo de poucas centenas de metros de uma mesma paisagem gera alta diversidade beta via *turnover* de espécies — comunidades que co-ocorrem no espaço geográfico imediato, mas que são fortemente segregadas edaficamente, compartilhando pouquíssimas espécies em comum.
+:::
+
+## Solos especiais e endemismo
+
+Além dos gradientes contínuos de fertilidade descritos acima, certos tipos de solo criam o que a literatura chama de **"ilhas pedológicas"** — manchas edáficas extremas e geograficamente restritas, frequentemente associadas a afloramentos rochosos específicos (canga ferruginosa, quartzito, arenito) ou a depósitos sedimentares peculiares (areias brancas, solos hidromórficos), que sustentam uma flora altamente especializada e frequentemente endêmica. Exemplos brasileiros paradigmáticos incluem os campos rupestres da Cadeia do Espinhaço (Minas Gerais e Bahia), com sua flora extraordinariamente rica em espécies endêmicas de Velloziaceae e Eriocaulaceae adaptadas a solos rasos, ácidos e pobres em nutrientes sobre substrato quartzítico; as formações de restinga sobre solos arenosos costeiros, com flora adaptada à salinidade e à baixíssima retenção hídrica; e os afloramentos de canga ferruginosa na região do Quadrilátero Ferrífero, cuja flora especializada tem sido alvo de intenso debate conservacionista frente à expansão da mineração de ferro. Esses casos ilustram um princípio geral central à teoria da biogeografia de ilhas (discutida na Semana 4): ambientes edaficamente isolados funcionam, do ponto de vista da montagem de comunidades, de maneira análoga a ilhas oceânicas — pequenas manchas de habitat especializado cercadas por uma "matriz" ecologicamente inóspita para as espécies ali adaptadas, favorecendo especiação local e altíssimas taxas de endemismo.
+
+## Solo, diversidade alfa e diversidade Beta: a relação em "corcova"
+
+Um dos padrões empíricos mais robustos e mais replicados na ecologia de comunidades vegetais é a existência de uma **relação em forma de corcova (unimodal)** entre fertilidade do solo e diversidade alfa: solos muito pobres impõem filtros fisiológicos severos (toxicidade, deficiência nutricional extrema) que excluem a maioria das espécies, restando apenas um pequeno conjunto de especialistas altamente tolerantes; solos muito ricos, por sua vez, favorecem desproporcionalmente um pequeno número de espécies competitivamente dominantes e de crescimento rápido, que via exclusão competitiva reduzem a diversidade de espécies coexistentes; a diversidade alfa máxima tende a ocorrer, portanto, em níveis intermediários de fertilidade, onde nem a limitação fisiológica nem a exclusão competitiva dominam completamente a montagem da comunidade.
+
+Paralelamente, a diversidade beta tende a exibir uma relação **negativa** com a fertilidade média — ou, mais precisamente, positiva com a *heterogeneidade* (variância espacial) da fertilidade: paisagens com solos heterogêneos, contendo múltiplos tipos edáficos distintos lado a lado, sustentam maior diversidade beta simplesmente porque cada tipo de solo favorece um subconjunto composicional distinto de espécies. Esse é precisamente o mecanismo por trás da elevada diversidade beta observada no Cerrado, onde a coexistência regional de solos distróficos rasos, solos eutróficos profundos e solos hidromórficos de vereda, todos dentro de distâncias relativamente curtas, gera um mosaico de comunidades vegetais fortemente segregadas.
+
+![Em regiões onde a precipitação é frequente, a fase aquosa do solo é amplamente conectada e fornece um habitat comum para células de diferentes espécies bacterianas. Em solos de regiões mais secas, a fase aquosa encontra-se crescentemente fragmentada e oferece um grande número de habitats distintos. Quando o solo se torna suficientemente seco, quase todos os habitats aquáticos ficam fisicamente isolados e podem conter apenas algumas poucas espécies. Além disso, o número total de células que podem ser mantidas (capacidade de suporte potencial) é reduzido e manchas menores tornam-se desabitadas. A capacidade de suporte específica em um bioma baseia-se no fluxo de entrada de carbono e na temperatura, que estabelecem um limite superior para a densidade de células bacterianas (raramente atingido em uma localização específica devido a outros fatores limitantes). Os números abaixo de cada painel indicam o número de células pelo número de habitats. Espera-se que a diversidade caia em regiões secas com baixa abundância de células e em regiões úmidas com alta conectividade de habitat.](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-019-13966-w/MediaObjects/41467_2019_13966_Fig1_HTML.png?as=webp)
+
+::: {.callout-note}
+## Interpretação central
+
+Solos muito pobres e muito ricos tendem a reduzir a diversidade alfa local (filtros fortes em ambos os extremos); a relação "corcova" entre fertilidade e riqueza é um dos padrões mais clássicos e recorrentes da ecologia vegetal. Porém, solos heterogêneos em escala de paisagem elevam a diversidade beta — mais tipos de solo geram mais tipos de comunidade, mesmo que cada comunidade individual não seja particularmente rica.
+:::
+
+## Formação do solo, clima e vegetação: o triângulo pedológico
+
+Retomando explicitamente o arcabouço CLORPT de @jenny1941, é essencial reconhecer que a relação entre clima, solo e vegetação não é uma cascata estritamente unidirecional, mas um sistema com múltiplas **retroalimentações** (*feedbacks*) recíprocas:
+
+- **Plantas acidificam o solo** ativamente, por meio da exsudação de ácidos orgânicos radiculares e da decomposição de serapilheira rica em compostos fenólicos — um processo particularmente pronunciado sob coníferas e sob certas famílias de plantas tropicais adaptadas a solos pobres (como muitas Myrtaceae e Ericaceae de campos rupestres).
+- **Vegetação densa aumenta o teor de matéria orgânica** do solo, o que por sua vez modifica sua textura efetiva (agregação de partículas) e sua capacidade de troca catiônica (CTC), tornando o solo capaz de reter mais nutrientes disponíveis para o próprio sistema radicular que o gerou.
+- **O solo, ao definir qual vegetação consegue se estabelecer, é simultaneamente alterado por essa mesma vegetação** — um ciclo de causação recíproca que torna a distinção entre "causa" e "efeito", nesse sistema, uma simplificação analítica útil, mas parcialmente artificial.
+- **O clima controla as taxas** nas quais todos esses processos ocorrem: o intemperismo químico das rochas-mãe e o acúmulo (ou a rápida mineralização) de matéria orgânica são processos fortemente dependentes de temperatura e umidade, o que explica por que solos tropicais úmidos tendem a ser profundamente intemperizados e freqüentemente pobres em nutrientes solúveis (que foram lixiviados ao longo de milênios), enquanto solos de regiões áridas ou frias tendem a reter minerais primários e nutrientes de forma muito mais eficiente.
+
+::: {.callout-important}
+## Nota conceitual
+
+O "triângulo pedológico" clima-solo-vegetação não deve ser lido como uma hierarquia estritamente linear e unidirecional (clima → solo → vegetação), mas como um sistema dinâmico de retroalimentações mútuas que se estabiliza, em escalas de tempo geológico, em configurações regionais características — os biomas que reconhecemos hoje.
+:::
+
+# Vegetação, estrutura e nichos
+
+## Vegetação como criadora de diversidade
+
+Se o clima e o solo atuam predominantemente como filtros que *restringem* quais espécies podem estar presentes em um dado local, a vegetação desempenha um papel conceitualmente distinto e complementar: ela não é apenas *resposta* passiva aos fatores abióticos anteriores, mas também **causa ativa** de diversidade adicional, ao criar estrutura física, microclimas e recursos que, por sua vez, sustentam diversidade em outros grupos taxonômicos. Esse papel de "engenharia ecossistêmica" da vegetação opera por, ao menos, cinco mecanismos complementares:
+
+1. **Estratificação vertical** — a criação de estratos distintos (herbáceo, arbustivo, subdossel, dossel, emergente) multiplica o número de nichos estruturais disponíveis para a fauna associada, desde invertebrados de serapilheira até aves de dossel.
+2. **Heterogeneidade horizontal** — clareiras, bordas e mosaicos sucessionais (recuperando diretamente os conceitos de sucessão ecológica da Semana 3) geram variação espacial em luminosidade, umidade e temperatura em escalas de metros a dezenas de metros.
+3. **Arquitetura de plantas individuais** — a forma de copa, a densidade foliar e a arquitetura radicular de espécies particulares criam microhabitats específicos (por exemplo, epífitas dependem de arquiteturas de copa particulares; certas aves e insetos dependem de formas foliares específicas para nidificação ou oviposição).
+4. **Engenharia ecossistêmica** — árvores que criam ocos, palmeiras que acumulam água em suas axilas foliares (fitotelmata), e a própria formação de serapilheira, todos geram microhabitats que sustentam comunidades inteiras de organismos associados.
+5. **Provisão de recursos** — floração e frutificação sazonalmente estruturadas sustentam redes complexas de polinizadores e dispersores de sementes, tema que será aprofundado nas semanas subsequentes do curso sobre interações bióticas.
+
+## Estratificação e números de Hill
+
+A complexidade estrutural da vegetação afeta não apenas a riqueza bruta de espécies, mas também o **perfil de diversidade** ao longo do espectro de números de Hill (introduzidos na Semana 1). Comparando três fisionomias — um campo dominado por poucas espécies gramíneas altamente abundantes, um Cerrado sentido estrito com dominância moderada, e uma floresta estratificada com distribuição de abundâncias mais equitativa — observa-se um padrão consistente: a magnitude da diferença entre a riqueza bruta (número de Hill de ordem q=0, que ignora completamente a abundância relativa) e os números de Hill de ordens mais altas (q=1, equivalente exponencial da entropia de Shannon; q=2, equivalente inverso do índice de Simpson, que dá peso desproporcional às espécies dominantes) reflete diretamente o grau de equitabilidade da comunidade.
+
+Florestas estratificadas tendem a apresentar curvas de Hill mais "planas" — ou seja, a diversidade efetiva declina relativamente pouco ao passarmos de q=0 para q=2 — porque a complexidade estrutural do dossel multiestratificado tende a distribuir os recursos (luz, espaço) de forma mais equitativa entre um número maior de espécies coexistentes, nenhuma das quais consegue monopolizar completamente um recurso específico. Campos dominados por poucas gramíneas, em contraste, apresentam curvas muito mais íngremes: a riqueza bruta pode até ser moderada, mas a diversidade efetiva de ordens superiores despenca rapidamente, refletindo a dominância desproporcional de uma ou poucas espécies competitivamente superiores em ambientes estruturalmente simples.
+
+## Ecótonos: Zonas de alta beta-diversidade
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyiupxbaRpsGe1E205vf8HTWHKzty0b6qpeMbGNVnMO4NskISF-OI1rRb6NUt_NmYV4JP8Qy-e5-sDE-EWlxXCU1pBTDYF-ViXWpptwP-F7WDv4_0xHTNxH67Enj8vX_KECqx9z3fr8U4/s640/2016+05+23+Ecotono-01.jpg)
+
+Um corolário direto do papel estruturante da vegetação é o fenômeno dos **ecótonos** — zonas de transição entre duas formações vegetacionais ou dois biomas adjacentes — que consistentemente exibem diversidade beta anormalmente elevada em relação à área que ocupam. Isso ocorre por (ao menos) quatro razões complementares: ecótonos contêm, simultaneamente, espécies características de ambos os biomas adjacentes que ali se sobrepõem espacialmente; eles frequentemente possuem espécies **especialistas de borda**, dependentes especificamente da condição de transição e ausentes tanto no interior de um bioma quanto no interior do outro; a proximidade espacial de condições ambientais contrastantes gera **alta heterogeneidade microambiental em curta distância**, multiplicando o número de nichos disponíveis; e o resultado líquido dessas três forças é diversidade beta elevada mesmo em escalas espaciais estritamente locais, sem necessidade de invocar processos regionais ou históricos.
+
+O exemplo brasileiro mais emblemático de ecótono de grande escala é a transição entre Caatinga e Cerrado no norte de Minas Gerais e sul do Piauí/Maranhão — uma zona de contato entre dois domínios morfoclimáticos com histórias biogeográficas distintas, mas com afinidades florísticas compartilhadas suficientes para gerar comunidades de transição ricas em espécies exclusivas dessa faixa intermediária.
+
+# Regiões biogeográficas do Brasil
+
+## Domínios morfoclimáticos: a contribuição de Ab'Saber
+
+A geografia física brasileira possui uma tradição conceitual própria e influente para descrever a integração entre clima, relevo, solo e vegetação em grandes unidades de paisagem: os **domínios morfoclimáticos**, formalizados pelo geógrafo Aziz Nacib Ab'Saber [@absaber2003]. Ab'Saber definiu domínio morfoclimático como uma grande unidade territorial — da ordem de centenas de milhares a milhões de quilômetros quadrados — na qual relevo, tipos de solo, vegetação, hidrografia e condições climatológicas se combinam de forma recorrente para produzir uma paisagem relativamente homogênea em suas grandes linhas. Ab'Saber reconheceu seis domínios morfoclimáticos principais no território brasileiro: o domínio amazônico (o maior, de clima equatorial quente e úmido), o domínio das caatingas (semiárido nordestino), o domínio do cerrado (savânico, de clima tropical sazonal), o domínio dos mares de morros (associado historicamente à Mata Atlântica, de relevo mamelonar), o domínio das araucárias (subtropical, de altitude, no sul do país) e o domínio das pradarias (campos temperados do extremo sul, associados ao Pampa), além de extensas faixas de transição entre domínios adjacentes.
+
+![](https://www.tudogeo.com.br/wp-content/uploads/2020/06/Dominios-morfoclimaticos.jpg)
+
+É importante, para fins de precisão conceitual, distinguir "domínio morfoclimático" (um conceito de geografia física, centrado em relevo e clima como unificadores da paisagem) de "bioma" (um conceito primariamente biológico, centrado na fisionomia da vegetação dominante e na fauna associada) — ainda que na prática os dois mapeamentos se sobreponham consideravelmente para o território brasileiro, e frequentemente sejam usados de forma intercambiável em contextos de ensino e divulgação.
+
+## Relevância dos dominios para a diversidade
+
+A elevada diversidade beta observada entre as províncias biogeográficas brasileiras reflete, em grande medida, **histórias biogeográficas distintas** que se sobrepõem aos determinantes climáticos e edáficos contemporâneos discutidos até aqui — recuperando diretamente o conteúdo da Semana 4 sobre biogeografia histórica versus ecológica [ver @wiensdonoghue2004; @warren2014 para discussões conceituais sobre como distinguir esses dois conjuntos de processos]. Três padrões históricos merecem destaque específico:
+
+- **Amazônia e Mata Atlântica** foram episodicamente conectadas por corredores florestais durante fases mais úmidas do Pleistoceno, um padrão que deixou uma assinatura filogenética característica: pares de espécies irmãs (vicariantes), cada uma restrita a um dos dois biomas atuais, mas compartilhando um ancestral comum recente que ocupava o corredor florestal hoje fragmentado pelo "diagonal seca" de Cerrado e Caatinga.
+- **Caatinga e Cerrado** compartilham uma flora de origem comum substancial, especialmente entre linhagens adaptadas a solos pobres e a sazonalidade hídrica marcada, o que explica a presença de numerosas espécies generalistas capazes de ocupar ambos os domínios, além da rica flora de transição já mencionada na discussão de ecótonos.
+- **O Pampa** apresenta afinidades florísticas e faunísticas mais estreitas com as pradarias temperadas do Cone Sul (Uruguai, Argentina) do que com os demais biomas brasileiros, refletindo sua origem biogeográfica distinta, associada a uma história climática temperada e não tropical.
+
+Esses padrões ilustram, de forma concreta e regionalmente situada, um princípio central da biogeografia histórica moderna [@sanmartin2012; @ronquist1997]: os padrões contemporâneos de distribuição de diversidade não podem ser plenamente explicados apenas por filtros ambientais atuais (clima, solo, vegetação) — eles carregam também a assinatura de eventos históricos de conexão, fragmentação e vicariância que ocorreram em escalas de tempo muito superiores à vida de um observador humano, mas que continuam moldando, até hoje, onde encontramos cada linhagem.
+
+# Dispersão, filtragem e montagem de comunidades
+
+Tendo estabelecido os três determinantes abióticos centrais desta aula (clima, solo, vegetação) e sua dimensão biogeográfica-histórica, é essencial situar esses mecanismos dentro do arcabouço mais amplo de **montagem de comunidades** (*community assembly*), que integra processos ambientais com processos espaciais de movimento de organismos. Três regimes de montagem, dominados por processos distintos, podem ser reconhecidos:
+
+- **Alta limitação de dispersão** → diversidade beta elevada mesmo na ausência de qualquer gradiente ambiental detectável — um padrão puramente espacial, gerado pelo processo de **deriva** no sentido de Vellend, em que a composição de comunidades diverge estocasticamente simplesmente porque diferentes locais recebem diferentes subconjuntos aleatórios da mesma metacomunidade regional.
+- **Alta filtragem ambiental** → diversidade beta elevada e fortemente correlacionada com gradientes climáticos e/ou edáficos mensuráveis — o regime dominante nos padrões discutidos ao longo desta aula, e a assinatura característica do processo de **seleção** operando via triagem determinística das espécies aptas a cada condição local.
+- **Alta filtragem biótica** → diversidade alfa regulada primariamente por interações entre espécies (competição, predação, facilitação — temas das próximas semanas do curso) em comunidades relativamente "saturadas", nas quais a capacidade de suporte local já está preenchida e a entrada de novas espécies depende da exclusão competitiva de espécies residentes.
+
+::: {.callout-tip}
+## Ferramenta analítica
+
+A **partição da diversidade beta em componentes de *turnover* (substituição de espécies) e *aninhamento* (nestedness, perda líquida de espécies sem substituição)** — abordagem metodológica formalizada por @carvalho2012 e @podanischmera2011, e recuperando o arcabouço geral de partição alfa-beta-gama estabelecido por @jost2007 e por @crist2003 — permite inferir, a partir de dados observacionais de composição, qual processo de montagem provavelmente domina em um dado sistema: *turnover* elevado é a assinatura esperada de filtragem ambiental forte ou de limitação de dispersão, enquanto aninhamento elevado é mais consistente com processos de perda seletiva de espécies (por exemplo, ao longo de um gradiente de degradação ou de um gradiente de área, remetendo à relação espécie-área discutida na Semana 4).
+
+![Turnover/Substituição](https://methodsblog.com/wp-content/uploads/2015/05/beta3.jpg)
+
+![NEstedness/aninhamento](https://methodsblog.com/wp-content/uploads/2015/05/beta4.jpg)
+
+![ambos](https://methodsblog.com/wp-content/uploads/2015/05/beta5.jpg)
+:::
+
+Ferramentas computacionais modernas para operacionalizar essa partição incluem o pacote R **BAT** [@cardoso2015], que implementa estimadores robustos de diversidade alfa, beta e gama taxonômica, filogenética e funcional; abordagens de padronização por rarefação e extrapolação sob o arcabouço de números de Hill, como o método **iNEXT.beta3D** [@chao2023]; e, mais recentemente, abordagens de aprendizado profundo para estimar componentes de diversidade a partir de dados incompletos ou de amostragem heterogênea [@andermann2022]. Ferramentas voltadas especificamente para a integração entre biogeografia histórica e ecologia de comunidades, como o pacote **Herodotools** [@nakamura2023], permitem ainda incorporar explicitamente informação filogenética e histórica na análise desses padrões — uma ponte metodológica direta entre o conteúdo desta semana e o da Semana 4.
+
+# Integrando Métricas de diversidade ao longo de gradientes ambientais
+
+## Diversidade alfa ao longo de gradientes climáticos
+
+Ao sintetizar como a riqueza alfa varia ao longo dos três principais gradientes climáticos do território brasileiro — precipitação, temperatura e altitude — observamos padrões consistentes com a discussão teórica das seções anteriores. A riqueza tende a aumentar de forma aproximadamente saturante com a precipitação anual (refletindo a hipótese água-energia em regime tropical, na qual a água, e não a energia, é o fator limitante); a relação com a temperatura média tende a ser unimodal, com um pico em temperaturas intermediárias e declínio tanto em extremos frios quanto (surpreendentemente para intuições não-especializadas) em extremos quentes, refletindo o estresse fisiológico associado a temperaturas muito elevadas combinadas com déficit hídrico; e a riqueza tende a declinar monotonicamente com a altitude, um padrão clássico da biogeografia de montanha, associado à combinação de menor área disponível em altitudes crescentes (recuperando a relação espécie-área da Semana 4), menores temperaturas médias e maior exposição a eventos climáticos extremos.
+
+## Beta-diversidade ao longo de gradiente de solo versus clima
+
+Uma questão analítica recorrente na ecologia vegetal brasileira é: **quanto da variação composicional (diversidade beta) em comunidades de plantas é explicada pelo solo, e quanto é explicado pelo clima?** A resposta geral que emerge de estudos de partição de variância nesse contexto é dependente de escala: em escala **local** (dentro de uma mesma região climática, variando de dezenas de metros a poucos quilômetros), o solo tende a explicar proporcionalmente mais da dissimilaridade composicional observada, precisamente porque o clima é relativamente homogêneo nessa escala espacial restrita, enquanto o solo pode variar drasticamente (como discutido na seção sobre o Cerrado); já em escala **regional a continental**, o clima passa a dominar como preditor da diversidade beta, simplesmente porque sua variância espacial nessa escala amplia-se enormemente, superando a variância edáfica relativa.
+
+## Aplicação: Modelagem da Caatinga sob mudanças climáticas e pressão antrópica
+
+Um estudo de caso particularmente relevante e recente para ilustrar a interação entre os três determinantes discutidos nesta aula — e para conectar teoria a uma questão de conservação premente — é o trabalho de @araujo2023caatinga, que modelou a distribuição potencial da cobertura vegetal florestal e arbustiva na região da Caatinga a partir de indicadores indiretos (distribuições de vertebrados associados a cada tipo de habitat) e comparou essas distribuições potenciais à cobertura vegetal atual observada por sensoriamento remoto. Os resultados indicam que a vegetação arbustiva de menor porte hoje predomina em uma extensão de paisagem que, sob condições estritamente climáticas e sem intervenção humana, deveria ter sido naturalmente ocupada por formações florestais de maior porte — um sinal claro de que a **perturbação antrópica**, e não apenas a aridez climática natural do domínio, é hoje o principal impulsionador das transformações observadas na estrutura da vegetação da Caatinga. Esse achado tem uma implicação metodológica importante para todo o arcabouço desta aula: os filtros "puramente abióticos" de clima e solo estabelecem um **potencial** de vegetação — o que a paisagem *poderia* sustentar sob condições naturais —, mas a vegetação *realizada*, observável hoje em campo, é o produto da interação entre esse potencial abiótico e a intensidade histórica e contemporânea de uso da terra, sobretudo agropecuária e extração de lenha. Compreender essa distinção entre vegetação potencial e vegetação realizada é essencial tanto para a interpretação correta de padrões observacionais de diversidade quanto para o planejamento de estratégias de restauração ecológica, tema que retomaremos implicitamente nas discussões futuras do curso sobre sucessão e resiliência de comunidades.
+
+![Potential distribution of forest and shrubland in the Caatinga for current climatic and soil conditions. The map was generated from the Maxent model results (see methods for details) using the software QGIS version 3.20.0-Odense (https://qgis.org/en/site/).](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-023-45571-9/MediaObjects/41598_2023_45571_Fig1_HTML.png?as=webp)
+
+# Integrando Clima, Solo, Vegetação e Métricas: uma Síntese
+
+O framework conceitual completo construído ao longo desta aula pode ser resumido no diagrama a seguir, que integra os três determinantes abióticos centrais com os três componentes clássicos da diversidade (alfa, beta, gama) e com a dimensão biogeográfica-histórica introduzida na Semana 4:
+
+```
+CLIMA (T, P, PET, BIO1–19)
+   │
+   ├──────────────► SOLO (pH, textura, nutrientes)
+   │                    │
+   │                    ▼
+   │              BIOGEOGRAFIA (dispersão, nicho, história)
+   │                    │                   │ 
+   ▼                    ▼                   ▼
+Diversidade α    Diversidade β    Diversidade γ
+(Hill numbers,   (turnover,       (pool regional,
+ riqueza local)   aninhamento)     endemismo)
+                     ▲
+                     │
+              VEGETAÇÃO (fisionomia, estratificação)
+```
+
+Clima e solo atuam como filtros primários e secundários que determinam quais espécies podem, em princípio, ocupar um dado local — o processo que Vellend chamaria de **seleção**. A biogeografia histórica, sobreposta a esses filtros contemporâneos, adiciona a dimensão de **dispersão** (limitações de movimento que impedem espécies aptas de alcançar todos os locais ambientalmente adequados) e o legado de eventos passados de conexão e fragmentação. A vegetação, por sua vez, não apenas responde a esses filtros, mas também os retroalimenta — modificando o próprio solo do qual emergiu e criando microclimas locais que redefinem, em escala fina, quais condições ambientais um organismo efetivamente experimenta. O resultado líquido dessa cascata de processos interdependentes são os padrões observáveis de diversidade alfa, beta e gama que constituem o objeto empírico central de toda a ecologia de comunidades.
+
+# Síntese Final: Conectando ao arcabouço de Vellend
+
+Ao encerrarmos esta sexta aula, é essencial articular explicitamente como o conteúdo discutido hoje se encaixa no arcabouço unificador de @vellend2016 que temos utilizado como fio condutor deste curso desde a Semana 2.
+
+**Seleção** é, disparadamente, o processo mais diretamente iluminado pelo conteúdo desta aula. Clima, solo e vegetação constituem, em conjunto, o principal conjunto de agentes de seleção determinística que a teoria de Vellend reconhece como responsável por gerar diferenças sistemáticas e não-aleatórias de aptidão (*fitness*) entre espécies em diferentes locais. Quando observamos que solos distróficos favorecem um conjunto de espécies e solos eutróficos favorecem outro, ou que regimes climáticos sazonais favorecem espécies com síndromes de tolerância ao estresse hídrico, estamos observando seleção espacialmente estruturada em ação — a "corcova" fertilidade-riqueza e a segregação composicional ao longo de gradientes edáficos discutidas nesta aula são, na linguagem de Vellend, manifestações empíricas diretas da força seletiva exercida pelo ambiente abiótico sobre a composição de comunidades.
+
+**Dispersão** entra na discussão de duas formas complementares. Primeiro, na escala biogeográfica histórica, através dos corredores florestais pleistocênicos que conectaram (e depois desconectaram) Amazônia e Mata Atlântica, e através da limitação de dispersão que, isoladamente, pode gerar diversidade beta mesmo na ausência de qualquer gradiente ambiental detectável — o regime de montagem de comunidades discutido na seção sobre dispersão, filtragem e montagem. Segundo, e mais sutilmente, através do reconhecimento de que os "solos especiais" e as "ilhas pedológicas" discutidas nesta aula funcionam ecologicamente como ilhas verdadeiras no sentido da teoria de biogeografia de ilhas (Semana 4): sua flora endêmica é, em parte, produto de dispersão limitada entre manchas de habitat especializado geograficamente isoladas.
+
+**Deriva** opera como o processo residual, sempre presente mas frequentemente obscurecido pela força aparentemente dominante da seleção ambiental nos sistemas discutidos nesta aula. Mesmo dentro de um único tipo de solo, sob um único regime climático, comunidades locais réplicas divergem estocasticamente ao longo do tempo devido a eventos aleatórios de nascimento, morte, recrutamento e mortalidade — um lembrete de que nenhum dos padrões determinísticos discutidos nesta aula é perfeitamente determinístico na prática; há sempre um componente de ruído estocástico sobreposto ao sinal ambiental.
+
+**Especiação**, por fim, conecta-se ao conteúdo desta aula através da dimensão temporal de longo prazo da relação clima-solo-vegetação: os padrões de endemismo associados a solos especiais e a domínios morfoclimáticos historicamente isolados (como o Pampa, com sua flora e fauna distintas do restante do país) refletem, em última instância, processos de especiação alopátrica e ecológica que ocorreram ao longo de escalas de tempo evolutivo, moldados justamente pelas mesmas barreiras ambientais e geográficas que discutimos nesta aula em sua manifestação contemporânea.
+
+Essa síntese prepara diretamente o terreno para as próximas semanas do curso, nas quais deslocaremos o foco dos filtros abióticos (clima, solo, vegetação como estrutura física) para os filtros **bióticos** — interações de competição, predação, facilitação, mutualismo e redes ecológicas — que operam simultaneamente com, e frequentemente de forma indissociável de, os processos discutidos hoje.
+
+# Questões para Revisão e Discussão
+
+1. Explique, em suas próprias palavras, por que a hipótese água-energia prediz que a água (e não a energia solar) deveria ser o principal fator limitante da riqueza de plantas na maior parte do território brasileiro. Que evidência empírica você buscaria para testar essa predição em um bioma específico à sua escolha?
+
+2. Compare e contraste os mecanismos pelos quais alta sazonalidade climática afeta a diversidade alfa versus a diversidade beta de uma comunidade. Dê um exemplo concreto, brasileiro ou não, que ilustre esse contraste.
+
+3. Descreva o mecanismo do "triângulo pedológico" de Jenny (CLORPT) e explique por que a relação entre solo e vegetação não deve ser entendida como puramente unidirecional (solo determina vegetação), mas como um sistema de retroalimentações mútuas.
+
+4. Por que a relação entre fertilidade do solo e diversidade alfa costuma assumir uma forma de "corcova" (unimodal), e por que a relação entre heterogeneidade edáfica e diversidade beta costuma ser positiva? Esses dois padrões são compatíveis entre si, ou parecem contraditórios? Justifique.
+
+5. Utilizando o exemplo do estudo de @araujo2023caatinga sobre a Caatinga, discuta a distinção entre "vegetação potencial" (o que o clima e o solo permitiriam, na ausência de intervenção humana) e "vegetação realizada" (o que efetivamente observamos hoje em campo). Por que essa distinção é metodologicamente importante para estudos de diversidade e para o planejamento de restauração ecológica?
+
+6. Conecte explicitamente cada um dos quatro processos de alto nível de Vellend (seleção, deriva, dispersão, especiação) a pelo menos um mecanismo específico discutido nesta aula sobre clima, solo ou vegetação. Que processo você considera mais fortemente evidenciado pelo conteúdo desta semana, e por quê?
+
+# Referências
+::: {#refs}
+:::
