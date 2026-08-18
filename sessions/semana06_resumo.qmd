@@ -15,6 +15,7 @@ bibliography: referencias_semana06.bib
 # csl: null
 nocite: |
   @vellend2016, @jenny1941
+
 ---
 
 Slides desta aula
