@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fplmelo.github.io/eco2/sessions/semana04_resumo.html</loc>
-    <lastmod>2026-08-13T14:12:26.619Z</lastmod>
+    <loc>https://fplmelo.github.io/eco2/sessions/semana5_resumo.html</loc>
+    <lastmod>2026-08-13T20:19:56.471Z</lastmod>
   </url>
   <url>
-    <loc>https://fplmelo.github.io/eco2/sessions/week01.html</loc>
-    <lastmod>2026-08-13T10:57:46.093Z</lastmod>
+    <loc>https://fplmelo.github.io/eco2/sessions/index.html</loc>
+    <lastmod>2026-08-10T21:02:48.700Z</lastmod>
   </url>
   <url>
-    <loc>https://fplmelo.github.io/eco2/sessions/semana02_resumo.html</loc>
-    <lastmod>2026-08-18T12:21:49.381Z</lastmod>
+    <loc>https://fplmelo.github.io/eco2/sessions/semana03_resumo.html</loc>
+    <lastmod>2026-08-18T12:22:56.521Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fplmelo.github.io/eco2/sessions/semana06_resumo.html</loc>
+    <lastmod>2026-08-17T16:32:11.876Z</lastmod>
   </url>
   <url>
     <loc>https://fplmelo.github.io/eco2/index.html</loc>
@@ -101,19 +105,15 @@
     <lastmod>2026-08-10T17:22:13.496Z</lastmod>
   </url>
   <url>
-    <loc>https://fplmelo.github.io/eco2/sessions/semana03_resumo.html</loc>
-    <lastmod>2026-08-18T12:22:56.521Z</lastmod>
+    <loc>https://fplmelo.github.io/eco2/sessions/semana02_resumo.html</loc>
+    <lastmod>2026-08-18T12:21:49.381Z</lastmod>
   </url>
   <url>
-    <loc>https://fplmelo.github.io/eco2/sessions/index.html</loc>
-    <lastmod>2026-08-10T21:02:48.700Z</lastmod>
+    <loc>https://fplmelo.github.io/eco2/sessions/semana01_resumo.html</loc>
+    <lastmod>2026-08-13T10:57:46.093Z</lastmod>
   </url>
   <url>
-    <loc>https://fplmelo.github.io/eco2/sessions/semana5_resumo.html</loc>
-    <lastmod>2026-08-13T20:19:56.471Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fplmelo.github.io/eco2/sessions/semana06_resumo.html</loc>
-    <lastmod>2026-08-17T16:32:11.876Z</lastmod>
+    <loc>https://fplmelo.github.io/eco2/sessions/semana04_resumo.html</loc>
+    <lastmod>2026-08-13T14:12:26.619Z</lastmod>
   </url>
 </urlset>

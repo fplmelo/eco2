@@ -2,10 +2,12 @@
   {
     "listing": "/sessions/index.html",
     "items": [
-      "/sessions/week01.html",
+      "/sessions/semana01_resumo.html",
       "/sessions/semana02_resumo.html",
       "/sessions/semana03_resumo.html",
-      "/sessions/semana04_resumo.html"
+      "/sessions/semana04_resumo.html",
+      "/sessions/semana5_resumo.html",
+      "/sessions/semana06_resumo.html"
     ]
   }
 ]
