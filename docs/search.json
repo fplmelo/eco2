@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "objectID": "resources/index.html",
     "href": "resources/index.html",
     "title": "Recursos",
@@ -171,66 +172,114 @@
     "objectID": "sessions/semana04_resumo.html",
     "href": "sessions/semana04_resumo.html",
     "title": "Semana 4 — Introdução à Biogeografia",
+=======
+    "objectID": "sessions/semana5_resumo.html",
+    "href": "sessions/semana5_resumo.html",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+>>>>>>> 5fef2b1bca0e0492e7cc8774148d7f3016daf209
     "section": "",
     "text": "Slides desta aula"
   },
   {
-    "objectID": "sessions/semana04_resumo.html#objetivos-de-aprendizagem",
-    "href": "sessions/semana04_resumo.html#objetivos-de-aprendizagem",
-    "title": "Semana 4 — Introdução à Biogeografia",
-    "section": "0.1 Objetivos de aprendizagem",
-    "text": "0.1 Objetivos de aprendizagem\n\n\n\n\n\n\nNotaO que precisamos saber ao final desta aula\n\n\n\n\nCompreender como a biodiversidade se organiza espacial e temporalmente na Terra.\nReconhecer os grandes marcos históricos e conceituais da Biogeografia como disciplina científica.\nDiferenciar biogeografia ecológica de biogeografia histórica, e entender como ambas se articulam com o arcabouço de processos de alto nível discutido na Semana 2 (seleção, deriva ecológica, dispersão e especiação; Vellend (2016)).\nCompreender a relação espécie-área, a teoria da biogeografia de ilhas e os tipos de raridade.\nAplicar esses conceitos ao planejamento de estratégias de conservação da biodiversidade.\n\n\n\nDepois de duas semanas dedicadas a quanto e como medimos a biodiversidade (Semana 1) e a quais processos geram e mantêm a estrutura das comunidades ecológicas (Semana 2), esta quarta aula desloca o foco para uma pergunta igualmente fundamental: onde a biodiversidade está, e por que ela está distribuída de forma tão desigual pelo planeta. Essa é a pergunta central da Biogeografia — o campo que estuda os padrões de distribuição espacial de organismos, populações e comunidades ao longo do tempo geológico e ecológico.\nA Biogeografia não é um apêndice da Ecologia de Comunidades: ela é uma de suas raízes históricas e, como veremos, um dos quatro processos de alto nível de Vellend (2016) — a dispersão — é, em essência, um fenômeno biogeográfico. Compreender por que uma espécie ocorre em um lugar e não em outro exige combinar mecanismos ecológicos contemporâneos (nicho, interações, capacidade de dispersão) com a história profunda da Terra (deriva continental, glaciações, eventos de especiação e extinção). Esta aula introduz esse diálogo entre ecologia e história, que será retomado nas próximas semanas quando tratarmos de sucessão ecológica e montagem de comunidades."
+    "objectID": "sessions/semana5_resumo.html#a-hipótese-da-heterogeneidade-do-habitat",
+    "href": "sessions/semana5_resumo.html#a-hipótese-da-heterogeneidade-do-habitat",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "2.1 A hipótese da heterogeneidade do habitat",
+    "text": "2.1 A hipótese da heterogeneidade do habitat\nUm dos princípios fundamentais da ecologia espacial é que ambientes mais heterogêneos acomodam mais espécies. Isso ocorre porque a complexidade arquitetônica (como a estratificação vertical de uma floresta) oferece uma gama maior de micro-habitats e recursos, permitindo que espécies com diferentes nichos coexistam.\n\nFirura: Dado um espaço limitado, a heterogeneidade de hábitats tem um efeito negativo sobre a área de cada hábitat. fonte\n\n\n\n\n\n\nNotaExemplo Prático: Mata Atlântica de Pernambuco\n\n\n\nEm fragmentos bem conservados da Mata Atlântica pernambucana, a presença de estratos arbóreos distintos (sub-bosque, dossel e árvores emergentes) cria gradientes de luz e umidade. Isso permite que diferentes guildas de aves e insetos ocupem o mesmo espaço horizontal, mas em “espaços de nicho” verticais distintos."
   },
   {
-    "objectID": "sessions/semana04_resumo.html#a-relação-espécie-área",
-    "href": "sessions/semana04_resumo.html#a-relação-espécie-área",
-    "title": "Semana 4 — Introdução à Biogeografia",
-    "section": "5.1 A relação espécie-área",
-    "text": "5.1 A relação espécie-área\nA relação espécie-área é um dos padrões mais robustos e mais antigos da ecologia e da biogeografia: o número de espécies registrado em um levantamento aumenta com a área amostrada. Essa relação pode assumir diferentes formas funcionais, sendo as duas mais discutidas:\n\nForma em potência (frequentemente linearizada em escala log-log): \\(S = c \\cdot A^{z}\\), em que \\(S\\) é a riqueza de espécies, \\(A\\) é a área, \\(c\\) é uma constante relacionada à riqueza regional e \\(z\\) é o expoente da relação (tipicamente entre 0,20 e 0,35 para ilhas verdadeiras, e menor, entre 0,10 e 0,20, para amostras contíguas dentro de um continente). Em escala logarítmica, essa relação se torna aproximadamente linear.\nForma exponencial/semi-log: \\(S = c + z \\cdot \\log(A)\\), mais comumente ajustada a amostras aninhadas dentro de uma mesma região continental.\n\nA distinção não é meramente estatística: relações espécie-área mais íngremes (valores de \\(z\\) mais altos) geralmente indicam maior isolamento e maior papel de processos de especiação in situ e endemismo local — típico de arquipélagos oceânicos verdadeiros —, enquanto relações mais suaves refletem principalmente amostragem de uma mesma metacomunidade regional. Esse padrão é uma manifestação empírica direta de processos discutidos na Semana 1 (partição de diversidade alfa, beta e gama) e na Semana 2 (o papel da dispersão e da deriva ecológica na estruturação de metacomunidades)."
+    "objectID": "sessions/semana5_resumo.html#o-gradiente-latitudinal-de-diversidade-gld",
+    "href": "sessions/semana5_resumo.html#o-gradiente-latitudinal-de-diversidade-gld",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "2.2 O Gradiente latitudinal de diversidade (GLD)",
+    "text": "2.2 O Gradiente latitudinal de diversidade (GLD)\n\nO aumento da riqueza de espécies dos polos em direção ao equador é um dos padrões mais consistentes da biosfera. Para explicar esse fenômeno, os ecólogos propõem cinco hipóteses principais:\n\nEnergia e Produtividade: Regiões tropicais recebem maior radiação solar e possuem temperaturas mais elevadas, o que aumenta a produtividade primária líquida. Isso permite populações maiores e reduz as taxas de extinção.\nEstabilidade Climática: O clima tropical é menos sazonal e mais previsível em escalas temporais longas (como períodos interglaciais), permitindo uma especialização de nicho mais acentuada.\nTempo e Idade: Os trópicos são considerados comunidades mais “antigas” que não sofreram o impacto direto das grandes glaciações recentes, permitindo mais tempo para o processo de especiação.\nÁrea: A zona tropical ocupa uma área contígua maior no globo terrestre. Áreas maiores suportam mais indivíduos e, consequentemente, têm menores taxas de extinção e maiores taxas de especiação alopátrica.\nInterações Bióticas (Predação/Mutualismo): A predação é mais intensa nos trópicos, o que mantém as populações de presas abaixo da capacidade de carga, reduzindo a exclusão competitiva e permitindo maior coexistência (coexistência mediada pelo consumidor)."
   },
   {
-    "objectID": "sessions/semana04_resumo.html#biogeografia-ecológica-vs.-biogeografia-histórica",
-    "href": "sessions/semana04_resumo.html#biogeografia-ecológica-vs.-biogeografia-histórica",
-    "title": "Semana 4 — Introdução à Biogeografia",
-    "section": "5.2 Biogeografia ecológica vs. biogeografia histórica",
-    "text": "5.2 Biogeografia ecológica vs. biogeografia histórica\nUm dos debates conceituais mais duradouros da Biogeografia é a distinção — e a tensão — entre duas abordagens complementares:\n\n\n\n\n\n\nImportanteDuas lentes, um mesmo objeto\n\n\n\nBiogeografia ecológica busca explicar padrões atuais de distribuição a partir de processos contemporâneos e mensuráveis: clima, disponibilidade de recursos, interações bióticas, capacidade de dispersão e tolerância fisiológica das espécies. É a lente do “aqui e agora”.\nBiogeografia histórica busca reconstruir a sequência de eventos — vicariância (fragmentação de áreas antes contínuas, por deriva continental, formação de cadeias montanhosas ou mudança do nível do mar) e dispersão de longa distância — que geraram os padrões de distribuição observados hoje. É a lente do “como chegamos até aqui”.\n\n\nEndler (1982) já apontava, ainda no início da década de 1980, como é metodologicamente difícil separar esses dois conjuntos de fatores na prática: um padrão de distribuição disjunta pode ser explicado tanto por vicariância antiga quanto por diferenças ecológicas atuais que impedem a espécie de ocupar o espaço geográfico intermediário, e distinguir entre essas hipóteses exige integrar dados filogenéticos, paleoclimáticos e ecológicos. Wiens e Donoghue (2004) retomam esse debate argumentando que biogeografia histórica e ecologia não deveriam ser tratadas como alternativas concorrentes, mas como processos operando em escalas de tempo diferentes e mutuamente informativos: eventos históricos (especiação, extinção, dispersão de longa distância) determinam o “pool” regional de linhagens disponível, enquanto processos ecológicos contemporâneos filtram, dentro desse pool, quais espécies efetivamente coexistem localmente. Essa é, novamente, uma ponte direta com o arcabouço de Vellend (2016): o pool regional histórico corresponde à ação acumulada de especiação e dispersão em escalas de tempo profundas, enquanto seleção e deriva ecológica atuam sobre esse pool em escalas de tempo contemporâneas.\nDo ponto de vista metodológico, a biogeografia histórica desenvolveu ferramentas próprias para testar hipóteses de vicariância versus dispersão, como a análise de dispersão-vicariância (DIVA) proposta por Ronquist (1997), que reconstrói cenários biogeográficos ancestrais a partir de filogenias datadas e da distribuição geográfica atual dos táxons terminais. Avanços recentes têm buscado integrar esses métodos filogenéticos com modelos de distribuição de espécies e dados paleoclimáticos (Franklin 2023), e mesmo com ferramentas computacionais que unem macroevolução, biogeografia e ecologia de comunidades em um único fluxo analítico (Nakamura et al. 2023). Warren et al. (2014) alertam, contudo, para um erro comum nessa integração: inferir processos históricos (como especiação alopátrica) diretamente de padrões de distribuição atuais sem considerar explicitamente o papel do nicho ecológico — um problema que os autores resumem no título de seu artigo como “confundir geografia com biologia”."
+    "objectID": "sessions/semana5_resumo.html#a-relação-espécie-área",
+    "href": "sessions/semana5_resumo.html#a-relação-espécie-área",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "2.3 A relação espécie-área",
+    "text": "2.3 A relação espécie-área\nA relação entre o número de espécies (\\(S\\)) e a área amostrada (\\(A\\)) é descrita matematicamente pela equação de Arrhenius:\n\\[S = c \\cdot A^z\\]\nOnde: * \\(S\\) é a riqueza de espécies. * \\(A\\) é a área. * \\(c\\) é uma constante de intercepto que depende do grupo taxonômico e da região. * \\(z\\) é a inclinação da curva em escala log-log, indicando a taxa de acúmulo de espécies.\nAo aplicarmos o logaritmo em ambos os lados, obtemos uma função linear:\n\\[\\log(S) = \\log(c) + z \\cdot \\log(A)\\]\n\n\n\n\n\n\nDica\\(z\\) em Ilhas vs. Continentes\n\n\n\nEm sistemas de ilhas oceânicas (como o arquipélago de Fernando de Noronha), os valores de \\(z\\) tendem a ser maiores (entre 0,20 e 0,35), indicando um isolamento maior e taxas de colonização menores. Em áreas continentais contíguas, o \\(z\\) é tipicamente menor (0,12 a 0,17), pois o fluxo de indivíduos mascara as extinções locais."
   },
   {
-    "objectID": "sessions/semana04_resumo.html#biogeografia-de-ilhas-a-teoria-de-macarthur-wilson",
-    "href": "sessions/semana04_resumo.html#biogeografia-de-ilhas-a-teoria-de-macarthur-wilson",
-    "title": "Semana 4 — Introdução à Biogeografia",
-    "section": "5.3 Biogeografia de ilhas: a teoria de MacArthur & Wilson",
-    "text": "5.3 Biogeografia de ilhas: a teoria de MacArthur & Wilson\n\nA contribuição teórica mais influente sobre biodiversidade em ilhas é a Teoria da Biogeografia de Ilhas, proposta por Robert MacArthur e Edward O. Wilson (1967). A teoria propõe que o número de espécies em uma ilha reflete um equilíbrio dinâmico entre duas taxas opostas:\n\na taxa de imigração (colonização de novas espécies vindas do continente ou de outras ilhas), que diminui à medida que a ilha acumula mais espécies (porque restam cada vez menos espécies do pool regional ainda não estabelecidas) e que também diminui com o aumento da distância da ilha ao continente-fonte; e\na taxa de extinção local, que aumenta com o número de espécies já presentes (por efeitos de competição e populações pequenas) e que é inversamente relacionada ao tamanho da ilha (ilhas maiores comportam populações maiores e, portanto, menos vulneráveis à extinção estocástica).\n\nO ponto de equilíbrio entre essas duas curvas prevê o número de espécies esperado em equilíbrio, e gera duas previsões centrais amplamente corroboradas empiricamente: ilhas maiores tendem a ter mais espécies do que ilhas menores, e ilhas mais próximas do continente-fonte tendem a ter mais espécies do que ilhas mais distantes e igualmente grandes. Embora formulada originalmente para ilhas oceânicas, a teoria foi rapidamente estendida para qualquer sistema insularizado — fragmentos florestais, topos de montanha, lagos, cavernas, unidades de conservação — tornando-se um dos pilares conceituais da biologia da conservação de paisagens fragmentadas, tema que retomaremos com mais profundidade nas próximas semanas.\nVale notar que a teoria de MacArthur & Wilson é essencialmente um modelo de biogeografia ecológica em escala de tempo ecológica (colonização e extinção correntes), e não incorpora explicitamente especiação in situ — um processo que se torna relevante em escalas de tempo mais longas, especialmente em arquipélagos antigos e isolados, onde radiações adaptativas (como os tentilhões de Darwin em Galápagos ou os Drosophilídeos havaianos) desempenham papel central na composição final da biota insular. Esse é exatamente o ponto em que biogeografia ecológica e biogeografia histórica precisam ser lidas em conjunto."
+    "objectID": "sessions/semana5_resumo.html#definições-conceituais",
+    "href": "sessions/semana5_resumo.html#definições-conceituais",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "3.1 Definições Conceituais",
+    "text": "3.1 Definições Conceituais\n\nDiversidade Alfa (\\(\\alpha\\)): É a diversidade local, medida dentro de uma comunidade ou habitat específico (ex: o número de espécies de peixes em um único recife de corais em Tamandaré).\nDiversidade Gama (\\(\\gamma\\)): É a diversidade total de uma paisagem ou região geográfica. Representa o “pool” total de espécies disponíveis (ex: todas as espécies de peixes registradas no litoral de Pernambuco).\nDiversidade Beta (\\(\\beta\\)): É a variação na composição de espécies entre as comunidades da região. Reflete o turnover (substituição) de espécies ao longo de gradientes ambientais."
   },
   {
-    "objectID": "sessions/semana04_resumo.html#interação-entre-espécies",
-    "href": "sessions/semana04_resumo.html#interação-entre-espécies",
-    "title": "Semana 4 — Introdução à Biogeografia",
-    "section": "5.4 Interação entre espécies",
-    "text": "5.4 Interação entre espécies\nAlém da área e do isolamento, a composição final de uma biota insular (ou de qualquer comunidade delimitada espacialmente) depende de interações bióticas que ocorrem após a chegada de uma espécie: competição por recursos, predação, herbivoria, parasitismo e mutualismos (polinização, dispersão de sementes, simbioses). Uma espécie pode ser fisiologicamente capaz de tolerar as condições abióticas de um local — isto é, estar dentro de seu nicho fundamental — e ainda assim não conseguir se estabelecer, porque competidores ou predadores já presentes reduzem seu nicho realizado a zero. Esse é um dos elos conceituais mais diretos entre Biogeografia e o arcabouço de processos de Vellend (2016): a seleção (no sentido amplo de Vellend, que inclui interações bióticas e abióticas determinísticas) opera depois que a dispersão trouxe a espécie até a localidade, filtrando quais colonizações efetivamente resultam em estabelecimento persistente."
+    "objectID": "sessions/semana5_resumo.html#a-relação-multiplicativa-e-aditiva",
+    "href": "sessions/semana5_resumo.html#a-relação-multiplicativa-e-aditiva",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "3.2 A Relação Multiplicativa e Aditiva",
+    "text": "3.2 A Relação Multiplicativa e Aditiva\nWhittaker originalmente propôs uma relação multiplicativa: \\[\\gamma = \\alpha \\times \\beta \\implies \\beta = \\frac{\\gamma}{\\alpha}\\]\nMais recentemente, o particionamento aditivo tem sido utilizado para escalas hierárquicas: \\[\\gamma = \\bar{\\alpha} + \\beta\\] Neste caso, \\(\\beta\\) representa o número médio de espécies não compartilhadas entre os habitats."
   },
   {
-    "objectID": "sessions/semana04_resumo.html#para-revisar",
-    "href": "sessions/semana04_resumo.html#para-revisar",
-    "title": "Semana 4 — Introdução à Biogeografia",
-    "section": "9.1 Para revisar",
-    "text": "9.1 Para revisar\n\n\n\n\n\n\nNotaPerguntas de revisão\n\n\n\n\n\n\nPor que a Biogeografia é considerada uma das raízes históricas da Ecologia de Comunidades, e não um campo à parte?\nQual é a diferença conceitual entre biogeografia ecológica e biogeografia histórica? Dê um exemplo de pergunta de pesquisa típica de cada abordagem.\nExplique, em suas próprias palavras, por que a Teoria da Biogeografia de Ilhas prevê que ilhas grandes e próximas ao continente devem abrigar mais espécies do que ilhas pequenas e distantes.\nSegundo a tipologia de Rabinowitz (1981), quais são as três dimensões que definem as sete formas de raridade? Cite um exemplo hipotético (ou real) de espécie para cada combinação extrema.\nComo riqueza de espécies e endemismo podem gerar priorizações de conservação diferentes para uma mesma região? Por que hotspots de biodiversidade combinam os dois critérios com um indicador de ameaça?\nRelacione o conceito de dispersão discutido nesta aula com o processo homônimo no arcabouço de Vellend (2016)."
+    "objectID": "sessions/semana5_resumo.html#números-de-hill-1973-rumo-à-diversidade-efetiva",
+    "href": "sessions/semana5_resumo.html#números-de-hill-1973-rumo-à-diversidade-efetiva",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "3.3 Números de Hill (1973): Rumo à Diversidade Efetiva",
+    "text": "3.3 Números de Hill (1973): Rumo à Diversidade Efetiva\nOs índices clássicos de diversidade (Shannon, Simpson) possuem propriedades matemáticas distintas que dificultam a comparação direta. Hill (1973) unificou essas medidas em uma única equação paramétrica, convertendo os índices em números efetivos de espécies (o número de espécies igualmente abundantes necessário para produzir o valor observado do índice)."
   },
   {
-    "objectID": "sessions/semana04_resumo.html#leituras-complementares-recomendadas",
-    "href": "sessions/semana04_resumo.html#leituras-complementares-recomendadas",
-    "title": "Semana 4 — Introdução à Biogeografia",
-    "section": "9.2 Leituras complementares recomendadas",
-    "text": "9.2 Leituras complementares recomendadas\n\nVellend (2016) — para revisitar o arcabouço teórico unificador do curso.\nWiens e Donoghue (2004) — uma defesa concisa e influente da integração entre biogeografia histórica e ecologia.\nFranklin (2023) — sobre o uso de modelos de distribuição de espécies em biogeografia contemporânea.\nLima et al. (2018) — estudo de caso em português sobre biogeografia histórica de ecossistemas secos neotropicais, incluindo a Caatinga.\nReCologia (2016) — introdução em português à biogeografia de ilhas, de leitura leve e acessível."
+    "objectID": "sessions/semana5_resumo.html#a-equação-unificada-qd",
+    "href": "sessions/semana5_resumo.html#a-equação-unificada-qd",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "3.4 A Equação Unificada \\(^qD\\)",
+    "text": "3.4 A Equação Unificada \\(^qD\\)\n\\[^qD = \\left( \\sum_{i=1}^{S} p_i^q \\right)^{1/(1-q)}\\]\nOnde \\(p_i\\) é a abundância relativa da espécie \\(i\\) e \\(q\\) é a ordem da diversidade.\n\n3.4.1 Ordens de \\(q\\) e seu significado\n\n\\(q = 0\\) (Riqueza de Espécies): Insensível às abundâncias relativas. Pesa igualmente espécies raras e abundantes.\n\\(q = 1\\) (Exponencial de Shannon): Pesa as espécies proporcionalmente às suas abundâncias. O limite quando \\(q \\to 1\\) é \\(\\exp(H')\\).\n\\(q = 2\\) (Inverso de Simpson): Dá maior peso às espécies dominantes. É calculado como \\(1 / \\sum p_i^2\\)."
   },
   {
-    "objectID": "sessions/week01.html",
-    "href": "sessions/week01.html",
-    "title": "Semana 1 — Introdução à Biodiversidade",
+    "objectID": "sessions/semana5_resumo.html#o-princípio-do-dobramento",
+    "href": "sessions/semana5_resumo.html#o-princípio-do-dobramento",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "3.5 O Princípio do Dobramento",
+    "text": "3.5 O Princípio do Dobramento\nA grande vantagem dos Números de Hill é que eles obedecem ao princípio do dobramento: se tivermos duas comunidades completamente distintas (sem espécies em comum) com diversidade \\(X\\), a diversidade gama da união delas será exatamente \\(2X\\). Os índices brutos de Shannon e Simpson não possuem essa linearidade, o que gera erros de interpretação em análises espaciais."
+  },
+  {
+    "objectID": "sessions/semana5_resumo.html#turnover-vs.-aninhamento-nestedness",
+    "href": "sessions/semana5_resumo.html#turnover-vs.-aninhamento-nestedness",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "4.1 Turnover vs. Aninhamento (Nestedness)",
+    "text": "4.1 Turnover vs. Aninhamento (Nestedness)\nA variação composicional pode ocorrer por dois processos distintos: 1. Turnover (Substituição): Espécies são substituídas por outras ao longo de um gradiente, geralmente devido a filtros ambientais ou barreiras. 2. Aninhamento (Nestedness): Sítios com menor riqueza são subconjuntos bióticos de sítios mais ricos. Isso ocorre frequentemente em processos de extinção ordenada por fragmentação, onde apenas espécies generalistas persistem em manchas menores."
+  },
+  {
+    "objectID": "sessions/semana5_resumo.html#coeficientes-de-similaridade",
+    "href": "sessions/semana5_resumo.html#coeficientes-de-similaridade",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "4.2 Coeficientes de Similaridade",
+    "text": "4.2 Coeficientes de Similaridade\nPara quantificar a similaridade (\\(1 - \\beta\\)), usamos frequentemente termos baseados em tabelas de contingência binária (\\(a, b, c\\)): * \\(a\\): número de espécies presentes em ambos os sítios. * \\(b\\): espécies exclusivas do sítio 1. * \\(c\\): espécies exclusivas do sítio 2."
+  },
+  {
+    "objectID": "sessions/semana5_resumo.html#jaccard-s_j-e-sørensen-s_s",
+    "href": "sessions/semana5_resumo.html#jaccard-s_j-e-sørensen-s_s",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "4.3 Jaccard (\\(S_j\\)) e Sørensen (\\(S_s\\))",
+    "text": "4.3 Jaccard (\\(S_j\\)) e Sørensen (\\(S_s\\))\n\\[S_j = \\frac{a}{a + b + c}\\] \\[S_s = \\frac{2a}{2a + b + c}\\]\nO índice de Sørensen dá peso dobrado às co-ocorrências (\\(a\\)), sendo mais sensível à presença comum do que o Jaccard."
+  },
+  {
+    "objectID": "sessions/semana5_resumo.html#decaimento-de-similaridade-com-a-distância",
+    "href": "sessions/semana5_resumo.html#decaimento-de-similaridade-com-a-distância",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "4.4 Decaimento de Similaridade com a Distância",
+    "text": "4.4 Decaimento de Similaridade com a Distância\nEm ecologia espacial, espera-se que a similaridade composicional diminua à medida que a distância geográfica entre os pontos aumenta (Distance Decay). Isso se deve a: 1. Limitação de Dispersão: Espécies demoram a chegar em locais distantes. 2. Autocorrelação Ambiental: Locais próximos tendem a ser ambientalmente mais parecidos do que locais distantes."
+  },
+  {
+    "objectID": "sessions/semana5_resumo.html#aplicações-práticas-conservação-e-restauração",
+    "href": "sessions/semana5_resumo.html#aplicações-práticas-conservação-e-restauração",
+    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "section": "4.5 Aplicações Práticas: Conservação e Restauração",
+    "text": "4.5 Aplicações Práticas: Conservação e Restauração"
+  },
+  {
+    "objectID": "sessions/index.html",
+    "href": "sessions/index.html",
+    "title": "Todas as Aulas",
     "section": "",
-    "text": "Slides da Aula"
+    "text": "Aqui você encontra o material completo (texto e slides) de cada aula, em ordem cronológica.\n\n\n\n\n\n\n\n\n\n\n\nSemana 1 — Introdução à Biodiversidade\n\n\n\n\n\n\n\n\n\nSemana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas\n\n\nA síntese de Vellend: seleção, deriva, dispersão e especiação\n\n\n\n18 de ago. de 2026\n\n\n\n\n\n\n\n\n\n\nSemana 3 — Sucessão Ecológica\n\n\nEcologia de Comunidades\n\n\n\n18 de ago. de 2026\n\n\n\n\n\n\n\n\n\n\nSemana 4 — Introdução à Biogeografia\n\n\nPadrões de distribuição e magnitude da biodiversidade na Terra\n\n\n\n18 de ago. de 2026\n\n\n\n\n\n\n\n\n\n\nSemana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade\n\n\n\n13 de ago. de 2026\n\n\n\n\n\n\n\n\n\n\nSemana 6 — Clima, Solo e Vegetação\n\n\nDeterminantes abióticos da diversidade e biogeografia\n\n\n\n\n\nSem itens correspondentes"
   },
   {
+<<<<<<< HEAD
     "objectID": "sessions/week01.html#introdução",
     "href": "sessions/week01.html#introdução",
     "title": "Semana 1 — Introdução à Biodiversidade",
@@ -315,6 +364,8 @@
     "text": "12 References\nBetts, M., Wolf, C., Ripple, W., Phalan, B., Millers, K. A., Duarte, A., Butchart, S., & Levi, T. (2017). Global forest loss disproportionately erodes biodiversity in intact landscapes. Nature, 547, 441-444. https://doi.org/10.1038/nature23285\nCoates, D., Byrne, M., & Moritz, C. (2018). Genetic Diversity and Conservation Units: Dealing With the Species-Population Continuum in the Age of Genomics. Frontiers in Ecology and Evolution. https://doi.org/10.3389/fevo.2018.00165\nCordero‐Rivera, A. (2017). Behavioral Diversity (Ethodiversity): A Neglected Level in the Study of Biodiversity. Frontiers in Ecology and Evolution, 5. https://doi.org/10.3389/fevo.2017.00007\nDi Marco, M., Ferrier, S., Harwood, T., Hoskins, A., & Watson, J. (2019). Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature, 573, 582 - 585. https://doi.org/10.1038/s41586-019-1567-7\nFargeot, L., Poésy, C., Lefort, M., Prunier, J. G., Krick, M., Verdonck, R., Veyssière, C., Richard, M., Legrand, D., Loot, G., & Blanchet, S. (2025). Genetic diversity affects ecosystem functions across trophic levels as much as species diversity, but in an opposite direction. eLife, 13. https://doi.org/10.1101/2024.03.27.586944\nGaggiotti, O., Chao, A., Peres‐Neto, P., Chiu, C., Edwards, C., Fortin, M., Jost, L., Richards, C., & Selkoe, K. (2018). Diversity from genes to ecosystems: A unifying framework to study variation across biological metrics and scales. Evolutionary Applications, 11, 1176 - 1193. https://doi.org/10.1111/eva.12593\nGonçalves-Souza, D., Verburg, P., & Dobrovolski, R. (2020). Habitat loss, extinction predictability and conservation efforts in the terrestrial ecoregions. Biological Conservation. https://doi.org/10.1016/j.biocon.2020.108579\nGuo, G. (2022). Review of Habitat Loss and Biodiversity in Poyang Lake Region. Proceedings of the 2022 International Conference on Urban Planning and Regional Economy（UPRE 2022）. https://doi.org/10.2991/aebmr.k.220502.096\nHochkirch, A., Bilz, M., Ferreira, C., Danielczak, A., Allen, D., Nieto, A., Rondinini, C., Harding, K., Hilton‐Taylor, C., Pollock, C., Seddon, M., Vié, J., Alexander, K., Beech, E., Biscoito, M., Braud, Y., Burfield, I., Buzzetti, F. M., Cálix, M., . . . Zuna-Kratky, T. (2023). A multi-taxon analysis of European Red Lists reveals major threats to biodiversity. PLOS ONE, 18. https://doi.org/10.1371/journal.pone.0293083\nIsbell, F., Balvanera, P., Mori, A. S., He, J., Bullock, J., Regmi, G. R., Seabloom, E., Ferrier, S., Sala, O., Guerrero‐Ramírez, N. R., Tavella, J., Larkin, D., Schmid, B., Outhwaite, C. L., Pramual, P., Borer, E., Loreau, M., Omotoriogun, T., Obura, D., . . . Palmer, M. (2022). Expert perspectives on global biodiversity loss and its drivers and impacts on people. Frontiers in Ecology and the Environment. https://doi.org/10.1002/fee.2536\nJohnson, C. N., Balmford, A., Brook, B., Buettel, J., Galetti, M., Lei, G., & Wilmshurst, J. (2017). Biodiversity losses and conservation responses in the Anthropocene. Science, 356, 270 - 275. https://doi.org/10.1126/science.aam9317\nKarahan, A., Durgut, B., Iannucci, S., Turicchia, E., Ponti, M., Ivanova, P., Dzhembekova, N., & Rinkevich, B. (2025). MAF biodiversity measurements: Species, ecosystem, and genetic. Open Research Europe. https://doi.org/10.12688/openreseurope.20835.1\nKumari, R., A., D., & Bhatnagar, S. (2021). Biodiversity Loss: Threats and Conservation Strategies. International Journal of Pharmaceutical Sciences Review and Research. https://doi.org/10.47583/ijpsrr.2021.v68i01.037\nLegge, S., Rumpff, L., Garnett, S., & Woinarski, J. (2023). Loss of terrestrial biodiversity in Australia: Magnitude, causation, and response. Science, 381, 622 - 631. https://doi.org/10.1126/science.adg7870\nLiu, Y., Wang, J., Wu, Z., Li, S., & Dai, W. (2024). Identification of biodiversity priority conservation areas in China by integrating genetic, species and ecosystem diversity. Biological Conservation. https://doi.org/10.1016/j.biocon.2024.110854\nMoreno, C. (2001). Métodos para medir la biodiversidad.\nPimm, S., Jenkins, C. N., Abell, R., Brooks, T., Gittleman, J. L., Joppa, L., Raven, P., Roberts, C., & Sexton, J. (2014). The biodiversity of species and their rates of extinction, distribution, and protection. Science, 344. https://doi.org/10.1126/science.1246752\nWang, E. T., & Young, J. (2019). History of Rhizobial Taxonomy. Ecology and Evolution of Rhizobia. https://doi.org/10.1007/978-981-32-9555-1_2"
   },
   {
+=======
+>>>>>>> 5fef2b1bca0e0492e7cc8774148d7f3016daf209
     "objectID": "sessions/semana03_resumo.html",
     "href": "sessions/semana03_resumo.html",
     "title": "Semana 3 — Sucessão Ecológica",
@@ -376,6 +427,373 @@
     "title": "Semana 3 — Sucessão Ecológica",
     "section": "8 Referências",
     "text": "8 Referências\n\n\nChang, C. C., C. B. Halpern, J. A. Antos, et al. 2019. “Testing Conceptual Models of Early Plant Succession Across a Disturbance Gradient”. Journal of Ecology 107: 517–30. https://doi.org/10.1111/1365-2745.13120.\n\n\nChang, C. C., e B. L. Turner. 2019. “Ecological Succession in a Changing World”. Journal of Ecology 107: 503–9. https://doi.org/10.1111/1365-2745.13132.\n\n\nConnell, J. H., e R. O. Slatyer. 1977. “Mechanisms of Succession in Natural Communities and Their Role in Community Stability and Organization”. The American Naturalist 111 (982): 1119–44.\n\n\nDini-Andreote, F., J. C. Stegen, J. D. Van Elsas, e J. F. Salles. 2015. “Disentangling Mechanisms that Mediate the Balance Between Stochastic and Deterministic Processes in Microbial Succession”. Proceedings of the National Academy of Sciences 112. https://doi.org/10.1073/pnas.1414261112.\n\n\nHorn, H. S. 1974. “The Ecology of Secondary Succession”. Annual Review of Ecology, Evolution, and Systematics 5: 25–37. https://doi.org/10.1146/annurev.es.05.110174.000325.\n\n\nLiu, J., X. Jia, W. Yan, Y. Zhong, e Z. Shangguan. 2020. “Changes in Soil Microbial Community Structure During Long-Term Secondary Succession”. Land Degradation & Development 31: 1151–66. https://doi.org/10.1002/ldr.3505.\n\n\nPérez-Hernández, J., e R. G. Gavilán. 2021. “Impacts of Land-Use Changes on Vegetation and Ecosystem Functioning: Old-Field Secondary Succession”. Plants 10. https://doi.org/10.3390/plants10050990.\n\n\nQiang, W., L. He, Y. Zhang, et al. 2021. “Aboveground Vegetation and Soil Physicochemical Properties Jointly Drive the Shift of Soil Microbial Community During Subalpine Secondary Succession in Southwest China”. CATENA, publicação prévia em linha. https://doi.org/10.1016/j.catena.2021.105251.\n\n\nRicklefs, R. E., e R. Relyea. 2020. A Economia da Natureza. 7º ed. Guanabara Koogan.\n\n\nShu, D., Y.-Q. Guo, B. Zhang, et al. 2021. “Rare Prokaryotic Sub-Communities Dominate the Complexity of Ecological Networks and Soil Multinutrient Cycling During Long-Term Secondary Succession in China’s Loess Plateau”. Science of the Total Environment 774: 145737. https://doi.org/10.1016/j.scitotenv.2021.145737.\n\n\nTownsend, C. R., M. Begon, e J. L. Harper. 2010. Fundamentos em Ecologia. 3º ed. Artmed.\n\n\nVellend, M. 2016. The Theory of Ecological Communities (MPB-57). Princeton University Press. https://doi.org/10.1515/9781400883790.\n\n\nYu, Z., X.-M. Zeng, X. Cheng, Q. Zhang, e K. Zhang. 2025. “Patterns and Environmental Drivers of Soil Microbial Succession”. Global Change Biology 31. https://doi.org/10.1111/gcb.70475.\n\n\nZhong, Y., W. Yan, R. Wang, W. Wang, e Z. Shangguan. 2018. “Decreased Occurrence of Carbon Cycle Functions in Microbial Communities Along with Long-Term Secondary Succession”. Soil Biology and Biochemistry, publicação prévia em linha. https://doi.org/10.1016/j.soilbio.2018.05.017."
+<<<<<<< HEAD
+=======
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html",
+    "href": "sessions/semana06_resumo.html",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "",
+    "text": "Slides desta aula"
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#variáveis-atmosféricas-e-padrões-de-diversidade",
+    "href": "sessions/semana06_resumo.html#variáveis-atmosféricas-e-padrões-de-diversidade",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "2.1 Variáveis atmosféricas e padrões de diversidade",
+    "text": "2.1 Variáveis atmosféricas e padrões de diversidade\nO clima é comumente descrito por um conjunto padronizado de variáveis bioclimáticas — as chamadas variáveis BIO1 a BIO19 da base WorldClim, que capturam não apenas médias anuais de temperatura e precipitação, mas também sazonalidade, extremos e variabilidade intra-anual. Essa granularidade importa porque a diversidade biológica não responde apenas às médias climáticas, mas de forma crucial à variância e à previsibilidade do clima ao longo do ano.\nO papel do clima como determinante primário de diversidade tem uma longa tradição na biogeografia, remontando às observações de Alexander von Humboldt sobre a correlação entre latitude, altitude e riqueza de espécies. Essa tradição culminou, já no século XXI, em uma extensa literatura de macroecologia que buscou testar rigorosamente qual componente climático — energia, água, ou a interação entre ambos — melhor explica os gradientes de riqueza de espécies em escala continental e global.\n ## Energia, Água e o Triângulo da Diversidade: a Hipótese Água-Energia\nA hipótese água-energia (water-energy hypothesis) unifica dois motores clássicos, historicamente tratados de forma isolada, dos padrões de diversidade: a hipótese da energia (que postula que a disponibilidade de energia solar e calor limita a riqueza de espécies, por meio de seus efeitos sobre metabolismo, taxas de especiação e capacidade de suporte) e a hipótese da água (que postula que a disponibilidade hídrica limita a produtividade primária e, por consequência, a riqueza).\nA síntese mais influente e amplamente citada dessa literatura é o trabalho de Hawkins et al. (2003), que revisou dezenas de estudos empíricos e demonstrou que, isoladamente ou em conjunto, medidas de energia, água ou do balanço água-energia explicam a variação espacial em riqueza de espécies de plantas e animais melhor do que qualquer outra variável climática ou não-climática testada. Um achado particularmente relevante desse trabalho é que a importância relativa de água versus energia varia sistematicamente com a latitude: em regiões temperadas frias, onde a energia é escassa, ela tende a ser o preditor dominante da riqueza; já em regiões tropicais e subtropicais quentes — como é o caso da quase totalidade do território brasileiro — a energia deixa de ser limitante e a disponibilidade de água passa a ser o fator mais fortemente correlacionado com a riqueza de espécies, tanto diretamente (tolerância fisiológica à seca) quanto indiretamente (via seu efeito sobre a produtividade primária, que por sua vez sustenta maior diversificação trófica). Esse padrão foi formalizado anteriormente por O’Brien (1998), cujo “modelo geral interino” propôs uma métrica combinada de água-energia (a evapotranspiração potencial ajustada pela disponibilidade hídrica) como preditor da riqueza de plantas lenhosas em escala continental — um modelo particularmente relevante para entender a distribuição da flora lenhosa dos biomas brasileiros discutidos adiante neste resumo. Testes subsequentes em outros continentes, como o de Whittaker et al. (2007) usando dados europeus para cinco táxons distintos (plantas, mamíferos, aves, anfíbios e répteis), confirmaram a robustez geral da conjectura água-energia, ainda que com variações importantes conforme o táxon e a escala espacial analisada — um lembrete valioso de que generalizações macroecológicas amplas quase sempre escondem heterogeneidade taxonômica substancial.\nPara o contexto brasileiro, essa hipótese tem uma implicação direta e imediata: como o país está quase inteiramente situado entre os trópicos, onde a energia solar é abundante durante todo o ano, o principal eixo de variação na diversidade de plantas ao longo do território deveria ser primariamente hídrico — e é exatamente esse padrão que observamos ao comparar, por exemplo, a exuberância florística da Amazônia (regime de chuvas quase perene) com a diversidade reduzida, porém altamente especializada, da Caatinga (regime de seca severa e prolongada)."
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#sazonalidade-climática-e-diversidade-alfa",
+    "href": "sessions/semana06_resumo.html#sazonalidade-climática-e-diversidade-alfa",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "2.2 Sazonalidade climática e diversidade alfa",
+    "text": "2.2 Sazonalidade climática e diversidade alfa\n\nUm ponto frequentemente subestimado em discussões introdutórias sobre clima e diversidade é que a estabilidade climática ao longo do ano importa tanto quanto os valores médios. Duas localidades podem ter precipitação anual total idêntica e, ainda assim, sustentar comunidades radicalmente diferentes se uma delas distribui essa chuva uniformemente ao longo dos doze meses e a outra a concentra em uma janela estreita de poucos meses.\nAo comparar três localidades brasileiras emblemáticas — Manaus (Amazônia), Petrolina (Caatinga) e Porto Alegre (Pampa) — observamos padrões sazonais marcadamente distintos: Manaus apresenta chuva relativamente distribuída ao longo do ano (embora com um período mais seco entre junho e setembro) e temperaturas médias altas e estáveis; Petrolina apresenta uma estação chuvosa extremamente concentrada (poucos meses, sobretudo entre janeiro e abril) seguida por um longo período de seca quase absoluta; e Porto Alegre apresenta chuva relativamente bem distribuída, mas com grande amplitude térmica sazonal, alternando verões quentes e invernos frios. Esse contraste ilustra um princípio geral em ecologia de comunidades: alta sazonalidade climática tende a reduzir a diversidade alfa local, porque atua como um filtro temporal adicional — apenas espécies capazes de tolerar (fisiologicamente, via dormência, ou fenologicamente, via sincronização reprodutiva) o período desfavorável conseguem persistir. Ao mesmo tempo, alta sazonalidade tende a elevar a diversidade beta entre estações, na medida em que a composição de espécies ativas (florescendo, reproduzindo, forrageando) muda substancialmente entre a estação favorável e a desfavorável. O resultado líquido é que ambientes fortemente sazonais, como a Caatinga, tendem a ser dominados por um subconjunto relativamente pequeno de espécies com adaptações extremas à tolerância ao estresse hídrico (suculência, caducifolia, dormência de sementes, fisiologia CAM), enquanto ambientes climaticamente mais estáveis, como partes da Amazônia, permitem a coexistência de um número muito maior de estratégias ecológicas simultâneas — desde espécies de crescimento rápido e vida curta até espécies de crescimento lento e longevidade extrema — sem que nenhuma delas precise necessariamente tolerar extremos fisiológicos severos."
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#mudanças-climáticas-e-distribuições-futuras-de-espécies",
+    "href": "sessions/semana06_resumo.html#mudanças-climáticas-e-distribuições-futuras-de-espécies",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "2.3 Mudanças climáticas e distribuições futuras de espécies",
+    "text": "2.3 Mudanças climáticas e distribuições futuras de espécies\nAs projeções climáticas do IPCC AR6 (Sexto Relatório de Avaliação), particularmente sob o cenário de altas emissões SSP3-7.0, indicam níveis de vulnerabilidade climática marcadamente distintos entre os biomas brasileiros até o final do século. Embora os valores numéricos exatos variem conforme o modelo climático regional utilizado, o padrão geral que emerge de exercícios de modelagem desse tipo — mapeando aquecimento projetado (ΔT) contra mudança projetada na precipitação — é consistente: Caatinga e Cerrado tendem a apresentar simultaneamente alto aquecimento projetado e redução acentuada de precipitação, colocando-os entre os biomas de maior risco relativo combinado; a Amazônia e o Pantanal também mostram redução de precipitação com aquecimento moderado a alto, o que é particularmente preocupante dado o papel desses biomas na reciclagem de umidade atmosférica continental (o chamado “rios voadores”); já o Pampa, situado nas latitudes mais austrais do país, tende a apresentar um padrão climático projetado distinto, por vezes com pequeno aumento de precipitação combinado a aquecimento moderado.\nEssas projeções não são meramente acadêmicas: elas têm implicações diretas e testáveis para a teoria da biogeografia discutida na Semana 4. Se o clima é, como argumentamos, o filtro primário sobre o qual solo e vegetação atuam secundariamente, então mudanças na distribuição espacial das variáveis climáticas devem, com uma defasagem temporal que depende da capacidade de dispersão e da longevidade dos organismos, deslocar os limites das distribuições geográficas das espécies — um fenômeno já documentado extensivamente na literatura de modelagem de distribuição de espécies sob mudança climática (ver Semana 4, e Franklin (2023) para uma revisão recente sobre o papel dessas modelagens na compreensão de biogeografias passadas, presentes e futuras).\n\n\n\nEm vermelho, áreas com maior distribuição e adaptabilidade da espécie A. leiocarpa hoje (à esquerda) e no futuro (à direita), com intervenção da mudança climática"
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#solo-muito-além-de-substrato",
+    "href": "sessions/semana06_resumo.html#solo-muito-além-de-substrato",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "3.1 Solo: Muito além de “substrato”",
+    "text": "3.1 Solo: Muito além de “substrato”\nUma concepção ingênua trata o solo como mero substrato físico de sustentação para as plantas — um “chão” inerte sobre o qual a vegetação simplesmente se apoia. Essa visão é profundamente equivocada. O solo é, na verdade, um ecossistema vivo que filtra, armazena, transforma e recicla nutrientes, água e carbono, e que exerce sobre a composição da comunidade vegetal um controle tão poderoso quanto o próprio clima — em muitas paisagens tropicais, de fato, o solo explica mais variação composicional em escala local do que o clima, precisamente porque o clima tende a ser relativamente homogêneo em pequenas extensões espaciais, enquanto o solo pode variar drasticamente em distâncias de poucos metros a poucos quilômetros.\nAs propriedades edáficas mais relevantes para a filtragem de comunidades vegetais incluem:\n\n\n\n\n\n\n\nPropriedade\nEfeito na comunidade\n\n\n\n\npH\nDefine disponibilidade de nutrientes; filtra espécies calcícolas (adaptadas a solos alcalinos/neutros) versus acidófilas (adaptadas a solos ácidos)\n\n\nTextura (argila/areia)\nDetermina a capacidade de retenção hídrica e, portanto, a disponibilidade de água mesmo dentro de um mesmo regime de precipitação\n\n\nTeor de Al³⁺ (alumínio trocável)\nToxicidade radicular — elimina espécies não fisiologicamente adaptadas à tolerância ao alumínio\n\n\nSaturação por bases\nSepara solos eutróficos (ricos em cátions como Ca²⁺, Mg²⁺, K⁺) de solos distróficos (pobres)\n\n\nProfundidade efetiva\nLimita o volume de enraizamento explorável; determina a capacidade de suporte hídrico e nutricional em períodos de seca\n\n\nMatéria orgânica\nSustenta a diversidade microbiana do solo e regula as taxas de ciclagem de nutrientes\n\n\n\nA formação dessas propriedades ao longo do tempo geológico é descrita classicamente pela equação de estado de Jenny (Jenny 1941), frequentemente resumida pelo mnemônico CLORPT: o solo, em qualquer ponto do espaço e do tempo, é uma função de cinco fatores de estado independentes — clima (climate), organismos (organisms), relevo (relief), material de origem (parent material) e tempo (time). Essa formulação, ainda hoje o arcabouço conceitual dominante em pedologia, é diretamente relevante para a ecologia de comunidades porque estabelece explicitamente que o solo não é um fator abiótico “puro” e independente — ele é, em parte, um produto histórico da própria vegetação e da fauna que nele atuaram ao longo do tempo, um ponto ao qual retornaremos na discussão do “triângulo pedológico” adiante."
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#gradientes-edáficos-e-beta-diversidade-no-cerrado",
+    "href": "sessions/semana06_resumo.html#gradientes-edáficos-e-beta-diversidade-no-cerrado",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "3.2 Gradientes edáficos e beta-diversidade no Cerrado",
+    "text": "3.2 Gradientes edáficos e beta-diversidade no Cerrado\nO Cerrado brasileiro é, entre todos os biomas do país, aquele em que a relação solo × vegetação × diversidade se manifesta de forma mais nítida e mais bem documentada na literatura ecológica. Distintamente do que uma leitura superficial poderia sugerir, o Cerrado não é uma formação vegetal homogênea, mas um mosaico de fitofisionomias organizado ao longo de gradientes edáficos e hidrológicos. A classificação de referência para essas fitofisionomias, amplamente adotada na literatura brasileira, é a de Ribeiro e Walter (2008), que reconhece onze tipos fitofisionômicos principais organizados em três grandes formações: formações florestais (mata ciliar, mata de galeria, mata seca, cerradão), formações savânicas (cerrado sentido restrito, parque de cerrado, palmeiral, vereda) e formações campestres (campo sujo, campo rupestre, campo limpo).\nA distribuição espacial dessas fitofisionomias ao longo da paisagem — desde a mata ciliar às margens dos cursos d’água, passando pelas formações savânicas de fertilidade intermediária, até os campos rupestres sobre afloramentos rochosos pobres — é controlada em grande medida pela combinação de fertilidade do solo, profundidade do lençol freático e presença ou ausência de camadas impeditivas de drenagem. A literatura internacional que sintetiza esse padrão para toda a flora lenhosa do bioma é a de Oliveira-Filho e Ratter (2002), um capítulo de referência que analisou a composição florística de centenas de áreas de Cerrado e demonstrou que a fertilidade e a disponibilidade hídrica do solo — mais do que o clima regional, relativamente homogêneo dentro do domínio do Cerrado — são os principais determinantes da fisionomia e composição da vegetação lenhosa em escala local.\n\n\n\nOs tipos de Cerrado\n\n\n\n\n\n\n\n\nDicaBeta-diversidade edáfica\n\n\n\nA transição de campo limpo distrófico (solo pobre, drenagem livre) para mata de galeria eutrófica (solo relativamente rico, saturado) ao longo de poucas centenas de metros de uma mesma paisagem gera alta diversidade beta via turnover de espécies — comunidades que co-ocorrem no espaço geográfico imediato, mas que são fortemente segregadas edaficamente, compartilhando pouquíssimas espécies em comum."
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#solos-especiais-e-endemismo",
+    "href": "sessions/semana06_resumo.html#solos-especiais-e-endemismo",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "3.3 Solos especiais e endemismo",
+    "text": "3.3 Solos especiais e endemismo\nAlém dos gradientes contínuos de fertilidade descritos acima, certos tipos de solo criam o que a literatura chama de “ilhas pedológicas” — manchas edáficas extremas e geograficamente restritas, frequentemente associadas a afloramentos rochosos específicos (canga ferruginosa, quartzito, arenito) ou a depósitos sedimentares peculiares (areias brancas, solos hidromórficos), que sustentam uma flora altamente especializada e frequentemente endêmica. Exemplos brasileiros paradigmáticos incluem os campos rupestres da Cadeia do Espinhaço (Minas Gerais e Bahia), com sua flora extraordinariamente rica em espécies endêmicas de Velloziaceae e Eriocaulaceae adaptadas a solos rasos, ácidos e pobres em nutrientes sobre substrato quartzítico; as formações de restinga sobre solos arenosos costeiros, com flora adaptada à salinidade e à baixíssima retenção hídrica; e os afloramentos de canga ferruginosa na região do Quadrilátero Ferrífero, cuja flora especializada tem sido alvo de intenso debate conservacionista frente à expansão da mineração de ferro. Esses casos ilustram um princípio geral central à teoria da biogeografia de ilhas (discutida na Semana 4): ambientes edaficamente isolados funcionam, do ponto de vista da montagem de comunidades, de maneira análoga a ilhas oceânicas — pequenas manchas de habitat especializado cercadas por uma “matriz” ecologicamente inóspita para as espécies ali adaptadas, favorecendo especiação local e altíssimas taxas de endemismo."
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#solo-diversidade-alfa-e-diversidade-beta-a-relação-em-corcova",
+    "href": "sessions/semana06_resumo.html#solo-diversidade-alfa-e-diversidade-beta-a-relação-em-corcova",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "3.4 Solo, diversidade alfa e diversidade Beta: a relação em “corcova”",
+    "text": "3.4 Solo, diversidade alfa e diversidade Beta: a relação em “corcova”\nUm dos padrões empíricos mais robustos e mais replicados na ecologia de comunidades vegetais é a existência de uma relação em forma de corcova (unimodal) entre fertilidade do solo e diversidade alfa: solos muito pobres impõem filtros fisiológicos severos (toxicidade, deficiência nutricional extrema) que excluem a maioria das espécies, restando apenas um pequeno conjunto de especialistas altamente tolerantes; solos muito ricos, por sua vez, favorecem desproporcionalmente um pequeno número de espécies competitivamente dominantes e de crescimento rápido, que via exclusão competitiva reduzem a diversidade de espécies coexistentes; a diversidade alfa máxima tende a ocorrer, portanto, em níveis intermediários de fertilidade, onde nem a limitação fisiológica nem a exclusão competitiva dominam completamente a montagem da comunidade.\nParalelamente, a diversidade beta tende a exibir uma relação negativa com a fertilidade média — ou, mais precisamente, positiva com a heterogeneidade (variância espacial) da fertilidade: paisagens com solos heterogêneos, contendo múltiplos tipos edáficos distintos lado a lado, sustentam maior diversidade beta simplesmente porque cada tipo de solo favorece um subconjunto composicional distinto de espécies. Esse é precisamente o mecanismo por trás da elevada diversidade beta observada no Cerrado, onde a coexistência regional de solos distróficos rasos, solos eutróficos profundos e solos hidromórficos de vereda, todos dentro de distâncias relativamente curtas, gera um mosaico de comunidades vegetais fortemente segregadas.\n\n\n\nEm regiões onde a precipitação é frequente, a fase aquosa do solo é amplamente conectada e fornece um habitat comum para células de diferentes espécies bacterianas. Em solos de regiões mais secas, a fase aquosa encontra-se crescentemente fragmentada e oferece um grande número de habitats distintos. Quando o solo se torna suficientemente seco, quase todos os habitats aquáticos ficam fisicamente isolados e podem conter apenas algumas poucas espécies. Além disso, o número total de células que podem ser mantidas (capacidade de suporte potencial) é reduzido e manchas menores tornam-se desabitadas. A capacidade de suporte específica em um bioma baseia-se no fluxo de entrada de carbono e na temperatura, que estabelecem um limite superior para a densidade de células bacterianas (raramente atingido em uma localização específica devido a outros fatores limitantes). Os números abaixo de cada painel indicam o número de células pelo número de habitats. Espera-se que a diversidade caia em regiões secas com baixa abundância de células e em regiões úmidas com alta conectividade de habitat.\n\n\n\n\n\n\n\n\nNotaInterpretação central\n\n\n\nSolos muito pobres e muito ricos tendem a reduzir a diversidade alfa local (filtros fortes em ambos os extremos); a relação “corcova” entre fertilidade e riqueza é um dos padrões mais clássicos e recorrentes da ecologia vegetal. Porém, solos heterogêneos em escala de paisagem elevam a diversidade beta — mais tipos de solo geram mais tipos de comunidade, mesmo que cada comunidade individual não seja particularmente rica."
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#formação-do-solo-clima-e-vegetação-o-triângulo-pedológico",
+    "href": "sessions/semana06_resumo.html#formação-do-solo-clima-e-vegetação-o-triângulo-pedológico",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "3.5 Formação do solo, clima e vegetação: o triângulo pedológico",
+    "text": "3.5 Formação do solo, clima e vegetação: o triângulo pedológico\nRetomando explicitamente o arcabouço CLORPT de Jenny (1941), é essencial reconhecer que a relação entre clima, solo e vegetação não é uma cascata estritamente unidirecional, mas um sistema com múltiplas retroalimentações (feedbacks) recíprocas:\n\nPlantas acidificam o solo ativamente, por meio da exsudação de ácidos orgânicos radiculares e da decomposição de serapilheira rica em compostos fenólicos — um processo particularmente pronunciado sob coníferas e sob certas famílias de plantas tropicais adaptadas a solos pobres (como muitas Myrtaceae e Ericaceae de campos rupestres).\nVegetação densa aumenta o teor de matéria orgânica do solo, o que por sua vez modifica sua textura efetiva (agregação de partículas) e sua capacidade de troca catiônica (CTC), tornando o solo capaz de reter mais nutrientes disponíveis para o próprio sistema radicular que o gerou.\nO solo, ao definir qual vegetação consegue se estabelecer, é simultaneamente alterado por essa mesma vegetação — um ciclo de causação recíproca que torna a distinção entre “causa” e “efeito”, nesse sistema, uma simplificação analítica útil, mas parcialmente artificial.\nO clima controla as taxas nas quais todos esses processos ocorrem: o intemperismo químico das rochas-mãe e o acúmulo (ou a rápida mineralização) de matéria orgânica são processos fortemente dependentes de temperatura e umidade, o que explica por que solos tropicais úmidos tendem a ser profundamente intemperizados e freqüentemente pobres em nutrientes solúveis (que foram lixiviados ao longo de milênios), enquanto solos de regiões áridas ou frias tendem a reter minerais primários e nutrientes de forma muito mais eficiente.\n\n\n\n\n\n\n\nImportanteNota conceitual\n\n\n\nO “triângulo pedológico” clima-solo-vegetação não deve ser lido como uma hierarquia estritamente linear e unidirecional (clima → solo → vegetação), mas como um sistema dinâmico de retroalimentações mútuas que se estabiliza, em escalas de tempo geológico, em configurações regionais características — os biomas que reconhecemos hoje."
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#vegetação-como-criadora-de-diversidade",
+    "href": "sessions/semana06_resumo.html#vegetação-como-criadora-de-diversidade",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "4.1 Vegetação como criadora de diversidade",
+    "text": "4.1 Vegetação como criadora de diversidade\nSe o clima e o solo atuam predominantemente como filtros que restringem quais espécies podem estar presentes em um dado local, a vegetação desempenha um papel conceitualmente distinto e complementar: ela não é apenas resposta passiva aos fatores abióticos anteriores, mas também causa ativa de diversidade adicional, ao criar estrutura física, microclimas e recursos que, por sua vez, sustentam diversidade em outros grupos taxonômicos. Esse papel de “engenharia ecossistêmica” da vegetação opera por, ao menos, cinco mecanismos complementares:\n\nEstratificação vertical — a criação de estratos distintos (herbáceo, arbustivo, subdossel, dossel, emergente) multiplica o número de nichos estruturais disponíveis para a fauna associada, desde invertebrados de serapilheira até aves de dossel.\nHeterogeneidade horizontal — clareiras, bordas e mosaicos sucessionais (recuperando diretamente os conceitos de sucessão ecológica da Semana 3) geram variação espacial em luminosidade, umidade e temperatura em escalas de metros a dezenas de metros.\nArquitetura de plantas individuais — a forma de copa, a densidade foliar e a arquitetura radicular de espécies particulares criam microhabitats específicos (por exemplo, epífitas dependem de arquiteturas de copa particulares; certas aves e insetos dependem de formas foliares específicas para nidificação ou oviposição).\nEngenharia ecossistêmica — árvores que criam ocos, palmeiras que acumulam água em suas axilas foliares (fitotelmata), e a própria formação de serapilheira, todos geram microhabitats que sustentam comunidades inteiras de organismos associados.\nProvisão de recursos — floração e frutificação sazonalmente estruturadas sustentam redes complexas de polinizadores e dispersores de sementes, tema que será aprofundado nas semanas subsequentes do curso sobre interações bióticas."
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#estratificação-e-números-de-hill",
+    "href": "sessions/semana06_resumo.html#estratificação-e-números-de-hill",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "4.2 Estratificação e números de Hill",
+    "text": "4.2 Estratificação e números de Hill\nA complexidade estrutural da vegetação afeta não apenas a riqueza bruta de espécies, mas também o perfil de diversidade ao longo do espectro de números de Hill (introduzidos na Semana 1). Comparando três fisionomias — um campo dominado por poucas espécies gramíneas altamente abundantes, um Cerrado sentido estrito com dominância moderada, e uma floresta estratificada com distribuição de abundâncias mais equitativa — observa-se um padrão consistente: a magnitude da diferença entre a riqueza bruta (número de Hill de ordem q=0, que ignora completamente a abundância relativa) e os números de Hill de ordens mais altas (q=1, equivalente exponencial da entropia de Shannon; q=2, equivalente inverso do índice de Simpson, que dá peso desproporcional às espécies dominantes) reflete diretamente o grau de equitabilidade da comunidade.\nFlorestas estratificadas tendem a apresentar curvas de Hill mais “planas” — ou seja, a diversidade efetiva declina relativamente pouco ao passarmos de q=0 para q=2 — porque a complexidade estrutural do dossel multiestratificado tende a distribuir os recursos (luz, espaço) de forma mais equitativa entre um número maior de espécies coexistentes, nenhuma das quais consegue monopolizar completamente um recurso específico. Campos dominados por poucas gramíneas, em contraste, apresentam curvas muito mais íngremes: a riqueza bruta pode até ser moderada, mas a diversidade efetiva de ordens superiores despenca rapidamente, refletindo a dominância desproporcional de uma ou poucas espécies competitivamente superiores em ambientes estruturalmente simples."
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#ecótonos-zonas-de-alta-beta-diversidade",
+    "href": "sessions/semana06_resumo.html#ecótonos-zonas-de-alta-beta-diversidade",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "4.3 Ecótonos: Zonas de alta beta-diversidade",
+    "text": "4.3 Ecótonos: Zonas de alta beta-diversidade\n\nUm corolário direto do papel estruturante da vegetação é o fenômeno dos ecótonos — zonas de transição entre duas formações vegetacionais ou dois biomas adjacentes — que consistentemente exibem diversidade beta anormalmente elevada em relação à área que ocupam. Isso ocorre por (ao menos) quatro razões complementares: ecótonos contêm, simultaneamente, espécies características de ambos os biomas adjacentes que ali se sobrepõem espacialmente; eles frequentemente possuem espécies especialistas de borda, dependentes especificamente da condição de transição e ausentes tanto no interior de um bioma quanto no interior do outro; a proximidade espacial de condições ambientais contrastantes gera alta heterogeneidade microambiental em curta distância, multiplicando o número de nichos disponíveis; e o resultado líquido dessas três forças é diversidade beta elevada mesmo em escalas espaciais estritamente locais, sem necessidade de invocar processos regionais ou históricos.\nO exemplo brasileiro mais emblemático de ecótono de grande escala é a transição entre Caatinga e Cerrado no norte de Minas Gerais e sul do Piauí/Maranhão — uma zona de contato entre dois domínios morfoclimáticos com histórias biogeográficas distintas, mas com afinidades florísticas compartilhadas suficientes para gerar comunidades de transição ricas em espécies exclusivas dessa faixa intermediária."
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#domínios-morfoclimáticos-a-contribuição-de-absaber",
+    "href": "sessions/semana06_resumo.html#domínios-morfoclimáticos-a-contribuição-de-absaber",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "5.1 Domínios morfoclimáticos: a contribuição de Ab’Saber",
+    "text": "5.1 Domínios morfoclimáticos: a contribuição de Ab’Saber\nA geografia física brasileira possui uma tradição conceitual própria e influente para descrever a integração entre clima, relevo, solo e vegetação em grandes unidades de paisagem: os domínios morfoclimáticos, formalizados pelo geógrafo Aziz Nacib Ab’Saber (Ab’Saber 2003). Ab’Saber definiu domínio morfoclimático como uma grande unidade territorial — da ordem de centenas de milhares a milhões de quilômetros quadrados — na qual relevo, tipos de solo, vegetação, hidrografia e condições climatológicas se combinam de forma recorrente para produzir uma paisagem relativamente homogênea em suas grandes linhas. Ab’Saber reconheceu seis domínios morfoclimáticos principais no território brasileiro: o domínio amazônico (o maior, de clima equatorial quente e úmido), o domínio das caatingas (semiárido nordestino), o domínio do cerrado (savânico, de clima tropical sazonal), o domínio dos mares de morros (associado historicamente à Mata Atlântica, de relevo mamelonar), o domínio das araucárias (subtropical, de altitude, no sul do país) e o domínio das pradarias (campos temperados do extremo sul, associados ao Pampa), além de extensas faixas de transição entre domínios adjacentes.\n\nÉ importante, para fins de precisão conceitual, distinguir “domínio morfoclimático” (um conceito de geografia física, centrado em relevo e clima como unificadores da paisagem) de “bioma” (um conceito primariamente biológico, centrado na fisionomia da vegetação dominante e na fauna associada) — ainda que na prática os dois mapeamentos se sobreponham consideravelmente para o território brasileiro, e frequentemente sejam usados de forma intercambiável em contextos de ensino e divulgação."
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#relevância-dos-dominios-para-a-diversidade",
+    "href": "sessions/semana06_resumo.html#relevância-dos-dominios-para-a-diversidade",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "5.2 Relevância dos dominios para a diversidade",
+    "text": "5.2 Relevância dos dominios para a diversidade\nA elevada diversidade beta observada entre as províncias biogeográficas brasileiras reflete, em grande medida, histórias biogeográficas distintas que se sobrepõem aos determinantes climáticos e edáficos contemporâneos discutidos até aqui — recuperando diretamente o conteúdo da Semana 4 sobre biogeografia histórica versus ecológica (ver Wiens e Donoghue 2004; Warren et al. 2014 para discussões conceituais sobre como distinguir esses dois conjuntos de processos). Três padrões históricos merecem destaque específico:\n\nAmazônia e Mata Atlântica foram episodicamente conectadas por corredores florestais durante fases mais úmidas do Pleistoceno, um padrão que deixou uma assinatura filogenética característica: pares de espécies irmãs (vicariantes), cada uma restrita a um dos dois biomas atuais, mas compartilhando um ancestral comum recente que ocupava o corredor florestal hoje fragmentado pelo “diagonal seca” de Cerrado e Caatinga.\nCaatinga e Cerrado compartilham uma flora de origem comum substancial, especialmente entre linhagens adaptadas a solos pobres e a sazonalidade hídrica marcada, o que explica a presença de numerosas espécies generalistas capazes de ocupar ambos os domínios, além da rica flora de transição já mencionada na discussão de ecótonos.\nO Pampa apresenta afinidades florísticas e faunísticas mais estreitas com as pradarias temperadas do Cone Sul (Uruguai, Argentina) do que com os demais biomas brasileiros, refletindo sua origem biogeográfica distinta, associada a uma história climática temperada e não tropical.\n\nEsses padrões ilustram, de forma concreta e regionalmente situada, um princípio central da biogeografia histórica moderna (Sanmartín 2012; Ronquist 1997): os padrões contemporâneos de distribuição de diversidade não podem ser plenamente explicados apenas por filtros ambientais atuais (clima, solo, vegetação) — eles carregam também a assinatura de eventos históricos de conexão, fragmentação e vicariância que ocorreram em escalas de tempo muito superiores à vida de um observador humano, mas que continuam moldando, até hoje, onde encontramos cada linhagem."
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#diversidade-alfa-ao-longo-de-gradientes-climáticos",
+    "href": "sessions/semana06_resumo.html#diversidade-alfa-ao-longo-de-gradientes-climáticos",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "7.1 Diversidade alfa ao longo de gradientes climáticos",
+    "text": "7.1 Diversidade alfa ao longo de gradientes climáticos\nAo sintetizar como a riqueza alfa varia ao longo dos três principais gradientes climáticos do território brasileiro — precipitação, temperatura e altitude — observamos padrões consistentes com a discussão teórica das seções anteriores. A riqueza tende a aumentar de forma aproximadamente saturante com a precipitação anual (refletindo a hipótese água-energia em regime tropical, na qual a água, e não a energia, é o fator limitante); a relação com a temperatura média tende a ser unimodal, com um pico em temperaturas intermediárias e declínio tanto em extremos frios quanto (surpreendentemente para intuições não-especializadas) em extremos quentes, refletindo o estresse fisiológico associado a temperaturas muito elevadas combinadas com déficit hídrico; e a riqueza tende a declinar monotonicamente com a altitude, um padrão clássico da biogeografia de montanha, associado à combinação de menor área disponível em altitudes crescentes (recuperando a relação espécie-área da Semana 4), menores temperaturas médias e maior exposição a eventos climáticos extremos."
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#beta-diversidade-ao-longo-de-gradiente-de-solo-versus-clima",
+    "href": "sessions/semana06_resumo.html#beta-diversidade-ao-longo-de-gradiente-de-solo-versus-clima",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "7.2 Beta-diversidade ao longo de gradiente de solo versus clima",
+    "text": "7.2 Beta-diversidade ao longo de gradiente de solo versus clima\nUma questão analítica recorrente na ecologia vegetal brasileira é: quanto da variação composicional (diversidade beta) em comunidades de plantas é explicada pelo solo, e quanto é explicado pelo clima? A resposta geral que emerge de estudos de partição de variância nesse contexto é dependente de escala: em escala local (dentro de uma mesma região climática, variando de dezenas de metros a poucos quilômetros), o solo tende a explicar proporcionalmente mais da dissimilaridade composicional observada, precisamente porque o clima é relativamente homogêneo nessa escala espacial restrita, enquanto o solo pode variar drasticamente (como discutido na seção sobre o Cerrado); já em escala regional a continental, o clima passa a dominar como preditor da diversidade beta, simplesmente porque sua variância espacial nessa escala amplia-se enormemente, superando a variância edáfica relativa."
+  },
+  {
+    "objectID": "sessions/semana06_resumo.html#aplicação-modelagem-da-caatinga-sob-mudanças-climáticas-e-pressão-antrópica",
+    "href": "sessions/semana06_resumo.html#aplicação-modelagem-da-caatinga-sob-mudanças-climáticas-e-pressão-antrópica",
+    "title": "Semana 6 — Clima, Solo e Vegetação",
+    "section": "7.3 Aplicação: Modelagem da Caatinga sob mudanças climáticas e pressão antrópica",
+    "text": "7.3 Aplicação: Modelagem da Caatinga sob mudanças climáticas e pressão antrópica\nUm estudo de caso particularmente relevante e recente para ilustrar a interação entre os três determinantes discutidos nesta aula — e para conectar teoria a uma questão de conservação premente — é o trabalho de Araujo et al. (2023), que modelou a distribuição potencial da cobertura vegetal florestal e arbustiva na região da Caatinga a partir de indicadores indiretos (distribuições de vertebrados associados a cada tipo de habitat) e comparou essas distribuições potenciais à cobertura vegetal atual observada por sensoriamento remoto. Os resultados indicam que a vegetação arbustiva de menor porte hoje predomina em uma extensão de paisagem que, sob condições estritamente climáticas e sem intervenção humana, deveria ter sido naturalmente ocupada por formações florestais de maior porte — um sinal claro de que a perturbação antrópica, e não apenas a aridez climática natural do domínio, é hoje o principal impulsionador das transformações observadas na estrutura da vegetação da Caatinga. Esse achado tem uma implicação metodológica importante para todo o arcabouço desta aula: os filtros “puramente abióticos” de clima e solo estabelecem um potencial de vegetação — o que a paisagem poderia sustentar sob condições naturais —, mas a vegetação realizada, observável hoje em campo, é o produto da interação entre esse potencial abiótico e a intensidade histórica e contemporânea de uso da terra, sobretudo agropecuária e extração de lenha. Compreender essa distinção entre vegetação potencial e vegetação realizada é essencial tanto para a interpretação correta de padrões observacionais de diversidade quanto para o planejamento de estratégias de restauração ecológica, tema que retomaremos implicitamente nas discussões futuras do curso sobre sucessão e resiliência de comunidades.\n\n\n\nPotential distribution of forest and shrubland in the Caatinga for current climatic and soil conditions. The map was generated from the Maxent model results (see methods for details) using the software QGIS version 3.20.0-Odense (https://qgis.org/en/site/)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "INT0158 - ECOLOGIA 2",
+    "section": "",
+    "text": "INT0158 - ECOLOGIA 2\n2026.2\nCentro de Biociências\nUniversidade Federal de Pernambuco\n\n\n\n\n\n\nProf. Felipe Melo\nDepartamento de Botânica, Centro de Biociências\nfelipe.plmelo@ufpe.br\n\n\n\n\n\n\nDia(s) da semana: QUINTAS-FEIRAS\nPeríodo: 2026.2\nHorário: 10-13h\nLocal: Sala 06, CB-UFPE\n\n\n\n\n\n\nEste curso se baseia em duas principais ferramentas: 1) este site e; 2) Google Sala de Aula onde as tarefas devem ser submetidas.\n\n\n\nEste ambiente será um apoio fundamental para o aprendizado durante a disciplina, especialmente no módulo de Ecologia de Comunidades"
+  },
+  {
+    "objectID": "index.html#bem-vind",
+    "href": "index.html#bem-vind",
+    "title": "INT0158 - ECOLOGIA 2",
+    "section": "",
+    "text": "Este ambiente será um apoio fundamental para o aprendizado durante a disciplina, especialmente no módulo de Ecologia de Comunidades"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Cronograma",
+    "section": "",
+    "text": "Cronograma preliminar — sujeito a ajustes ao longo do semestre.\n\n\n\n\n\n\n\n\n\nSemana\nData\nTema\nMaterial\n\n\n\n\n1\n13/08\nApresentação da disciplina e conceitos introdutórios\nResumo + Slides\n\n\n2\n20/08\nBases teóricas para o estudo de comundades biológicas\n\n\n\n3\n27/08\nSucessão ecológica\n\n\n\n4\n03/09\nComunidades no tempo (Introduição à BIogeografia)\n\n\n\n5\n10/09\nComunidades no espaço (Montagem de comunidades)\n\n\n\n6\n17/09\nClima, solo e vegetação\n\n\n\n7\n24/08\nDiversidade alfa, beta e gama\n\n\n\n8\n01/10\nProva Módulo Comunidades"
+  },
+  {
+    "objectID": "exercises/index.html",
+    "href": "exercises/index.html",
+    "title": "Exercícios",
+    "section": "",
+    "text": "Lista de exercícios práticos da disciplina.\nEm construção…"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#o-que-é-uma-comunidade-ecológica",
+    "href": "slides/comunidades_comparacao.html#o-que-é-uma-comunidade-ecológica",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "O que é uma Comunidade Ecológica?",
+    "text": "O que é uma Comunidade Ecológica?\n\n\n\nConjunto de populações de diferentes espécies que coexistem em um local e tempo\nInteragem entre si e com o ambiente\nApresentam estrutura e organização próprias\nSão dinâmicas: mudam ao longo do tempo e espaço\n\n\n\n\n\nRecifes de coral"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#por-que-comparar-comunidades",
+    "href": "slides/comunidades_comparacao.html#por-que-comparar-comunidades",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Por que Comparar Comunidades?",
+    "text": "Por que Comparar Comunidades?\n\n\n\nAvaliar impactos ambientais e perturbações\nMonitorar mudanças ao longo do tempo\nComparar habitats distintos\nEntender padrões de biodiversidade\nEmbasar decisões de conservação"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#a-ecologia-é-uma-bagunça",
+    "href": "slides/comunidades_comparacao.html#a-ecologia-é-uma-bagunça",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "A Ecologia é uma “Bagunça”",
+    "text": "A Ecologia é uma “Bagunça”\n\nNa genética de populações:\n\nSeleção — mudanças nas frequências alélicas\nDeriva — mudanças estocásticas\nMutação — fonte de nova variação\nFluxo gênico — entrada/saída de alelos\n\nVellend (2010) propõe uma síntese unificada da disciplina"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#os-4-processos-de-vellend-2010",
+    "href": "slides/comunidades_comparacao.html#os-4-processos-de-vellend-2010",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Os 4 Processos de Vellend (2010)",
+    "text": "Os 4 Processos de Vellend (2010)\n\n\n\nEcologia de Comunidades\nGenética de Populações\n\n\n\n\nSeleção\nSeleção\n\n\nDeriva\nDeriva genética\n\n\nEspeciação\nMutação\n\n\nDispersão\nFluxo gênico\n\n\n\n\nEsses processos não são excludentes — interagem continuamente\nA teoria geral: espécies entram via especiação e dispersão; abundâncias relativas são moldadas por deriva e seleção"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#section",
+    "href": "slides/comunidades_comparacao.html#section",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "",
+    "text": "Espécies são adicionadas via especiação e dispersão; abundâncias relativas são moldadas por deriva e seleção (Vellend 2010)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-1-seleção",
+    "href": "slides/comunidades_comparacao.html#processo-1-seleção",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 1: Seleção",
+    "text": "Processo 1: Seleção\n\nDefinição: diferenças determinísticas de fitness\nTrês formas principais:\n\nSeleção constante: uma espécie sempre “ganha”\nSeleção dependente da densidade : favorece coexistência estável\nSeleção variável no espaço/tempo: permite coexistência via trade-offs"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-1-seleção-1",
+    "href": "slides/comunidades_comparacao.html#processo-1-seleção-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 1: Seleção",
+    "text": "Processo 1: Seleção"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-2-deriva-ecológica-drift",
+    "href": "slides/comunidades_comparacao.html#processo-2-deriva-ecológica-drift",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 2: Deriva Ecológica (Drift)",
+    "text": "Processo 2: Deriva Ecológica (Drift)\n\nDefinição: mudanças estocásticas nas abundâncias relativas das espécies\nHubbell (2001): Teoria Neutra Unificada — bases da deriva ecológica\nImportância da deriva aumenta quando:\n\nComunidades são pequenas\nDiferenças de fitness entre espécies são fracas\nDistúrbios reduzem o tamanho da comunidade"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-2-deriva-ecológica-drift-1",
+    "href": "slides/comunidades_comparacao.html#processo-2-deriva-ecológica-drift-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 2: Deriva Ecológica (Drift)",
+    "text": "Processo 2: Deriva Ecológica (Drift)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-3-especiação",
+    "href": "slides/comunidades_comparacao.html#processo-3-especiação",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 3: Especiação",
+    "text": "Processo 3: Especiação\n\nDefinição: criação de novas espécies\nEquivale à mutação na genética de populações\nDetermina o pool regional de espécies (Div Gama)\nHipótese do pool de espécies (Taylor et al. 1990): habitats mais antigos geram mais espécies adaptadas a eles\nPadrões que dependem de especiação:\n\nBeta Diversidade entre regiões com condições similares\nGradientes de diversidade com altitude, latitude ou produtividade"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-3-especiação-1",
+    "href": "slides/comunidades_comparacao.html#processo-3-especiação-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 3: Especiação",
+    "text": "Processo 3: Especiação"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-4-dispersão",
+    "href": "slides/comunidades_comparacao.html#processo-4-dispersão",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 4: Dispersão",
+    "text": "Processo 4: Dispersão\n\nDefinição: movimento de organismos no espaço\n\nEquivale ao fluxo gênico na genética de populações\nConecta comunidades locais → metacomunidades\n\nEfeitos da dispersão dependem de sua interação com seleção e deriva:\n\nDispersão baixa: deriva domina → comunidades divergem\nDispersão moderada: riqueza local é maximizada\nDispersão alta: competidores superiores dominam globalmente → riqueza cai"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#processo-4-dispersão-1",
+    "href": "slides/comunidades_comparacao.html#processo-4-dispersão-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Processo 4: Dispersão",
+    "text": "Processo 4: Dispersão"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#interações-entre-os-4-processos",
+    "href": "slides/comunidades_comparacao.html#interações-entre-os-4-processos",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Interações entre os 4 Processos",
+    "text": "Interações entre os 4 Processos\n\nOs 4 processos raramente atuam isoladamente\nPodem ser combinados de 12 formas distintas para gerar modelos\n\n(especiação e dispersão exigem ao menos seleção ou deriva para serem operacionais)\n\nExemplos de interações:\n\nSeleção + Deriva: resultados determinísticos com ruído estocástico\nDeriva + Dispersão: Teoria da Biogeografia de Ilhas (MacArthur & Wilson 1967)\nDeriva + Dispersão + Especiação: Teoria Neutra de Hubbell (2001)\nSeleção + Dispersão: metacomunidades com species sorting e mass effects\nTodos os 4: teoria geral de comunidades (Vellend 2010)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#interações-entre-os-4-processos-1",
+    "href": "slides/comunidades_comparacao.html#interações-entre-os-4-processos-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Interações entre os 4 Processos",
+    "text": "Interações entre os 4 Processos"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#as-12-combinações-de-processos-e-teorias",
+    "href": "slides/comunidades_comparacao.html#as-12-combinações-de-processos-e-teorias",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "As 12 Combinações de Processos e Teorias",
+    "text": "As 12 Combinações de Processos e Teorias\n\n\n\n\n\n\n\n\n\n\n\n\n#\nSel.\nDer.\nEsp.\nDisp.\nTeoria / Modelo\n\n\n\n\n1\n✓\n\n\n\nModelos de nicho (competição por recursos, predador-presa, teias tróficas)\n\n\n2\n\n✓\n\n\nTeoria Neutra I (estocasticidade demográfica)\n\n\n3\n✓\n✓\n\n\nModelos nicho-neutro (qualquer modelo de nicho com estocasticidade)\n\n\n4\n✓\n\n✓\n\nEcologia histórica I (hipótese do pool, gradientes de diversidade)\n\n\n5\n\n✓\n✓\n\nTeoria Neutra II (não espacial)\n\n\n6\n✓\n\n\n✓\nMetacomunidades determinísticas (mass effects, teias tróficas espaciais)\n\n\n7\n\n✓\n\n✓\nBiogeografia de Ilhas (MacArthur & Wilson 1967)\n\n\n8\n✓\n✓\n✓\n\nEcologia histórica II\n\n\n9\n✓\n\n✓\n✓\nEcologia histórica III\n\n\n10\n\n✓\n✓\n✓\nTeoria Neutra IV (espacial — Hubbell 2001)\n\n\n11\n✓\n✓\n\n✓\nMetacomunidades estocásticas (trade-off colonização-competição)\n\n\n12\n✓\n✓\n✓\n✓\nTeoria geral de comunidades (Vellend 2010)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#padrões-em-comunidades-a-caixa-preta",
+    "href": "slides/comunidades_comparacao.html#padrões-em-comunidades-a-caixa-preta",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Padrões em Comunidades: A “Caixa Preta”",
+    "text": "Padrões em Comunidades: A “Caixa Preta”\n\nOs 4 processos geram padrões amplamente estudados:\n\nRelação espécies-área\nDistribuição de abundâncias relativas\nGradiente latitudinal de diversidade\nRelação diversidade-distância (decaimento de similaridade)\nRelações diversidade-produtividade e diversidade-distúrbio"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#exemplos",
+    "href": "slides/comunidades_comparacao.html#exemplos",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Exemplos",
+    "text": "Exemplos\n\nProblema central: a maioria dos padrões tem múltiplas explicações possíveis\nExemplo: relação espécies-área pode ser explicada por deriva (extinção menor em ilhas grandes), dispersão (maior área = maior alvo), seleção (maior heterogeneidade ambiental) e especiação (mais oportunidades em ilhas grandes)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#espécie-área",
+    "href": "slides/comunidades_comparacao.html#espécie-área",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Espécie-Área",
+    "text": "Espécie-Área"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#teoria-neutra-de-hubbell-2001",
+    "href": "slides/comunidades_comparacao.html#teoria-neutra-de-hubbell-2001",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Teoria Neutra de Hubbell (2001)",
+    "text": "Teoria Neutra de Hubbell (2001)\n\nCaso especial: apenas Deriva + Dispersão + Especiação (sem seleção)\nPressuposto: todos os indivíduos são ecologicamente equivalentes (neutralidade)\nComunidade local determinada por:\n\nTamanho da metacomunidade (JM)\nTaxa de especiação (ν)\nTaxa de dispersão (m)\n\nContribuição: formalizou a deriva como processo legítimo, não apenas “ruído”"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#teoria-neutra-de-hubbell-2001-1",
+    "href": "slides/comunidades_comparacao.html#teoria-neutra-de-hubbell-2001-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Teoria Neutra de Hubbell (2001)",
+    "text": "Teoria Neutra de Hubbell (2001)"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#metacomunidades-dispersão-como-eixo-central",
+    "href": "slides/comunidades_comparacao.html#metacomunidades-dispersão-como-eixo-central",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Metacomunidades: Dispersão como Eixo Central",
+    "text": "Metacomunidades: Dispersão como Eixo Central\n\nMetacomunidade: conjunto de comunidades locais conectadas por dispersão\n\nNeutralidade: deriva + dispersão (sem seleção)\nDinâmica de patches: trade-off colonização-competição\nFiltros: seleção filtra espécies por gradiente ambiental\nEfeitos de massa: dispersão mantém espécies em habitats desfavoráveis\n\nDiversidade beta é a assinatura espacial das metacomunidades"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#metacomunidades-dispersão-como-eixo-central-1",
+    "href": "slides/comunidades_comparacao.html#metacomunidades-dispersão-como-eixo-central-1",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Metacomunidades: Dispersão como Eixo Central",
+    "text": "Metacomunidades: Dispersão como Eixo Central"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#implicações",
+    "href": "slides/comunidades_comparacao.html#implicações",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Implicações",
+    "text": "Implicações\n\nPara o ensino: organiza toda a ecologia de comunidades em torno de 4 processos — mais coerente que listagem de padrões e interações\nPara a pesquisa: permite localizar qualquer teoria na Tabela 2 → evita reinvenção da roda\nPara aplicações: conservação e manejo podem ser guiados por identificar qual processo é dominante:\n\nFragmentação → limita dispersão\nInvasões → alteram seleção\nPerda de habitat → intensifica deriva\nExtinções locais → afetam o pool via especiação\n\nDesafio permanente: inferir processo a partir de padrão — a “caixa preta” continua"
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#resumo",
+    "href": "slides/comunidades_comparacao.html#resumo",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Resumo",
+    "text": "Resumo\n\nA ecologia de comunidades tem uma teoria geral\nOs 4 processos são concomitantes\nA teoria geral ecoa a Síntese Moderna da biologia evolutiva\nPadrões têm múltiplas causas — isso não é fraqueza da ecologia, é sua natureza\n\nLeitura complementar:\n\nVellend (2016). The Theory of Ecological Communities. Princeton University Press.\nHubbell (2001). The Unified Neutral Theory of Biodiversity and Biogeography. Princeton.\nHolyoak et al. (2005). Metacommunities. University of Chicago Press."
+  },
+  {
+    "objectID": "slides/comunidades_comparacao.html#fim",
+    "href": "slides/comunidades_comparacao.html#fim",
+    "title": "Bases Teóricas para o estudo de Comunidades Ecológicas",
+    "section": "Fim",
+    "text": "Fim"
+  },
+  {
+    "objectID": "slides/week01-slides.html#objetivos-da-aula",
+    "href": "slides/week01-slides.html#objetivos-da-aula",
+    "title": "Semana 1",
+    "section": "Objetivos da aula",
+    "text": "Objetivos da aula\n\nPonto-chave 1\nPonto-chave 2\nPonto-chave 3"
+  },
+  {
+    "objectID": "slides/week01-slides.html#tópico-1",
+    "href": "slides/week01-slides.html#tópico-1",
+    "title": "Semana 1",
+    "section": "Tópico 1",
+    "text": "Tópico 1\nConteúdo do tópico 1."
+  },
+  {
+    "objectID": "slides/week01-slides.html#tópico-2",
+    "href": "slides/week01-slides.html#tópico-2",
+    "title": "Semana 1",
+    "section": "Tópico 2",
+    "text": "Tópico 2\nConteúdo do tópico 2."
+  },
+  {
+    "objectID": "slides/week01-slides.html#atividade-prática",
+    "href": "slides/week01-slides.html#atividade-prática",
+    "title": "Semana 1",
+    "section": "Atividade prática",
+    "text": "Atividade prática\nDescreva aqui a atividade prática desta aula."
+  },
+  {
+    "objectID": "slides/week01-slides.html#referências",
+    "href": "slides/week01-slides.html#referências",
+    "title": "Semana 1",
+    "section": "Referências",
+    "text": "Referências\n\nReferência 1\nReferência 2"
+>>>>>>> 5fef2b1bca0e0492e7cc8774148d7f3016daf209
   },
   {
     "objectID": "slides/Intro_biodiversidade.html#definições",
@@ -1722,6 +2140,345 @@
     "text": "Resumo da Aula\n\n\n\n\n\n\n\n\nConceito\nDefinição chave\nFerramenta\n\n\n\n\nHeterogeneidade espacial\nVariação ambiental no espaço\nGradientes, SIG\n\n\nDiversidade α\nDiversidade local\nRiqueza, H’, Hill\n\n\nDiversidade β\nVariação composicional\nSørensen, Bray-Curtis, NMDS\n\n\nDiversidade γ\nDiversidade regional\nPartição α × β\n\n\nNúmeros de Hill\nFamília unificada de medidas\nvegan, hillR\n\n\nTurnover vs. aninhamento\nComponentes de β\nbetapart\n\n\nAplicações\nConservação, restauração, impacto\nAnálise multivariada"
   },
   {
+<<<<<<< HEAD
+=======
+    "objectID": "slides/clima_solo_vegetacao.html#variáveis-atmosféricas-e-padrões-de-diversidade",
+    "href": "slides/clima_solo_vegetacao.html#variáveis-atmosféricas-e-padrões-de-diversidade",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Variáveis atmosféricas e padrões de diversidade",
+    "text": "Variáveis atmosféricas e padrões de diversidade"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#por-que-começar-pelo-clima",
+    "href": "slides/clima_solo_vegetacao.html#por-que-começar-pelo-clima",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Por que começar pelo clima?",
+    "text": "Por que começar pelo clima?\n\nO clima é o filtro primário que determina quais organismos podem existir em um dado lugar — antes do solo, antes das interações bióticas.\n\n\n\nClima define:\n\nLimites fisiológicos das espécies\nProdutividade primária líquida\nFenologia\nRegimes de distúrbio (seca, fogo, geada)\n\n\nHierarquia de filtros ecológicos:\n  CLIMA\n    │ filtra\n  SOLO ◄──── formado em parte pelo clima\n    │ filtra\n  VEGETAÇÃO ◄── estrutura o microclima\n    │ filtra\n  COMUNIDADE LOCAL"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#energia-água-e-o-triângulo-da-diversidade",
+    "href": "slides/clima_solo_vegetacao.html#energia-água-e-o-triângulo-da-diversidade",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Energia, Água e o Triângulo da Diversidade",
+    "text": "Energia, Água e o Triângulo da Diversidade\nA hipótese Energia-Água unifica dois motores clássicos da diversidade:\n\n\n\n\n\n\n\n\n\n\n\n\nPremissas:\n\nEnergia solar → limita a produtividade e a diversidade funcional\nÁgua → limita o número de estratégias de uso de recursos\nA diversidade é máxima quando ambos são elevados\nDéficit de qualquer um cria filtros fisiológicos severos"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#sazonalidade-climática-e-diversidade-alpha",
+    "href": "slides/clima_solo_vegetacao.html#sazonalidade-climática-e-diversidade-alpha",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Sazonalidade Climática e Diversidade Alpha",
+    "text": "Sazonalidade Climática e Diversidade Alpha\nA estabilidade do clima ao longo do ano importa tanto quanto os valores médios:\n\n\nAlta sazonalidade → alfa menor por filtro temporal; beta maior entre estações; comunidades dominadas por espécies tolerantes ao estresse."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#mudanças-climáticas-e-distribuições-de-dspécies",
+    "href": "slides/clima_solo_vegetacao.html#mudanças-climáticas-e-distribuições-de-dspécies",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Mudanças climáticas e distribuições de dspécies",
+    "text": "Mudanças climáticas e distribuições de dspécies\nProjeções para biomas brasileiros (IPCC AR6, cenário SSP3-7.0):"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#solo-endemismo-e-beta-diversidade",
+    "href": "slides/clima_solo_vegetacao.html#solo-endemismo-e-beta-diversidade",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Solo, endemismo e beta-diversidade",
+    "text": "Solo, endemismo e beta-diversidade"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#solo-muito-além-de-substrato",
+    "href": "slides/clima_solo_vegetacao.html#solo-muito-além-de-substrato",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Solo: Muito Além de “Substrato”",
+    "text": "Solo: Muito Além de “Substrato”\n\nO solo é um ecossistema vivo que filtra, armazena e transforma .\n\nPropriedades edáficas que filtram a flora:\n\n\n\n\n\n\n\nPropriedade\nEfeito na comunidade\n\n\n\n\npH\nDefine disponibilidade de nutrientes; filtra calcícolas vs. acidófilas\n\n\nTextura (argila/areia)\nCapacidade de retenção hídrica → disponibilidade de água\n\n\nTeor de Al³⁺\nToxicidade — elimina espécies não adaptadas\n\n\nSaturação por bases\nSepara solos eutróficos (ricos) de distróficos (pobres)\n\n\nProfundidade efetiva\nLimita enraizamento; determina capacidade de suporte\n\n\nMatéria orgânica\nDiversidade microbiana e ciclagem de nutrientes"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#gradientes-edáficos-e-beta-diversidade-no-cerrado",
+    "href": "slides/clima_solo_vegetacao.html#gradientes-edáficos-e-beta-diversidade-no-cerrado",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Gradientes Edáficos e Beta-Diversidade no Cerrado",
+    "text": "Gradientes Edáficos e Beta-Diversidade no Cerrado\nO Cerrado é o bioma onde a relação solo × vegetação × diversidade é mais evidente no Brasil:\n fonte: Embrapa\n\n\n\n\n\n\nDica\n\n\nBeta-diversidade edáfica: a transição de campo limpo distrófico para mata de galeria eutrófica gera alta β via turnover — comunidades co-ocorrem no espaço, mas são edaficamente segregadas."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#solos-especiais-e-endemismo",
+    "href": "slides/clima_solo_vegetacao.html#solos-especiais-e-endemismo",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Solos Especiais e Endemismo",
+    "text": "Solos Especiais e Endemismo\nAlguns tipos de solo criam “ilhas pedológicas” com flora altamente endêmica:"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#solo-alfa-e-beta",
+    "href": "slides/clima_solo_vegetacao.html#solo-alfa-e-beta",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Solo, Alfa e Beta",
+    "text": "Solo, Alfa e Beta\n\nInterpretação: Solos muito pobres e muito ricos tendem a reduzir α (filtros fortes); a relação “corcova” da fertilidade vs. riqueza é clássica. Porém, solos heterogêneos elevam β — mais tipos de solo = mais tipos de comunidade."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#formação-do-solo-clima-e-vegetação-o-triângulo-pedológico",
+    "href": "slides/clima_solo_vegetacao.html#formação-do-solo-clima-e-vegetação-o-triângulo-pedológico",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Formação do Solo, Clima e Vegetação: O Triângulo Pedológico",
+    "text": "Formação do Solo, Clima e Vegetação: O Triângulo Pedológico\n\nRetroalimentações:\n\nPlantas acidificam o solo via exsudatos de ácidos orgânicos\nVegetação densa aumenta matéria orgânica → muda textura e CTC\nSolo define qual vegetação se estabelece → vegetação altera o solo\nClima controla as taxas de intemperismo e acúmulo de M.O.\n\n\n\n\n\n\n\nNota\n\n\nEm escalas de tempo geológicas, o clima “cria” o solo por meio do intemperismo. Em escalas ecológicas, a vegetação e o solo interagem continuamente."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#estratificação-fitofisionomias-e-diversidade",
+    "href": "slides/clima_solo_vegetacao.html#estratificação-fitofisionomias-e-diversidade",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Estratificação, fitofisionomias e diversidade",
+    "text": "Estratificação, fitofisionomias e diversidade"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#vegetação-como-criadora-de-diversidade",
+    "href": "slides/clima_solo_vegetacao.html#vegetação-como-criadora-de-diversidade",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Vegetação como Criadora de Diversidade",
+    "text": "Vegetação como Criadora de Diversidade\n\nA vegetação não é apenas resposta aos fatores abióticos — ela é também causa de diversidade, ao criar estrutura, microclimas e recursos.\n\n\nEstratificação vertical\nHeterogeneidade horizontal\nArquitetura de plantas individuais\nEngenharia ecossistêmica\nProvisão de recursos"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#estratificação-e-números-de-hill",
+    "href": "slides/clima_solo_vegetacao.html#estratificação-e-números-de-hill",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Estratificação e Números de Hill",
+    "text": "Estratificação e Números de Hill\nComo a complexidade estrutural da vegetação muda o perfil de diversidade?\n\n\n\n\n\n\n\nNota\n\n\nA inclinação da curva de Hill (de q=0 para q=2) indica quanto a equitabilidade contribui para a diversidade. Florestas estratificadas têm curvas mais planas — maior diversidade efetiva."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#ecótonos-zonas-de-alta-beta-diversidade",
+    "href": "slides/clima_solo_vegetacao.html#ecótonos-zonas-de-alta-beta-diversidade",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Ecótonos: Zonas de alta Beta-Diversidade",
+    "text": "Ecótonos: Zonas de alta Beta-Diversidade\n\n\nPor que ecótonos são biodiversos?\n\nContêm espécies de ambos os biomas adjacentes\nPossuem espécies especialistas de borda (dependentes da transição)\nAlta heterogeneidade microambiental em curta distância\nAlta beta-diversidade mesmo em escalas locais"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#regiões-biogeográficas-do-brasil",
+    "href": "slides/clima_solo_vegetacao.html#regiões-biogeográficas-do-brasil",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Regiões Biogeográficas do Brasil",
+    "text": "Regiões Biogeográficas do Brasil\n\n\n\n\nRelevância para diversidade:\nA alta β-diversidade entre províncias brasileiras reflete história biogeográfica distinta:\n\nAmazônia e Mata Atlântica foram conectadas por corredores florestais no Pleistoceno → espécies irmãs vicariantes\nCaatinga e Cerrado compartilham flora de origem comum → algumas espécies generalistas\nPampa tem afinidades com a Argentina → limites impostos pela biogeografia sul-americana"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#dispersão-filtragem-e-montagem-de-comunidades",
+    "href": "slides/clima_solo_vegetacao.html#dispersão-filtragem-e-montagem-de-comunidades",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Dispersão, Filtragem e Montagem de Comunidades",
+    "text": "Dispersão, Filtragem e Montagem de Comunidades\n\nAlta limitação de dispersão → β alta mesmo sem gradiente ambiental (deriva)\nAlta filtragem ambiental → β alta correlacionada com gradientes climáticos/edáficos\nAlta filtragem biótica → α regulada pelas interações → comunidades saturadas\n\n\n\n\n\n\n\nDica\n\n\nA partição da β-diversidade em turnover vs. aninhamento ajuda a inferir qual processo domina a montagem de comunidades em cada sistema."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#gradientes-de-diversidade-e-biogeografia-síntese",
+    "href": "slides/clima_solo_vegetacao.html#gradientes-de-diversidade-e-biogeografia-síntese",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Gradientes de Diversidade e Biogeografia: Síntese",
+    "text": "Gradientes de Diversidade e Biogeografia: Síntese"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#alfa-beta-hill-e-nicho-climático-em-gradientes-ambientais",
+    "href": "slides/clima_solo_vegetacao.html#alfa-beta-hill-e-nicho-climático-em-gradientes-ambientais",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Alfa, Beta, Hill e Nicho Climático em Gradientes Ambientais",
+    "text": "Alfa, Beta, Hill e Nicho Climático em Gradientes Ambientais"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#diversidade-alfa-ao-longo-de-gradientes-climáticos",
+    "href": "slides/clima_solo_vegetacao.html#diversidade-alfa-ao-longo-de-gradientes-climáticos",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Diversidade Alfa ao Longo de Gradientes Climáticos",
+    "text": "Diversidade Alfa ao Longo de Gradientes Climáticos\nComo α varia ao longo dos principais gradientes do Brasil?\n\nPadrão geral: Diversidade alfa segue relação unimodal (corcova) com a maioria dos gradientes ambientais — máximo em condições intermediárias ou úmido-quentes."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#beta-diversidade-ao-longo-de-gradientes-de-solo",
+    "href": "slides/clima_solo_vegetacao.html#beta-diversidade-ao-longo-de-gradientes-de-solo",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Beta-Diversidade ao Longo de Gradientes de Solo",
+    "text": "Beta-Diversidade ao Longo de Gradientes de Solo\nQuanto da variação composicional em plantas é explicada pelo solo vs. pelo clima?\n\n\n\n\n\n\n\nDica\n\n\nEm escala local (&lt; 10 km): o solo tende a ser o principal preditor de β-diversidade em plantas. Em escala regional (&gt; 100 km): o clima se torna dominante."
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#aplicação-modelagem-da-caatinga-e-mudanças-climáticas",
+    "href": "slides/clima_solo_vegetacao.html#aplicação-modelagem-da-caatinga-e-mudanças-climáticas",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Aplicação: Modelagem da Caatinga e Mudanças Climáticas",
+    "text": "Aplicação: Modelagem da Caatinga e Mudanças Climáticas"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#integrando-clima-solo-vegetação-e-métricas",
+    "href": "slides/clima_solo_vegetacao.html#integrando-clima-solo-vegetação-e-métricas",
+    "title": "Clima, Solo e Vegetação",
+    "section": "Integrando Clima, Solo, Vegetação e Métricas",
+    "text": "Integrando Clima, Solo, Vegetação e Métricas\nO framework completo da aula:"
+  },
+  {
+    "objectID": "slides/clima_solo_vegetacao.html#section",
+    "href": "slides/clima_solo_vegetacao.html#section",
+    "title": "Clima, Solo e Vegetação",
+    "section": "",
+    "text": "Clima cria o palco.\nSolo escreve as regras.\nVegetação joga o jogo."
+  },
+  {
+    "objectID": "slides/avaliacao_ecologia_geral2.html",
+    "href": "slides/avaliacao_ecologia_geral2.html",
+    "title": "Avaliação Final — Ecologia Geral 2",
+    "section": "",
+    "text": "Universidade Federal de Pernambuco · Departamento de Botânica · CB\n  \n  Ecologia Geral 2 — Ecologia de Comunidades & Aplicações\n  Semestre 2026.1  ·  Avaliação Presencial com Consulta Prévia  ·  Valor: 10,0 pontos"
+  },
+  {
+    "objectID": "slides/avaliacao_ecologia_geral2.html#instruções-gerais",
+    "href": "slides/avaliacao_ecologia_geral2.html#instruções-gerais",
+    "title": "Avaliação Final — Ecologia Geral 2",
+    "section": "Instruções Gerais",
+    "text": "Instruções Gerais\n\nLeia com atenção antes de começar.\n\nEsta avaliação é individual e deve ser estudada antes para ser respondida na pŕoxima quianta-feira dia 18 de Junho de 2026. Você poderá consultar livros, artigos e anotações de aula, estude mesmo mas em casa. Você terá que escrver com suas palavras e não poderá usar anotações no dia da prova. \n\n\n\n⚠️ Sobre autoria e integridade acadêmica: As respostas devem refletir sua própria compreensão, articulação e raciocínio. Respostas excessivamente genéricas, sem ancoragem no cenário proposto, ou que não demonstrem capacidade de aplicar os conceitos de forma contextualizada, não receberão pontuação integral — independentemente da fluência textual. Eu vou avaliar como você pensa, não apenas o que você escreve.\n\nCritérios de avaliação por questão:\n\n\n\n\n\n\n\nDimensão\nO que será observado\n\n\n\n\nPrecisão conceitual\nUso correto e rigoroso de termos, definições e princípios ecológicos\n\n\nAplicação\nCapacidade de relacionar conceitos ao cenário e à região neotropical\n\n\nRaciocínio abstrato\nElaboração de hipóteses, relações causais e inferências não triviais\n\n\nProfundidade\nIntegração entre tópicos, citação de mecanismos e discussão de nuances"
+  },
+  {
+    "objectID": "slides/avaliacao_ecologia_geral2.html#o-cenário",
+    "href": "slides/avaliacao_ecologia_geral2.html#o-cenário",
+    "title": "Avaliação Final — Ecologia Geral 2",
+    "section": "O Cenário",
+    "text": "O Cenário\n\nVocê é pesquisador(a) recém-contratado(a) pelo Programa de Restauração dos Biomas de Pernambuco, vinculado à UFPE. Seu primeiro projeto envolve uma área de 800 hectares no Agreste pernambucano, uma zona de transição entre a Caatinga e a Mata Atlântica — faixa denominada localmente como “Mata Seca de Brejos de Altitude”.\n\nOs brejos de altitude são “ilhas” de floresta úmida (Mata Atlântica) encravadas na região semiárida do Nordeste brasileiro (Caatinga). A sua origem biogeográfica e a rica biodiversidade que abrigam são explicadas principalmente por flutuações climáticas históricas ocorridas durante o período Quaternário (especialmente no Pleistoceno).\nO processo biogeográfico baseia-se nos seguintes pontos principais:\n1. Teoria dos Refúgios Florestais e Flutuações Climáticas Durante as fases glaciais do Quaternário, o clima global tornou-se mais frio e seco. No Nordeste do Brasil, a caatinga se expandiu, e as florestas úmidas (que antes ocupavam áreas contínuas) retraíram-se, sobrevivendo apenas em refúgios isolados no topo de serras e planaltos (geralmente acima de 500 a 600 metros de altitude). Nessas altitudes, o relevo provoca chuvas orográficas e mantém temperaturas mais amenas e maior umidade, permitindo a sobrevivência da vegetação florestal.\nNas fases interglaciais (mais quentes e úmidas), as florestas se expandiam a partir desses refúgios, chegando a se reconectar temporariamente com as florestas costeiras e amazônicas.\n2. Conexões Históricas (Pontes Biogeográficas) A biota dos brejos de altitude revela uma origem mista, evidenciando que essas ilhas de mata estiveram conectadas a dois grandes blocos florestais sul-americanos:\nMata Atlântica Costeira: É a influência biogeográfica predominante. A proximidade geográfica facilitou conexões frequentes durante os períodos mais úmidos, explicando por que a maior parte das espécies de plantas, aves e anfíbios dos brejos é compartilhada com a floresta costeira.\nAmazônia: Diversos estudos taxonômicos (de plantas, borboletas e aves) identificam espécies que são disjunções amazônicas. Isso sugere a existência de “corredores” antigos de floresta úmida que cortavam o atual semiárido, interligando a Amazônia ao Nordeste do Brasil em períodos passados de umidade extrema.\n3. Isolamento e Endemismo O subsequente retorno do clima seco (como o observado atualmente) isolou novamente essas florestas no topo das serras, cercadas pelo “mar” de Caatinga. Esse isolamento prolongado funcionou como um laboratório evolutivo:\nAlgumas espécies de climas úmidos ficaram ilhadas e adaptaram-se localmente.\nO isolamento geográfico impediu o fluxo gênico com as populações da costa ou da Amazônia, levando ao surgimento de espécies endêmicas (exclusivas) de animais e plantas em determinados brejos.\nEm resumo, os brejos de altitude são relíquias biogeográficas de antigas florestas contínuas, cuja origem e composição atual resultam da dinâmica de expansão, retração, isolamento e conexão florestal moldada pelas mudanças climáticas do passado.\nA região apresenta o seguinte histórico de uso da terra:\n\nDécadas de 1970–1990: pecuária extensiva e exploração madeireira, com supressão quase total da vegetação nativa.\n1990–2010: abandono gradual das atividades econômicas; recolonização espontânea por espécies pioneiras (principalmente Croton spp. e gramíneas exóticas como Melinis minutiflora).\n2010–2020: tentativas pontuais de restauração ativa sem planejamento baseado em evidências.\n2020–presente: monitoramento contínuo de parcelas permanentes, coleta de dados de solo, clima, diversidade florística e fauna de polinizadores e dispersores.\n\nOs dados preliminares indicam: alta variabilidade espacial de solos (desde latossolos profundos nas cotas mais altas até solos rasos e rochosos em encostas), dois gradientes climáticos marcados (altitude e continentalidade), e fragmentação severa da paisagem, com a área de estudo situada entre dois remanescentes de vegetação nativa a 12 km de distância.\n\n\nImportante: Todas as questões devem ser respondidas tendo este cenário como ponto de partida. Respostas dissociadas do contexto apresentado não receberão pontuação máxima."
+  },
+  {
+    "objectID": "slides/avaliacao_ecologia_geral2.html#questões",
+    "href": "slides/avaliacao_ecologia_geral2.html#questões",
+    "title": "Avaliação Final — Ecologia Geral 2",
+    "section": "Questões",
+    "text": "Questões\n\nQuestão 1 · Bases teóricas de comunidades\nA natureza da comunidade: entre a integração e o individualismo\nAo iniciar o mapeamento florístico da área, você e sua equipe observam que a distribuição das espécies lenhosas não forma agrupamentos discretos e bem delimitados ao longo do gradiente altitudinal — em vez disso, cada espécie parece atingir seu pico de abundância em pontos distintos do gradiente, com sobreposições amplas entre elas.\n(a) Esse padrão é mais consistente com a visão clementsiana (superorganismo) ou com a visão gleassoniana (continuum individualístico) de comunidade? Justifique sua resposta com base no que foi observado, explicando os pressupostos e as implicações práticas de cada perspectiva para o manejo desta área. (1,5 pt)\n(b) Considerando que, ao mesmo tempo, você observa certas combinações de espécies que se repetem de forma não aleatória em microsítios de solo similar — como você integraria essa evidência com sua resposta ao item (a)? Que abordagem teórica contemporânea permitiria acomodar ambos os padrões simultaneamente? (1,0 pt)\n\n  Precisão conceitual\n  Raciocínio abstrato\n  Profundidade\n\nValor total: 2,5 pt\n\n\n\nQuestão 2 · Comunidades no espaço e no tempo\nBiogeografia de ilhas e a fragmentação como laboratório\nA área de estudo pode ser interpretada como arquipélagos de habitats em uma matriz de pastagem degradada.\n(a) Aplique os princípios da Teoria da Biogeografia de Ilhas (TBI) de MacArthur & Wilson para descrever a dinâmica esperada de riqueza de espécies de aves florestais nos brejos de altitude considerando que a restauração promovida por sua equipe aumenta a conectividade das manchas de brejo. Considere explicitamente os parâmetros de área, distância e taxas de colonização e extinção em sua análise hipotética. (1,5 pt)\n(b) Um colega sugere que a TBI é insuficiente para explicar a montagem de comunidades em paisagens fragmentadas como essa e propõe usar a A spintese Moderna da Ecologia de Comunidades (Vellend 2010) e as métricas de diversidade alfa, beta e gama. Em que aspectos específicos essa abordagem agrega informação que a TBI não contempla? Combine as duas abordagens para explicar a distribuição da diversidade entre os brejos de altitude. (1,0 pt)\n\n  Precisão conceitual\n  Aplicação\n  Profundidade\n\nValor total: 2,5 pt\n\n\n\nQuestão 3 · Determinantes abióticos da montagem de comunidades\nSolo e clima como filtros da comunidade\nOs dados de solo coletados nas parcelas permanentes revelam que, nas encostas rochosas (solos rasos, pH ácido, baixo teor de P), a cobertura vegetal é dominada por cactáceas e bromeliáceas terrestres, enquanto nas cotas mais altas (latossolos profundos, maior umidade edáfica) predominam espécies arbóreas de folhas largas com alta área foliar específica (AFE).\n(a) Utilizando o conceito de filtros abióticos e espaço de nicho, explique de que forma as propriedades do solo e o microclima estão atuando como filtros na montagem das comunidades vegetais observadas. Diferencie claramente o papel do filtro de habitat do papel da limitação de dispersão para os padrões descritos. (1,5 pt)\n(b) Questão-problema: Se você introduzir artificialmente mudas de uma espécie arbórea de alto dossel — típica da Mata Atlântica — nos microsítios rochosos com solos rasos, qual seria sua previsão sobre o estabelecimento a longo prazo dessa espécie? Desenvolva seu raciocínio mencionando ao menos dois processos ecológicos distintos que atuariam sobre essas plantas nos primeiros 5 anos. (1,0 pt)\n\n  Precisão conceitual\n  Aplicação\n  Raciocínio abstrato\n\nValor total: 2,5 pt\n\n\n\nQuestão 4 · Sucessão Ecológica\nTrajetórias sucessionais em um sistema perturbado\nOs dados de monitoramento das parcelas entre 2010 e 2025 mostram que, em metade das parcelas abandonadas, a comunidade vegetal evoluiu de gramíneas exóticas para um estágio dominado por arbustos nativos (Croton, Mimosa, Cnidoscolus). Na outra metade, a cobertura de Melinis minutiflora permaneceu dominante por mais de 12 anos, sem sinais de substituição.\n(a) Identifique e nomeie o fenômeno que está impedindo a sucessão nas parcelas com persistência da gramínea exótica. Como ele pode ser explicado à luz da teoria de estados alternativos estáveis? (1,0 pt)\n(b) Considerando os modelos clássicos de sucessão (Facilitação, Tolerância, Inibição), em qual(is) modelo(s) cada uma das duas trajetórias observadas (substituição vs. persistência da gramínea) melhor se encaixa? Justifique com base nos mecanismos subjacentes. (1,0 pt)\n(c) Proponha uma única intervenção de manejo — fundamentada ecologicamente — que poderia “desbloquear” a trajetória sucessional nas parcelas estagnadas. Explique o mecanismo ecológico pelo qual essa intervenção agiria. (0,5 pt)\n\n  Precisão conceitual\n  Aplicação\n  Raciocínio abstrato\n  Profundidade\n\nValor total: 2,5 pt"
+  },
+  {
+    "objectID": "slides/avaliacao_ecologia_geral2.html#distribuição-de-pontos",
+    "href": "slides/avaliacao_ecologia_geral2.html#distribuição-de-pontos",
+    "title": "Avaliação Final — Ecologia Geral 2",
+    "section": "Distribuição de Pontos",
+    "text": "Distribuição de Pontos\n\n\n\nQuestão\nTema principal\nPontos\n\n\n\n\nQ1 (a+b)\nBases teóricas de comunidades\n2,5\n\n\nQ2 (a+b)\nBiogeografia e metacomunidades\n2,5\n\n\nQ3 (a+b)\nFiltros abióticos (solo e clima)\n2,5\n\n\nQ4 (a+b+c)\nSucessão ecológica\n2,5\n\n\nTotal\n\n10,0\n\n\n\n\n\n  Universidade Federal de Pernambuco · Departamento de Botânica · Centro de Biociências\n  Disciplina: Ecologia Geral 2 · Semestre 2025.2"
+  },
+  {
+    "objectID": "workbook/workbook.html",
+    "href": "workbook/workbook.html",
+    "title": "Seu próprio site",
+    "section": "",
+    "text": "Guia passo a passo para que cada aluno(a) crie seu próprio site Quarto pessoal/de portfólio, hospedado no GitHub Pages — útil para relatórios de disciplina e projetos futuros."
+  },
+  {
+    "objectID": "workbook/workbook.html#objetivo",
+    "href": "workbook/workbook.html#objetivo",
+    "title": "Seu próprio site",
+    "section": "",
+    "text": "Guia passo a passo para que cada aluno(a) crie seu próprio site Quarto pessoal/de portfólio, hospedado no GitHub Pages — útil para relatórios de disciplina e projetos futuros."
+  },
+  {
+    "objectID": "workbook/workbook.html#passo-a-passo",
+    "href": "workbook/workbook.html#passo-a-passo",
+    "title": "Seu próprio site",
+    "section": "Passo a passo",
+    "text": "Passo a passo\n\nCriar uma conta no GitHub\nInstalar o Quarto\nCriar um novo projeto de site (quarto create-project meu-site --type website)\nPublicar no GitHub Pages (quarto publish gh-pages)"
+  },
+  {
+    "objectID": "workbook/workbook.html#recursos-úteis",
+    "href": "workbook/workbook.html#recursos-úteis",
+    "title": "Seu próprio site",
+    "section": "Recursos úteis",
+    "text": "Recursos úteis\n\nDocumentação oficial do Quarto\nGuia de GitHub Pages"
+  },
+  {
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Recursos",
+    "section": "",
+    "text": "R\nRStudio\nQGIS (se aplicável)"
+  },
+  {
+    "objectID": "resources/index.html#softwares",
+    "href": "resources/index.html#softwares",
+    "title": "Recursos",
+    "section": "",
+    "text": "R\nRStudio\nQGIS (se aplicável)"
+  },
+  {
+    "objectID": "resources/index.html#bases-de-dados",
+    "href": "resources/index.html#bases-de-dados",
+    "title": "Recursos",
+    "section": "Bases de dados",
+    "text": "Bases de dados\n\nMapBiomas\nGBIF-Brasil\nSistema Brasileiro de Informação sobre a Biodiversidade - SIBBr"
+  },
+  {
+    "objectID": "resources/index.html#leituras-complementares",
+    "href": "resources/index.html#leituras-complementares",
+    "title": "Recursos",
+    "section": "Leituras complementares",
+    "text": "Leituras complementares\n\nAnálises Ecológicas no R"
+  },
+  {
+    "objectID": "assessment.html",
+    "href": "assessment.html",
+    "title": "Avaliação",
+    "section": "",
+    "text": "Instrumento\nPeso\n\n\n\n\nAvaliação parcial\n30%\n\n\nExercícios/Listas\n20%\n\n\nProjeto/Seminário final\n30%\n\n\nParticipação\n20%"
+  },
+  {
+    "objectID": "assessment.html#composição-da-nota",
+    "href": "assessment.html#composição-da-nota",
+    "title": "Avaliação",
+    "section": "",
+    "text": "Instrumento\nPeso\n\n\n\n\nAvaliação parcial\n30%\n\n\nExercícios/Listas\n20%\n\n\nProjeto/Seminário final\n30%\n\n\nParticipação\n20%"
+  },
+  {
+    "objectID": "assessment.html#descrição-dos-instrumentos",
+    "href": "assessment.html#descrição-dos-instrumentos",
+    "title": "Avaliação",
+    "section": "Descrição dos instrumentos",
+    "text": "Descrição dos instrumentos\n\nAvaliação parcial\nDescreva formato (prova escrita, take-home, etc.), data e conteúdo.\n\n\nProjeto/Seminário final\nDescreva o projeto semestral, critérios e cronograma de entregas."
+  },
+  {
+    "objectID": "assessment.html#política-de-prazos-e-reposição",
+    "href": "assessment.html#política-de-prazos-e-reposição",
+    "title": "Avaliação",
+    "section": "Política de prazos e reposição",
+    "text": "Política de prazos e reposição\nDescreva a política de atrasos, faltas e provas de reposição, conforme normas da UFPE."
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Ementa",
+    "section": "",
+    "text": "Princípios básicos de ecologia de comunidades e ecossistemas bem como ferramentas teóricas e conceituais para a descrição de comunidades e sua relação com o meio físico. Os temas abordados são os fundamentais para que o aluno entenda sobre a estrutura e organização de comunidades biológicas bem como organização trófica e ciclagem denutrientes."
+  },
+  {
+    "objectID": "syllabus.html#objetivos-gerais",
+    "href": "syllabus.html#objetivos-gerais",
+    "title": "Ementa",
+    "section": "",
+    "text": "Princípios básicos de ecologia de comunidades e ecossistemas bem como ferramentas teóricas e conceituais para a descrição de comunidades e sua relação com o meio físico. Os temas abordados são os fundamentais para que o aluno entenda sobre a estrutura e organização de comunidades biológicas bem como organização trófica e ciclagem denutrientes."
+  },
+  {
+    "objectID": "syllabus.html#objetivos-específicos",
+    "href": "syllabus.html#objetivos-específicos",
+    "title": "Ementa",
+    "section": "Objetivos específicos",
+    "text": "Objetivos específicos\nAo final da disciplina, o(a) aluno(a) será capaz de:\n\nDefinir, descrever e medir uma comunidade biológica\nEnendera história da biodiversidade e as regras de montagem de comunidades biológicas\nAplicar estes conceitos à realidade de conservação dos biomas brasileiros, especialmente à Caatinga e Mata Atlântica"
+  },
+  {
+    "objectID": "syllabus.html#pré-requisitos",
+    "href": "syllabus.html#pré-requisitos",
+    "title": "Ementa",
+    "section": "Pré-requisitos",
+    "text": "Pré-requisitos\n\nNenhum"
+  },
+  {
+    "objectID": "syllabus.html#metodologia",
+    "href": "syllabus.html#metodologia",
+    "title": "Ementa",
+    "section": "Metodologia",
+    "text": "Metodologia\nAulas expositivas, práticas simuladas e tarefas parciais."
+  },
+  {
+    "objectID": "syllabus.html#bibliografia",
+    "href": "syllabus.html#bibliografia",
+    "title": "Ementa",
+    "section": "Bibliografia",
+    "text": "Bibliografia\n\nBibliografia básica\n\nBegon, M. et al. 2007. Ecologia - de individuos a ecossistemas. Artmed\nKrebs, C.. 2001. Ecology. Cummings, San Franbcisco, 5a. Ed.\nRicklefs, C. 2010. Economia da Natureza, Ed. Guanabara, 6a ed.\n\n\n\nBibliografia complementar\nVellend, M. 2010. Conceptual synthesis in community ecology. The Quaterly Review of Biology, 85:183–206."
+  },
+  {
+    "objectID": "syllabus.html#critérios-de-avaliação",
+    "href": "syllabus.html#critérios-de-avaliação",
+    "title": "Ementa",
+    "section": "Critérios de avaliação",
+    "text": "Critérios de avaliação\nVer página de Avaliação para detalhes."
+  },
+  {
+>>>>>>> 5fef2b1bca0e0492e7cc8774148d7f3016daf209
     "objectID": "sessions/semana02_resumo.html",
     "href": "sessions/semana02_resumo.html",
     "title": "Semana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas",
@@ -1783,6 +2540,44 @@
     "title": "Semana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas",
     "section": "8 Relevância para a conservação da biodiversidade",
     "text": "8 Relevância para a conservação da biodiversidade\nEsta estrutura teórica tem implicações diretas e práticas para a conservação:\n\nDiagnóstico de causas de perda de diversidade. Saber se a degradação de uma comunidade está sendo conduzida por seleção (por exemplo, filtragem ambiental decorrente de poluição ou mudança de uso do solo), por deriva (fragmentação que reduz drasticamente o tamanho populacional local) ou por limitação de dispersão (perda de conectividade da paisagem) direciona estratégias de manejo completamente distintas.\nDesenho de corredores ecológicos e conectividade. Decisões sobre conectividade da paisagem são, na prática, decisões sobre a taxa de dispersão entre comunidades locais — com consequências diretas sobre o equilíbrio entre deriva e seleção nas comunidades restauradas.\nRestauração ecológica e sucessão. Entender a sucessão como uma mudança previsível no balanço entre estocasticidade e determinismo ao longo do tempo (Dini-Andreote et al. 2015; Horn 1974) orienta expectativas realistas sobre a velocidade e a trajetória da recuperação de áreas degradadas — tema que retomaremos, em profundidade, na Aula 3.\nPriorização de áreas para conservação. Abordagens de viabilidade de comunidades (Saavedra 2026) e de estrutura de redes (Guimarães 2020) oferecem ferramentas quantitativas para antecipar quais conjuntos de espécies podem coexistir de forma estável em um dado contexto ambiental — informação valiosa para o planejamento de reintroduções e de unidades de conservação."
+<<<<<<< HEAD
+  },
+  {
+    "objectID": "sessions/semana02_resumo.html#críticas-e-limitações-da-síntese",
+    "href": "sessions/semana02_resumo.html#críticas-e-limitações-da-síntese",
+    "title": "Semana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas",
+    "section": "9 Críticas e limitações da síntese",
+    "text": "9 Críticas e limitações da síntese\nÉ importante apresentar a teoria de Vellend de forma equilibrada, sem tratá-la como consenso definitivo e isento de críticas:\n\nNível de abstração elevado. Por operar em um nível muito geral, a síntese pode, em alguns casos, mascarar a riqueza mecanicista de processos específicos (por exemplo, distinguir entre facilitação e competição de recursos dentro da categoria ampla de “seleção” exige um segundo nível de detalhamento, não fornecido automaticamente pela moldura).\nDificuldade de quantificação em sistemas macroscópicos. Embora a moldura seja operacionalizável, estimar de forma robusta e não enviesada a contribuição relativa de cada processo continua sendo estatisticamente desafiador, sobretudo fora de sistemas microbianos ou experimentais controlados.\nTratamento da especiação como processo de “pano de fundo”. Em escalas de tempo ecológicas, a especiação é frequentemente negligenciada em análises empíricas, o que pode subestimar sua importância relativa em sistemas com processos evolutivos rápidos (por exemplo, radiações adaptativas recentes).\nAinda há lacunas na integração com estados alternativos estáveis de ecossistemas — tema da Aula 7 —, para o qual a base teórica de processos de Vellend oferece uma linguagem útil, mas não uma teoria completa e amplamente testada."
+  },
+  {
+    "objectID": "sessions/semana02_resumo.html#síntese-da-aula-e-conexão-com-o-restante-do-curso",
+    "href": "sessions/semana02_resumo.html#síntese-da-aula-e-conexão-com-o-restante-do-curso",
+    "title": "Semana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas",
+    "section": "10 Síntese da aula e conexão com o restante do curso",
+    "text": "10 Síntese da aula e conexão com o restante do curso\nA síntese de Vellend nos dá o vocabulário comum que usaremos ao longo de todo o curso: quando discutirmos sucessão ecológica (Aula 3), estaremos essencialmente descrevendo a trajetória temporal do balanço entre deriva, dispersão e seleção; quando discutirmos biogeografia (Aula 4), estaremos aprofundando o papel da especiação e da dispersão em escalas históricas e regionais; quando discutirmos diversidade alfa, beta e gama (Aula 5), estaremos, em grande medida, quantificando as assinaturas desses processos na estrutura espacial da diversidade; e quando discutirmos clima, solo e vegetação (Aula 6), estaremos detalhando os mecanismos concretos que compõem o processo de seleção ambiental. A Aula 7, sobre estados alternativos estáveis, é o ponto em que a base teórica fornecida é mais indireta, e vale a pena tratá-la com cautela teórica, complementando com literatura específica."
+  },
+  {
+    "objectID": "sessions/semana02_resumo.html#atividades-e-questões-para-discussão-em-sala",
+    "href": "sessions/semana02_resumo.html#atividades-e-questões-para-discussão-em-sala",
+    "title": "Semana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas",
+    "section": "11 Atividades e questões para discussão em sala",
+    "text": "11 Atividades e questões para discussão em sala\n\nEscolha um sistema ecológico que você conhece bem (pode ser de pesquisa própria, de literatura ou até hipotético) e tente classificar, com justificativa, qual processo (seleção, deriva, dispersão ou especiação) provavelmente domina a dinâmica de curto prazo desse sistema.\nMuitos estudos clássicos de competição interespecífica não usam a palavra “seleção”. Releia um estudo clássico de competição (por exemplo, de sua própria área) e reinterprete seus resultados na linguagem de Vellend.\nComo você desenharia um experimento de campo (ou observacional) para tentar separar estatisticamente os efeitos de deriva e de dispersão limitada em uma comunidade real?\nDiscuta com um colega: em que medida a moldura de Vellend é compatível — ou entra em tensão — com a ideia de comunidades como “unidades funcionalmente organizadas” (Wilson 1997)?"
+  },
+  {
+    "objectID": "sessions/semana02_resumo.html#leituras-complementares",
+    "href": "sessions/semana02_resumo.html#leituras-complementares",
+    "title": "Semana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas",
+    "section": "12 Leituras complementares",
+    "text": "12 Leituras complementares\n\nVellend (2016) — capítulos introdutórios (1–3), para aprofundamento na base conceitual.\nChesson (2000) e HilleRisLambers et al. (2012), para a teoria moderna de coexistência de nicho.\nHubbell (2001), para a formulação original da teoria neutra.\nRicklefs e Relyea (2021), capítulos sobre comunidades ecológicas, como referência introdutória em português.\nBenone e Montag (2020), como exemplo de aplicação empírica da síntese de Vellend a sistemas aquáticos brasileiros.\nWikipédia, a enciclopédia livre (2026), como leitura introdutória de apoio em português."
+  },
+  {
+    "objectID": "sessions/semana02_resumo.html#referências",
+    "href": "sessions/semana02_resumo.html#referências",
+    "title": "Semana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas",
+    "section": "Referências",
+    "text": "Referências\n\n\nBenone, N. C., e L. F. A. Montag. 2020. “Métodos Quantitativos para Mensurar a Diversidade Taxonômica em Peixes de Riacho”. Oecologia Australis. https://revistas.ufrj.br/index.php/oa/article/download/398/23881.\n\n\nCaswell, H. 1976. “Community Structure: A Neutral Model Analysis”. Ecological Monographs 46: 327–54. https://doi.org/10.2307/1942257.\n\n\nChesson, Peter. 2000. “Mechanisms of Maintenance of Species Diversity”. Annual Review of Ecology and Systematics 31: 343–66. https://doi.org/10.1146/annurev.ecolsys.31.1.343.\n\n\nDini-Andreote, F., J. Stegen, J. van Elsas, e J. Salles. 2015. “Disentangling Mechanisms that Mediate the Balance Between Stochastic and Deterministic Processes in Microbial Succession”. Proceedings of the National Academy of Sciences 112. https://doi.org/10.1073/pnas.1414261112.\n\n\nGralka, Matti. 2023. “Searching for Principles of Microbial Ecology Across Levels of Biological Organization”. Integrative and Comparative Biology 63: 1520–31. https://doi.org/10.1093/icb/icad060.\n\n\nGuimarães, P. 2020. “The Structure of Ecological Networks Across Levels of Organization”. Annual Review of Ecology, Evolution, and Systematics, publicação prévia em linha. https://doi.org/10.1146/annurev-ecolsys-012220-120819.\n\n\nHilleRisLambers, Janneke, Peter B. Adler, W. Stanley Harpole, Jonathan M. Levine, e Margaret M. Mayfield. 2012. “Rethinking Community Assembly through the Lens of Coexistence Theory”. Annual Review of Ecology, Evolution, and Systematics 43: 227–48. https://doi.org/10.1146/annurev-ecolsys-110411-160411.\n\n\nHorn, H. 1974. “The Ecology of Secondary Succession”. Annual Review of Ecology and Systematics 5: 25–37. https://doi.org/10.1146/annurev.es.05.110174.000325.\n\n\nHubbell, Stephen P. 2001. The Unified Neutral Theory of Biodiversity and Biogeography. Princeton University Press.\n\n\nMorrow, Katie. 2024. “Neutral and Niche Theory in Community Ecology: A Framework for Comparing Model Realism”. Biology & Philosophy 39. https://doi.org/10.1007/s10539-024-09941-5.\n\n\nPonisio, Lauren, Fernanda Valdovinos, K. Allhoff, et al. 2019. “A Network Perspective for Community Assembly”. Frontiers in Ecology and Evolution, publicação prévia em linha. https://doi.org/10.3389/fevo.2019.00103.\n\n\nRicklefs, Robert E., e Rick Relyea. 2021. A Economia da Natureza. 8º ed. Gen/Guanabara Koogan.\n\n\nSaavedra, Serguei. 2026. “The Feasibility Principle in Community Ecology”. Oikos 2026. https://doi.org/10.1002/oik.11355.\n\n\nVellend, Mark. 2010. “Conceptual Synthesis in Community Ecology”. The Quarterly Review of Biology 85 (2): 183–206. https://doi.org/10.1086/652373.\n\n\nVellend, Mark. 2016. The Theory of Ecological Communities. Monographs em Population Biology, 57. Princeton University Press. https://doi.org/10.1515/9781400883790.\n\n\nWikipédia, a enciclopédia livre. 2026. Ecologia de Comunidades. Verbete online. https://pt.wikipedia.org/wiki/Ecologia_de_comunidades.\n\n\nWilson, D. 1997. “Biological Communities as Functionally Organized Units”. Ecology 78: 2018–24. https://doi.org/10.1890/0012-9658(1997)078[2018:bcafou]2.0.co;2."
+=======
+>>>>>>> 5fef2b1bca0e0492e7cc8774148d7f3016daf209
   },
   {
     "objectID": "sessions/semana02_resumo.html#críticas-e-limitações-da-síntese",
@@ -1820,34 +2615,145 @@
     "text": "Referências\n\n\nBenone, N. C., e L. F. A. Montag. 2020. “Métodos Quantitativos para Mensurar a Diversidade Taxonômica em Peixes de Riacho”. Oecologia Australis. https://revistas.ufrj.br/index.php/oa/article/download/398/23881.\n\n\nCaswell, H. 1976. “Community Structure: A Neutral Model Analysis”. Ecological Monographs 46: 327–54. https://doi.org/10.2307/1942257.\n\n\nChesson, Peter. 2000. “Mechanisms of Maintenance of Species Diversity”. Annual Review of Ecology and Systematics 31: 343–66. https://doi.org/10.1146/annurev.ecolsys.31.1.343.\n\n\nDini-Andreote, F., J. Stegen, J. van Elsas, e J. Salles. 2015. “Disentangling Mechanisms that Mediate the Balance Between Stochastic and Deterministic Processes in Microbial Succession”. Proceedings of the National Academy of Sciences 112. https://doi.org/10.1073/pnas.1414261112.\n\n\nGralka, Matti. 2023. “Searching for Principles of Microbial Ecology Across Levels of Biological Organization”. Integrative and Comparative Biology 63: 1520–31. https://doi.org/10.1093/icb/icad060.\n\n\nGuimarães, P. 2020. “The Structure of Ecological Networks Across Levels of Organization”. Annual Review of Ecology, Evolution, and Systematics, publicação prévia em linha. https://doi.org/10.1146/annurev-ecolsys-012220-120819.\n\n\nHilleRisLambers, Janneke, Peter B. Adler, W. Stanley Harpole, Jonathan M. Levine, e Margaret M. Mayfield. 2012. “Rethinking Community Assembly through the Lens of Coexistence Theory”. Annual Review of Ecology, Evolution, and Systematics 43: 227–48. https://doi.org/10.1146/annurev-ecolsys-110411-160411.\n\n\nHorn, H. 1974. “The Ecology of Secondary Succession”. Annual Review of Ecology and Systematics 5: 25–37. https://doi.org/10.1146/annurev.es.05.110174.000325.\n\n\nHubbell, Stephen P. 2001. The Unified Neutral Theory of Biodiversity and Biogeography. Princeton University Press.\n\n\nMorrow, Katie. 2024. “Neutral and Niche Theory in Community Ecology: A Framework for Comparing Model Realism”. Biology & Philosophy 39. https://doi.org/10.1007/s10539-024-09941-5.\n\n\nPonisio, Lauren, Fernanda Valdovinos, K. Allhoff, et al. 2019. “A Network Perspective for Community Assembly”. Frontiers in Ecology and Evolution, publicação prévia em linha. https://doi.org/10.3389/fevo.2019.00103.\n\n\nRicklefs, Robert E., e Rick Relyea. 2021. A Economia da Natureza. 8º ed. Gen/Guanabara Koogan.\n\n\nSaavedra, Serguei. 2026. “The Feasibility Principle in Community Ecology”. Oikos 2026. https://doi.org/10.1002/oik.11355.\n\n\nVellend, Mark. 2010. “Conceptual Synthesis in Community Ecology”. The Quarterly Review of Biology 85 (2): 183–206. https://doi.org/10.1086/652373.\n\n\nVellend, Mark. 2016. The Theory of Ecological Communities. Monographs em Population Biology, 57. Princeton University Press. https://doi.org/10.1515/9781400883790.\n\n\nWikipédia, a enciclopédia livre. 2026. Ecologia de Comunidades. Verbete online. https://pt.wikipedia.org/wiki/Ecologia_de_comunidades.\n\n\nWilson, D. 1997. “Biological Communities as Functionally Organized Units”. Ecology 78: 2018–24. https://doi.org/10.1890/0012-9658(1997)078[2018:bcafou]2.0.co;2."
   },
   {
-    "objectID": "sessions/index.html",
-    "href": "sessions/index.html",
-    "title": "Todas as Aulas",
+    "objectID": "sessions/semana01_resumo.html",
+    "href": "sessions/semana01_resumo.html",
+    "title": "Semana 1 — Introdução à Biodiversidade",
     "section": "",
+<<<<<<< HEAD
     "text": "Aqui você encontra o material completo (texto e slides) de cada aula, em ordem cronológica.\n\n\n\n\n\n\n\n\n\n\n\nSemana 1 — Introdução à Biodiversidade\n\n\n\n\n\n\n\n\n\nSemana 2 — Bases Teóricas para o Estudo de Comunidades Biológicas\n\n\nA síntese de Vellend: seleção, deriva, dispersão e especiação\n\n\n\n14 de ago. de 2026\n\n\n\n\n\n\n\n\n\n\nSemana 3 — Sucessão Ecológica\n\n\nEcologia de Comunidades\n\n\n\n14 de ago. de 2026\n\n\n\n\n\n\n\n\n\n\nSemana 4 — Introdução à Biogeografia\n\n\nPadrões de distribuição e magnitude da biodiversidade na Terra\n\n\n\n14 de ago. de 2026\n\n\n\n\n\n\n\n\n\n\nSemana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade\n\n\n\n14 de ago. de 2026\n\n\n\n\n\n\nSem itens correspondentes"
+=======
+    "text": "Slides da Aula"
+>>>>>>> 5fef2b1bca0e0492e7cc8774148d7f3016daf209
   },
   {
-    "objectID": "sessions/semana5_resumo.html",
-    "href": "sessions/semana5_resumo.html",
-    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
+    "objectID": "sessions/semana01_resumo.html#introdução",
+    "href": "sessions/semana01_resumo.html#introdução",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "1 Introdução",
+    "text": "1 Introdução\nBiodiversidade é a variedade da vida em diferentes níveis de organização, dos genes aos ecossistemas, e constitui um conceito central para as ciências da vida e para a conservação (Gaggiotti et al., 2018; Boudouresque, 2014; Moreno, 2001). As definições mais aceitas convergem para três níveis fundamentais — diversidade genética, diversidade de espécies e diversidade de ecossistemas — embora vários autores também defendam a inclusão explícita de dimensões funcionais, filogenéticas e comportamentais (Liu et al., 2024; Coates et al., 2018; Cordero‐Rivera, 2017; Boudouresque, 2014).\nA biodiversidade é um conceito hierárquico e multidimensional, e isso torna inadequado descrevê-la por uma única métrica (Gaggiotti et al., 2018; Boudouresque, 2014). Diferentes medidas capturam componentes distintos da variação biológica, de modo que avaliações robustas dependem de abordagens integradas (Gaggiotti et al., 2018; Boudouresque, 2014; Karahan et al., 2025)."
+  },
+  {
+    "objectID": "sessions/semana01_resumo.html#o-conceito-de-biodiversidade",
+    "href": "sessions/semana01_resumo.html#o-conceito-de-biodiversidade",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "2 O Conceito de Biodiversidade",
+    "text": "2 O Conceito de Biodiversidade\n\nO uso moderno do termo biodiversidade se consolidou a partir da década de 1980 (Wang & Young, 2019). Desde então, o conceito passou a funcionar como um meta-conceito, reunindo hierarquias ecológicas, genéticas e taxonômicas, além de implicações éticas, políticas e sociais (Cordero‐Rivera, 2017).\nMesmo quando há acordo sobre os três níveis clássicos, permanece importante reconhecer que a biodiversidade não é apenas contagem de espécies (Kumari et al., 2021; Wang & Young, 2019). A diversidade de espécies envolve tanto riqueza quanto equidade de abundâncias, e a diversidade em níveis superiores também depende da organização funcional e espacial dos sistemas biológicos (Wang & Young, 2019; Moreno, 2001)."
+  },
+  {
+    "objectID": "sessions/semana01_resumo.html#níveis-da-biodiversidade",
+    "href": "sessions/semana01_resumo.html#níveis-da-biodiversidade",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "3 Níveis da Biodiversidade",
+    "text": "3 Níveis da Biodiversidade\nA tabela a seguir resume os níveis mais usados na literatura.\n\n\n\n\n\n\n\n\nNível\nDefinição sintética\nExemplo de foco analítico\n\n\n\n\nGenético\nVariação de genes e alelos dentro e entre populações\nPolimorfismos, estrutura populacional, adaptação (Kumari et al., 2021; Wang & Young, 2019)\n\n\nTaxonômico\nVariação na composição, número e na abundância relativa de espécies\nRiqueza, equidade, composição (Wang & Young, 2019; Moreno, 2001)\n\n\nEcossistemas\nVariação entre habitats, comunidades e processos ecológicos\nPaisagens, habitats, fluxos bióticos e abióticos (Guo, 2022; Moreno, 2001)\n\n\nFuncional\nVariação as funhções ecológicas e traços das espécies\nTraços funcionais, redundância, funcionamento (Karahan et al., 2025)\n\n\nFilogenética\nVariação na história evolutiva entre linhagens\nDistância evolutiva, endemismo filogenético (Liu et al., 2024; Cordero‐Rivera, 2017)\n\n\nComportamental\nVariação de traços comportamentais em múltiplos níveis\nPlasticidade, personalidade, estratégias reprodutivas (Cordero‐Rivera, 2017)\n\n\n\n\nFigura 1: Níveis clássicos e extensões contemporâneas do conceito de biodiversidade.\nA diversidade genética descreve a variabilidade hereditária dentro das espécies e é essencial para adaptação e persistência populacional (Coates et al., 2018; Kumari et al., 2021; Wang & Young, 2019). Populações com maior diversidade genética tendem a manter mais alelos e, portanto, maior capacidade de responder a mudanças ambientais (Wang & Young, 2019; Kumari et al., 2021).\nA diversidade de espécies continua sendo a medida mais usada em ecologia e conservação, porque espécies são unidades amplamente comunicáveis e operacionais para monitoramento e política pública (Coates et al., 2018). Ainda assim, essa ênfase pode obscurecer variação importante abaixo do nível de espécie, como populações historicamente isoladas e unidades evolutivamente significativas (Coates et al., 2018).\nA diversidade de ecossistemas trata da variação entre habitats, comunidades e processos dentro da biosfera (Guo, 2022; Wang & Young, 2019). Ela depende da interação entre diversidade genética e de espécies, além de fatores ambientais e históricos (Wang & Young, 2019; Guo, 2022)."
+  },
+  {
+    "objectID": "sessions/semana01_resumo.html#por-que-a-biodiversidade-importa",
+    "href": "sessions/semana01_resumo.html#por-que-a-biodiversidade-importa",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "4 Por que a Biodiversidade importa?",
+    "text": "4 Por que a Biodiversidade importa?\nA biodiversidade sustenta resiliência ecológica e serviços essenciais como alimento e água limpa (Karahan et al., 2025). Também é amplamente considerada essencial ao bem-estar humano (Johnson et al., 2017).\nHá forte consenso de que a perda de biodiversidade reduz o funcionamento dos ecossistemas e as contribuições da natureza para as pessoas (Isbell et al., 2022). Em julgamento de especialistas, a ameaça ou extinção global de espécies foi associada a reduções de cerca de 10% a 70% no funcionamento ecossistêmico e nas contribuições da natureza, com grande incerteza sobre a magnitude exata (Isbell et al., 2022).\nA relação entre biodiversidade e funcionamento também não se restringe à diversidade de espécies (Kumari et al., 2021; Fargeot et al., 2025). Em ecossistemas aquáticos naturais, o efeito absoluto da diversidade genética sobre funções ecossistêmicas foi semelhante ao da diversidade de espécies, embora com direção oposta nas correlações observadas nesse estudo (Fargeot et al., 2025). Esses resultados reforçam a necessidade de integrar dimensões múltiplas da biodiversidade ao prever consequências ecológicas da perda biológica (Fargeot et al., 2025)."
+  },
+  {
+    "objectID": "sessions/semana01_resumo.html#como-a-biodiversidade-é-medida",
+    "href": "sessions/semana01_resumo.html#como-a-biodiversidade-é-medida",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "5 Como a Biodiversidade é medida?",
+    "text": "5 Como a Biodiversidade é medida?\nA ausência de métricas padronizadas e consistentes entre níveis biológicos ainda dificulta estudos verdadeiramente integrativos (Gaggiotti et al., 2018; Moreno, 2001; Gaggiotti et al., 2018). Parte desse problema vem do desenvolvimento histórico separado entre ecologia de comunidades e genética de populações (Gaggiotti et al., 2018).\nNo nível de espécies, a literatura distingue diversidade alfa, beta e gama (Kumari et al., 2021; Moreno, 2001). A diversidade alfa descreve a diversidade dentro de uma comunidade, a beta expressa mudanças de composição entre comunidades e a gama representa a diversidade total em uma paisagem ou região (Kumari et al., 2021; Moreno, 2001).\nÍndices distintos enfatizam propriedades diferentes da comunidade (Moreno, 2001). Por isso, um mesmo impacto pode aumentar a diversidade alfa e reduzir a diversidade gama, ou gerar padrões discordantes entre riqueza de espécies e diversidade em níveis taxonômicos mais altos.\nAbordagens recentes propõem estruturas unificadoras capazes de medir biodiversidade de genes a ecossistemas com comportamento matemático consistente (Gaggiotti et al., 2018). Esse tipo de framework foi desenvolvido justamente para superar a fragmentação entre métricas genéticas, taxonômicas, funcionais e ecológicas (Gaggiotti et al., 2018)."
+  },
+  {
+    "objectID": "sessions/semana01_resumo.html#escalas-distribuição-e-hotspots",
+    "href": "sessions/semana01_resumo.html#escalas-distribuição-e-hotspots",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "6 Escalas, Distribuição e Hotspots",
+    "text": "6 Escalas, Distribuição e Hotspots\nA biodiversidade é distribuída de forma desigual no planeta (Kumari et al., 2021). Essa heterogeneidade espacial motivou a delimitação de hotspots, áreas com alto endemismo e forte perda de habitat (Kumari et al., 2021; Gonçalves-Souza et al., 2020).\nA desigualdade espacial também aparece entre níveis de biodiversidade (Liu et al., 2024). Áreas com maior diversidade genética, de espécies e de ecossistemas não coincidem necessariamente, o que implica que estratégias baseadas em um único componente podem falhar em representar a biodiversidade de forma abrangente (Liu et al., 2024).\nEm análises recentes de planejamento sistemático, a integração de múltiplos indicadores — riqueza de espécies, endemismo, diversidade filogenética, distintividade evolutiva, endemismo filogenético e valor de serviços ecossistêmicos — foi usada para identificar áreas prioritárias de conservação de forma mais completa (Liu et al., 2024). Isso reforça que a biodiversidade relevante para conservação é multicritério, não apenas taxonômica."
+  },
+  {
+    "objectID": "sessions/semana01_resumo.html#biodiversidade-e-conservação",
+    "href": "sessions/semana01_resumo.html#biodiversidade-e-conservação",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "7 Biodiversidade e Conservação",
+    "text": "7 Biodiversidade e Conservação\nA política internacional reconhece explicitamente os níveis genético, de espécies e de ecossistemas como alvos de conservação (Coates et al., 2018). Na prática, porém, a gestão ainda se apoia sobretudo em espécies, áreas geográficas e comunidades ecológicas, com menor atenção à diversidade genética (Coates et al., 2018).\nEssa assimetria é importante porque muitas espécies reconhecidas não são geneticamente homogêneas (Coates et al., 2018). Linhagens profundas e populações historicamente isoladas podem carregar diversidade única, e sua perda aumenta o risco de extinção críptica (Coates et al., 2018).\nAo mesmo tempo, dados genômicos trazem uma tensão metodológica: eles aumentam muito a resolução sobre estrutura populacional, mas também podem levar a sobredelimitação de espécies se forem interpretados sem cautela (Coates et al., 2018). A literatura recomenda interpretar esses dados de forma conservadora e fortalecer a identificação de unidades intraespecíficas bem justificadas para conservação (Coates et al., 2018)."
+  },
+  {
+    "objectID": "sessions/semana01_resumo.html#a-crise-da-perda-de-biodiversidade",
+    "href": "sessions/semana01_resumo.html#a-crise-da-perda-de-biodiversidade",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "8 A Crise da perda de Biodiversidade",
+    "text": "8 A Crise da perda de Biodiversidade\nA perda de biodiversidade é um grande desafio global (Hochkirch et al., 2023; Di Marco et al., 2019). As taxas atuais de extinção estão cerca de 1000 vezes acima da taxa de fundo provável (Pimm et al., 2014).\nUma parte substancial das espécies avaliadas já está ameaçada (Hochkirch et al., 2023; Kumari et al., 2021). Em uma análise de 14.669 espécies europeias, 19% estavam ameaçadas de extinção, com risco maior para plantas (27%) e invertebrados (24%) do que para vertebrados (18%) (Hochkirch et al., 2023). Esses valores excederam estimativas recentes usadas em avaliações globais (Hochkirch et al., 2023).\nO conhecimento disponível ainda cobre apenas uma fração da vida na Terra (Pimm et al., 2014; Isbell et al., 2022). Muitas espécies permanecem não descritas, e apenas cerca de 1% do número estimado de espécies foi avaliado quanto ao risco de extinção pela IUCN nas últimas duas décadas (Pimm et al., 2014; Isbell et al., 2022)."
+  },
+  {
+    "objectID": "sessions/semana01_resumo.html#principais-vetores-de-extinção",
+    "href": "sessions/semana01_resumo.html#principais-vetores-de-extinção",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "9 Principais vetores de extinção",
+    "text": "9 Principais vetores de extinção\nMudanças nas práticas agrícolas, perda de habitat associada, sobre-exploração, poluição e desenvolvimento estão entre as principais ameaças à biodiversidade (Hochkirch et al., 2023). Em sínteses mais amplas, a expansão agropecuária, fragmentação, espécies invasoras, monoculturas, poluição e mudança climática aparecem de forma recorrente como motores da erosão da biodiversidade (Kumari et al., 2021; Legge et al., 2023).\nA perda de habitat é um dos vetores mais consistentes da crise atual (Gonçalves-Souza et al., 2020). O desmatamento aumentou substancialmente a chance de vertebrados serem classificados como ameaçados, sofrerem reclassificação recente para categorias mais severas ou apresentarem populações em declínio (Betts et al., 2017).\nEsse efeito não se restringe a paisagens já muito fragmentadas (Betts et al., 2017). Em paisagens relativamente intactas, mesmo perdas pequenas de floresta tiveram consequências severas para a biodiversidade de vertebrados (Betts et al., 2017).\nAs ameaças também interagem entre si (Gonçalves-Souza et al., 2020). Habitat loss combinada com outros estressores pode produzir mais extinções do que a soma simples dos impactos individuais, o que torna previsões baseadas em um único fator potencialmente conservadoras (Gonçalves-Souza et al., 2020)."
+  },
+  {
+    "objectID": "sessions/semana01_resumo.html#proteção-lacunas-e-prioridades",
+    "href": "sessions/semana01_resumo.html#proteção-lacunas-e-prioridades",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "10 Proteção, Lacunas e Prioridades",
+    "text": "10 Proteção, Lacunas e Prioridades\nEmbora tenha havido expansão rápida de áreas protegidas, essa rede ainda não representa a biodiversidade de forma ótima (Pimm et al., 2014). Em projeções globais por ecorregiões, houve baixa sobreposição entre previsões de extinção e a distribuição atual de áreas protegidas (Gonçalves-Souza et al., 2020).\nAnálises em larga escala sugerem que a ameaça futura está concentrada em algumas localidades megadiversas, inclusive fora dos hotspots clássicos (Gonçalves-Souza et al., 2020). Isso indica que estratégias de conservação precisam combinar vulnerabilidade atual, endemismo, irreplaceabilidade e tendências de transformação do uso da terra (Gonçalves-Souza et al., 2020).\nAs áreas selvagens remanescentes também são centrais para a persistência da biodiversidade (Di Marco et al., 2019). O risco de extinção em comunidades dentro de áreas wilderness foi, em média, menos da metade do observado fora delas (Di Marco et al., 2019). Apesar disso, essas áreas seguem pouco protegidas e exigem retenção direcionada, em paralelo à restauração de ambientes degradados (Di Marco et al., 2019)."
+  },
+  {
+    "objectID": "sessions/semana01_resumo.html#dimensões-emergentes",
+    "href": "sessions/semana01_resumo.html#dimensões-emergentes",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "11 Dimensões Emergentes",
+    "text": "11 Dimensões Emergentes\nA literatura recente mostra que biodiversidade não deve ser reduzida aos três níveis clássicos, embora eles permaneçam a base conceitual mais estável (Liu et al., 2024; Cordero‐Rivera, 2017). Diversidade funcional, filogenética e comportamental ampliam a capacidade de detectar diferenças ecologicamente relevantes entre comunidades (Cordero‐Rivera, 2017; Karahan et al., 2025).\nA proposta de etnodiversidade argumenta que a variação comportamental é parte negligenciada, mas ecologicamente importante, da biodiversidade (Cordero‐Rivera, 2017). Segundo essa perspectiva, conservar biodiversidade exige ir além da contagem de genes, espécies e ecossistemas, incorporando explicitamente componentes comportamentais (Cordero‐Rivera, 2017).\n\n\n\n\n\n\nDicaSíntese para a Aula\n\n\n\nBiodiversidade é um conceito multinível, multidimensional e escalonado. A mensagem central é que genes, espécies, populações, comunidades e ecossistemas variam conjuntamente, mas nem sempre de forma concordante. Também é essencial deixar claro que a biodiversidade não é apenas um inventário naturalista, mas um componente estrutural do funcionamento dos ecossistemas e do bem-estar humano . Por fim, a crise contemporânea de perda biológica é rápida, espacialmente desigual e impulsionada por múltiplos vetores antrópicos, o que exige conservação integrada e baseada em diferentes dimensões da diversidade."
+  },
+  {
+    "objectID": "sessions/semana01_resumo.html#references",
+    "href": "sessions/semana01_resumo.html#references",
+    "title": "Semana 1 — Introdução à Biodiversidade",
+    "section": "12 References",
+    "text": "12 References\nBetts, M., Wolf, C., Ripple, W., Phalan, B., Millers, K. A., Duarte, A., Butchart, S., & Levi, T. (2017). Global forest loss disproportionately erodes biodiversity in intact landscapes. Nature, 547, 441-444. https://doi.org/10.1038/nature23285\nCoates, D., Byrne, M., & Moritz, C. (2018). Genetic Diversity and Conservation Units: Dealing With the Species-Population Continuum in the Age of Genomics. Frontiers in Ecology and Evolution. https://doi.org/10.3389/fevo.2018.00165\nCordero‐Rivera, A. (2017). Behavioral Diversity (Ethodiversity): A Neglected Level in the Study of Biodiversity. Frontiers in Ecology and Evolution, 5. https://doi.org/10.3389/fevo.2017.00007\nDi Marco, M., Ferrier, S., Harwood, T., Hoskins, A., & Watson, J. (2019). Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature, 573, 582 - 585. https://doi.org/10.1038/s41586-019-1567-7\nFargeot, L., Poésy, C., Lefort, M., Prunier, J. G., Krick, M., Verdonck, R., Veyssière, C., Richard, M., Legrand, D., Loot, G., & Blanchet, S. (2025). Genetic diversity affects ecosystem functions across trophic levels as much as species diversity, but in an opposite direction. eLife, 13. https://doi.org/10.1101/2024.03.27.586944\nGaggiotti, O., Chao, A., Peres‐Neto, P., Chiu, C., Edwards, C., Fortin, M., Jost, L., Richards, C., & Selkoe, K. (2018). Diversity from genes to ecosystems: A unifying framework to study variation across biological metrics and scales. Evolutionary Applications, 11, 1176 - 1193. https://doi.org/10.1111/eva.12593\nGonçalves-Souza, D., Verburg, P., & Dobrovolski, R. (2020). Habitat loss, extinction predictability and conservation efforts in the terrestrial ecoregions. Biological Conservation. https://doi.org/10.1016/j.biocon.2020.108579\nGuo, G. (2022). Review of Habitat Loss and Biodiversity in Poyang Lake Region. Proceedings of the 2022 International Conference on Urban Planning and Regional Economy（UPRE 2022）. https://doi.org/10.2991/aebmr.k.220502.096\nHochkirch, A., Bilz, M., Ferreira, C., Danielczak, A., Allen, D., Nieto, A., Rondinini, C., Harding, K., Hilton‐Taylor, C., Pollock, C., Seddon, M., Vié, J., Alexander, K., Beech, E., Biscoito, M., Braud, Y., Burfield, I., Buzzetti, F. M., Cálix, M., . . . Zuna-Kratky, T. (2023). A multi-taxon analysis of European Red Lists reveals major threats to biodiversity. PLOS ONE, 18. https://doi.org/10.1371/journal.pone.0293083\nIsbell, F., Balvanera, P., Mori, A. S., He, J., Bullock, J., Regmi, G. R., Seabloom, E., Ferrier, S., Sala, O., Guerrero‐Ramírez, N. R., Tavella, J., Larkin, D., Schmid, B., Outhwaite, C. L., Pramual, P., Borer, E., Loreau, M., Omotoriogun, T., Obura, D., . . . Palmer, M. (2022). Expert perspectives on global biodiversity loss and its drivers and impacts on people. Frontiers in Ecology and the Environment. https://doi.org/10.1002/fee.2536\nJohnson, C. N., Balmford, A., Brook, B., Buettel, J., Galetti, M., Lei, G., & Wilmshurst, J. (2017). Biodiversity losses and conservation responses in the Anthropocene. Science, 356, 270 - 275. https://doi.org/10.1126/science.aam9317\nKarahan, A., Durgut, B., Iannucci, S., Turicchia, E., Ponti, M., Ivanova, P., Dzhembekova, N., & Rinkevich, B. (2025). MAF biodiversity measurements: Species, ecosystem, and genetic. Open Research Europe. https://doi.org/10.12688/openreseurope.20835.1\nKumari, R., A., D., & Bhatnagar, S. (2021). Biodiversity Loss: Threats and Conservation Strategies. International Journal of Pharmaceutical Sciences Review and Research. https://doi.org/10.47583/ijpsrr.2021.v68i01.037\nLegge, S., Rumpff, L., Garnett, S., & Woinarski, J. (2023). Loss of terrestrial biodiversity in Australia: Magnitude, causation, and response. Science, 381, 622 - 631. https://doi.org/10.1126/science.adg7870\nLiu, Y., Wang, J., Wu, Z., Li, S., & Dai, W. (2024). Identification of biodiversity priority conservation areas in China by integrating genetic, species and ecosystem diversity. Biological Conservation. https://doi.org/10.1016/j.biocon.2024.110854\nMoreno, C. (2001). Métodos para medir la biodiversidad.\nPimm, S., Jenkins, C. N., Abell, R., Brooks, T., Gittleman, J. L., Joppa, L., Raven, P., Roberts, C., & Sexton, J. (2014). The biodiversity of species and their rates of extinction, distribution, and protection. Science, 344. https://doi.org/10.1126/science.1246752\nWang, E. T., & Young, J. (2019). History of Rhizobial Taxonomy. Ecology and Evolution of Rhizobia. https://doi.org/10.1007/978-981-32-9555-1_2"
+  },
+  {
+    "objectID": "sessions/semana04_resumo.html",
+    "href": "sessions/semana04_resumo.html",
+    "title": "Semana 4 — Introdução à Biogeografia",
     "section": "",
     "text": "Slides desta aula"
   },
   {
+<<<<<<< HEAD
     "objectID": "sessions/semana5_resumo.html#a-hipótese-da-heterogeneidade-do-habitat",
     "href": "sessions/semana5_resumo.html#a-hipótese-da-heterogeneidade-do-habitat",
     "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
     "section": "2.1 A hipótese da heterogeneidade do habitat",
     "text": "2.1 A hipótese da heterogeneidade do habitat\nUm dos princípios fundamentais da ecologia espacial é que ambientes mais heterogêneos acomodam mais espécies. Isso ocorre porque a complexidade arquitetônica (como a estratificação vertical de uma floresta) oferece uma gama maior de micro-habitats e recursos, permitindo que espécies com diferentes nichos coexistam.\n\nFirura: Dado um espaço limitado, a heterogeneidade de hábitats tem um efeito negativo sobre a área de cada hábitat. fonte\n\n\n\n\n\n\nNotaExemplo Prático: Mata Atlântica de Pernambuco\n\n\n\nEm fragmentos bem conservados da Mata Atlântica pernambucana, a presença de estratos arbóreos distintos (sub-bosque, dossel e árvores emergentes) cria gradientes de luz e umidade. Isso permite que diferentes guildas de aves e insetos ocupem o mesmo espaço horizontal, mas em “espaços de nicho” verticais distintos."
+=======
+    "objectID": "sessions/semana04_resumo.html#objetivos-de-aprendizagem",
+    "href": "sessions/semana04_resumo.html#objetivos-de-aprendizagem",
+    "title": "Semana 4 — Introdução à Biogeografia",
+    "section": "0.1 Objetivos de aprendizagem",
+    "text": "0.1 Objetivos de aprendizagem\n\n\n\n\n\n\nNotaO que precisamos saber ao final desta aula\n\n\n\n\nCompreender como a biodiversidade se organiza espacial e temporalmente na Terra.\nReconhecer os grandes marcos históricos e conceituais da Biogeografia como disciplina científica.\nDiferenciar biogeografia ecológica de biogeografia histórica, e entender como ambas se articulam com o arcabouço de processos de alto nível discutido na Semana 2 (seleção, deriva ecológica, dispersão e especiação; Vellend (2016)).\nCompreender a relação espécie-área, a teoria da biogeografia de ilhas e os tipos de raridade.\nAplicar esses conceitos ao planejamento de estratégias de conservação da biodiversidade.\n\n\n\nDepois de duas semanas dedicadas a quanto e como medimos a biodiversidade (Semana 1) e a quais processos geram e mantêm a estrutura das comunidades ecológicas (Semana 2), esta quarta aula desloca o foco para uma pergunta igualmente fundamental: onde a biodiversidade está, e por que ela está distribuída de forma tão desigual pelo planeta. Essa é a pergunta central da Biogeografia — o campo que estuda os padrões de distribuição espacial de organismos, populações e comunidades ao longo do tempo geológico e ecológico.\nA Biogeografia não é um apêndice da Ecologia de Comunidades: ela é uma de suas raízes históricas e, como veremos, um dos quatro processos de alto nível de Vellend (2016) — a dispersão — é, em essência, um fenômeno biogeográfico. Compreender por que uma espécie ocorre em um lugar e não em outro exige combinar mecanismos ecológicos contemporâneos (nicho, interações, capacidade de dispersão) com a história profunda da Terra (deriva continental, glaciações, eventos de especiação e extinção). Esta aula introduz esse diálogo entre ecologia e história, que será retomado nas próximas semanas quando tratarmos de sucessão ecológica e montagem de comunidades."
   },
   {
-    "objectID": "sessions/semana5_resumo.html#o-gradiente-latitudinal-de-diversidade-gld",
-    "href": "sessions/semana5_resumo.html#o-gradiente-latitudinal-de-diversidade-gld",
-    "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
-    "section": "2.2 O Gradiente latitudinal de diversidade (GLD)",
-    "text": "2.2 O Gradiente latitudinal de diversidade (GLD)\n\nO aumento da riqueza de espécies dos polos em direção ao equador é um dos padrões mais consistentes da biosfera. Para explicar esse fenômeno, os ecólogos propõem cinco hipóteses principais:\n\nEnergia e Produtividade: Regiões tropicais recebem maior radiação solar e possuem temperaturas mais elevadas, o que aumenta a produtividade primária líquida. Isso permite populações maiores e reduz as taxas de extinção.\nEstabilidade Climática: O clima tropical é menos sazonal e mais previsível em escalas temporais longas (como períodos interglaciais), permitindo uma especialização de nicho mais acentuada.\nTempo e Idade: Os trópicos são considerados comunidades mais “antigas” que não sofreram o impacto direto das grandes glaciações recentes, permitindo mais tempo para o processo de especiação.\nÁrea: A zona tropical ocupa uma área contígua maior no globo terrestre. Áreas maiores suportam mais indivíduos e, consequentemente, têm menores taxas de extinção e maiores taxas de especiação alopátrica.\nInterações Bióticas (Predação/Mutualismo): A predação é mais intensa nos trópicos, o que mantém as populações de presas abaixo da capacidade de carga, reduzindo a exclusão competitiva e permitindo maior coexistência (coexistência mediada pelo consumidor)."
+    "objectID": "sessions/semana04_resumo.html#a-relação-espécie-área",
+    "href": "sessions/semana04_resumo.html#a-relação-espécie-área",
+    "title": "Semana 4 — Introdução à Biogeografia",
+    "section": "5.1 A relação espécie-área",
+    "text": "5.1 A relação espécie-área\nA relação espécie-área é um dos padrões mais robustos e mais antigos da ecologia e da biogeografia: o número de espécies registrado em um levantamento aumenta com a área amostrada. Essa relação pode assumir diferentes formas funcionais, sendo as duas mais discutidas:\n\nForma em potência (frequentemente linearizada em escala log-log): \\(S = c \\cdot A^{z}\\), em que \\(S\\) é a riqueza de espécies, \\(A\\) é a área, \\(c\\) é uma constante relacionada à riqueza regional e \\(z\\) é o expoente da relação (tipicamente entre 0,20 e 0,35 para ilhas verdadeiras, e menor, entre 0,10 e 0,20, para amostras contíguas dentro de um continente). Em escala logarítmica, essa relação se torna aproximadamente linear.\nForma exponencial/semi-log: \\(S = c + z \\cdot \\log(A)\\), mais comumente ajustada a amostras aninhadas dentro de uma mesma região continental.\n\nA distinção não é meramente estatística: relações espécie-área mais íngremes (valores de \\(z\\) mais altos) geralmente indicam maior isolamento e maior papel de processos de especiação in situ e endemismo local — típico de arquipélagos oceânicos verdadeiros —, enquanto relações mais suaves refletem principalmente amostragem de uma mesma metacomunidade regional. Esse padrão é uma manifestação empírica direta de processos discutidos na Semana 1 (partição de diversidade alfa, beta e gama) e na Semana 2 (o papel da dispersão e da deriva ecológica na estruturação de metacomunidades)."
   },
   {
+    "objectID": "sessions/semana04_resumo.html#biogeografia-ecológica-vs.-biogeografia-histórica",
+    "href": "sessions/semana04_resumo.html#biogeografia-ecológica-vs.-biogeografia-histórica",
+    "title": "Semana 4 — Introdução à Biogeografia",
+    "section": "5.2 Biogeografia ecológica vs. biogeografia histórica",
+    "text": "5.2 Biogeografia ecológica vs. biogeografia histórica\nUm dos debates conceituais mais duradouros da Biogeografia é a distinção — e a tensão — entre duas abordagens complementares:\n\n\n\n\n\n\nImportanteDuas lentes, um mesmo objeto\n\n\n\nBiogeografia ecológica busca explicar padrões atuais de distribuição a partir de processos contemporâneos e mensuráveis: clima, disponibilidade de recursos, interações bióticas, capacidade de dispersão e tolerância fisiológica das espécies. É a lente do “aqui e agora”.\nBiogeografia histórica busca reconstruir a sequência de eventos — vicariância (fragmentação de áreas antes contínuas, por deriva continental, formação de cadeias montanhosas ou mudança do nível do mar) e dispersão de longa distância — que geraram os padrões de distribuição observados hoje. É a lente do “como chegamos até aqui”.\n\n\nEndler (1982) já apontava, ainda no início da década de 1980, como é metodologicamente difícil separar esses dois conjuntos de fatores na prática: um padrão de distribuição disjunta pode ser explicado tanto por vicariância antiga quanto por diferenças ecológicas atuais que impedem a espécie de ocupar o espaço geográfico intermediário, e distinguir entre essas hipóteses exige integrar dados filogenéticos, paleoclimáticos e ecológicos. Wiens e Donoghue (2004) retomam esse debate argumentando que biogeografia histórica e ecologia não deveriam ser tratadas como alternativas concorrentes, mas como processos operando em escalas de tempo diferentes e mutuamente informativos: eventos históricos (especiação, extinção, dispersão de longa distância) determinam o “pool” regional de linhagens disponível, enquanto processos ecológicos contemporâneos filtram, dentro desse pool, quais espécies efetivamente coexistem localmente. Essa é, novamente, uma ponte direta com o arcabouço de Vellend (2016): o pool regional histórico corresponde à ação acumulada de especiação e dispersão em escalas de tempo profundas, enquanto seleção e deriva ecológica atuam sobre esse pool em escalas de tempo contemporâneas.\nDo ponto de vista metodológico, a biogeografia histórica desenvolveu ferramentas próprias para testar hipóteses de vicariância versus dispersão, como a análise de dispersão-vicariância (DIVA) proposta por Ronquist (1997), que reconstrói cenários biogeográficos ancestrais a partir de filogenias datadas e da distribuição geográfica atual dos táxons terminais. Avanços recentes têm buscado integrar esses métodos filogenéticos com modelos de distribuição de espécies e dados paleoclimáticos (Franklin 2023), e mesmo com ferramentas computacionais que unem macroevolução, biogeografia e ecologia de comunidades em um único fluxo analítico (Nakamura et al. 2023). Warren et al. (2014) alertam, contudo, para um erro comum nessa integração: inferir processos históricos (como especiação alopátrica) diretamente de padrões de distribuição atuais sem considerar explicitamente o papel do nicho ecológico — um problema que os autores resumem no título de seu artigo como “confundir geografia com biologia”."
+>>>>>>> 5fef2b1bca0e0492e7cc8774148d7f3016daf209
+  },
+  {
+    "objectID": "sessions/semana04_resumo.html#biogeografia-de-ilhas-a-teoria-de-macarthur-wilson",
+    "href": "sessions/semana04_resumo.html#biogeografia-de-ilhas-a-teoria-de-macarthur-wilson",
+    "title": "Semana 4 — Introdução à Biogeografia",
+    "section": "5.3 Biogeografia de ilhas: a teoria de MacArthur & Wilson",
+    "text": "5.3 Biogeografia de ilhas: a teoria de MacArthur & Wilson\n\nA contribuição teórica mais influente sobre biodiversidade em ilhas é a Teoria da Biogeografia de Ilhas, proposta por Robert MacArthur e Edward O. Wilson (1967). A teoria propõe que o número de espécies em uma ilha reflete um equilíbrio dinâmico entre duas taxas opostas:\n\na taxa de imigração (colonização de novas espécies vindas do continente ou de outras ilhas), que diminui à medida que a ilha acumula mais espécies (porque restam cada vez menos espécies do pool regional ainda não estabelecidas) e que também diminui com o aumento da distância da ilha ao continente-fonte; e\na taxa de extinção local, que aumenta com o número de espécies já presentes (por efeitos de competição e populações pequenas) e que é inversamente relacionada ao tamanho da ilha (ilhas maiores comportam populações maiores e, portanto, menos vulneráveis à extinção estocástica).\n\nO ponto de equilíbrio entre essas duas curvas prevê o número de espécies esperado em equilíbrio, e gera duas previsões centrais amplamente corroboradas empiricamente: ilhas maiores tendem a ter mais espécies do que ilhas menores, e ilhas mais próximas do continente-fonte tendem a ter mais espécies do que ilhas mais distantes e igualmente grandes. Embora formulada originalmente para ilhas oceânicas, a teoria foi rapidamente estendida para qualquer sistema insularizado — fragmentos florestais, topos de montanha, lagos, cavernas, unidades de conservação — tornando-se um dos pilares conceituais da biologia da conservação de paisagens fragmentadas, tema que retomaremos com mais profundidade nas próximas semanas.\nVale notar que a teoria de MacArthur & Wilson é essencialmente um modelo de biogeografia ecológica em escala de tempo ecológica (colonização e extinção correntes), e não incorpora explicitamente especiação in situ — um processo que se torna relevante em escalas de tempo mais longas, especialmente em arquipélagos antigos e isolados, onde radiações adaptativas (como os tentilhões de Darwin em Galápagos ou os Drosophilídeos havaianos) desempenham papel central na composição final da biota insular. Esse é exatamente o ponto em que biogeografia ecológica e biogeografia histórica precisam ser lidas em conjunto."
+  },
+  {
+<<<<<<< HEAD
     "objectID": "sessions/semana5_resumo.html#a-relação-espécie-área",
     "href": "sessions/semana5_resumo.html#a-relação-espécie-área",
     "title": "Semana 5: Comunidades no Espaço - Montagem de Comunidades e Padrões de Diversidade",
@@ -2056,5 +2962,26 @@
     "title": "INT0158 - ECOLOGIA 2",
     "section": "",
     "text": "Este ambiente será um apoio fundamental para o aprendizado durante a disciplina, especialmente no módulo de Ecologia de Comunidades"
+=======
+    "objectID": "sessions/semana04_resumo.html#interação-entre-espécies",
+    "href": "sessions/semana04_resumo.html#interação-entre-espécies",
+    "title": "Semana 4 — Introdução à Biogeografia",
+    "section": "5.4 Interação entre espécies",
+    "text": "5.4 Interação entre espécies\nAlém da área e do isolamento, a composição final de uma biota insular (ou de qualquer comunidade delimitada espacialmente) depende de interações bióticas que ocorrem após a chegada de uma espécie: competição por recursos, predação, herbivoria, parasitismo e mutualismos (polinização, dispersão de sementes, simbioses). Uma espécie pode ser fisiologicamente capaz de tolerar as condições abióticas de um local — isto é, estar dentro de seu nicho fundamental — e ainda assim não conseguir se estabelecer, porque competidores ou predadores já presentes reduzem seu nicho realizado a zero. Esse é um dos elos conceituais mais diretos entre Biogeografia e o arcabouço de processos de Vellend (2016): a seleção (no sentido amplo de Vellend, que inclui interações bióticas e abióticas determinísticas) opera depois que a dispersão trouxe a espécie até a localidade, filtrando quais colonizações efetivamente resultam em estabelecimento persistente."
+  },
+  {
+    "objectID": "sessions/semana04_resumo.html#para-revisar",
+    "href": "sessions/semana04_resumo.html#para-revisar",
+    "title": "Semana 4 — Introdução à Biogeografia",
+    "section": "9.1 Para revisar",
+    "text": "9.1 Para revisar\n\n\n\n\n\n\nNotaPerguntas de revisão\n\n\n\n\n\n\nPor que a Biogeografia é considerada uma das raízes históricas da Ecologia de Comunidades, e não um campo à parte?\nQual é a diferença conceitual entre biogeografia ecológica e biogeografia histórica? Dê um exemplo de pergunta de pesquisa típica de cada abordagem.\nExplique, em suas próprias palavras, por que a Teoria da Biogeografia de Ilhas prevê que ilhas grandes e próximas ao continente devem abrigar mais espécies do que ilhas pequenas e distantes.\nSegundo a tipologia de Rabinowitz (1981), quais são as três dimensões que definem as sete formas de raridade? Cite um exemplo hipotético (ou real) de espécie para cada combinação extrema.\nComo riqueza de espécies e endemismo podem gerar priorizações de conservação diferentes para uma mesma região? Por que hotspots de biodiversidade combinam os dois critérios com um indicador de ameaça?\nRelacione o conceito de dispersão discutido nesta aula com o processo homônimo no arcabouço de Vellend (2016)."
+  },
+  {
+    "objectID": "sessions/semana04_resumo.html#leituras-complementares-recomendadas",
+    "href": "sessions/semana04_resumo.html#leituras-complementares-recomendadas",
+    "title": "Semana 4 — Introdução à Biogeografia",
+    "section": "9.2 Leituras complementares recomendadas",
+    "text": "9.2 Leituras complementares recomendadas\n\nVellend (2016) — para revisitar o arcabouço teórico unificador do curso.\nWiens e Donoghue (2004) — uma defesa concisa e influente da integração entre biogeografia histórica e ecologia.\nFranklin (2023) — sobre o uso de modelos de distribuição de espécies em biogeografia contemporânea.\nLima et al. (2018) — estudo de caso em português sobre biogeografia histórica de ecossistemas secos neotropicais, incluindo a Caatinga.\nReCologia (2016) — introdução em português à biogeografia de ilhas, de leitura leve e acessível."
+>>>>>>> 5fef2b1bca0e0492e7cc8774148d7f3016daf209
   }
 ]

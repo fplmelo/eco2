@@ -55,6 +55,8 @@ website:
     right: |
       Feito com [Quarto](https://quarto.org/docs/get-started/hello/rstudio.html)<br>
       [Ver código-fonte no GitHub](https://github.com/fplmelo/eco2)
+    center: |
+      Transparência no Uso de Tecnologias: Os conteúdos didáticos disponibilizados nesta plataforma contaram com o auxílio de ferramentas de IA em seu processo de elaboração. Todo o escopo teórico e bibliográfico foi definido exclusivamente pelo docente, que conduziu a checagem integral dos dados e a validação do conteúdo, garantindo a observância dos parâmetros pedagógicos e científicos aplicáveis à disciplina
 
 format:
   html:
