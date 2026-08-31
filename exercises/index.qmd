@@ -1,5 +1,13 @@
 ---
 title: "Exercícios"
+listing:
+  contents: "."
+  type: grid
+  sort: "title asc"
+  categories: false
+  fields: [title, date]
+  exclude:
+    filename: "index.qmd"
 ---
 
 Lista de exercícios práticos da disciplina. 

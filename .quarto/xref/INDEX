@@ -112,5 +112,15 @@
   },
   "sessions/semana01_resumo.qmd": {
     "semana01_resumo.html": "65e2192e"
+  },
+  "exercises/exercicio_restauracao_vellend.qmd": {
+    "exercicio_restauracao_vellend.html": "46bb38b1",
+    "exercicio_restauracao_vellend.tex": "6a10b397",
+    "exercicio_restauracao_vellend.docx": "7b5ce97d"
+  },
+  "exercises/ex1/exercicio_restauracao_vellend.qmd": {
+    "exercicio_restauracao_vellend.html": "e9bc7e8c",
+    "exercicio_restauracao_vellend.tex": "20f0e9c3",
+    "exercicio_restauracao_vellend.docx": "45adb465"
   }
 }

@@ -1,17 +1,19 @@
 [
   {
+    "listing": "/exercises/index.html",
+    "items": [
+      "/exercises/ex1/exercicio_restauracao_vellend.html"
+    ]
+  },
+  {
     "listing": "/sessions/index.html",
     "items": [
       "/sessions/semana01_resumo.html",
       "/sessions/semana02_resumo.html",
       "/sessions/semana03_resumo.html",
       "/sessions/semana04_resumo.html",
-<<<<<<< HEAD
-      "/sessions/semana5_resumo.html"
-=======
       "/sessions/semana5_resumo.html",
       "/sessions/semana06_resumo.html"
->>>>>>> 5fef2b1bca0e0492e7cc8774148d7f3016daf209
     ]
   }
 ]
