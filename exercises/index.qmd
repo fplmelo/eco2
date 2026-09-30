@@ -12,4 +12,3 @@ listing:
 
 Lista de exercícios práticos da disciplina. 
 
-Em construção...

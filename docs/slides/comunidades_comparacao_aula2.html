@@ -7,11 +7,11 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-de63f62b328812d8e578a4d74e282472.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.38">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Ecologia de Comunidades">
-  <meta name="dcterms.date" content="2026-08-31">
+  <meta name="dcterms.date" content="2026-09-30">
   <title>INT0158 - Ecologia 2 – Comparação entre Comunidades Ecológicas</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -22,10 +22,13 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -207,12 +210,12 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Ecologia de Comunidades 
+Ecologia de Comunidades
 </div>
 </div>
 </div>
 
-  <p class="date">2026-08-31</p>
+  <p class="date">2026-09-30</p>
 </section>
 <section id="riqueza-de-espécies-s" class="slide level2">
 <h2>Riqueza de Espécies (<em>S</em>)</h2>
@@ -232,21 +235,21 @@ Ecologia de Comunidades
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(vegan)</span>
-<span id="cb1-2"><a></a><span class="fu">data</span>(dune)</span>
-<span id="cb1-3"><a></a></span>
-<span id="cb1-4"><a></a><span class="co"># Riqueza por sítio (número de espécies)</span></span>
-<span id="cb1-5"><a></a>S <span class="ot">&lt;-</span> <span class="fu">specnumber</span>(dune)</span>
-<span id="cb1-6"><a></a><span class="fu">print</span>(S)</span>
-<span id="cb1-7"><a></a></span>
-<span id="cb1-8"><a></a><span class="co"># Riqueza total do conjunto</span></span>
-<span id="cb1-9"><a></a><span class="fu">sum</span>(<span class="fu">colSums</span>(dune) <span class="sc">&gt;</span> <span class="dv">0</span>)</span>
-<span id="cb1-10"><a></a></span>
-<span id="cb1-11"><a></a><span class="co"># Curva de acumulação de espécies</span></span>
-<span id="cb1-12"><a></a>curva <span class="ot">&lt;-</span> <span class="fu">specaccum</span>(dune, <span class="at">method =</span> <span class="st">"random"</span>)</span>
-<span id="cb1-13"><a></a><span class="fu">plot</span>(curva,</span>
-<span id="cb1-14"><a></a>     <span class="at">xlab =</span> <span class="st">"Sítios amostrados"</span>,</span>
-<span id="cb1-15"><a></a>     <span class="at">ylab =</span> <span class="st">"Riqueza acumulada"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a aria-label="1"></a><span class="fu">library</span>(vegan)</span>
+<span id="cb1-2"><a aria-label="2"></a><span class="fu">data</span>(dune)</span>
+<span id="cb1-3"><a aria-label="3"></a></span>
+<span id="cb1-4"><a aria-label="4"></a><span class="co"># Riqueza por sítio (número de espécies)</span></span>
+<span id="cb1-5"><a aria-label="5"></a>S <span class="ot">&lt;-</span> <span class="fu">specnumber</span>(dune)</span>
+<span id="cb1-6"><a aria-label="6"></a><span class="fu">print</span>(S)</span>
+<span id="cb1-7"><a aria-label="7"></a></span>
+<span id="cb1-8"><a aria-label="8"></a><span class="co"># Riqueza total do conjunto</span></span>
+<span id="cb1-9"><a aria-label="9"></a><span class="fu">sum</span>(<span class="fu">colSums</span>(dune) <span class="sc">&gt;</span> <span class="dv">0</span>)</span>
+<span id="cb1-10"><a aria-label="10"></a></span>
+<span id="cb1-11"><a aria-label="11"></a><span class="co"># Curva de acumulação de espécies</span></span>
+<span id="cb1-12"><a aria-label="12"></a>curva <span class="ot">&lt;-</span> <span class="fu">specaccum</span>(dune, <span class="at">method =</span> <span class="st">"random"</span>)</span>
+<span id="cb1-13"><a aria-label="13"></a><span class="fu">plot</span>(curva,</span>
+<span id="cb1-14"><a aria-label="14"></a>     <span class="at">xlab =</span> <span class="st">"Sítios amostrados"</span>,</span>
+<span id="cb1-15"><a aria-label="15"></a>     <span class="at">ylab =</span> <span class="st">"Riqueza acumulada"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div></div>
 </section>
@@ -266,27 +269,27 @@ Ecologia de Comunidades
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a><span class="fu">library</span>(vegan)</span>
-<span id="cb2-2"><a></a><span class="fu">data</span>(dune)</span>
-<span id="cb2-3"><a></a></span>
-<span id="cb2-4"><a></a><span class="co"># Índice de Shannon</span></span>
-<span id="cb2-5"><a></a>H <span class="ot">&lt;-</span> <span class="fu">diversity</span>(dune, <span class="at">index =</span> <span class="st">"shannon"</span>)</span>
-<span id="cb2-6"><a></a></span>
-<span id="cb2-7"><a></a><span class="co"># Índice de Simpson</span></span>
-<span id="cb2-8"><a></a>D <span class="ot">&lt;-</span> <span class="fu">diversity</span>(dune, <span class="at">index =</span> <span class="st">"simpson"</span>)</span>
-<span id="cb2-9"><a></a></span>
-<span id="cb2-10"><a></a><span class="co"># Equitabilidade de Pielou</span></span>
-<span id="cb2-11"><a></a>S <span class="ot">&lt;-</span> <span class="fu">specnumber</span>(dune)</span>
-<span id="cb2-12"><a></a>J <span class="ot">&lt;-</span> H <span class="sc">/</span> <span class="fu">log</span>(S)</span>
-<span id="cb2-13"><a></a></span>
-<span id="cb2-14"><a></a><span class="co"># Resumo por sítio</span></span>
-<span id="cb2-15"><a></a>dados_div <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb2-16"><a></a>  <span class="at">Riqueza    =</span> S,</span>
-<span id="cb2-17"><a></a>  <span class="at">Shannon    =</span> <span class="fu">round</span>(H, <span class="dv">2</span>),</span>
-<span id="cb2-18"><a></a>  <span class="at">Simpson    =</span> <span class="fu">round</span>(D, <span class="dv">2</span>),</span>
-<span id="cb2-19"><a></a>  <span class="at">Equitabil. =</span> <span class="fu">round</span>(J, <span class="dv">2</span>)</span>
-<span id="cb2-20"><a></a>)</span>
-<span id="cb2-21"><a></a><span class="fu">head</span>(dados_div)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a aria-label="1"></a><span class="fu">library</span>(vegan)</span>
+<span id="cb2-2"><a aria-label="2"></a><span class="fu">data</span>(dune)</span>
+<span id="cb2-3"><a aria-label="3"></a></span>
+<span id="cb2-4"><a aria-label="4"></a><span class="co"># Índice de Shannon</span></span>
+<span id="cb2-5"><a aria-label="5"></a>H <span class="ot">&lt;-</span> <span class="fu">diversity</span>(dune, <span class="at">index =</span> <span class="st">"shannon"</span>)</span>
+<span id="cb2-6"><a aria-label="6"></a></span>
+<span id="cb2-7"><a aria-label="7"></a><span class="co"># Índice de Simpson</span></span>
+<span id="cb2-8"><a aria-label="8"></a>D <span class="ot">&lt;-</span> <span class="fu">diversity</span>(dune, <span class="at">index =</span> <span class="st">"simpson"</span>)</span>
+<span id="cb2-9"><a aria-label="9"></a></span>
+<span id="cb2-10"><a aria-label="10"></a><span class="co"># Equitabilidade de Pielou</span></span>
+<span id="cb2-11"><a aria-label="11"></a>S <span class="ot">&lt;-</span> <span class="fu">specnumber</span>(dune)</span>
+<span id="cb2-12"><a aria-label="12"></a>J <span class="ot">&lt;-</span> H <span class="sc">/</span> <span class="fu">log</span>(S)</span>
+<span id="cb2-13"><a aria-label="13"></a></span>
+<span id="cb2-14"><a aria-label="14"></a><span class="co"># Resumo por sítio</span></span>
+<span id="cb2-15"><a aria-label="15"></a>dados_div <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb2-16"><a aria-label="16"></a>  <span class="at">Riqueza    =</span> S,</span>
+<span id="cb2-17"><a aria-label="17"></a>  <span class="at">Shannon    =</span> <span class="fu">round</span>(H, <span class="dv">2</span>),</span>
+<span id="cb2-18"><a aria-label="18"></a>  <span class="at">Simpson    =</span> <span class="fu">round</span>(D, <span class="dv">2</span>),</span>
+<span id="cb2-19"><a aria-label="19"></a>  <span class="at">Equitabil. =</span> <span class="fu">round</span>(J, <span class="dv">2</span>)</span>
+<span id="cb2-20"><a aria-label="20"></a>)</span>
+<span id="cb2-21"><a aria-label="21"></a><span class="fu">head</span>(dados_div)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div></div>
 </section>
@@ -303,24 +306,24 @@ Ecologia de Comunidades
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="fu">library</span>(vegan)</span>
-<span id="cb3-2"><a></a><span class="fu">data</span>(BCI)  <span class="co"># floresta tropical BCI</span></span>
-<span id="cb3-3"><a></a></span>
-<span id="cb3-4"><a></a><span class="co"># Abundância total por sítio</span></span>
-<span id="cb3-5"><a></a>N <span class="ot">&lt;-</span> <span class="fu">rowSums</span>(BCI)</span>
-<span id="cb3-6"><a></a><span class="fu">min</span>(N)  <span class="co"># menor esforço amostral</span></span>
-<span id="cb3-7"><a></a></span>
-<span id="cb3-8"><a></a><span class="co"># Riqueza esperada com N mínimo</span></span>
-<span id="cb3-9"><a></a>S_raref <span class="ot">&lt;-</span> <span class="fu">rarefy</span>(BCI, <span class="at">sample =</span> <span class="fu">min</span>(N))</span>
-<span id="cb3-10"><a></a></span>
-<span id="cb3-11"><a></a><span class="co"># Curvas de rarefação</span></span>
-<span id="cb3-12"><a></a><span class="fu">rarecurve</span>(BCI[<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, ],</span>
-<span id="cb3-13"><a></a>          <span class="at">step   =</span> <span class="dv">20</span>,</span>
-<span id="cb3-14"><a></a>          <span class="at">sample =</span> <span class="fu">min</span>(N),</span>
-<span id="cb3-15"><a></a>          <span class="at">xlab   =</span> <span class="st">"Indivíduos"</span>,</span>
-<span id="cb3-16"><a></a>          <span class="at">ylab   =</span> <span class="st">"Riqueza esperada"</span>,</span>
-<span id="cb3-17"><a></a>          <span class="at">label  =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb3-18"><a></a><span class="fu">abline</span>(<span class="at">v =</span> <span class="fu">min</span>(N), <span class="at">lty =</span> <span class="dv">2</span>, <span class="at">col =</span> <span class="st">"red"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a aria-label="1"></a><span class="fu">library</span>(vegan)</span>
+<span id="cb3-2"><a aria-label="2"></a><span class="fu">data</span>(BCI)  <span class="co"># floresta tropical BCI</span></span>
+<span id="cb3-3"><a aria-label="3"></a></span>
+<span id="cb3-4"><a aria-label="4"></a><span class="co"># Abundância total por sítio</span></span>
+<span id="cb3-5"><a aria-label="5"></a>N <span class="ot">&lt;-</span> <span class="fu">rowSums</span>(BCI)</span>
+<span id="cb3-6"><a aria-label="6"></a><span class="fu">min</span>(N)  <span class="co"># menor esforço amostral</span></span>
+<span id="cb3-7"><a aria-label="7"></a></span>
+<span id="cb3-8"><a aria-label="8"></a><span class="co"># Riqueza esperada com N mínimo</span></span>
+<span id="cb3-9"><a aria-label="9"></a>S_raref <span class="ot">&lt;-</span> <span class="fu">rarefy</span>(BCI, <span class="at">sample =</span> <span class="fu">min</span>(N))</span>
+<span id="cb3-10"><a aria-label="10"></a></span>
+<span id="cb3-11"><a aria-label="11"></a><span class="co"># Curvas de rarefação</span></span>
+<span id="cb3-12"><a aria-label="12"></a><span class="fu">rarecurve</span>(BCI[<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, ],</span>
+<span id="cb3-13"><a aria-label="13"></a>          <span class="at">step   =</span> <span class="dv">20</span>,</span>
+<span id="cb3-14"><a aria-label="14"></a>          <span class="at">sample =</span> <span class="fu">min</span>(N),</span>
+<span id="cb3-15"><a aria-label="15"></a>          <span class="at">xlab   =</span> <span class="st">"Indivíduos"</span>,</span>
+<span id="cb3-16"><a aria-label="16"></a>          <span class="at">ylab   =</span> <span class="st">"Riqueza esperada"</span>,</span>
+<span id="cb3-17"><a aria-label="17"></a>          <span class="at">label  =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb3-18"><a aria-label="18"></a><span class="fu">abline</span>(<span class="at">v =</span> <span class="fu">min</span>(N), <span class="at">lty =</span> <span class="dv">2</span>, <span class="at">col =</span> <span class="st">"red"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div></div>
 </section>
@@ -341,20 +344,20 @@ Ecologia de Comunidades
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a><span class="fu">library</span>(vegan)</span>
-<span id="cb4-2"><a></a><span class="fu">data</span>(dune)</span>
-<span id="cb4-3"><a></a></span>
-<span id="cb4-4"><a></a><span class="co"># Dissimilaridade de Bray-Curtis</span></span>
-<span id="cb4-5"><a></a>dist_BC <span class="ot">&lt;-</span> <span class="fu">vegdist</span>(dune, <span class="at">method =</span> <span class="st">"bray"</span>)</span>
-<span id="cb4-6"><a></a></span>
-<span id="cb4-7"><a></a><span class="co"># Dissimilaridade de Jaccard</span></span>
-<span id="cb4-8"><a></a><span class="co"># (presença/ausência)</span></span>
-<span id="cb4-9"><a></a>dist_J <span class="ot">&lt;-</span> <span class="fu">vegdist</span>(dune,</span>
-<span id="cb4-10"><a></a>                  <span class="at">method =</span> <span class="st">"jaccard"</span>,</span>
-<span id="cb4-11"><a></a>                  <span class="at">binary =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb4-12"><a></a></span>
-<span id="cb4-13"><a></a><span class="co"># Visualizando as primeiras distâncias</span></span>
-<span id="cb4-14"><a></a><span class="fu">as.matrix</span>(dist_BC)[<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>]</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a aria-label="1"></a><span class="fu">library</span>(vegan)</span>
+<span id="cb4-2"><a aria-label="2"></a><span class="fu">data</span>(dune)</span>
+<span id="cb4-3"><a aria-label="3"></a></span>
+<span id="cb4-4"><a aria-label="4"></a><span class="co"># Dissimilaridade de Bray-Curtis</span></span>
+<span id="cb4-5"><a aria-label="5"></a>dist_BC <span class="ot">&lt;-</span> <span class="fu">vegdist</span>(dune, <span class="at">method =</span> <span class="st">"bray"</span>)</span>
+<span id="cb4-6"><a aria-label="6"></a></span>
+<span id="cb4-7"><a aria-label="7"></a><span class="co"># Dissimilaridade de Jaccard</span></span>
+<span id="cb4-8"><a aria-label="8"></a><span class="co"># (presença/ausência)</span></span>
+<span id="cb4-9"><a aria-label="9"></a>dist_J <span class="ot">&lt;-</span> <span class="fu">vegdist</span>(dune,</span>
+<span id="cb4-10"><a aria-label="10"></a>                  <span class="at">method =</span> <span class="st">"jaccard"</span>,</span>
+<span id="cb4-11"><a aria-label="11"></a>                  <span class="at">binary =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb4-12"><a aria-label="12"></a></span>
+<span id="cb4-13"><a aria-label="13"></a><span class="co"># Visualizando as primeiras distâncias</span></span>
+<span id="cb4-14"><a aria-label="14"></a><span class="fu">as.matrix</span>(dist_BC)[<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>]</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div></div>
 </section>
@@ -397,23 +400,23 @@ Ecologia de Comunidades
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a><span class="fu">library</span>(vegan)</span>
-<span id="cb5-2"><a></a><span class="fu">data</span>(dune)</span>
-<span id="cb5-3"><a></a></span>
-<span id="cb5-4"><a></a><span class="co"># Cálculo manual de Bray-Curtis</span></span>
-<span id="cb5-5"><a></a><span class="co"># entre sítios 1 e 2</span></span>
-<span id="cb5-6"><a></a>com1 <span class="ot">&lt;-</span> dune[<span class="dv">1</span>, ]</span>
-<span id="cb5-7"><a></a>com2 <span class="ot">&lt;-</span> dune[<span class="dv">2</span>, ]</span>
-<span id="cb5-8"><a></a></span>
-<span id="cb5-9"><a></a>W <span class="ot">&lt;-</span> <span class="fu">sum</span>(<span class="fu">pmin</span>(com1, com2))</span>
-<span id="cb5-10"><a></a>A <span class="ot">&lt;-</span> <span class="fu">sum</span>(com1)</span>
-<span id="cb5-11"><a></a>B <span class="ot">&lt;-</span> <span class="fu">sum</span>(com2)</span>
-<span id="cb5-12"><a></a></span>
-<span id="cb5-13"><a></a>BC <span class="ot">&lt;-</span> <span class="dv">1</span> <span class="sc">-</span> (<span class="dv">2</span> <span class="sc">*</span> W) <span class="sc">/</span> (A <span class="sc">+</span> B)</span>
-<span id="cb5-14"><a></a><span class="fu">cat</span>(<span class="st">"Bray-Curtis (1 vs 2):"</span>, <span class="fu">round</span>(BC, <span class="dv">3</span>))</span>
-<span id="cb5-15"><a></a></span>
-<span id="cb5-16"><a></a><span class="co"># Usando vegan</span></span>
-<span id="cb5-17"><a></a><span class="fu">vegdist</span>(dune[<span class="dv">1</span><span class="sc">:</span><span class="dv">2</span>, ], <span class="at">method =</span> <span class="st">"bray"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a aria-label="1"></a><span class="fu">library</span>(vegan)</span>
+<span id="cb5-2"><a aria-label="2"></a><span class="fu">data</span>(dune)</span>
+<span id="cb5-3"><a aria-label="3"></a></span>
+<span id="cb5-4"><a aria-label="4"></a><span class="co"># Cálculo manual de Bray-Curtis</span></span>
+<span id="cb5-5"><a aria-label="5"></a><span class="co"># entre sítios 1 e 2</span></span>
+<span id="cb5-6"><a aria-label="6"></a>com1 <span class="ot">&lt;-</span> dune[<span class="dv">1</span>, ]</span>
+<span id="cb5-7"><a aria-label="7"></a>com2 <span class="ot">&lt;-</span> dune[<span class="dv">2</span>, ]</span>
+<span id="cb5-8"><a aria-label="8"></a></span>
+<span id="cb5-9"><a aria-label="9"></a>W <span class="ot">&lt;-</span> <span class="fu">sum</span>(<span class="fu">pmin</span>(com1, com2))</span>
+<span id="cb5-10"><a aria-label="10"></a>A <span class="ot">&lt;-</span> <span class="fu">sum</span>(com1)</span>
+<span id="cb5-11"><a aria-label="11"></a>B <span class="ot">&lt;-</span> <span class="fu">sum</span>(com2)</span>
+<span id="cb5-12"><a aria-label="12"></a></span>
+<span id="cb5-13"><a aria-label="13"></a>BC <span class="ot">&lt;-</span> <span class="dv">1</span> <span class="sc">-</span> (<span class="dv">2</span> <span class="sc">*</span> W) <span class="sc">/</span> (A <span class="sc">+</span> B)</span>
+<span id="cb5-14"><a aria-label="14"></a><span class="fu">cat</span>(<span class="st">"Bray-Curtis (1 vs 2):"</span>, <span class="fu">round</span>(BC, <span class="dv">3</span>))</span>
+<span id="cb5-15"><a aria-label="15"></a></span>
+<span id="cb5-16"><a aria-label="16"></a><span class="co"># Usando vegan</span></span>
+<span id="cb5-17"><a aria-label="17"></a><span class="fu">vegdist</span>(dune[<span class="dv">1</span><span class="sc">:</span><span class="dv">2</span>, ], <span class="at">method =</span> <span class="st">"bray"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div></div>
 </section>
@@ -431,28 +434,28 @@ Ecologia de Comunidades
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a><span class="fu">library</span>(vegan)</span>
-<span id="cb6-2"><a></a><span class="fu">data</span>(dune)</span>
-<span id="cb6-3"><a></a><span class="fu">data</span>(dune.env)</span>
-<span id="cb6-4"><a></a></span>
-<span id="cb6-5"><a></a><span class="co"># NMDS com Bray-Curtis</span></span>
-<span id="cb6-6"><a></a><span class="fu">set.seed</span>(<span class="dv">42</span>)</span>
-<span id="cb6-7"><a></a>nmds <span class="ot">&lt;-</span> <span class="fu">metaMDS</span>(dune,</span>
-<span id="cb6-8"><a></a>                <span class="at">distance =</span> <span class="st">"bray"</span>,</span>
-<span id="cb6-9"><a></a>                <span class="at">k        =</span> <span class="dv">2</span>,</span>
-<span id="cb6-10"><a></a>                <span class="at">trymax   =</span> <span class="dv">100</span>)</span>
-<span id="cb6-11"><a></a></span>
-<span id="cb6-12"><a></a><span class="fu">cat</span>(<span class="st">"Stress:"</span>, <span class="fu">round</span>(nmds<span class="sc">$</span>stress, <span class="dv">3</span>))</span>
-<span id="cb6-13"><a></a></span>
-<span id="cb6-14"><a></a><span class="co"># Gráfico básico</span></span>
-<span id="cb6-15"><a></a><span class="fu">plot</span>(nmds, <span class="at">type =</span> <span class="st">"t"</span>)</span>
-<span id="cb6-16"><a></a></span>
-<span id="cb6-17"><a></a><span class="co"># Com grupos por uso do solo</span></span>
-<span id="cb6-18"><a></a><span class="fu">ordiplot</span>(nmds, <span class="at">display =</span> <span class="st">"sites"</span>)</span>
-<span id="cb6-19"><a></a><span class="fu">ordihull</span>(nmds,</span>
-<span id="cb6-20"><a></a>         <span class="at">groups =</span> dune.env<span class="sc">$</span>Management,</span>
-<span id="cb6-21"><a></a>         <span class="at">draw   =</span> <span class="st">"polygon"</span>,</span>
-<span id="cb6-22"><a></a>         <span class="at">alpha  =</span> <span class="dv">80</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a aria-label="1"></a><span class="fu">library</span>(vegan)</span>
+<span id="cb6-2"><a aria-label="2"></a><span class="fu">data</span>(dune)</span>
+<span id="cb6-3"><a aria-label="3"></a><span class="fu">data</span>(dune.env)</span>
+<span id="cb6-4"><a aria-label="4"></a></span>
+<span id="cb6-5"><a aria-label="5"></a><span class="co"># NMDS com Bray-Curtis</span></span>
+<span id="cb6-6"><a aria-label="6"></a><span class="fu">set.seed</span>(<span class="dv">42</span>)</span>
+<span id="cb6-7"><a aria-label="7"></a>nmds <span class="ot">&lt;-</span> <span class="fu">metaMDS</span>(dune,</span>
+<span id="cb6-8"><a aria-label="8"></a>                <span class="at">distance =</span> <span class="st">"bray"</span>,</span>
+<span id="cb6-9"><a aria-label="9"></a>                <span class="at">k        =</span> <span class="dv">2</span>,</span>
+<span id="cb6-10"><a aria-label="10"></a>                <span class="at">trymax   =</span> <span class="dv">100</span>)</span>
+<span id="cb6-11"><a aria-label="11"></a></span>
+<span id="cb6-12"><a aria-label="12"></a><span class="fu">cat</span>(<span class="st">"Stress:"</span>, <span class="fu">round</span>(nmds<span class="sc">$</span>stress, <span class="dv">3</span>))</span>
+<span id="cb6-13"><a aria-label="13"></a></span>
+<span id="cb6-14"><a aria-label="14"></a><span class="co"># Gráfico básico</span></span>
+<span id="cb6-15"><a aria-label="15"></a><span class="fu">plot</span>(nmds, <span class="at">type =</span> <span class="st">"t"</span>)</span>
+<span id="cb6-16"><a aria-label="16"></a></span>
+<span id="cb6-17"><a aria-label="17"></a><span class="co"># Com grupos por uso do solo</span></span>
+<span id="cb6-18"><a aria-label="18"></a><span class="fu">ordiplot</span>(nmds, <span class="at">display =</span> <span class="st">"sites"</span>)</span>
+<span id="cb6-19"><a aria-label="19"></a><span class="fu">ordihull</span>(nmds,</span>
+<span id="cb6-20"><a aria-label="20"></a>         <span class="at">groups =</span> dune.env<span class="sc">$</span>Management,</span>
+<span id="cb6-21"><a aria-label="21"></a>         <span class="at">draw   =</span> <span class="st">"polygon"</span>,</span>
+<span id="cb6-22"><a aria-label="22"></a>         <span class="at">alpha  =</span> <span class="dv">80</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div></div>
 </section>
@@ -472,22 +475,22 @@ Ecologia de Comunidades
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a><span class="fu">library</span>(vegan)</span>
-<span id="cb7-2"><a></a><span class="fu">data</span>(dune)</span>
-<span id="cb7-3"><a></a></span>
-<span id="cb7-4"><a></a><span class="co"># PCoA com Bray-Curtis</span></span>
-<span id="cb7-5"><a></a>dist_BC <span class="ot">&lt;-</span> <span class="fu">vegdist</span>(dune, <span class="at">method =</span> <span class="st">"bray"</span>)</span>
-<span id="cb7-6"><a></a>pcoa    <span class="ot">&lt;-</span> <span class="fu">wcmdscale</span>(dist_BC, <span class="at">eig =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb7-7"><a></a></span>
-<span id="cb7-8"><a></a><span class="co"># Variância explicada</span></span>
-<span id="cb7-9"><a></a>eig_pct <span class="ot">&lt;-</span> <span class="dv">100</span> <span class="sc">*</span> pcoa<span class="sc">$</span>eig <span class="sc">/</span> <span class="fu">sum</span>(pcoa<span class="sc">$</span>eig[pcoa<span class="sc">$</span>eig <span class="sc">&gt;</span> <span class="dv">0</span>])</span>
-<span id="cb7-10"><a></a><span class="fu">cat</span>(<span class="st">"Eixo 1:"</span>, <span class="fu">round</span>(eig_pct[<span class="dv">1</span>], <span class="dv">1</span>), <span class="st">"%"</span>)</span>
-<span id="cb7-11"><a></a><span class="fu">cat</span>(<span class="st">"Eixo 2:"</span>, <span class="fu">round</span>(eig_pct[<span class="dv">2</span>], <span class="dv">1</span>), <span class="st">"%"</span>)</span>
-<span id="cb7-12"><a></a></span>
-<span id="cb7-13"><a></a><span class="co"># PCA com transformação Hellinger</span></span>
-<span id="cb7-14"><a></a>dune_hel <span class="ot">&lt;-</span> <span class="fu">decostand</span>(dune, <span class="st">"hellinger"</span>)</span>
-<span id="cb7-15"><a></a>pca      <span class="ot">&lt;-</span> <span class="fu">rda</span>(dune_hel)</span>
-<span id="cb7-16"><a></a><span class="fu">biplot</span>(pca, <span class="at">scaling =</span> <span class="dv">2</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a aria-label="1"></a><span class="fu">library</span>(vegan)</span>
+<span id="cb7-2"><a aria-label="2"></a><span class="fu">data</span>(dune)</span>
+<span id="cb7-3"><a aria-label="3"></a></span>
+<span id="cb7-4"><a aria-label="4"></a><span class="co"># PCoA com Bray-Curtis</span></span>
+<span id="cb7-5"><a aria-label="5"></a>dist_BC <span class="ot">&lt;-</span> <span class="fu">vegdist</span>(dune, <span class="at">method =</span> <span class="st">"bray"</span>)</span>
+<span id="cb7-6"><a aria-label="6"></a>pcoa    <span class="ot">&lt;-</span> <span class="fu">wcmdscale</span>(dist_BC, <span class="at">eig =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb7-7"><a aria-label="7"></a></span>
+<span id="cb7-8"><a aria-label="8"></a><span class="co"># Variância explicada</span></span>
+<span id="cb7-9"><a aria-label="9"></a>eig_pct <span class="ot">&lt;-</span> <span class="dv">100</span> <span class="sc">*</span> pcoa<span class="sc">$</span>eig <span class="sc">/</span> <span class="fu">sum</span>(pcoa<span class="sc">$</span>eig[pcoa<span class="sc">$</span>eig <span class="sc">&gt;</span> <span class="dv">0</span>])</span>
+<span id="cb7-10"><a aria-label="10"></a><span class="fu">cat</span>(<span class="st">"Eixo 1:"</span>, <span class="fu">round</span>(eig_pct[<span class="dv">1</span>], <span class="dv">1</span>), <span class="st">"%"</span>)</span>
+<span id="cb7-11"><a aria-label="11"></a><span class="fu">cat</span>(<span class="st">"Eixo 2:"</span>, <span class="fu">round</span>(eig_pct[<span class="dv">2</span>], <span class="dv">1</span>), <span class="st">"%"</span>)</span>
+<span id="cb7-12"><a aria-label="12"></a></span>
+<span id="cb7-13"><a aria-label="13"></a><span class="co"># PCA com transformação Hellinger</span></span>
+<span id="cb7-14"><a aria-label="14"></a>dune_hel <span class="ot">&lt;-</span> <span class="fu">decostand</span>(dune, <span class="st">"hellinger"</span>)</span>
+<span id="cb7-15"><a aria-label="15"></a>pca      <span class="ot">&lt;-</span> <span class="fu">rda</span>(dune_hel)</span>
+<span id="cb7-16"><a aria-label="16"></a><span class="fu">biplot</span>(pca, <span class="at">scaling =</span> <span class="dv">2</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div></div>
 </section>
@@ -508,26 +511,26 @@ Ecologia de Comunidades
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a><span class="fu">library</span>(betapart)</span>
-<span id="cb8-2"><a></a><span class="fu">data</span>(ceram.s)  <span class="co"># dados do pacote betapart</span></span>
-<span id="cb8-3"><a></a></span>
-<span id="cb8-4"><a></a><span class="co"># Partição da diversidade beta (P/A)</span></span>
-<span id="cb8-5"><a></a>beta_pair <span class="ot">&lt;-</span> <span class="fu">beta.pair</span>(ceram.s,</span>
-<span id="cb8-6"><a></a>                       <span class="at">index.family =</span> <span class="st">"sorensen"</span>)</span>
-<span id="cb8-7"><a></a></span>
-<span id="cb8-8"><a></a><span class="co"># Componentes:</span></span>
-<span id="cb8-9"><a></a><span class="co"># beta.sim  = turnover (reposição)</span></span>
-<span id="cb8-10"><a></a><span class="co"># beta.sne  = nestedness</span></span>
-<span id="cb8-11"><a></a><span class="co"># beta.sor  = total (Sørensen)</span></span>
-<span id="cb8-12"><a></a></span>
-<span id="cb8-13"><a></a><span class="co"># Resumo estatístico</span></span>
-<span id="cb8-14"><a></a><span class="fu">summary</span>(<span class="fu">as.vector</span>(</span>
-<span id="cb8-15"><a></a>  <span class="fu">as.matrix</span>(beta_pair<span class="sc">$</span>beta.sim)</span>
-<span id="cb8-16"><a></a>))</span>
-<span id="cb8-17"><a></a></span>
-<span id="cb8-18"><a></a><span class="co"># Mapa de calor de dissimilaridade</span></span>
-<span id="cb8-19"><a></a><span class="fu">image</span>(<span class="fu">as.matrix</span>(beta_pair<span class="sc">$</span>beta.sor),</span>
-<span id="cb8-20"><a></a>      <span class="at">main =</span> <span class="st">"Dissimilaridade total (Sørensen)"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a aria-label="1"></a><span class="fu">library</span>(betapart)</span>
+<span id="cb8-2"><a aria-label="2"></a><span class="fu">data</span>(ceram.s)  <span class="co"># dados do pacote betapart</span></span>
+<span id="cb8-3"><a aria-label="3"></a></span>
+<span id="cb8-4"><a aria-label="4"></a><span class="co"># Partição da diversidade beta (P/A)</span></span>
+<span id="cb8-5"><a aria-label="5"></a>beta_pair <span class="ot">&lt;-</span> <span class="fu">beta.pair</span>(ceram.s,</span>
+<span id="cb8-6"><a aria-label="6"></a>                       <span class="at">index.family =</span> <span class="st">"sorensen"</span>)</span>
+<span id="cb8-7"><a aria-label="7"></a></span>
+<span id="cb8-8"><a aria-label="8"></a><span class="co"># Componentes:</span></span>
+<span id="cb8-9"><a aria-label="9"></a><span class="co"># beta.sim  = turnover (reposição)</span></span>
+<span id="cb8-10"><a aria-label="10"></a><span class="co"># beta.sne  = nestedness</span></span>
+<span id="cb8-11"><a aria-label="11"></a><span class="co"># beta.sor  = total (Sørensen)</span></span>
+<span id="cb8-12"><a aria-label="12"></a></span>
+<span id="cb8-13"><a aria-label="13"></a><span class="co"># Resumo estatístico</span></span>
+<span id="cb8-14"><a aria-label="14"></a><span class="fu">summary</span>(<span class="fu">as.vector</span>(</span>
+<span id="cb8-15"><a aria-label="15"></a>  <span class="fu">as.matrix</span>(beta_pair<span class="sc">$</span>beta.sim)</span>
+<span id="cb8-16"><a aria-label="16"></a>))</span>
+<span id="cb8-17"><a aria-label="17"></a></span>
+<span id="cb8-18"><a aria-label="18"></a><span class="co"># Mapa de calor de dissimilaridade</span></span>
+<span id="cb8-19"><a aria-label="19"></a><span class="fu">image</span>(<span class="fu">as.matrix</span>(beta_pair<span class="sc">$</span>beta.sor),</span>
+<span id="cb8-20"><a aria-label="20"></a>      <span class="at">main =</span> <span class="st">"Dissimilaridade total (Sørensen)"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div></div>
 </section>
@@ -548,25 +551,25 @@ Ecologia de Comunidades
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a><span class="fu">library</span>(vegan)</span>
-<span id="cb9-2"><a></a><span class="fu">data</span>(dune)</span>
-<span id="cb9-3"><a></a><span class="fu">data</span>(dune.env)</span>
-<span id="cb9-4"><a></a></span>
-<span id="cb9-5"><a></a><span class="co"># Dissimilaridade de Bray-Curtis</span></span>
-<span id="cb9-6"><a></a>dist_BC <span class="ot">&lt;-</span> <span class="fu">vegdist</span>(dune, <span class="at">method =</span> <span class="st">"bray"</span>)</span>
-<span id="cb9-7"><a></a></span>
-<span id="cb9-8"><a></a><span class="co"># PERMANOVA</span></span>
-<span id="cb9-9"><a></a><span class="fu">set.seed</span>(<span class="dv">42</span>)</span>
-<span id="cb9-10"><a></a>perm <span class="ot">&lt;-</span> <span class="fu">adonis2</span>(dist_BC <span class="sc">~</span> Management,</span>
-<span id="cb9-11"><a></a>                <span class="at">data    =</span> dune.env,</span>
-<span id="cb9-12"><a></a>                <span class="at">permutations =</span> <span class="dv">999</span>)</span>
-<span id="cb9-13"><a></a><span class="fu">print</span>(perm)</span>
-<span id="cb9-14"><a></a></span>
-<span id="cb9-15"><a></a><span class="co"># Homogeneidade de dispersão</span></span>
-<span id="cb9-16"><a></a>disp <span class="ot">&lt;-</span> <span class="fu">betadisper</span>(dist_BC,</span>
-<span id="cb9-17"><a></a>                   dune.env<span class="sc">$</span>Management)</span>
-<span id="cb9-18"><a></a><span class="fu">anova</span>(disp)</span>
-<span id="cb9-19"><a></a><span class="fu">boxplot</span>(disp, <span class="at">main =</span> <span class="st">"Dispersão por grupo"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a aria-label="1"></a><span class="fu">library</span>(vegan)</span>
+<span id="cb9-2"><a aria-label="2"></a><span class="fu">data</span>(dune)</span>
+<span id="cb9-3"><a aria-label="3"></a><span class="fu">data</span>(dune.env)</span>
+<span id="cb9-4"><a aria-label="4"></a></span>
+<span id="cb9-5"><a aria-label="5"></a><span class="co"># Dissimilaridade de Bray-Curtis</span></span>
+<span id="cb9-6"><a aria-label="6"></a>dist_BC <span class="ot">&lt;-</span> <span class="fu">vegdist</span>(dune, <span class="at">method =</span> <span class="st">"bray"</span>)</span>
+<span id="cb9-7"><a aria-label="7"></a></span>
+<span id="cb9-8"><a aria-label="8"></a><span class="co"># PERMANOVA</span></span>
+<span id="cb9-9"><a aria-label="9"></a><span class="fu">set.seed</span>(<span class="dv">42</span>)</span>
+<span id="cb9-10"><a aria-label="10"></a>perm <span class="ot">&lt;-</span> <span class="fu">adonis2</span>(dist_BC <span class="sc">~</span> Management,</span>
+<span id="cb9-11"><a aria-label="11"></a>                <span class="at">data    =</span> dune.env,</span>
+<span id="cb9-12"><a aria-label="12"></a>                <span class="at">permutations =</span> <span class="dv">999</span>)</span>
+<span id="cb9-13"><a aria-label="13"></a><span class="fu">print</span>(perm)</span>
+<span id="cb9-14"><a aria-label="14"></a></span>
+<span id="cb9-15"><a aria-label="15"></a><span class="co"># Homogeneidade de dispersão</span></span>
+<span id="cb9-16"><a aria-label="16"></a>disp <span class="ot">&lt;-</span> <span class="fu">betadisper</span>(dist_BC,</span>
+<span id="cb9-17"><a aria-label="17"></a>                   dune.env<span class="sc">$</span>Management)</span>
+<span id="cb9-18"><a aria-label="18"></a><span class="fu">anova</span>(disp)</span>
+<span id="cb9-19"><a aria-label="19"></a><span class="fu">boxplot</span>(disp, <span class="at">main =</span> <span class="st">"Dispersão por grupo"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div></div>
 </section>
@@ -587,34 +590,34 @@ Ecologia de Comunidades
 </ol>
 </div><div class="column" style="width:50%;">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a><span class="fu">library</span>(vegan)</span>
-<span id="cb10-2"><a></a><span class="fu">data</span>(dune); <span class="fu">data</span>(dune.env)</span>
-<span id="cb10-3"><a></a></span>
-<span id="cb10-4"><a></a><span class="co"># 1. Métricas alfa</span></span>
-<span id="cb10-5"><a></a>alfa <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb10-6"><a></a>  <span class="at">S =</span> <span class="fu">specnumber</span>(dune),</span>
-<span id="cb10-7"><a></a>  <span class="at">H =</span> <span class="fu">diversity</span>(dune)</span>
-<span id="cb10-8"><a></a>)</span>
-<span id="cb10-9"><a></a></span>
-<span id="cb10-10"><a></a><span class="co"># 2. Dissimilaridade</span></span>
-<span id="cb10-11"><a></a>d <span class="ot">&lt;-</span> <span class="fu">vegdist</span>(dune, <span class="st">"bray"</span>)</span>
-<span id="cb10-12"><a></a></span>
-<span id="cb10-13"><a></a><span class="co"># 3. Ordenação</span></span>
-<span id="cb10-14"><a></a><span class="fu">set.seed</span>(<span class="dv">1</span>)</span>
-<span id="cb10-15"><a></a>ord <span class="ot">&lt;-</span> <span class="fu">metaMDS</span>(dune, <span class="at">k =</span> <span class="dv">2</span>)</span>
-<span id="cb10-16"><a></a></span>
-<span id="cb10-17"><a></a><span class="co"># 4. Teste de hipótese</span></span>
-<span id="cb10-18"><a></a><span class="fu">adonis2</span>(d <span class="sc">~</span> Management,</span>
-<span id="cb10-19"><a></a>        <span class="at">data =</span> dune.env)</span>
-<span id="cb10-20"><a></a></span>
-<span id="cb10-21"><a></a><span class="co"># 5. Visualização final</span></span>
-<span id="cb10-22"><a></a><span class="fu">plot</span>(ord, <span class="at">type =</span> <span class="st">"n"</span>)</span>
-<span id="cb10-23"><a></a><span class="fu">points</span>(ord,</span>
-<span id="cb10-24"><a></a>       <span class="at">col  =</span> <span class="fu">as.numeric</span>(dune.env<span class="sc">$</span>Management),</span>
-<span id="cb10-25"><a></a>       <span class="at">pch  =</span> <span class="dv">16</span>, <span class="at">cex =</span> <span class="fl">1.5</span>)</span>
-<span id="cb10-26"><a></a><span class="fu">legend</span>(<span class="st">"topright"</span>,</span>
-<span id="cb10-27"><a></a>       <span class="at">legend =</span> <span class="fu">levels</span>(dune.env<span class="sc">$</span>Management),</span>
-<span id="cb10-28"><a></a>       <span class="at">col    =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>, <span class="at">pch =</span> <span class="dv">16</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a aria-label="1"></a><span class="fu">library</span>(vegan)</span>
+<span id="cb10-2"><a aria-label="2"></a><span class="fu">data</span>(dune); <span class="fu">data</span>(dune.env)</span>
+<span id="cb10-3"><a aria-label="3"></a></span>
+<span id="cb10-4"><a aria-label="4"></a><span class="co"># 1. Métricas alfa</span></span>
+<span id="cb10-5"><a aria-label="5"></a>alfa <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb10-6"><a aria-label="6"></a>  <span class="at">S =</span> <span class="fu">specnumber</span>(dune),</span>
+<span id="cb10-7"><a aria-label="7"></a>  <span class="at">H =</span> <span class="fu">diversity</span>(dune)</span>
+<span id="cb10-8"><a aria-label="8"></a>)</span>
+<span id="cb10-9"><a aria-label="9"></a></span>
+<span id="cb10-10"><a aria-label="10"></a><span class="co"># 2. Dissimilaridade</span></span>
+<span id="cb10-11"><a aria-label="11"></a>d <span class="ot">&lt;-</span> <span class="fu">vegdist</span>(dune, <span class="st">"bray"</span>)</span>
+<span id="cb10-12"><a aria-label="12"></a></span>
+<span id="cb10-13"><a aria-label="13"></a><span class="co"># 3. Ordenação</span></span>
+<span id="cb10-14"><a aria-label="14"></a><span class="fu">set.seed</span>(<span class="dv">1</span>)</span>
+<span id="cb10-15"><a aria-label="15"></a>ord <span class="ot">&lt;-</span> <span class="fu">metaMDS</span>(dune, <span class="at">k =</span> <span class="dv">2</span>)</span>
+<span id="cb10-16"><a aria-label="16"></a></span>
+<span id="cb10-17"><a aria-label="17"></a><span class="co"># 4. Teste de hipótese</span></span>
+<span id="cb10-18"><a aria-label="18"></a><span class="fu">adonis2</span>(d <span class="sc">~</span> Management,</span>
+<span id="cb10-19"><a aria-label="19"></a>        <span class="at">data =</span> dune.env)</span>
+<span id="cb10-20"><a aria-label="20"></a></span>
+<span id="cb10-21"><a aria-label="21"></a><span class="co"># 5. Visualização final</span></span>
+<span id="cb10-22"><a aria-label="22"></a><span class="fu">plot</span>(ord, <span class="at">type =</span> <span class="st">"n"</span>)</span>
+<span id="cb10-23"><a aria-label="23"></a><span class="fu">points</span>(ord,</span>
+<span id="cb10-24"><a aria-label="24"></a>       <span class="at">col  =</span> <span class="fu">as.numeric</span>(dune.env<span class="sc">$</span>Management),</span>
+<span id="cb10-25"><a aria-label="25"></a>       <span class="at">pch  =</span> <span class="dv">16</span>, <span class="at">cex =</span> <span class="fl">1.5</span>)</span>
+<span id="cb10-26"><a aria-label="26"></a><span class="fu">legend</span>(<span class="st">"topright"</span>,</span>
+<span id="cb10-27"><a aria-label="27"></a>       <span class="at">legend =</span> <span class="fu">levels</span>(dune.env<span class="sc">$</span>Management),</span>
+<span id="cb10-28"><a aria-label="28"></a>       <span class="at">col    =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>, <span class="at">pch =</span> <span class="dv">16</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div></div>
 </section>

@@ -1,0 +1,107 @@
+---
+title: "Prova 1 — Ecologia de Comunidades"
+subtitle: "Ecologia 2"
+author: "Prof. Felipe Melo · Departamento de Botânica, UFPE"
+lang: pt-BR
+format:
+  html:
+    toc: true
+    toc-title: "Nesta prova"
+    number-sections: false
+    embed-resources: true
+---
+
+::: {.callout-note title="Instruções"}
+- **Duração:** 1 semana para er entregue via Google Classroom dia 07 de Outubro de 2026 até as 23:59h. **Valor total:** 10,0 pontos.
+- A prova é **discursiva** e composta por **seis questões**, todas baseadas no mesmo cenário hipotético apresentado a seguir.
+- Responda **todas** as questões, justificando com os conceitos, teorias e evidências discutidos ao longo do curso. Cálculos devem ser mostrados.
+- Respostas objetivas e bem argumentadas valem mais do que respostas longas. Indique claramente suas premissas quando os dados não forem suficientes.
+:::
+
+# O cenário
+
+Você é um(a) **ecólogo(a) de paisagem** contratado(a) como consultor(a) pelo **Governo do Estado de Pernambuco**, que precisa criar novas **unidades de conservação (UCs)** na **Caatinga**. O bioma é muito heterogêneo: em poucas centenas de quilômetros, do Sertão ao Agreste, o estado abriga florestas úmidas de altitude (*brejos*), chapadas, tabuleiros arenosos, florestas estacionais, matas ciliares e a vegetação arbustivo-arbórea típica da Depressão Sertaneja, cada um com solos, regimes de chuva e histórias de ocupação distintos.
+
+A pergunta do governo é direta: **como desenhar uma rede de reservas que maximize a conservação da biodiversidade regional (diversidade gama, $\gamma$)?** Você, porém, tem dúvidas sobre o **papel relativo da diversidade alfa ($\alpha$) e da diversidade beta ($\beta$)** nesse problema, e decidiu analisar os dados da equipe de campo antes de recomendar qualquer desenho. Seu objetivo é **atingir o maior número de espécies com o menor número possível de UCs**, o que remete ao clássico debate **SLOSS** (*Single Large Or Several Small*).
+
+## Os dados de campo
+
+A equipe amostrou **30 localidades** distribuídas em **seis tipos de ecossistema** (cinco localidades por tipo), usando **aves como grupo indicador**, com esforço amostral padronizado e cobertura de amostragem semelhante entre as localidades.
+
+- A riqueza local ($\alpha$, em número de espécies) variou de **55 a 88 espécies** por localidade.
+- No conjunto das 30 localidades foram registradas **356 espécies** de aves ($\gamma$).
+- Sete das 30 localidades estão em **vegetação secundária** (10 a 35 anos de regeneração após o abandono de pastagens e roçados); nelas, a riqueza é, em média, cerca de 8 espécies menor que em localidades primárias do mesmo tipo de ecossistema.
+- Os fragmentos amostrados têm entre 1.200 ha e 48.000 ha. A riqueza local **não** se correlacionou significativamente com a área do fragmento ($r = 0{,}27$; $P = 0{,}15$).
+
+![**Figura 1.** Cenário de estudo. **(A)** Representação esquemática (fora de escala) da distribuição dos seis tipos de ecossistema e das 30 localidades amostradas no estado.](/img/fig1.png){#fig-cenario fig-align="center" width="100%"}
+
+| Tipo de ecossistema | Localidades | $\alpha$ (mín.–máx.) | $\alpha$ médio | Espécies no tipo ($\gamma_{tipo}$) |
+|:--------------------------------------|:-----:|:-------:|:-----:|:----:|
+| A. Caatinga arbustivo-arbórea (Depressão Sertaneja) | 1–5 | 35–64 | 48 | 92 |
+| B. Brejos de altitude | 6–10 | 38–68 | 53,2 | 141 |
+| C. Florestas estacionais (Agreste) | 11–15 | 15–30 | 25,0 | 45 |
+| D. Tabuleiros arenosos sedimentares | 16–20 | 22–72 | 37,0 | 76 |
+| E. Chapada do Araripe | 21–25 | 24–54 | 39,2 | 70 |
+| F. Vales ribeirinhos (matas ciliares) | 26–30 | 36–76 | 51,0 | 87 |
+
+: **Tabela 1.** Riqueza de aves por tipo de ecossistema. {#tbl-dados}
+
+# Matriz Ambiental por Tipo de Ecossistema
+
+Esta matriz detalha as características climáticas, pluviométricas, edáficas e térmicas para cada um dos ecossistemas listados.
+
+**Tabela 2 -** Características ambientais de cada tipo de ecossistema amostrado
+
+| Tipo de Ecossistema | Clima | Precipitação Anual | Tipo de Solo | Temperatura Média |
+| :--- | :--- | :--- | :--- | :--- |
+| **A. Caatinga arbustivo-arbórea (Depressão Sertaneja)** | Semiárido | Escassa e irregular ($400\text{ mm}$ a $800\text{ mm}$) | Rasos, pedregosos e com baixa retenção de água (Luvissolos, Neossolos) | Elevada ($26^\circ\text{C}$ a $28^\circ\text{C}$) |
+| **B. Brejos de altitude** | Tropical úmido / Subtropical de altitude | Abundante ($1.000\text{ mm}$ a $1.500\text{ mm}$) | Ricos em matéria orgânica, úmidos e profundos (Latossolos, Argissolos) | Agradável a amena ($18^\circ\text{C}$ a $22^\circ\text{C}$) |
+| **C. Florestas estacionais (Agreste)** | Semiárido a Subúmido (transição) | Moderada a sazonal ($600\text{ mm}$ a $1.000\text{ mm}$) | Variáveis, moderadamente férteis e bem drenados | Quente ($23^\circ\text{C}$ a $25^\circ\text{C}$) |
+| **D. Tabuleiros arenosos sedimentares** | Tropical subúmido a úmido | Moderada a alta ($800\text{ mm}$ a $1.400\text{ mm}$) | Arenosos, bem drenados e de baixa fertilidade natural (Espodossolos, Neossolos Quartzarênicos) | Elevada ($25^\circ\text{C}$ a $27^\circ\text{C}$) |
+| **E. Chapada do Araripe** | Tropical semiúmido a altitudinar | Relevante na topo-sequência ($800\text{ mm}$ a $1.200\text{ mm}$) | Latossolos vermelhos/amarelos profundos, porosos e bem drenados | Moderada ($20^\circ\text{C}$ a $24^\circ\text{C}$) |
+| **F. Vales ribeirinhos (matas ciliares)** | Microclima úmido (sazonalmente influenciado pelo entorno) | Dependente da bacia hidrográfica, com alta disponibilidade hídrica edáfica | Aluviais, férteis, ricos em sedimentos e umidade (Neossolos Flúvicos) | Amortecida pelo dossel ($22^\circ\text{C}$ a $26^\circ\text{C}$) |
+
+**Informações adicionais sobre a composição:**
+
+- Dissimilaridade de Sørensen entre **todas** as localidades (multi-sítio): $\beta_{SOR} = 0{,}78$, decomposta em **substituição (turnover)** $\beta_{SIM} = 0{,}69$ e **aninhamento** $\beta_{SNE} = 0{,}09$.
+- A dissimilaridade média entre pares de localidades **do mesmo tipo** de ecossistema é baixa ($\approx 0{,}29$); entre pares de **tipos diferentes** é alta ($\approx 0{,}68$).
+- **41 espécies** ocorreram em apenas uma localidade; **29 espécies** ocorreram em 25 ou mais localidades.
+- As localidades em vegetação secundária são compositivamente mais parecidas entre si do que as primárias equivalentes.
+
+## A decisão tomada
+
+Com base na sua análise, você aplicou o arcabouço da **teoria unificada de Vellend** para interpretar quais processos predominavam em cada conjunto de localidades e, ao final, selecionou **10 áreas** (contornadas em vermelho na @fig-cenario) que, juntas, somam **320 espécies** (cerca de 90% do total). **Nenhuma combinação de áreas, de qualquer tamanho, alcançou as 356 espécies.** Das 36 espécies ausentes da rede, 27 foram registradas em uma única localidade, e cinco delas estão globalmente ameaçadas.
+
+---
+
+# Questões
+
+::: {.callout-important title="Questão 1 — Partição da diversidade e o papel de α e β (2,0 pontos)"}
+**(a)** Usando os dados da @tbl-dados, calcule a **diversidade beta de Whittaker** ($\beta_W = \gamma/\bar{\alpha}$) para cada um dos 6 tipos de de Caatinga (tipos da tabela 1) e interprete o valor em termos de "número efetivo de comunidades distintas". **(b)** O que o resultado sugere sobre a importância relativa de $\alpha$ e $\beta$ para a construção de $\gamma$ nesta paisagem como um todo? 
+:::
+
+::: {.callout-important title="Questão 2 — SLOSS, relação espécies-área e biogeografia de ilhas (1,5 ponto)"}
+Com base nos dados apresentados (em especial a ausência de relação entre $\alpha$ e área, o valor de $\beta_W$ e o padrão de substituição de espécies), argumente se sua rede deve priorizar **poucas áreas grandes** ou **várias áreas pequenas**. Discuta também por que a inferência de processos a partir de padrões de distribuição de espécies exige cautela (risco de "confundir geografia com biologia") e que dado adicional você pediria à equipe de campo para sustentar sua decisão.
+:::
+
+::: {.callout-important title="Questão 3 — Processos de Vellend e montagem de comunidades (2,0 pontos)"}
+Aplique os **quatro processos** de Vellend (**seleção, deriva ecológica, dispersão e especiação**) para explicar: **(a)** a alta substituição de espécies **entre** tipos de ecossistema; **(b)** a baixa dissimilaridade **dentro** de cada tipo; **(c)** a homogeneização das localidades em vegetação secundária. Indique qual processo você esperaria que predominasse em cada caso (por exemplo, nos brejos de altitude em comparação com a Depressão Sertaneja) e por quê.
+:::
+
+::: {.callout-important title="Questão 4 — Filtros abióticos e heterogeneidade ambiental da Caatinga (1,5 ponto)"}
+Explique como **clima, solo e vegetação** atuam como filtros hierárquicos que geram a heterogeneidade dos seis tipos de ecossistema amostrados. Discuta o contraste entre substratos **cristalinos** e **sedimentares**, o papel da altitude nos brejos e dos gradientes de umidade entre Sertão e Agreste. Em seguida, responda: **é possível usar variáveis ambientais (clima, solo, vegetação) como substitutas (*surrogates*) para planejar a rede de UCs e diminuir a dependência de inventários de aves?** Quais são os riscos dessa estratégia?
+:::
+
+::: {.callout-important title="Questão 5 — Sucessão, perturbação e dinâmica no tempo (1,5 ponto)"}
+Sete localidades estão em vegetação secundária. **(a)** Com base na teoria de sucessão ecológica, explique por que elas apresentam menor riqueza e maior semelhança entre si do que as áreas primárias equivalentes, relacionando o resultado à perturbação, à disponibilidade de propágulos e ao filtro ambiental. **(b)** Como as **mudanças climáticas** e a dinâmica das comunidades "em um mundo em constante mudança" deveriam ser incorporadas ao desenho da rede, dado que ela deve funcionar por décadas?
+:::
+
+::: {.callout-important title="Questão 6 — Síntese e recomendação final ao Estado (1,5 ponto)"}
+Sua seleção de 10 áreas (320 espécies) deixou de fora 36 espécies, a maioria registrada em uma só localidade. **(a)** Explique por que nenhuma combinação de áreas alcançou o total de 356 espécies, usando o conceito de **raridade** (formas de raridade de Rabinowitz) e a estrutura de ocorrência descrita no cenário. **(b)** Discuta criticamente o uso de **aves como única indicadora**: quais dimensões da biodiversidade (funcional, filogenética, outros táxons) poderiam mudar sua recomendação? 
+:::
+
+---
+
+::: {.callout-tip title="Distribuição dos pontos"}
+Q1: 2,0 · Q2: 1,5 · Q3: 2,0 · Q4: 1,5 · Q5: 1,5 · Q6: 1,5 — **Total: 10,0 pontos.**
+:::

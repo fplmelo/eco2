@@ -41,8 +41,8 @@ website:
         href: exercises/index.qmd
       - text: "Recursos"
         href: resources/index.qmd
-      - text: "Avaliação"
-        href: assessment.qmd
+      - text: "Prova"
+        href: prova_1.qmd
     right:
       - icon: github
         href: https://github.com/fplmelo/eco2
