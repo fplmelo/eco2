@@ -12,7 +12,7 @@ format:
 ---
 
 ::: {.callout-note title="Instruções"}
-- **Duração:** 1 semana para er entregue via Google Classroom dia 07 de Outubro de 2026 até as 23:59h. **Valor total:** 10,0 pontos.
+- **Duração:** 1 semana para er entregue via SIGAA dia 07 de Outubro de 2026 até as 23:59h. **Valor total:** 10,0 pontos.
 - A prova é **discursiva** e composta por **seis questões**, todas baseadas no mesmo cenário hipotético apresentado a seguir.
 - Responda **todas** as questões, justificando com os conceitos, teorias e evidências discutidos ao longo do curso. Cálculos devem ser mostrados.
 - Respostas objetivas e bem argumentadas valem mais do que respostas longas. Indique claramente suas premissas quando os dados não forem suficientes.
